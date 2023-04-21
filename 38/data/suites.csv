@@ -1,0 +1,141 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri Apr 21 19:45:28 GMT 2023","Fri Apr 21 19:45:31 GMT 2023","2154","player.muse","test_info_namespace","","","","test_getInfo[SUB Devices]","
+    Verifies the fields in an DiscoveryInfoEvent returned from a getInfo call
+    SWPBL-87625 - Implement muse getInfo command
+    :param function_dut:
+    :param ws_client:
+    :return:
+    "
+"skipped","Fri Apr 21 19:47:33 GMT 2023","Fri Apr 21 19:47:33 GMT 2023","0","player.muse","test_muse_mdns","","","","test_muse_mdns_txt_info[Default Mock Config-lechmere.v7 Enabled-locationID Clear-Muse HHID Clear]","
+    Confirms that TXT records for muse adverts on players are valid.
+    Updated for SWPBL-199985
+    :param module_dut:
+    :param mock_player_services_control:
+    :param mhhid_set:
+    :param locationid_set:
+    "
+"passed","Fri Apr 21 19:47:15 GMT 2023","Fri Apr 21 19:47:31 GMT 2023","16148","player.muse","test_muse_mdns","","","","test_muse_mdns_txt_info[Default Mock Config-lechmere.v7 Enabled-locationID Clear-Muse HHID Set]","
+    Confirms that TXT records for muse adverts on players are valid.
+    Updated for SWPBL-199985
+    :param module_dut:
+    :param mock_player_services_control:
+    :param mhhid_set:
+    :param locationid_set:
+    "
+"skipped","Fri Apr 21 19:45:24 GMT 2023","Fri Apr 21 19:45:24 GMT 2023","0","player.muse","test_info_namespace","","","","test_getInfo[FIXED_VOLUME Devices]","
+    Verifies the fields in an DiscoveryInfoEvent returned from a getInfo call
+    SWPBL-87625 - Implement muse getInfo command
+    :param function_dut:
+    :param ws_client:
+    :return:
+    "
+"skipped","Fri Apr 21 19:47:53 GMT 2023","Fri Apr 21 19:47:53 GMT 2023","1","player.muse","test_muse_mdns","","","","test_muse_mdns_txt_info[Default Mock Config-lechmere.v7 Disabled-locationID Clear-Muse HHID Clear]","
+    Confirms that TXT records for muse adverts on players are valid.
+    Updated for SWPBL-199985
+    :param module_dut:
+    :param mock_player_services_control:
+    :param mhhid_set:
+    :param locationid_set:
+    "
+"passed","Fri Apr 21 19:47:39 GMT 2023","Fri Apr 21 19:47:51 GMT 2023","12007","player.muse","test_muse_mdns","","","","test_muse_mdns_txt_info[Default Mock Config-lechmere.v7 Disabled-locationID Clear-Muse HHID Set]","
+    Confirms that TXT records for muse adverts on players are valid.
+    Updated for SWPBL-199985
+    :param module_dut:
+    :param mock_player_services_control:
+    :param mhhid_set:
+    :param locationid_set:
+    "
+"passed","Fri Apr 21 19:45:13 GMT 2023","Fri Apr 21 19:45:15 GMT 2023","2236","player.muse","test_info_namespace","","","","test_getInfo[AUDIO_CLIP Devices]","
+    Verifies the fields in an DiscoveryInfoEvent returned from a getInfo call
+    SWPBL-87625 - Implement muse getInfo command
+    :param function_dut:
+    :param ws_client:
+    :return:
+    "
+"passed","Fri Apr 21 19:46:00 GMT 2023","Fri Apr 21 19:46:02 GMT 2023","2066","player.muse","test_info_namespace","","","","test_getInfo_rest[Use Muse API v2]","
+    Verifies the fields in the JSON returned from a getInfo call
+    Verifies V2 WS/REST format
+    SWPBL-89976 - Use well known name in muse
+    :param module_dut:
+    :param api_version:
+    :return:
+    "
+"skipped","Fri Apr 21 19:47:35 GMT 2023","Fri Apr 21 19:47:35 GMT 2023","0","player.muse","test_muse_mdns","","","","test_muse_mdns_txt_info[Default Mock Config-lechmere.v7 Disabled-locationID Set-Muse HHID Set]","
+    Confirms that TXT records for muse adverts on players are valid.
+    Updated for SWPBL-199985
+    :param module_dut:
+    :param mock_player_services_control:
+    :param mhhid_set:
+    :param locationid_set:
+    "
+"passed","Fri Apr 21 19:45:04 GMT 2023","Fri Apr 21 19:45:07 GMT 2023","3208","player.muse","test_info_namespace","","","","test_getInfo[VOICE Devices]","
+    Verifies the fields in an DiscoveryInfoEvent returned from a getInfo call
+    SWPBL-87625 - Implement muse getInfo command
+    :param function_dut:
+    :param ws_client:
+    :return:
+    "
+"passed","Fri Apr 21 19:45:36 GMT 2023","Fri Apr 21 19:45:39 GMT 2023","2371","player.muse","test_info_namespace","","","","test_getInfo[IR_CONTROL Devices]","
+    Verifies the fields in an DiscoveryInfoEvent returned from a getInfo call
+    SWPBL-87625 - Implement muse getInfo command
+    :param function_dut:
+    :param ws_client:
+    :return:
+    "
+"passed","Fri Apr 21 19:46:49 GMT 2023","Fri Apr 21 19:47:13 GMT 2023","24526","player.muse","test_muse_mdns","","","","test_muse_mdns_txt_info[Default Mock Config-lechmere.v7 Enabled-locationID Set-Muse HHID Clear]","
+    Confirms that TXT records for muse adverts on players are valid.
+    Updated for SWPBL-199985
+    :param module_dut:
+    :param mock_player_services_control:
+    :param mhhid_set:
+    :param locationid_set:
+    "
+"passed","Fri Apr 21 19:45:43 GMT 2023","Fri Apr 21 19:45:49 GMT 2023","6021","player.muse","test_info_namespace","","","","test_getInfo_with_group","
+    Verifies the fields in an DiscoveryInfoEvent returned from a getInfo call with grouped member
+    :param websocket_manager:
+    :param dut_manager:
+    :return:
+    "
+"passed","Fri Apr 21 19:45:20 GMT 2023","Fri Apr 21 19:45:23 GMT 2023","2482","player.muse","test_info_namespace","","","","test_getInfo[AIRPLAY Devices]","
+    Verifies the fields in an DiscoveryInfoEvent returned from a getInfo call
+    SWPBL-87625 - Implement muse getInfo command
+    :param function_dut:
+    :param ws_client:
+    :return:
+    "
+"passed","Fri Apr 21 19:46:04 GMT 2023","Fri Apr 21 19:46:04 GMT 2023","191","player.muse","test_muse_mdns","","","","test_muse_mdns_enabled","
+    Verify we can see the muse mdns advert enabled for a ZP that supports Muse mDNS
+    :param module_dut:
+    :return:
+    "
+"skipped","Fri Apr 21 19:47:37 GMT 2023","Fri Apr 21 19:47:37 GMT 2023","0","player.muse","test_muse_mdns","","","","test_muse_mdns_txt_info[Default Mock Config-lechmere.v7 Disabled-locationID Set-Muse HHID Clear]","
+    Confirms that TXT records for muse adverts on players are valid.
+    Updated for SWPBL-199985
+    :param module_dut:
+    :param mock_player_services_control:
+    :param mhhid_set:
+    :param locationid_set:
+    "
+"passed","Fri Apr 21 19:45:56 GMT 2023","Fri Apr 21 19:45:57 GMT 2023","1316","player.muse","test_info_namespace","","","","test_getInfo_rest[Use Muse API v1]","
+    Verifies the fields in the JSON returned from a getInfo call
+    Verifies V2 WS/REST format
+    SWPBL-89976 - Use well known name in muse
+    :param module_dut:
+    :param api_version:
+    :return:
+    "
+"passed","Fri Apr 21 19:46:29 GMT 2023","Fri Apr 21 19:46:47 GMT 2023","18407","player.muse","test_muse_mdns","","","","test_muse_mdns_txt_info[Default Mock Config-lechmere.v7 Enabled-locationID Set-Muse HHID Set]","
+    Confirms that TXT records for muse adverts on players are valid.
+    Updated for SWPBL-199985
+    :param module_dut:
+    :param mock_player_services_control:
+    :param mhhid_set:
+    :param locationid_set:
+    "
+"skipped","Fri Apr 21 19:45:40 GMT 2023","Fri Apr 21 19:45:40 GMT 2023","0","player.muse","test_info_namespace","","","","test_getInfo[HDMI Devices]","
+    Verifies the fields in an DiscoveryInfoEvent returned from a getInfo call
+    SWPBL-87625 - Implement muse getInfo command
+    :param function_dut:
+    :param ws_client:
+    :return:
+    "
