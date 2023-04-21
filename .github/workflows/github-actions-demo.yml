@@ -16,6 +16,4 @@ jobs:
       - name: Publish Allure report
         uses: JamesIves/github-pages-deploy-action@v4
         with: 
-          repository-name: nikithapreethamsonos/gitactions_test
-          token: ${{secrets.PAT}}
           folder: allure-results
