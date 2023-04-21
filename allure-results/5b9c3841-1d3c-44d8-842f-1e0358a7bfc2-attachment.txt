@@ -1,0 +1,60 @@
+200 [04/21/23 8:05:31 pm] GET /request/api/logs/clear SWGen=-
+200 [04/21/23 8:05:31 pm] POST /auth/oauth/v3/clients?clientKey=e61bc77c-39cd-4ed0-a5e7-5ad316a0efc5&keyName=test SWGen=-
+200 [04/21/23 8:05:31 pm] GET /request/api/logs/clear SWGen=-
+200 [04/21/23 8:05:33 pm] GET /auth/oauth/v3/clients/flush SWGen=-
+200 [04/21/23 8:05:34 pm] GET /features/v1/config?swVersion=74.0-40200-dev-build-20230421-main&hwVersion=1.38.1.0-1.0 SWGen=2
+Client using [lechmere.6] protocol
+[
+  {
+    namespace: 'topology:1',
+    householdId: 'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP',
+    locationId: 'lc_d299d918a246444fad0c9a489f2f8aac',
+    name: 'cloudRegistration',
+    type: 'cloudRegistrationStatus'
+  },
+  {
+    sonosId: '998936323',
+    householdLocationId: 'foGp1ozErL353qkwQMUqfA==',
+    museHouseholdId: 'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.kN_M5hyfVz16Q7f-YI--',
+    playerId: 'RINCON_0003861038A501400',
+    groupId: 'RINCON_0003861038A501400:3237025778',
+    sessionId: null,
+    roomName: 'Emulator',
+    groupName: 'Emulator',
+    serial: '0003861038A5',
+    model: 'S39',
+    modelDisplayName: 'Era 100',
+    ipAddr: '172.19.255.253',
+    port: 1400,
+    isCoordinator: true,
+    isVisible: true,
+    isSatellite: false,
+    isSecure: true,
+    bootSequenceId: 3,
+    hwVersion: '1.38.1.0-1.0',
+    swVersion: '74.0-40200-dev-build-20230421-main',
+    swGen: 2,
+    dhcpMac: '0003861038A5',
+    networkIPAddress: '172.19.0.0',
+    networkMask: '255.255.0.0',
+    systemUptimeSeconds: 1468,
+    anacapaUptimeSeconds: 2,
+    apiVersion: '1.35.0-alpha.4+74.0-40200',
+    minApiVersion: '1.1.0',
+    capabilities: [
+      'CLOUD',
+      'PLAYBACK',
+      'AIRPLAY',
+      'LINE_IN',
+      'VOICE',
+      'AUDIO_CLIP',
+      'MICROPHONE_SWITCH'
+    ],
+    householdId: 'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP',
+    locationId: 'lc_d299d918a246444fad0c9a489f2f8aac'
+  }
+]
+Received registration message from [0003861038A5]
+REGISTRATION ACK sent to [0003861038a5]: 06040000{}
+My client is: [object Object]
+SET CONFIG sent to [0003861038a5]: 06050000{"museHouseholdId":"Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.kN_M5hyfVz16Q7f-YI--","locationId":"lc_d299d918a246444fad0c9a489f2f8aac"}
