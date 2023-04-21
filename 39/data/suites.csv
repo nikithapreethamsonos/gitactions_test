@@ -1,0 +1,95 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri Apr 21 19:47:45 GMT 2023","Fri Apr 21 19:48:00 GMT 2023","14924","cloud.lechmere","test_mock_lechmere_connections","","","","test_locid_muse_headers[Default Mock Config-locationID Set-Muse HHID Set]","
+    SWPBL-189064
+    Verify that locationId is properly represented in events emitted by muse
+    :param module_dut:
+    :param mock_player_services_control:
+    :param ws_client_v2:
+    :param mhhid_set:
+    :param locationid_set:
+    :return:
+    "
+"passed","Fri Apr 21 19:46:31 GMT 2023","Fri Apr 21 19:47:13 GMT 2023","41719","cloud.lechmere","test_mock_lechmere_connections","","","","test_muse_hhid_and_locationid_clearing[Default Mock Config]","
+    SWPBL-188324
+    Tests early implementation of lechmere v7 which adds support for locationId, in this test we will verify
+    that museHouseholdId and locationId, can coexist, and be cleared independently by sending setConfig commands
+    with the appropriate ids set or absent.
+
+    :param module_dut:
+    :param mock_player_services_control:
+    :return:
+    "
+"passed","Fri Apr 21 19:46:25 GMT 2023","Fri Apr 21 19:46:29 GMT 2023","3059","cloud.lechmere","test_mock_lechmere_connections","","","","test_player_resends_registration_message_on_reconnect[Default Mock Config]","
+    Verify the player re-sends the registration message on reconnect.
+    This covers the regression in SWPBL-58732.
+
+    :param module_dut:
+    :param mock_player_services_control:
+    "
+"passed","Fri Apr 21 19:48:46 GMT 2023","Fri Apr 21 19:48:55 GMT 2023","8861","cloud.lechmere","test_mock_lechmere_connections","","","","test_fcs_flag_lechmere_v7[Default Mock Config]","
+    SWPBL-203163: Use an FCS to control the player advertising lechmere v6 or v7
+    :param module_dut:
+    :param mock_player_services_control:
+    :param ws_client_v2:
+    "
+"passed","Fri Apr 21 19:46:30 GMT 2023","Fri Apr 21 19:46:30 GMT 2023","178","cloud.lechmere","test_mock_lechmere_connections","","","","test_send_muse_command_to_mock_lechmere[fragmented]","
+    SWPBL-86366
+    Verify that the player is able to support continuation frames from the mock lechmere
+
+    :param module_dut:
+    :param mock_player_services_control:
+    :param fragmented: Boolean that determines if the lechmere command sent should use fragmented data transfer
+    :return:
+    "
+"passed","Fri Apr 21 19:47:14 GMT 2023","Fri Apr 21 19:47:43 GMT 2023","28881","cloud.lechmere","test_mock_lechmere_connections","","","","test_locationID_persistence[Default Mock Config]","
+    SWPBL-188324 & SWPBL-199720
+    Verify that locationID is stored to /jffs/localsettings.txt and ensure after anacapa restart that the registration message carries the locationID
+    :param module_dut:
+    :param mock_player_services_control:
+    :return:
+    "
+"passed","Fri Apr 21 19:46:29 GMT 2023","Fri Apr 21 19:46:29 GMT 2023","16","cloud.lechmere","test_mock_lechmere_connections","","","","test_get_config[Default Mock Config]","
+    Verify the player behaves correctly when receiving a getConfig message (06) over the websocket.
+
+    :param module_dut:
+    :param mock_player_services_control:
+    "
+"skipped","Fri Apr 21 19:48:44 GMT 2023","Fri Apr 21 19:48:44 GMT 2023","1","cloud.lechmere","test_mock_lechmere_connections","","","","test_locid_muse_headers[Default Mock Config-locationID Clear-Muse HHID Clear]","
+    SWPBL-189064
+    Verify that locationId is properly represented in events emitted by muse
+    :param module_dut:
+    :param mock_player_services_control:
+    :param ws_client_v2:
+    :param mhhid_set:
+    :param locationid_set:
+    :return:
+    "
+"passed","Fri Apr 21 19:48:22 GMT 2023","Fri Apr 21 19:48:41 GMT 2023","19223","cloud.lechmere","test_mock_lechmere_connections","","","","test_locid_muse_headers[Default Mock Config-locationID Clear-Muse HHID Set]","
+    SWPBL-189064
+    Verify that locationId is properly represented in events emitted by muse
+    :param module_dut:
+    :param mock_player_services_control:
+    :param ws_client_v2:
+    :param mhhid_set:
+    :param locationid_set:
+    :return:
+    "
+"passed","Fri Apr 21 19:48:04 GMT 2023","Fri Apr 21 19:48:19 GMT 2023","14973","cloud.lechmere","test_mock_lechmere_connections","","","","test_locid_muse_headers[Default Mock Config-locationID Set-Muse HHID Clear]","
+    SWPBL-189064
+    Verify that locationId is properly represented in events emitted by muse
+    :param module_dut:
+    :param mock_player_services_control:
+    :param ws_client_v2:
+    :param mhhid_set:
+    :param locationid_set:
+    :return:
+    "
+"passed","Fri Apr 21 19:46:31 GMT 2023","Fri Apr 21 19:46:31 GMT 2023","186","cloud.lechmere","test_mock_lechmere_connections","","","","test_send_muse_command_to_mock_lechmere[not fragmented]","
+    SWPBL-86366
+    Verify that the player is able to support continuation frames from the mock lechmere
+
+    :param module_dut:
+    :param mock_player_services_control:
+    :param fragmented: Boolean that determines if the lechmere command sent should use fragmented data transfer
+    :return:
+    "

@@ -1,0 +1,588 @@
+{
+  "uid" : "a6589dac9bfebcb4",
+  "name" : "test_get_config[Default Mock Config]",
+  "fullName" : "cloud.lechmere.test_mock_lechmere_connections#test_get_config[Default Mock Config]",
+  "historyId" : "cf3d3a0342c00a161515252118b08a78",
+  "time" : {
+    "start" : 1682106389689,
+    "stop" : 1682106389705,
+    "duration" : 16
+  },
+  "description" : "\n    Verify the player behaves correctly when receiving a getConfig message (06) over the websocket.\n\n    :param module_dut:\n    :param mock_player_services_control:\n    ",
+  "descriptionHtml" : "<pre><code>Verify the player behaves correctly when receiving a getConfig message (06) over the websocket.\n\n:param module_dut:\n:param mock_player_services_control:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "websocket_manager",
+    "time" : {
+      "start" : 1682106362525,
+      "stop" : 1682106362525,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "init_mpsc",
+    "time" : {
+      "start" : 1682106359838,
+      "stop" : 1682106362524,
+      "duration" : 2686
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "all_devices",
+    "time" : {
+      "start" : 1682106357797,
+      "stop" : 1682106359781,
+      "duration" : 1984
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "get_module_dut",
+    "time" : {
+      "start" : 1682106359782,
+      "stop" : 1682106359837,
+      "duration" : 55
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "dut_manager",
+    "time" : {
+      "start" : 1682106359782,
+      "stop" : 1682106359782,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "mock_player_services_control",
+    "time" : {
+      "start" : 1682106389303,
+      "stop" : 1682106389487,
+      "duration" : 184
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Trigger job with job_text from :1400/jobs page",
+      "time" : {
+        "start" : 1682106389352,
+        "stop" : 1682106389467,
+        "duration" : 115
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "zp",
+        "value" : "SonosZoneComponent(id=140129307323920, ip=172.19.255.251, modelNumber=S39, serialNumber=0003861038EC, architecture=optimo, hardware_version=1.38.1.0-1.0)"
+      }, {
+        "name" : "job_text",
+        "value" : "'Fetch cloud config'"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "reset_dut_and_ws_managers",
+    "time" : {
+      "start" : 1682106389220,
+      "stop" : 1682106389303,
+      "duration" : 83
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "all_playback_devices",
+    "time" : {
+      "start" : 1682106359781,
+      "stop" : 1682106359781,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "default_operation_devices",
+    "time" : {
+      "start" : 1682106389488,
+      "stop" : 1682106389488,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "player_diag_levels",
+    "time" : {
+      "start" : 1682106357797,
+      "stop" : 1682106357797,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "override_diag_levels",
+    "time" : {
+      "start" : 1682106389489,
+      "stop" : 1682106389687,
+      "duration" : 198
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "pytestconfig",
+    "time" : {
+      "start" : 1682106357797,
+      "stop" : 1682106357797,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "diag_levels",
+    "time" : {
+      "start" : 1682106389488,
+      "stop" : 1682106389488,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "operation_kwargs",
+    "time" : {
+      "start" : 1682106389487,
+      "stop" : 1682106389487,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "module_dut",
+    "time" : {
+      "start" : 1682106389303,
+      "stop" : 1682106389303,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "diag_level_devices",
+    "time" : {
+      "start" : 1682106389488,
+      "stop" : 1682106389488,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "environment",
+    "time" : {
+      "start" : 1682106357796,
+      "stop" : 1682106357797,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "operation_devices",
+    "time" : {
+      "start" : 1682106389488,
+      "stop" : 1682106389488,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "\n    Verify the player behaves correctly when receiving a getConfig message (06) over the websocket.\n\n    :param module_dut:\n    :param mock_player_services_control:\n    ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Check registration fields",
+      "time" : {
+        "start" : 1682106389704,
+        "stop" : 1682106389704,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "registration_message",
+        "value" : "{u'playerId': u'RINCON_0003861038EC01400', u'minApiVersion': u'1.1.0', u'networkMask': u'255.255.0.0', u'serial': u'0003861038EC', u'port': 1400, u'bootSequenceId': 3, u'capabilities': [u'CLOUD', u'PLAYBACK', u'AIRPLAY', u'LINE_IN', u'VOICE', u'AUDIO_CLIP', u'MICROPHONE_SWITCH'], u'groupId': u'RINCON_0003861038EC01400:1124599274', u'groupName': u'Emulator', u'sonosId': u'998936323', u'hwVersion': u'1.38.1.0-1.0', u'dhcpMac': u'0003861038EC', u'swVersion': u'74.0-40200-dev-build-20230421-main', u'ipAddr': u'172.19.255.251', u'isCoordinator': True, u'modelDisplayName': u'Era 100', u'isSecure': True, u'networkIPAddress': u'172.19.0.0', u'swGen': 2, u'apiVersion': u'1.35.0-alpha.4+74.0-40200', u'householdId': u'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP', u'roomName': u'Emulator', u'sessionId': None, u'householdLocationId': u'Q5kfDMy8NfkWq90gctYjzg==', u'isVisible': True, u'isSatellite': False, u'museHouseholdId': u'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.SKD6ilhW-vhyVPsH6yvm', u'model': u'S39'}"
+      }, {
+        "name" : "apiVersion",
+        "value" : "'1.35.0-alpha.4+74.0-40200'"
+      }, {
+        "name" : "bootSequenceId",
+        "value" : "3"
+      }, {
+        "name" : "capabilities",
+        "value" : "[u'CLOUD', u'PLAYBACK', u'AIRPLAY', u'LINE_IN', u'VOICE', u'AUDIO_CLIP', u'MICROPHONE_SWITCH']"
+      }, {
+        "name" : "dhcpMac",
+        "value" : "'0003861038EC'"
+      }, {
+        "name" : "groupId",
+        "value" : "'RINCON_0003861038EC01400:1124599274'"
+      }, {
+        "name" : "groupName",
+        "value" : "'Emulator'"
+      }, {
+        "name" : "householdId",
+        "value" : "'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP'"
+      }, {
+        "name" : "householdLocationId",
+        "value" : "'Q5kfDMy8NfkWq90gctYjzg=='"
+      }, {
+        "name" : "hwVersion",
+        "value" : "'1.38.1.0-1.0'"
+      }, {
+        "name" : "ipAddr",
+        "value" : "'172.19.255.251'"
+      }, {
+        "name" : "isCoordinator",
+        "value" : "True"
+      }, {
+        "name" : "isSatellite",
+        "value" : "False"
+      }, {
+        "name" : "isSecure",
+        "value" : "True"
+      }, {
+        "name" : "isVisible",
+        "value" : "True"
+      }, {
+        "name" : "minApiVersion",
+        "value" : "'1.1.0'"
+      }, {
+        "name" : "model",
+        "value" : "'S39'"
+      }, {
+        "name" : "modelDisplayName",
+        "value" : "'Era 100'"
+      }, {
+        "name" : "museHouseholdId",
+        "value" : "'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.SKD6ilhW-vhyVPsH6yvm'"
+      }, {
+        "name" : "networkIPAddress",
+        "value" : "'172.19.0.0'"
+      }, {
+        "name" : "networkMask",
+        "value" : "'255.255.0.0'"
+      }, {
+        "name" : "playerId",
+        "value" : "'RINCON_0003861038EC01400'"
+      }, {
+        "name" : "port",
+        "value" : "1400"
+      }, {
+        "name" : "roomName",
+        "value" : "'Emulator'"
+      }, {
+        "name" : "serial",
+        "value" : "'0003861038EC'"
+      }, {
+        "name" : "sessionId",
+        "value" : "None"
+      }, {
+        "name" : "sonosId",
+        "value" : "'998936323'"
+      }, {
+        "name" : "swGen",
+        "value" : "2"
+      }, {
+        "name" : "swVersion",
+        "value" : "'74.0-40200-dev-build-20230421-main'"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "3ecc06ca997664d1",
+      "name" : "stdout",
+      "source" : "3ecc06ca997664d1.txt",
+      "type" : "text/plain",
+      "size" : 1829
+    }, {
+      "uid" : "5366a31d084e3ff",
+      "name" : "stderr",
+      "source" : "5366a31d084e3ff.txt",
+      "type" : "text/plain",
+      "size" : 31053
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "websocket_manager::0",
+    "time" : {
+      "start" : 1682106535606,
+      "stop" : 1682106535606,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "init_mpsc::0",
+    "time" : {
+      "start" : 1682106535606,
+      "stop" : 1682106549111,
+      "duration" : 13505
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "dut_manager::0",
+    "time" : {
+      "start" : 1682106549113,
+      "stop" : 1682106549213,
+      "duration" : 100
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "mock_player_services_control::0",
+    "time" : {
+      "start" : 1682106389772,
+      "stop" : 1682106389774,
+      "duration" : 2
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "reset_dut_and_ws_managers::0",
+    "time" : {
+      "start" : 1682106389775,
+      "stop" : 1682106389856,
+      "duration" : 81
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "player_diag_levels::0",
+    "time" : {
+      "start" : 1682106549216,
+      "stop" : 1682106549216,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "override_diag_levels::0",
+    "time" : {
+      "start" : 1682106389706,
+      "stop" : 1682106389770,
+      "duration" : 64
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "nightly"
+  }, {
+    "name" : "tag",
+    "value" : "priority3"
+  }, {
+    "name" : "tag",
+    "value" : "cloud_connection_stats"
+  }, {
+    "name" : "parentSuite",
+    "value" : "cloud.lechmere"
+  }, {
+    "name" : "suite",
+    "value" : "test_mock_lechmere_connections"
+  }, {
+    "name" : "host",
+    "value" : "2f9e9dfa9023"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython2"
+  }, {
+    "name" : "package",
+    "value" : "cloud.lechmere.test_mock_lechmere_connections"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "config_properties",
+    "value" : "None"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "nightly", "cloud_connection_stats", "priority3" ]
+  },
+  "source" : "a6589dac9bfebcb4.json",
+  "parameterValues" : [ "None" ]
+}

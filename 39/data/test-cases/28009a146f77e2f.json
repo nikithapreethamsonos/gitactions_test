@@ -1,0 +1,606 @@
+{
+  "uid" : "28009a146f77e2f",
+  "name" : "test_locationID_persistence[Default Mock Config]",
+  "fullName" : "cloud.lechmere.test_mock_lechmere_connections#test_locationID_persistence[Default Mock Config]",
+  "historyId" : "bb2577cbb7b9b01d14a850b779dec362",
+  "time" : {
+    "start" : 1682106434387,
+    "stop" : 1682106463268,
+    "duration" : 28881
+  },
+  "description" : "\n    SWPBL-188324 & SWPBL-199720\n    Verify that locationID is stored to /jffs/localsettings.txt and ensure after anacapa restart that the registration message carries the locationID\n    :param module_dut:\n    :param mock_player_services_control:\n    :return:\n    ",
+  "descriptionHtml" : "<pre><code>SWPBL-188324 &amp; SWPBL-199720\nVerify that locationID is stored to /jffs/localsettings.txt and ensure after anacapa restart that the registration message carries the locationID\n:param module_dut:\n:param mock_player_services_control:\n:return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "diag_level_devices",
+    "time" : {
+      "start" : 1682106434196,
+      "stop" : 1682106434196,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "operation_kwargs",
+    "time" : {
+      "start" : 1682106434195,
+      "stop" : 1682106434195,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "reset_dut_and_ws_managers",
+    "time" : {
+      "start" : 1682106433837,
+      "stop" : 1682106433971,
+      "duration" : 134
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "websocket_manager",
+    "time" : {
+      "start" : 1682106362525,
+      "stop" : 1682106362525,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "operation_devices",
+    "time" : {
+      "start" : 1682106434195,
+      "stop" : 1682106434195,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "init_mpsc",
+    "time" : {
+      "start" : 1682106359838,
+      "stop" : 1682106362524,
+      "duration" : 2686
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "all_devices",
+    "time" : {
+      "start" : 1682106357797,
+      "stop" : 1682106359781,
+      "duration" : 1984
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "mock_player_services_control",
+    "time" : {
+      "start" : 1682106433972,
+      "stop" : 1682106434194,
+      "duration" : 222
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Trigger job with job_text from :1400/jobs page",
+      "time" : {
+        "start" : 1682106434022,
+        "stop" : 1682106434164,
+        "duration" : 142
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "zp",
+        "value" : "SonosZoneComponent(id=140129307323920, ip=172.19.255.251, modelNumber=S39, serialNumber=0003861038EC, architecture=optimo, hardware_version=1.38.1.0-1.0)"
+      }, {
+        "name" : "job_text",
+        "value" : "'Fetch cloud config'"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "diag_levels",
+    "time" : {
+      "start" : 1682106434196,
+      "stop" : 1682106434196,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "get_module_dut",
+    "time" : {
+      "start" : 1682106359782,
+      "stop" : 1682106359837,
+      "duration" : 55
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "dut_manager",
+    "time" : {
+      "start" : 1682106359782,
+      "stop" : 1682106359782,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "default_operation_devices",
+    "time" : {
+      "start" : 1682106434195,
+      "stop" : 1682106434196,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "all_playback_devices",
+    "time" : {
+      "start" : 1682106359781,
+      "stop" : 1682106359781,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "player_diag_levels",
+    "time" : {
+      "start" : 1682106357797,
+      "stop" : 1682106357797,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "module_dut",
+    "time" : {
+      "start" : 1682106433971,
+      "stop" : 1682106433971,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "override_diag_levels",
+    "time" : {
+      "start" : 1682106434196,
+      "stop" : 1682106434385,
+      "duration" : 189
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "pytestconfig",
+    "time" : {
+      "start" : 1682106357797,
+      "stop" : 1682106357797,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "environment",
+    "time" : {
+      "start" : 1682106357796,
+      "stop" : 1682106357797,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "\n    SWPBL-188324 & SWPBL-199720\n    Verify that locationID is stored to /jffs/localsettings.txt and ensure after anacapa restart that the registration message carries the locationID\n    :param module_dut:\n    :param mock_player_services_control:\n    :return:\n    ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Trigger job with job_text from :1400/jobs page",
+      "time" : {
+        "start" : 1682106434396,
+        "stop" : 1682106434525,
+        "duration" : 129
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "zp",
+        "value" : "SonosZoneComponent(id=140129307323920, ip=172.19.255.251, modelNumber=S39, serialNumber=0003861038EC, architecture=optimo, hardware_version=1.38.1.0-1.0)"
+      }, {
+        "name" : "job_text",
+        "value" : "'Fetch cloud config'"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Generate a random locationID",
+      "time" : {
+        "start" : 1682106434764,
+        "stop" : 1682106434764,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Wait for player connection and registration with mock lechmere",
+      "time" : {
+        "start" : 1682106450316,
+        "stop" : 1682106450342,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Verify reg message sent to mock lechmere.",
+        "time" : {
+          "start" : 1682106450335,
+          "stop" : 1682106450342,
+          "duration" : 7
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "module_dut",
+          "value" : "SonosZoneComponent(id=140129307323920, ip=172.19.255.251, modelNumber=S39, serialNumber=0003861038EC, architecture=optimo, hardware_version=1.38.1.0-1.0)"
+        }, {
+          "name" : "mock_player_services_control",
+          "value" : "<webserver.helpers.mock_player_cloud_services_control.MockPlayerCloudServicesControl object at 0x7f7253de3810>"
+        }, {
+          "name" : "expected_protocol",
+          "value" : "None"
+        }, {
+          "name" : "verifier",
+          "value" : "None"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "module_dut",
+        "value" : "SonosZoneComponent(id=140129307323920, ip=172.19.255.251, modelNumber=S39, serialNumber=0003861038EC, architecture=optimo, hardware_version=1.38.1.0-1.0)"
+      }, {
+        "name" : "mock_player_services_control",
+        "value" : "<webserver.helpers.mock_player_cloud_services_control.MockPlayerCloudServicesControl object at 0x7f7253de3810>"
+      }, {
+        "name" : "iteration_delay",
+        "value" : "0.5"
+      }, {
+        "name" : "registration_timeout",
+        "value" : "30"
+      }, {
+        "name" : "cloud_connected_timeout",
+        "value" : "65"
+      }, {
+        "name" : "expected_protocol",
+        "value" : "None"
+      }, {
+        "name" : "verifier",
+        "value" : "None"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Trigger job with job_text from :1400/jobs page",
+      "time" : {
+        "start" : 1682106454383,
+        "stop" : 1682106454651,
+        "duration" : 268
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "zp",
+        "value" : "SonosZoneComponent(id=140129307323920, ip=172.19.255.251, modelNumber=S39, serialNumber=0003861038EC, architecture=optimo, hardware_version=1.38.1.0-1.0)"
+      }, {
+        "name" : "job_text",
+        "value" : "'Fetch cloud config'"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "9af2b6a2659fea7a",
+      "name" : "stdout",
+      "source" : "9af2b6a2659fea7a.txt",
+      "type" : "text/plain",
+      "size" : 13452
+    }, {
+      "uid" : "90930e77d16ad2fe",
+      "name" : "stderr",
+      "source" : "90930e77d16ad2fe.txt",
+      "type" : "text/plain",
+      "size" : 83216
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 5,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "reset_dut_and_ws_managers::0",
+    "time" : {
+      "start" : 1682106463328,
+      "stop" : 1682106463438,
+      "duration" : 110
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "websocket_manager::0",
+    "time" : {
+      "start" : 1682106535606,
+      "stop" : 1682106535606,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "init_mpsc::0",
+    "time" : {
+      "start" : 1682106535606,
+      "stop" : 1682106549111,
+      "duration" : 13505
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "mock_player_services_control::0",
+    "time" : {
+      "start" : 1682106463325,
+      "stop" : 1682106463327,
+      "duration" : 2
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "dut_manager::0",
+    "time" : {
+      "start" : 1682106549113,
+      "stop" : 1682106549213,
+      "duration" : 100
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "player_diag_levels::0",
+    "time" : {
+      "start" : 1682106549216,
+      "stop" : 1682106549216,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "override_diag_levels::0",
+    "time" : {
+      "start" : 1682106463269,
+      "stop" : 1682106463323,
+      "duration" : 54
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "nightly"
+  }, {
+    "name" : "tag",
+    "value" : "priority3"
+  }, {
+    "name" : "tag",
+    "value" : "cloud_connection_stats"
+  }, {
+    "name" : "parentSuite",
+    "value" : "cloud.lechmere"
+  }, {
+    "name" : "suite",
+    "value" : "test_mock_lechmere_connections"
+  }, {
+    "name" : "host",
+    "value" : "2f9e9dfa9023"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython2"
+  }, {
+    "name" : "package",
+    "value" : "cloud.lechmere.test_mock_lechmere_connections"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "config_properties",
+    "value" : "None"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "nightly", "cloud_connection_stats", "priority3" ]
+  },
+  "source" : "28009a146f77e2f.json",
+  "parameterValues" : [ "None" ]
+}
