@@ -1,0 +1,260 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"skipped","Fri Apr 21 19:51:35 GMT 2023","Fri Apr 21 19:51:35 GMT 2023","0","player.muse","test_playback_namespace","","","","test_loadContainer_local_share[Play specific artist from local library]","
+    SWPBL-145583
+    Verify loadContainer works with local library files via the following methods:
+    1. an entire samba share
+    2. a specific artist
+    3. a specific playlist
+    :param module_dut:
+    :param md_type:
+    :return:
+    "
+"skipped","Fri Apr 21 19:51:02 GMT 2023","Fri Apr 21 19:51:02 GMT 2023","0","player.muse","test_playback_namespace","","","","test_loadLineIn_source_from_outside_and_inside_of_group[device_filter0]","
+    Verify that loadLineIn will work with a source ZP that's in and out of the target groupId
+    :param dut_manager:
+    :param function_dut:
+    :param ws_client:
+    :return:
+    "
+"passed","Fri Apr 21 19:50:26 GMT 2023","Fri Apr 21 19:50:27 GMT 2023","1106","player.muse","test_playbackSession_namespace","","","","test_parse_unicode_request_json[¥2300.00]","
+    SWPBL-118495
+    Verifies that requests that contain JSON with unicode escape sequences are parsed successfully
+    :param ws_client:
+    :param unicode_string:
+    :return:
+    "
+"passed","Fri Apr 21 19:48:36 GMT 2023","Fri Apr 21 19:48:40 GMT 2023","3870","player.muse","test_playbackMetadata_namespace","","","","test_metadata_shows_ratings_object_on_pre_rate_track","
+    Verify that the player is able to parse pre-rated tracks before playback has started
+    "
+"passed","Fri Apr 21 19:56:23 GMT 2023","Fri Apr 21 19:56:34 GMT 2023","10635","player.muse","test_playback_namespace","","","","test_loadContent_with_loadFavorite_no_resolver_service","
+    SWPBL-191533: Create loadFavorite via loadContent test
+    For this test we use TuneIn as our content provider, so we can add a station to the user's favorites and
+    then load the content to the queue using loadContent.
+    :param ws_client:
+    :param module_dut:
+    :return:
+    "
+"passed","Fri Apr 21 19:49:34 GMT 2023","Fri Apr 21 19:49:40 GMT 2023","5440","player.muse","test_playbackMetadata_namespace","","","","test_rateItem_404_rating_response","
+    A 404 response should clear the queue on the player. Verifies that the player is IDLE and it sent out a proper error event.
+    "
+"passed","Fri Apr 21 19:50:34 GMT 2023","Fri Apr 21 19:50:36 GMT 2023","1107","player.muse","test_playbackSession_namespace","","","","test_parse_unicode_request_json[Polynésie Française]","
+    SWPBL-118495
+    Verifies that requests that contain JSON with unicode escape sequences are parsed successfully
+    :param ws_client:
+    :param unicode_string:
+    :return:
+    "
+"skipped","Fri Apr 21 19:51:35 GMT 2023","Fri Apr 21 19:51:35 GMT 2023","0","player.muse","test_playback_namespace","","","","test_loadContainer_local_share[Play entire samba share]","
+    SWPBL-145583
+    Verify loadContainer works with local library files via the following methods:
+    1. an entire samba share
+    2. a specific artist
+    3. a specific playlist
+    :param module_dut:
+    :param md_type:
+    :return:
+    "
+"passed","Fri Apr 21 19:50:22 GMT 2023","Fri Apr 21 19:50:23 GMT 2023","1102","player.muse","test_playbackSession_namespace","","","","test_parse_unicode_request_json[España]","
+    SWPBL-118495
+    Verifies that requests that contain JSON with unicode escape sequences are parsed successfully
+    :param ws_client:
+    :param unicode_string:
+    :return:
+    "
+"passed","Fri Apr 21 19:54:54 GMT 2023","Fri Apr 21 19:54:59 GMT 2023","5274","player.muse","test_playback_namespace","","","","test_loadContent_with_loadContainer_no_resolver_service[Normal length tracks]","
+    SWPBL-180660: loadContent initiates loadContainer without cloud resolver service.
+
+    This test sends a Base64 encoded blob with a loadContainer command to loadContent and verifies the content was
+    successfully loaded by sending a play command and verifying the first song of the trackList plays
+    as expected.
+
+    :param ws_client:
+    :param module_dut:
+    :param mock_smapi_server_manager: Using mock smapi instead of a partner service for simplicity
+    :param smapi_account_setup: Use this to add the mock smapi service
+    :return:
+    "
+"passed","Fri Apr 21 19:50:16 GMT 2023","Fri Apr 21 19:50:17 GMT 2023","1342","player.muse","test_playbackMetadata_namespace","","","","test_rate_item_invalid_itemId_values[Bad Type]","
+    Verify the player sends an error if the itemId is blank or null
+    "
+"passed","Fri Apr 21 19:50:40 GMT 2023","Fri Apr 21 19:50:45 GMT 2023","4947","player.muse","test_playbackSession_namespace","","","","test_load_play_verify_metadata","
+    SWPBL-146353
+    Verify that muse sessions created via muse V2 REST stay valid and can be used to play music.
+
+    :param ws_client:
+    :param mock_cq_server:
+    :param module_dut:
+    :return:
+    "
+"skipped","Fri Apr 21 19:50:49 GMT 2023","Fri Apr 21 19:50:49 GMT 2023","69","player.muse","test_playback_namespace","","","","test_loadLineIn_on_linein_and_non_linein_zps[True-device_filter0]","
+    Verify the loadLineIn commands works as expected on linein and non-linein ZPs
+    :param ws_client:
+    :param function_dut:
+    :param explicit_deviceId:
+    :return:
+    "
+"passed","Fri Apr 21 19:50:07 GMT 2023","Fri Apr 21 19:50:09 GMT 2023","2334","player.muse","test_playbackMetadata_namespace","","","","test_rate_item_invalid_itemId_values[No Type]","
+    Verify the player sends an error if the itemId is blank or null
+    "
+"skipped","Fri Apr 21 19:50:55 GMT 2023","Fri Apr 21 19:50:55 GMT 2023","1","player.muse","test_playback_namespace","","","","test_loadLineIn_on_linein_and_non_linein_zps[False-device_filter0]","
+    Verify the loadLineIn commands works as expected on linein and non-linein ZPs
+    :param ws_client:
+    :param function_dut:
+    :param explicit_deviceId:
+    :return:
+    "
+"skipped","Fri Apr 21 19:51:35 GMT 2023","Fri Apr 21 19:51:35 GMT 2023","0","player.muse","test_playback_namespace","","","","test_loadContainer_local_share[Play specific m3u playlist]","
+    SWPBL-145583
+    Verify loadContainer works with local library files via the following methods:
+    1. an entire samba share
+    2. a specific artist
+    3. a specific playlist
+    :param module_dut:
+    :param md_type:
+    :return:
+    "
+"passed","Fri Apr 21 19:51:42 GMT 2023","Fri Apr 21 19:54:46 GMT 2023","184149","player.muse","test_playback_namespace","","","","test_play_feedback_on_empty_queue[False-device_filter0]","
+    SWPBL-169195
+    Verify that when the deviceFeedback parameter is used with the play command a bloop is played if the queue is empty
+    :param function_dut:
+    :param feedback: determines whether to tell the play command to flash the LED and ""bloop""
+    :return:
+    "
+"passed","Fri Apr 21 19:48:14 GMT 2023","Fri Apr 21 19:48:24 GMT 2023","9854","player.muse","test_playbackExtended_namespace","","","","test_playbackExtended_subscribe_unsubscribe_get","
+    SWPBL-149147
+    Convert workflow playbackExtended test suite to pytest
+    Verify sub/unsub/get action of the namespace. Also verify that the playback object is accurate.
+    :param module_dut:
+    :param ws_client:
+    :param mock_cq_server:
+    :return:
+    "
+"passed","Fri Apr 21 19:55:51 GMT 2023","Fri Apr 21 19:55:56 GMT 2023","4836","player.muse","test_playback_namespace","","","","test_loadContent_with_queueConfig[Normal length tracks]","
+    SWPBL-188189: Implement localQueue playback config.
+
+    This test sends a loadContent command with queueConfig and verifies the queueAction and trackModes are
+    successfully loaded by sending a play command and verifying the first song of the trackList plays
+    as expected.
+
+    :param ws_client:
+    :param module_dut:
+    :param mock_smapi_server_manager: Using mock smapi instead of a partner service for simplicity
+    :param smapi_account_setup: Use this to add the mock smapi service
+    :return:
+    "
+"passed","Fri Apr 21 19:55:17 GMT 2023","Fri Apr 21 19:55:26 GMT 2023","8848","player.muse","test_playback_namespace","","","","test_loadContent_with_loadStream_no_resolver_service","
+    SWPBL-190346 Create loadStream via loadContent test
+    This test sends a Base64 encoded blob with a loadStream command to loadContent and verifies the content was
+    successfully loaded and can be played by sending a play command to the player
+
+    :param ws_client:
+    :param module_dut:
+    :return:
+    "
+"passed","Fri Apr 21 19:51:26 GMT 2023","Fri Apr 21 19:51:34 GMT 2023","7099","player.muse","test_playback_namespace","","","","test_avtransport_playback_state_transition_on_togglePlayPause_from_buffering_to_paused","
+    Perform togglePlayPause command and verify that the player AVTransport transitions as expected
+    BUFFERED  ->  PLAYING
+    :param module_dut:
+    :param ws_client:
+    :param mock_cq_control:
+    :return:
+    "
+"passed","Fri Apr 21 19:51:37 GMT 2023","Fri Apr 21 19:51:39 GMT 2023","1317","player.muse","test_playback_namespace","","","","test_play_feedback_on_empty_queue[True-device_filter0]","
+    SWPBL-169195
+    Verify that when the deviceFeedback parameter is used with the play command a bloop is played if the queue is empty
+    :param function_dut:
+    :param feedback: determines whether to tell the play command to flash the LED and ""bloop""
+    :return:
+    "
+"skipped","Fri Apr 21 19:50:58 GMT 2023","Fri Apr 21 19:50:58 GMT 2023","1","player.muse","test_playback_namespace","","","","test_loadLineIn_on_linein_and_non_linein_zps[False-device_filter1]","
+    Verify the loadLineIn commands works as expected on linein and non-linein ZPs
+    :param ws_client:
+    :param function_dut:
+    :param explicit_deviceId:
+    :return:
+    "
+"passed","Fri Apr 21 19:48:57 GMT 2023","Fri Apr 21 19:48:59 GMT 2023","2401","player.muse","test_playbackMetadata_namespace","","","","test_rate_item_200_negative_rating_late_track_in_queue","
+    SWPBL-75253
+    Verify that if the last track in the queue is deleted due to a bad rating, the player will pause on the new last track and not continue to play.
+    "
+"passed","Fri Apr 21 19:49:48 GMT 2023","Fri Apr 21 19:49:49 GMT 2023","1347","player.muse","test_playbackMetadata_namespace","","","","test_rate_item_invalid_itemId_values[Rating Empty]","
+    Verify the player sends an error if the itemId is blank or null
+    "
+"passed","Fri Apr 21 19:48:47 GMT 2023","Fri Apr 21 19:48:50 GMT 2023","2456","player.muse","test_playbackMetadata_namespace","","","","test_player_respects_playhead_position_in_itemWindow_returned_from_rate_track","
+    SWPBL-78066
+    Verify that the the player will process the playhead position if its included in the itemWindow that gets returned from a rate item command
+    "
+"passed","Fri Apr 21 19:50:30 GMT 2023","Fri Apr 21 19:50:31 GMT 2023","1107","player.muse","test_playbackSession_namespace","","","","test_parse_unicode_request_json[Macédoine, l'ex-République Yougoslave de]","
+    SWPBL-118495
+    Verifies that requests that contain JSON with unicode escape sequences are parsed successfully
+    :param ws_client:
+    :param unicode_string:
+    :return:
+    "
+"passed","Fri Apr 21 19:55:06 GMT 2023","Fri Apr 21 19:55:12 GMT 2023","6032","player.muse","test_playback_namespace","","","","test_loadContent_with_loadTrackList_no_resolver_service","
+    SWPBL-190141 Create loadTrackList via loadContent automated test
+
+    This test sends a Base64 encoded blob with a loadTrackList command to loadContent and verifies the content was
+    successfully loaded by sending a play command and verifying the correct tracks are playing.
+
+    :param ws_client:
+    :param module_dut:
+    :return:
+    "
+"passed","Fri Apr 21 19:55:36 GMT 2023","Fri Apr 21 19:55:40 GMT 2023","3669","player.muse","test_playback_namespace","","","","test_loadContent_with_loadPlaylist_no_resolver_service[Normal length tracks]","
+    SWPBL-186812 loadMedia initiates loadPlaylist without cloud resolver service
+    This test creates a playlist, gets the playlistId, sends a Base64 encoded blob with loadPlaylist command to
+    loadContent and verifies the content was successfully loaded and can be played by sending a play command to
+    the player.
+
+    :param ws_client:
+    :param module_dut:
+    :param create_playlist
+    :return:
+    "
+"passed","Fri Apr 21 19:49:58 GMT 2023","Fri Apr 21 19:49:59 GMT 2023","1345","player.muse","test_playbackMetadata_namespace","","","","test_rate_item_invalid_itemId_values[Bad Param]","
+    Verify the player sends an error if the itemId is blank or null
+    "
+"skipped","Fri Apr 21 19:50:52 GMT 2023","Fri Apr 21 19:50:52 GMT 2023","72","player.muse","test_playback_namespace","","","","test_loadLineIn_on_linein_and_non_linein_zps[True-device_filter1]","
+    Verify the loadLineIn commands works as expected on linein and non-linein ZPs
+    :param ws_client:
+    :param function_dut:
+    :param explicit_deviceId:
+    :return:
+    "
+"passed","Fri Apr 21 19:49:08 GMT 2023","Fri Apr 21 19:49:13 GMT 2023","5384","player.muse","test_playbackMetadata_namespace","","","","test_rateItem_204_304_rating_response[204]","
+    A 204/304 response should not change the queue. Verifies that the player transitions to the next track
+    "
+"passed","Fri Apr 21 19:56:07 GMT 2023","Fri Apr 21 19:56:15 GMT 2023","8457","player.muse","test_playback_namespace","","","","test_loadContent_with_groupId_validation[Normal length tracks]","
+    SWPBL-188570: Add groupId validation for loadContent command.
+
+    This test sends a loadContent command where the groupId within the contentToken is invalid or does
+    not exist, verifies the command executes successfully.
+
+    :param ws_client:
+    :param module_dut:
+    :param mock_smapi_server_manager: Using mock smapi instead of a partner service for simplicity
+    :param smapi_account_setup: Use this to add the mock smapi service
+    :return:
+    "
+"passed","Fri Apr 21 19:49:21 GMT 2023","Fri Apr 21 19:49:25 GMT 2023","4397","player.muse","test_playbackMetadata_namespace","","","","test_rateItem_204_304_rating_response[304]","
+    A 204/304 response should not change the queue. Verifies that the player transitions to the next track
+    "
+"skipped","Fri Apr 21 19:51:05 GMT 2023","Fri Apr 21 19:51:05 GMT 2023","72","player.muse","test_playback_namespace","","","","test_loadLineIn_playOnCompletion_off[device_filter0]","
+    Verify that with playOnCompletion off, the avt is switched to linein but the ZP does not play
+    :param ws_client:
+    :param function_dut:
+    :return:
+    "
+"passed","Fri Apr 21 19:51:13 GMT 2023","Fri Apr 21 19:51:21 GMT 2023","7901","player.muse","test_playback_namespace","","","","test_avtransport_playback_state_transition_on_togglePlayPause_while_idle_playing_paused_and_empty_avt","
+    Perform a series of togglePlayPause commands and verify that the player AVTransport transitions as expected
+    Transition 1: IDLE    -> PLAYING
+    Transition 2: PLAYING -> PAUSED
+    Transition 3: PAUSED  -> PLAYING
+
+    Perform togglePlayPause command and verify that the player AVTransport playback throws ERROR_PLAYBACK_NO_CONTENT
+    :param module_dut:
+    :param ws_client:
+    :param mock_cq_server:
+    :return:
+    "
