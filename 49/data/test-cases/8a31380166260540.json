@@ -1,0 +1,1365 @@
+{
+  "uid" : "8a31380166260540",
+  "name" : "test_getInfo[SUB Devices]",
+  "fullName" : "player.muse.test_info_namespace#test_getInfo[SUB Devices]",
+  "historyId" : "df809facf4197242beed2afee6b67c30",
+  "time" : {
+    "start" : 1682720087691,
+    "stop" : 1682720090854,
+    "duration" : 3163
+  },
+  "description" : "\n    Verifies the fields in an DiscoveryInfoEvent returned from a getInfo call\n    SWPBL-87625 - Implement muse getInfo command\n    :param function_dut:\n    :param ws_client:\n    :return:\n    ",
+  "descriptionHtml" : "<pre><code>Verifies the fields in an DiscoveryInfoEvent returned from a getInfo call\nSWPBL-87625 - Implement muse getInfo command\n:param function_dut:\n:param ws_client:\n:return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "print_player_logs",
+    "time" : {
+      "start" : 1682720084316,
+      "stop" : 1682720084316,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "dut_manager",
+    "time" : {
+      "start" : 1682720058066,
+      "stop" : 1682720058066,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "print_muse_logs",
+    "time" : {
+      "start" : 1682720084316,
+      "stop" : 1682720084316,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "player_diag_levels",
+    "time" : {
+      "start" : 1682720054123,
+      "stop" : 1682720054123,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "disable_speaker_audio",
+    "time" : {
+      "start" : 1682720058066,
+      "stop" : 1682720058066,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "override_diag_levels",
+    "time" : {
+      "start" : 1682720086852,
+      "stop" : 1682720087652,
+      "duration" : 800
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "reset_dut_and_ws_managers",
+    "time" : {
+      "start" : 1682720084317,
+      "stop" : 1682720084317,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "a_playback_device",
+    "time" : {
+      "start" : 1682720055870,
+      "stop" : 1682720055870,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "muse_disable_speaker_audio",
+    "time" : {
+      "start" : 1682720058066,
+      "stop" : 1682720058066,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "operation_devices",
+    "time" : {
+      "start" : 1682720086852,
+      "stop" : 1682720086852,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "diag_level_devices",
+    "time" : {
+      "start" : 1682720086852,
+      "stop" : 1682720086852,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "ws_client_v2",
+    "time" : {
+      "start" : 1682720085491,
+      "stop" : 1682720086851,
+      "duration" : 1360
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "pytestconfig",
+    "time" : {
+      "start" : 1682720054123,
+      "stop" : 1682720054123,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "cleanup_player_overrides",
+    "time" : {
+      "start" : 1682720055870,
+      "stop" : 1682720055908,
+      "duration" : 38
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "all_playback_devices",
+    "time" : {
+      "start" : 1682720055870,
+      "stop" : 1682720055870,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "operation_kwargs",
+    "time" : {
+      "start" : 1682720086851,
+      "stop" : 1682720086852,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "diag_levels",
+    "time" : {
+      "start" : 1682720086852,
+      "stop" : 1682720086852,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "default_operation_devices",
+    "time" : {
+      "start" : 1682720086852,
+      "stop" : 1682720086852,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "function_dut",
+    "time" : {
+      "start" : 1682720084317,
+      "stop" : 1682720084369,
+      "duration" : 52
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "websocket_manager",
+    "time" : {
+      "start" : 1682720058067,
+      "stop" : 1682720058069,
+      "duration" : 2
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "all_devices",
+    "time" : {
+      "start" : 1682720054123,
+      "stop" : 1682720055870,
+      "duration" : 1747
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "ws_client",
+    "time" : {
+      "start" : 1682720084370,
+      "stop" : 1682720085491,
+      "duration" : 1121
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "environment",
+    "time" : {
+      "start" : 1682720054123,
+      "stop" : 1682720054123,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "cleanup_websocket_connections",
+    "time" : {
+      "start" : 1682720084369,
+      "stop" : 1682720084369,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "all_device_which_can_override_amps_interface",
+    "time" : {
+      "start" : 1682720055908,
+      "stop" : 1682720058065,
+      "duration" : 2157
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "\n    Verifies the fields in an DiscoveryInfoEvent returned from a getInfo call\n    SWPBL-87625 - Implement muse getInfo command\n    :param function_dut:\n    :param ws_client:\n    :return:\n    ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Helper to verify device attributes on a player",
+      "time" : {
+        "start" : 1682720088699,
+        "stop" : 1682720088770,
+        "duration" : 71
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Calculate device capabilities on a player",
+        "time" : {
+          "start" : 1682720088704,
+          "stop" : 1682720088704,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "zp",
+          "value" : "SonosZoneComponent(id=140387859666640, ip=172.18.255.253, modelNumber=S26, serialNumber=000386103235, architecture=vertigo, hardware_version=1.32.1.0-1.0)"
+        }, {
+          "name" : "capability",
+          "value" : "'AIRPLAY'"
+        }, {
+          "name" : "is_master",
+          "value" : "True"
+        }, {
+          "name" : "is_bonded",
+          "value" : "False"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Calculate device capabilities on a player",
+        "time" : {
+          "start" : 1682720088710,
+          "stop" : 1682720088710,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "zp",
+          "value" : "SonosZoneComponent(id=140387859666640, ip=172.18.255.253, modelNumber=S26, serialNumber=000386103235, architecture=vertigo, hardware_version=1.32.1.0-1.0)"
+        }, {
+          "name" : "capability",
+          "value" : "'AUDIO_CLIP'"
+        }, {
+          "name" : "is_master",
+          "value" : "True"
+        }, {
+          "name" : "is_bonded",
+          "value" : "False"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Calculate device capabilities on a player",
+        "time" : {
+          "start" : 1682720088715,
+          "stop" : 1682720088715,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "zp",
+          "value" : "SonosZoneComponent(id=140387859666640, ip=172.18.255.253, modelNumber=S26, serialNumber=000386103235, architecture=vertigo, hardware_version=1.32.1.0-1.0)"
+        }, {
+          "name" : "capability",
+          "value" : "'CLOUD'"
+        }, {
+          "name" : "is_master",
+          "value" : "True"
+        }, {
+          "name" : "is_bonded",
+          "value" : "False"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Calculate device capabilities on a player",
+        "time" : {
+          "start" : 1682720088722,
+          "stop" : 1682720088722,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "zp",
+          "value" : "SonosZoneComponent(id=140387859666640, ip=172.18.255.253, modelNumber=S26, serialNumber=000386103235, architecture=vertigo, hardware_version=1.32.1.0-1.0)"
+        }, {
+          "name" : "capability",
+          "value" : "'HT_PLAYBACK'"
+        }, {
+          "name" : "is_master",
+          "value" : "True"
+        }, {
+          "name" : "is_bonded",
+          "value" : "False"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Calculate device capabilities on a player",
+        "time" : {
+          "start" : 1682720088727,
+          "stop" : 1682720088727,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "zp",
+          "value" : "SonosZoneComponent(id=140387859666640, ip=172.18.255.253, modelNumber=S26, serialNumber=000386103235, architecture=vertigo, hardware_version=1.32.1.0-1.0)"
+        }, {
+          "name" : "capability",
+          "value" : "'LINE_IN'"
+        }, {
+          "name" : "is_master",
+          "value" : "True"
+        }, {
+          "name" : "is_bonded",
+          "value" : "False"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Calculate device capabilities on a player",
+        "time" : {
+          "start" : 1682720088732,
+          "stop" : 1682720088732,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "zp",
+          "value" : "SonosZoneComponent(id=140387859666640, ip=172.18.255.253, modelNumber=S26, serialNumber=000386103235, architecture=vertigo, hardware_version=1.32.1.0-1.0)"
+        }, {
+          "name" : "capability",
+          "value" : "'IR_CONTROL'"
+        }, {
+          "name" : "is_master",
+          "value" : "True"
+        }, {
+          "name" : "is_bonded",
+          "value" : "False"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Calculate device capabilities on a player",
+        "time" : {
+          "start" : 1682720088737,
+          "stop" : 1682720088737,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "zp",
+          "value" : "SonosZoneComponent(id=140387859666640, ip=172.18.255.253, modelNumber=S26, serialNumber=000386103235, architecture=vertigo, hardware_version=1.32.1.0-1.0)"
+        }, {
+          "name" : "capability",
+          "value" : "'HDMI'"
+        }, {
+          "name" : "is_master",
+          "value" : "True"
+        }, {
+          "name" : "is_bonded",
+          "value" : "False"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Calculate device capabilities on a player",
+        "time" : {
+          "start" : 1682720088741,
+          "stop" : 1682720088742,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "zp",
+          "value" : "SonosZoneComponent(id=140387859666640, ip=172.18.255.253, modelNumber=S26, serialNumber=000386103235, architecture=vertigo, hardware_version=1.32.1.0-1.0)"
+        }, {
+          "name" : "capability",
+          "value" : "'PLAYBACK'"
+        }, {
+          "name" : "is_master",
+          "value" : "True"
+        }, {
+          "name" : "is_bonded",
+          "value" : "False"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Calculate device capabilities on a player",
+        "time" : {
+          "start" : 1682720088747,
+          "stop" : 1682720088747,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "zp",
+          "value" : "SonosZoneComponent(id=140387859666640, ip=172.18.255.253, modelNumber=S26, serialNumber=000386103235, architecture=vertigo, hardware_version=1.32.1.0-1.0)"
+        }, {
+          "name" : "capability",
+          "value" : "'SPEAKER_DETECTION'"
+        }, {
+          "name" : "is_master",
+          "value" : "True"
+        }, {
+          "name" : "is_bonded",
+          "value" : "False"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Calculate device capabilities on a player",
+        "time" : {
+          "start" : 1682720088756,
+          "stop" : 1682720088756,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "zp",
+          "value" : "SonosZoneComponent(id=140387859666640, ip=172.18.255.253, modelNumber=S26, serialNumber=000386103235, architecture=vertigo, hardware_version=1.32.1.0-1.0)"
+        }, {
+          "name" : "capability",
+          "value" : "'VOICE'"
+        }, {
+          "name" : "is_master",
+          "value" : "True"
+        }, {
+          "name" : "is_bonded",
+          "value" : "False"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Calculate device capabilities on a player",
+        "time" : {
+          "start" : 1682720088760,
+          "stop" : 1682720088760,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "zp",
+          "value" : "SonosZoneComponent(id=140387859666640, ip=172.18.255.253, modelNumber=S26, serialNumber=000386103235, architecture=vertigo, hardware_version=1.32.1.0-1.0)"
+        }, {
+          "name" : "capability",
+          "value" : "'HT_POWER_STATE'"
+        }, {
+          "name" : "is_master",
+          "value" : "True"
+        }, {
+          "name" : "is_bonded",
+          "value" : "False"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Calculate device capabilities on a player",
+        "time" : {
+          "start" : 1682720088765,
+          "stop" : 1682720088765,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "zp",
+          "value" : "SonosZoneComponent(id=140387859666640, ip=172.18.255.253, modelNumber=S26, serialNumber=000386103235, architecture=vertigo, hardware_version=1.32.1.0-1.0)"
+        }, {
+          "name" : "capability",
+          "value" : "'FIXED_VOLUME'"
+        }, {
+          "name" : "is_master",
+          "value" : "True"
+        }, {
+          "name" : "is_bonded",
+          "value" : "False"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Calculate device capabilities on a player",
+        "time" : {
+          "start" : 1682720088770,
+          "stop" : 1682720088770,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "zp",
+          "value" : "SonosZoneComponent(id=140387859666640, ip=172.18.255.253, modelNumber=S26, serialNumber=000386103235, architecture=vertigo, hardware_version=1.32.1.0-1.0)"
+        }, {
+          "name" : "capability",
+          "value" : "'MICROPHONE_SWITCH'"
+        }, {
+          "name" : "is_master",
+          "value" : "True"
+        }, {
+          "name" : "is_bonded",
+          "value" : "False"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "device",
+        "value" : "{u'serialNumber': u'00-03-86-10-32-35:F', u'websocketUrl': u'wss://172.18.255.253:1443/websocket/api', u'swGen': 2, u'apiVersion': u'1.35.0-alpha.4-19-g0052763f+a9cf4db850.74.0-40280', u'id': u'RINCON_00038610323501400', u'softwareVersion': u'74.0-40280-dev-build-20230428-main', u'capabilities': [u'CLOUD'], u'modelDisplayName': u'Sub', u'hwVersion': u'1.32.1.0-1.0', u'model': u'S26', u'minApiVersion': u'1.1.0'}"
+      }, {
+        "name" : "zp",
+        "value" : "SonosZoneComponent(id=140387859666640, ip=172.18.255.253, modelNumber=S26, serialNumber=000386103235, architecture=vertigo, hardware_version=1.32.1.0-1.0)"
+      }, {
+        "name" : "is_master",
+        "value" : "True"
+      }, {
+        "name" : "is_bonded",
+        "value" : "False"
+      } ],
+      "stepsCount" : 13,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Helper to verify device attributes on a player",
+      "time" : {
+        "start" : 1682720090778,
+        "stop" : 1682720090854,
+        "duration" : 76
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Calculate device capabilities on a player",
+        "time" : {
+          "start" : 1682720090785,
+          "stop" : 1682720090785,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "zp",
+          "value" : "SonosZoneComponent(id=140387859666640, ip=172.18.255.253, modelNumber=S26, serialNumber=000386103235, architecture=vertigo, hardware_version=1.32.1.0-1.0)"
+        }, {
+          "name" : "capability",
+          "value" : "'AIRPLAY'"
+        }, {
+          "name" : "is_master",
+          "value" : "True"
+        }, {
+          "name" : "is_bonded",
+          "value" : "False"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Calculate device capabilities on a player",
+        "time" : {
+          "start" : 1682720090792,
+          "stop" : 1682720090792,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "zp",
+          "value" : "SonosZoneComponent(id=140387859666640, ip=172.18.255.253, modelNumber=S26, serialNumber=000386103235, architecture=vertigo, hardware_version=1.32.1.0-1.0)"
+        }, {
+          "name" : "capability",
+          "value" : "'AUDIO_CLIP'"
+        }, {
+          "name" : "is_master",
+          "value" : "True"
+        }, {
+          "name" : "is_bonded",
+          "value" : "False"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Calculate device capabilities on a player",
+        "time" : {
+          "start" : 1682720090798,
+          "stop" : 1682720090798,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "zp",
+          "value" : "SonosZoneComponent(id=140387859666640, ip=172.18.255.253, modelNumber=S26, serialNumber=000386103235, architecture=vertigo, hardware_version=1.32.1.0-1.0)"
+        }, {
+          "name" : "capability",
+          "value" : "'CLOUD'"
+        }, {
+          "name" : "is_master",
+          "value" : "True"
+        }, {
+          "name" : "is_bonded",
+          "value" : "False"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Calculate device capabilities on a player",
+        "time" : {
+          "start" : 1682720090803,
+          "stop" : 1682720090803,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "zp",
+          "value" : "SonosZoneComponent(id=140387859666640, ip=172.18.255.253, modelNumber=S26, serialNumber=000386103235, architecture=vertigo, hardware_version=1.32.1.0-1.0)"
+        }, {
+          "name" : "capability",
+          "value" : "'HT_PLAYBACK'"
+        }, {
+          "name" : "is_master",
+          "value" : "True"
+        }, {
+          "name" : "is_bonded",
+          "value" : "False"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Calculate device capabilities on a player",
+        "time" : {
+          "start" : 1682720090808,
+          "stop" : 1682720090808,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "zp",
+          "value" : "SonosZoneComponent(id=140387859666640, ip=172.18.255.253, modelNumber=S26, serialNumber=000386103235, architecture=vertigo, hardware_version=1.32.1.0-1.0)"
+        }, {
+          "name" : "capability",
+          "value" : "'LINE_IN'"
+        }, {
+          "name" : "is_master",
+          "value" : "True"
+        }, {
+          "name" : "is_bonded",
+          "value" : "False"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Calculate device capabilities on a player",
+        "time" : {
+          "start" : 1682720090813,
+          "stop" : 1682720090813,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "zp",
+          "value" : "SonosZoneComponent(id=140387859666640, ip=172.18.255.253, modelNumber=S26, serialNumber=000386103235, architecture=vertigo, hardware_version=1.32.1.0-1.0)"
+        }, {
+          "name" : "capability",
+          "value" : "'IR_CONTROL'"
+        }, {
+          "name" : "is_master",
+          "value" : "True"
+        }, {
+          "name" : "is_bonded",
+          "value" : "False"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Calculate device capabilities on a player",
+        "time" : {
+          "start" : 1682720090819,
+          "stop" : 1682720090819,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "zp",
+          "value" : "SonosZoneComponent(id=140387859666640, ip=172.18.255.253, modelNumber=S26, serialNumber=000386103235, architecture=vertigo, hardware_version=1.32.1.0-1.0)"
+        }, {
+          "name" : "capability",
+          "value" : "'HDMI'"
+        }, {
+          "name" : "is_master",
+          "value" : "True"
+        }, {
+          "name" : "is_bonded",
+          "value" : "False"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Calculate device capabilities on a player",
+        "time" : {
+          "start" : 1682720090827,
+          "stop" : 1682720090827,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "zp",
+          "value" : "SonosZoneComponent(id=140387859666640, ip=172.18.255.253, modelNumber=S26, serialNumber=000386103235, architecture=vertigo, hardware_version=1.32.1.0-1.0)"
+        }, {
+          "name" : "capability",
+          "value" : "'PLAYBACK'"
+        }, {
+          "name" : "is_master",
+          "value" : "True"
+        }, {
+          "name" : "is_bonded",
+          "value" : "False"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Calculate device capabilities on a player",
+        "time" : {
+          "start" : 1682720090832,
+          "stop" : 1682720090832,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "zp",
+          "value" : "SonosZoneComponent(id=140387859666640, ip=172.18.255.253, modelNumber=S26, serialNumber=000386103235, architecture=vertigo, hardware_version=1.32.1.0-1.0)"
+        }, {
+          "name" : "capability",
+          "value" : "'SPEAKER_DETECTION'"
+        }, {
+          "name" : "is_master",
+          "value" : "True"
+        }, {
+          "name" : "is_bonded",
+          "value" : "False"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Calculate device capabilities on a player",
+        "time" : {
+          "start" : 1682720090836,
+          "stop" : 1682720090836,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "zp",
+          "value" : "SonosZoneComponent(id=140387859666640, ip=172.18.255.253, modelNumber=S26, serialNumber=000386103235, architecture=vertigo, hardware_version=1.32.1.0-1.0)"
+        }, {
+          "name" : "capability",
+          "value" : "'VOICE'"
+        }, {
+          "name" : "is_master",
+          "value" : "True"
+        }, {
+          "name" : "is_bonded",
+          "value" : "False"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Calculate device capabilities on a player",
+        "time" : {
+          "start" : 1682720090841,
+          "stop" : 1682720090841,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "zp",
+          "value" : "SonosZoneComponent(id=140387859666640, ip=172.18.255.253, modelNumber=S26, serialNumber=000386103235, architecture=vertigo, hardware_version=1.32.1.0-1.0)"
+        }, {
+          "name" : "capability",
+          "value" : "'HT_POWER_STATE'"
+        }, {
+          "name" : "is_master",
+          "value" : "True"
+        }, {
+          "name" : "is_bonded",
+          "value" : "False"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Calculate device capabilities on a player",
+        "time" : {
+          "start" : 1682720090849,
+          "stop" : 1682720090849,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "zp",
+          "value" : "SonosZoneComponent(id=140387859666640, ip=172.18.255.253, modelNumber=S26, serialNumber=000386103235, architecture=vertigo, hardware_version=1.32.1.0-1.0)"
+        }, {
+          "name" : "capability",
+          "value" : "'FIXED_VOLUME'"
+        }, {
+          "name" : "is_master",
+          "value" : "True"
+        }, {
+          "name" : "is_bonded",
+          "value" : "False"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Calculate device capabilities on a player",
+        "time" : {
+          "start" : 1682720090854,
+          "stop" : 1682720090854,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "zp",
+          "value" : "SonosZoneComponent(id=140387859666640, ip=172.18.255.253, modelNumber=S26, serialNumber=000386103235, architecture=vertigo, hardware_version=1.32.1.0-1.0)"
+        }, {
+          "name" : "capability",
+          "value" : "'MICROPHONE_SWITCH'"
+        }, {
+          "name" : "is_master",
+          "value" : "True"
+        }, {
+          "name" : "is_bonded",
+          "value" : "False"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "device",
+        "value" : "{u'serialNumber': u'00-03-86-10-32-35:F', u'websocketUrl': u'wss://Sonos-000386103235.local:1443/websocket/api', u'swGen': 2, u'apiVersion': u'1.35.0-alpha.4-19-g0052763f+a9cf4db850.74.0-40280', u'id': u'RINCON_00038610323501400', u'softwareVersion': u'74.0-40280-dev-build-20230428-main', u'capabilities': [u'CLOUD'], u'modelDisplayName': u'Sub', u'hwVersion': u'1.32.1.0-1.0', u'model': u'S26', u'minApiVersion': u'1.1.0'}"
+      }, {
+        "name" : "zp",
+        "value" : "SonosZoneComponent(id=140387859666640, ip=172.18.255.253, modelNumber=S26, serialNumber=000386103235, architecture=vertigo, hardware_version=1.32.1.0-1.0)"
+      }, {
+        "name" : "is_master",
+        "value" : "True"
+      }, {
+        "name" : "is_bonded",
+        "value" : "False"
+      } ],
+      "stepsCount" : 13,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "539b191f50cf3815",
+      "name" : "stderr",
+      "source" : "539b191f50cf3815.txt",
+      "type" : "text/plain",
+      "size" : 58824
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 28,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "print_player_logs::0",
+    "time" : {
+      "start" : 1682720091112,
+      "stop" : 1682720091688,
+      "duration" : 576
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "dut_manager::0",
+    "time" : {
+      "start" : 1682720120018,
+      "stop" : 1682720120087,
+      "duration" : 69
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "print_muse_logs::0",
+    "time" : {
+      "start" : 1682720091111,
+      "stop" : 1682720091111,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "player_diag_levels::0",
+    "time" : {
+      "start" : 1682720240106,
+      "stop" : 1682720240106,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "disable_speaker_audio::0",
+    "time" : {
+      "start" : 1682720240066,
+      "stop" : 1682720240066,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "override_diag_levels::0",
+    "time" : {
+      "start" : 1682720090894,
+      "stop" : 1682720090965,
+      "duration" : 71
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "reset_dut_and_ws_managers::0",
+    "time" : {
+      "start" : 1682720090974,
+      "stop" : 1682720091110,
+      "duration" : 136
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "cleanup_player_overrides::0",
+    "time" : {
+      "start" : 1682720240067,
+      "stop" : 1682720240102,
+      "duration" : 35
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "websocket_manager::0",
+    "time" : {
+      "start" : 1682720120016,
+      "stop" : 1682720120016,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "cleanup_websocket_connections::0",
+    "time" : {
+      "start" : 1682720090968,
+      "stop" : 1682720090973,
+      "duration" : 5
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "muse_info_tests"
+  }, {
+    "name" : "tag",
+    "value" : "nightly"
+  }, {
+    "name" : "tag",
+    "value" : "priority3"
+  }, {
+    "name" : "parentSuite",
+    "value" : "player.muse"
+  }, {
+    "name" : "suite",
+    "value" : "test_info_namespace"
+  }, {
+    "name" : "host",
+    "value" : "60b978cb45a4"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython2"
+  }, {
+    "name" : "package",
+    "value" : "player.muse.test_info_namespace"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "device_filter",
+    "value" : "frozenset(['S37', 'S26', 'Sub'])"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "nightly", "priority3", "muse_info_tests" ]
+  },
+  "source" : "8a31380166260540.json",
+  "parameterValues" : [ "frozenset(['S37', 'S26', 'Sub'])" ]
+}
