@@ -1,0 +1,61 @@
+200 [05/02/23 8:45:36 pm] GET /request/api/logs/clear SWGen=-
+200 [05/02/23 8:45:36 pm] POST /features/v1/set-config-properties SWGen=-
+Client using [lechmere.6] protocol
+[
+  {
+    namespace: 'topology:1',
+    householdId: 'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP',
+    name: 'cloudRegistration',
+    type: 'cloudRegistrationStatus'
+  },
+  {
+    sonosId: '998936323',
+    householdLocationId: '8a40Rbr3v5MIZA98Z4m7mA==',
+    museHouseholdId: 'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.mOlQGssWivqRNCc2FFPF',
+    playerId: 'RINCON_0003861038CD01400',
+    groupId: 'RINCON_0003861038CD01400:2845896409',
+    sessionId: null,
+    roomName: 'Emulator',
+    groupName: 'Emulator',
+    serial: '0003861038CD',
+    model: 'S39',
+    modelDisplayName: 'Era 100',
+    ipAddr: '172.18.255.251',
+    port: 1400,
+    isCoordinator: true,
+    isVisible: true,
+    isSatellite: false,
+    isSecure: true,
+    bootSequenceId: 9,
+    hwVersion: '1.38.1.0-1.0',
+    swVersion: '74.0-41020-dev-build-20230502-main',
+    swGen: 2,
+    dhcpMac: '0003861038CD',
+    networkIPAddress: '172.18.0.0',
+    networkMask: '255.255.0.0',
+    systemUptimeSeconds: 1195,
+    anacapaUptimeSeconds: 2,
+    apiVersion: '1.35.0-alpha.5-8-g39d9fd49+d1f8c80c16.74.0-41020',
+    minApiVersion: '1.1.0',
+    capabilities: [
+      'CLOUD',
+      'PLAYBACK',
+      'AIRPLAY',
+      'LINE_IN',
+      'VOICE',
+      'AUDIO_CLIP',
+      'MICROPHONE_SWITCH'
+    ],
+    householdId: 'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP',
+    locationId: undefined
+  }
+]
+Received registration message from [0003861038CD]
+REGISTRATION ACK sent to [0003861038cd]: 06040000{}
+My client is: [object Object]
+SET CONFIG sent to [0003861038cd]: 06050000{"museHouseholdId":"Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.mOlQGssWivqRNCc2FFPF"}
+200 [05/02/23 8:45:44 pm] GET /entitlements/api/v1/users/998936323/entitlements SWGen=2
+200 [05/02/23 8:45:50 pm] GET /features/v1/config?swVersion=74.0-41020-dev-build-20230502-main&hwVersion=1.38.1.0-1.0 SWGen=2
+200 [05/02/23 8:45:52 pm] POST /auth/oauth/v3/clients?clientKey=e61bc77c-39cd-4ed0-a5e7-5ad316a0efc5&keyName=test SWGen=-
+200 [05/02/23 8:45:52 pm] GET /request/api/logs/clear SWGen=-
+200 [05/02/23 8:45:53 pm] GET /auth/oauth/v3/clients/flush SWGen=-
