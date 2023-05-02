@@ -1,0 +1,2908 @@
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /udplog HTTP/1.1" 200 None
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.251] command: <grep -v "LogToExternal" /jffs/localsettings.txt > /tmp/nokeyword.txt ; mv /tmp/nokeyword.txt /jffs/localsettings.txt>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.251] response: <>
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /udplog HTTP/1.1" 200 None
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.251] command: <grep -v "LogToExternal" /jffs/localsettings.txt > /tmp/nokeyword.txt ; mv /tmp/nokeyword.txt /jffs/localsettings.txt>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.251] response: <>
+WARNING:SONOS.ZP.Logger:Log file cleanup failed, already gone?
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /udplog HTTP/1.1" 200 None
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.251] command: <grep -v "LogToExternal" /jffs/localsettings.txt > /tmp/nokeyword.txt ; mv /tmp/nokeyword.txt /jffs/localsettings.txt>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.251] response: <>
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /udplog?host=172.18.0.7&port=3333 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /status/perf HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /status/tmp/AirPlay.log HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /status/opt/log/anacapa.vi.trace HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /status/opt/log/libassistant.log.2 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /status/opt/log/libassistant.log.1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /status/opt/log/libassistant.log HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /status/opt/log/anacapa.dc.trace HTTP/1.1" 200 None
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.ChannelMapSet> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=0003861038C8, architecture=optimo, hardware_version=1.38.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.ChannelMapSet> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=0003861038C8, architecture=optimo, hardware_version=1.38.1.0-1.0) = 
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.HTSatChanMapSet> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=0003861038C8, architecture=optimo, hardware_version=1.38.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.HTSatChanMapSet> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=0003861038C8, architecture=optimo, hardware_version=1.38.1.0-1.0) = 
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.HTSatChanMapSet> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=0003861038C8, architecture=optimo, hardware_version=1.38.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.HTSatChanMapSet> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=0003861038C8, architecture=optimo, hardware_version=1.38.1.0-1.0) = 
+DEBUG:SONOS.sonos.services.base:Getting state variable <GroupManagement.GroupCoordinatorIsLocal> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=0003861038C8, architecture=optimo, hardware_version=1.38.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <GroupManagement.GroupCoordinatorIsLocal> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=0003861038C8, architecture=optimo, hardware_version=1.38.1.0-1.0) = 1
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=0003861038C8, architecture=optimo, hardware_version=1.38.1.0-1.0) invokes AVTransport.GetTransportInfo("InstanceID"="0", "headers"="{}")
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=0003861038C8, architecture=optimo, hardware_version=1.38.1.0-1.0) AVTransport.GetTransportInfo returns '{'CurrentTransportState': u'STOPPED', 'CurrentTransportStatus': u'OK', 'CurrentSpeed': u'1'}'
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=0003861038C8, architecture=optimo, hardware_version=1.38.1.0-1.0) invokes AVTransport.GetTransportInfo("InstanceID"="0", "headers"="{}")
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=0003861038C8, architecture=optimo, hardware_version=1.38.1.0-1.0) AVTransport.GetTransportInfo returns '{'CurrentTransportState': u'STOPPED', 'CurrentTransportStatus': u'OK', 'CurrentSpeed': u'1'}'
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=0003861038C8, architecture=optimo, hardware_version=1.38.1.0-1.0) invokes RenderingControl.SetVolume("InstanceID"="0", "DesiredVolume"="10", "Channel"="Master", "headers"="{}")
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=0003861038C8, architecture=optimo, hardware_version=1.38.1.0-1.0) RenderingControl.SetVolume returns '{}'
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=0003861038C8, architecture=optimo, hardware_version=1.38.1.0-1.0) invokes ContentDirectory.Browse("ObjectID"="Q:0", "BrowseFlag"="BrowseDirectChildren", "Filter"="0", "headers"="{}", "RequestedCount"="0", "StartingIndex"="0", "SortCriteria"="")
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=0003861038C8, architecture=optimo, hardware_version=1.38.1.0-1.0) ContentDirectory.Browse returns '{'NumberReturned': u'0', 'UpdateID': u'1', 'Result': u'<DIDL-Lite xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:upnp="urn:schemas-upnp-org:metadata-1-0/upnp/" xmlns:r="urn:schemas-rinconnetworks-com:metadata-1-0/" xmlns="urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/"></DIDL-Lite>', 'TotalMatches': u'0'}'
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): oauth.test.ws.sonos.com:443
+DEBUG:urllib3.connectionpool:https://oauth.test.ws.sonos.com:443 "POST /auth/oauth/v2/token HTTP/1.1" 200 212
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): oauth.test.ws.sonos.com:443
+DEBUG:urllib3.connectionpool:https://oauth.test.ws.sonos.com:443 "POST /auth/oauth/v2/token HTTP/1.1" 200 218
+DEBUG:Muse-REST:<Tue May  2 18:37:05 2023> REST Request:
+	GET https://172.18.255.251:1443/api/v1/players/local/info
+	Headers: {'X-Sonos-Api-Key': 'e61bc77c-39cd-4ed0-a5e7-5ad316a0efc5'}
+	Body: None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): 172.18.255.251:1443
+DEBUG:urllib3.connectionpool:https://172.18.255.251:1443 "GET /api/v1/players/local/info HTTP/1.1" 200 None
+INFO:Muse-REST:<Tue May  2 18:37:05 2023> REST Response:
+	Response status: 200
+	Response content: 
+{
+    "playerId": "RINCON_0003861038C801400", 
+    "websocketUrl": "wss://172.18.255.251:1443/websocket/api", 
+    "householdId": "Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.GTKaA7ISl5zRbInU3mAD", 
+    "restUrl": "https://172.18.255.251:1443/api", 
+    "locationId": "lc_ca90a63362e04e2f974afa5773d3923c", 
+    "device": {
+        "name": "Emulator", 
+        "serialNumber": "00-03-86-10-38-C8:F", 
+        "websocketUrl": "wss://172.18.255.251:1443/websocket/api", 
+        "swGen": 2, 
+        "apiVersion": "1.35.0-alpha.5-8-g39d9fd49+d1f8c80c16.74.0-41010", 
+        "id": "RINCON_0003861038C801400", 
+        "softwareVersion": "74.0-41010-dev-build-20230502-main", 
+        "capabilities": [
+            "CLOUD", 
+            "PLAYBACK", 
+            "AIRPLAY", 
+            "LINE_IN", 
+            "VOICE", 
+            "AUDIO_CLIP", 
+            "MICROPHONE_SWITCH"
+        ], 
+        "modelDisplayName": "Era 100", 
+        "hwVersion": "1.38.1.0-1.0", 
+        "model": "S39", 
+        "minApiVersion": "1.1.0"
+    }, 
+    "groupId": "RINCON_00038610369D01400:341756476"
+}
+DEBUG:Muse-Websocket:<Tue May  2 18:37:05 2023> Opened ws connection to: wss://172.18.255.251:1443/websocket/api?key=e61bc77c-39cd-4ed0-a5e7-5ad316a0efc5
+
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /udplog HTTP/1.1" 200 None
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.253] command: <grep -v "LogToExternal" /jffs/localsettings.txt > /tmp/nokeyword.txt ; mv /tmp/nokeyword.txt /jffs/localsettings.txt>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.253] response: <>
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /udplog HTTP/1.1" 200 None
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.253] command: <grep -v "LogToExternal" /jffs/localsettings.txt > /tmp/nokeyword.txt ; mv /tmp/nokeyword.txt /jffs/localsettings.txt>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.253] response: <>
+WARNING:SONOS.ZP.Logger:Log file cleanup failed, already gone?
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /udplog HTTP/1.1" 200 None
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.253] command: <grep -v "LogToExternal" /jffs/localsettings.txt > /tmp/nokeyword.txt ; mv /tmp/nokeyword.txt /jffs/localsettings.txt>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.253] response: <>
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /udplog?host=172.18.0.7&port=3333 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /status/perf HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /status/tmp/AirPlay.log HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /status/opt/log/anacapa.vi.trace HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /status/opt/log/libassistant.log.2 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /status/opt/log/libassistant.log.1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /status/opt/log/libassistant.log HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /status/opt/log/anacapa.dc.trace HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /udplog HTTP/1.1" 200 None
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.252] command: <grep -v "LogToExternal" /jffs/localsettings.txt > /tmp/nokeyword.txt ; mv /tmp/nokeyword.txt /jffs/localsettings.txt>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.252] response: <>
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /udplog HTTP/1.1" 200 None
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.252] command: <grep -v "LogToExternal" /jffs/localsettings.txt > /tmp/nokeyword.txt ; mv /tmp/nokeyword.txt /jffs/localsettings.txt>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.252] response: <>
+WARNING:SONOS.ZP.Logger:Log file cleanup failed, already gone?
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /udplog HTTP/1.1" 200 None
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.252] command: <grep -v "LogToExternal" /jffs/localsettings.txt > /tmp/nokeyword.txt ; mv /tmp/nokeyword.txt /jffs/localsettings.txt>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.252] response: <>
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /udplog?host=172.18.0.7&port=3333 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /status/perf HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /status/tmp/AirPlay.log HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /status/opt/log/anacapa.vi.trace HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /status/opt/log/libassistant.log.2 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /status/opt/log/libassistant.log.1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /status/opt/log/libassistant.log HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /status/opt/log/anacapa.dc.trace HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): oauth.test.ws.sonos.com:443
+DEBUG:urllib3.connectionpool:https://oauth.test.ws.sonos.com:443 "POST /auth/oauth/v2/token HTTP/1.1" 200 212
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): oauth.test.ws.sonos.com:443
+DEBUG:urllib3.connectionpool:https://oauth.test.ws.sonos.com:443 "POST /auth/oauth/v2/token HTTP/1.1" 200 218
+DEBUG:Muse-REST:<Tue May  2 18:37:07 2023> REST Request:
+	GET https://172.18.255.253:1443/api/v1/players/local/info
+	Headers: {'X-Sonos-Api-Key': 'e61bc77c-39cd-4ed0-a5e7-5ad316a0efc5'}
+	Body: None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): 172.18.255.253:1443
+DEBUG:urllib3.connectionpool:https://172.18.255.253:1443 "GET /api/v1/players/local/info HTTP/1.1" 200 None
+INFO:Muse-REST:<Tue May  2 18:37:08 2023> REST Response:
+	Response status: 200
+	Response content: 
+{
+    "playerId": "RINCON_00038610369D01400", 
+    "websocketUrl": "wss://172.18.255.253:1443/websocket/api", 
+    "householdId": "Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.GTKaA7ISl5zRbInU3mAD", 
+    "restUrl": "https://172.18.255.253:1443/api", 
+    "locationId": "lc_ca90a63362e04e2f974afa5773d3923c", 
+    "device": {
+        "name": "Emulator", 
+        "serialNumber": "00-03-86-10-36-9D:4", 
+        "websocketUrl": "wss://172.18.255.253:1443/websocket/api", 
+        "swGen": 2, 
+        "apiVersion": "1.35.0-alpha.5-8-g39d9fd49+d1f8c80c16.74.0-41010", 
+        "id": "RINCON_00038610369D01400", 
+        "softwareVersion": "74.0-41010-dev-build-20230502-main", 
+        "capabilities": [
+            "CLOUD", 
+            "HT_PLAYBACK", 
+            "PLAYBACK", 
+            "AIRPLAY", 
+            "AUDIO_CLIP", 
+            "IR_CONTROL"
+        ], 
+        "modelDisplayName": "Ray", 
+        "hwVersion": "1.36.1.0-1.0", 
+        "model": "S36", 
+        "minApiVersion": "1.1.0"
+    }, 
+    "groupId": "RINCON_00038610369D01400:341756477"
+}
+DEBUG:Muse-Websocket:<Tue May  2 18:37:08 2023> Opened ws connection to: wss://172.18.255.253:1443/websocket/api?key=e61bc77c-39cd-4ed0-a5e7-5ad316a0efc5
+
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): oauth.test.ws.sonos.com:443
+DEBUG:urllib3.connectionpool:https://oauth.test.ws.sonos.com:443 "POST /auth/oauth/v2/token HTTP/1.1" 200 212
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): oauth.test.ws.sonos.com:443
+DEBUG:urllib3.connectionpool:https://oauth.test.ws.sonos.com:443 "POST /auth/oauth/v2/token HTTP/1.1" 200 218
+DEBUG:Muse-REST:<Tue May  2 18:37:09 2023> REST Request:
+	GET https://172.18.255.252:1443/api/v1/players/local/info
+	Headers: {'X-Sonos-Api-Key': 'e61bc77c-39cd-4ed0-a5e7-5ad316a0efc5'}
+	Body: None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): 172.18.255.252:1443
+DEBUG:urllib3.connectionpool:https://172.18.255.252:1443 "GET /api/v1/players/local/info HTTP/1.1" 200 None
+INFO:Muse-REST:<Tue May  2 18:37:09 2023> REST Response:
+	Response status: 200
+	Response content: 
+{
+    "playerId": "RINCON_00038610381F01400", 
+    "websocketUrl": "wss://172.18.255.252:1443/websocket/api", 
+    "householdId": "Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.GTKaA7ISl5zRbInU3mAD", 
+    "restUrl": "https://172.18.255.252:1443/api", 
+    "locationId": "lc_ca90a63362e04e2f974afa5773d3923c", 
+    "device": {
+        "name": "Emulator", 
+        "serialNumber": "00-03-86-10-38-1F:G", 
+        "websocketUrl": "wss://172.18.255.252:1443/websocket/api", 
+        "swGen": 2, 
+        "apiVersion": "1.35.0-alpha.5-8-g39d9fd49+d1f8c80c16.74.0-41010", 
+        "id": "RINCON_00038610381F01400", 
+        "softwareVersion": "74.0-41010-dev-build-20230502-main", 
+        "capabilities": [
+            "CLOUD", 
+            "PLAYBACK", 
+            "AIRPLAY", 
+            "LINE_IN", 
+            "VOICE", 
+            "AUDIO_CLIP", 
+            "MICROPHONE_SWITCH"
+        ], 
+        "modelDisplayName": "Era 100", 
+        "hwVersion": "1.38.1.0-1.0", 
+        "model": "S39", 
+        "minApiVersion": "1.1.0"
+    }, 
+    "groupId": "RINCON_00038610381F01400:2910063515"
+}
+DEBUG:Muse-Websocket:<Tue May  2 18:37:09 2023> Opened ws connection to: wss://172.18.255.252:1443/websocket/api?key=e61bc77c-39cd-4ed0-a5e7-5ad316a0efc5
+
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /udplog HTTP/1.1" 200 None
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.253] command: <grep -v "LogToExternal" /jffs/localsettings.txt > /tmp/nokeyword.txt ; mv /tmp/nokeyword.txt /jffs/localsettings.txt>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.253] response: <>
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /udplog?host=172.18.0.7&port=3333 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /status/perf HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /udplog HTTP/1.1" 200 None
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.252] command: <grep -v "LogToExternal" /jffs/localsettings.txt > /tmp/nokeyword.txt ; mv /tmp/nokeyword.txt /jffs/localsettings.txt>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.252] response: <>
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /udplog?host=172.18.0.7&port=3333 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /status/perf HTTP/1.1" 200 None
+DEBUG:Muse-Websocket:<Tue May  2 18:37:09 2023> Sent to 172.18.255.253: 
+[
+    {
+        "command": "subscribe", 
+        "cmdId": "1", 
+        "namespace": "groups", 
+        "householdId": "Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.GTKaA7ISl5zRbInU3mAD"
+    }, 
+    {}
+]
+DEBUG:Muse-Websocket:No matched event found, waiting <1> seconds for more events
+INFO:Muse-Websocket:<Tue May  2 18:37:09 2023> Received from 172.18.255.253: 
+[
+    {
+        "success": true, 
+        "namespace": "groups", 
+        "householdId": "Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.GTKaA7ISl5zRbInU3mAD", 
+        "cmdId": "1", 
+        "locationId": "lc_ca90a63362e04e2f974afa5773d3923c", 
+        "type": "none", 
+        "response": "subscribe"
+    }, 
+    {}
+]
+INFO:Muse-Websocket:<Tue May  2 18:37:09 2023> Received from 172.18.255.253: 
+[
+    {
+        "locationId": "lc_ca90a63362e04e2f974afa5773d3923c", 
+        "type": "groups", 
+        "namespace": "groups", 
+        "name": "groups", 
+        "householdId": "Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.GTKaA7ISl5zRbInU3mAD"
+    }, 
+    {
+        "players": [
+            {
+                "name": "Emulator", 
+                "capabilities": [
+                    "CLOUD", 
+                    "HT_PLAYBACK", 
+                    "PLAYBACK", 
+                    "AIRPLAY", 
+                    "AUDIO_CLIP", 
+                    "IR_CONTROL"
+                ], 
+                "websocketUrl": "wss://172.18.255.253:1443/websocket/api", 
+                "deviceIds": [
+                    "RINCON_00038610369D01400"
+                ], 
+                "apiVersion": "1.35.0-alpha.5-8-g39d9fd49+d1f8c80c16.74.0-41010", 
+                "softwareVersion": "74.0-41010-dev-build-20230502-main", 
+                "minApiVersion": "1.1.0", 
+                "isUnregistered": false, 
+                "id": "RINCON_00038610369D01400"
+            }, 
+            {
+                "name": "Emulator", 
+                "capabilities": [
+                    "CLOUD", 
+                    "PLAYBACK", 
+                    "AIRPLAY", 
+                    "LINE_IN", 
+                    "VOICE", 
+                    "AUDIO_CLIP", 
+                    "MICROPHONE_SWITCH"
+                ], 
+                "websocketUrl": "wss://172.18.255.252:1443/websocket/api", 
+                "deviceIds": [
+                    "RINCON_00038610381F01400"
+                ], 
+                "apiVersion": "1.35.0-alpha.5-8-g39d9fd49+d1f8c80c16.74.0-41010", 
+                "softwareVersion": "74.0-41010-dev-build-20230502-main", 
+                "minApiVersion": "1.1.0", 
+                "isUnregistered": false, 
+                "id": "RINCON_00038610381F01400"
+            }, 
+            {
+                "name": "Emulator", 
+                "capabilities": [
+                    "CLOUD", 
+                    "PLAYBACK", 
+                    "AIRPLAY", 
+                    "LINE_IN", 
+                    "VOICE", 
+                    "AUDIO_CLIP", 
+                    "MICROPHONE_SWITCH"
+                ], 
+                "websocketUrl": "wss://172.18.255.251:1443/websocket/api", 
+                "deviceIds": [
+                    "RINCON_0003861038C801400"
+                ], 
+                "apiVersion": "1.35.0-alpha.5-8-g39d9fd49+d1f8c80c16.74.0-41010", 
+                "softwareVersion": "74.0-41010-dev-build-20230502-main", 
+                "minApiVersion": "1.1.0", 
+                "isUnregistered": false, 
+                "id": "RINCON_0003861038C801400"
+            }
+        ], 
+        "partial": false, 
+        "groups": [
+            {
+                "playerIds": [
+                    "RINCON_00038610369D01400"
+                ], 
+                "coordinatorId": "RINCON_00038610369D01400", 
+                "id": "RINCON_00038610369D01400:341756477", 
+                "name": "Emulator"
+            }, 
+            {
+                "playerIds": [
+                    "RINCON_00038610381F01400"
+                ], 
+                "coordinatorId": "RINCON_00038610381F01400", 
+                "id": "RINCON_00038610381F01400:2910063515", 
+                "name": "Emulator"
+            }, 
+            {
+                "playerIds": [
+                    "RINCON_0003861038C801400"
+                ], 
+                "coordinatorId": "RINCON_0003861038C801400", 
+                "id": "RINCON_00038610369D01400:341756476", 
+                "name": "Emulator"
+            }
+        ]
+    }
+]
+DEBUG:Muse-Websocket:<Tue May  2 18:37:10 2023> Sent to 172.18.255.251: 
+[
+    {
+        "command": "subscribe", 
+        "cmdId": "1", 
+        "namespace": "groups", 
+        "householdId": "Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.GTKaA7ISl5zRbInU3mAD"
+    }, 
+    {}
+]
+DEBUG:Muse-Websocket:No matched event found, waiting <1> seconds for more events
+INFO:Muse-Websocket:<Tue May  2 18:37:10 2023> Received from 172.18.255.251: 
+[
+    {
+        "success": true, 
+        "namespace": "groups", 
+        "householdId": "Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.GTKaA7ISl5zRbInU3mAD", 
+        "cmdId": "1", 
+        "locationId": "lc_ca90a63362e04e2f974afa5773d3923c", 
+        "type": "none", 
+        "response": "subscribe"
+    }, 
+    {}
+]
+INFO:Muse-Websocket:<Tue May  2 18:37:10 2023> Received from 172.18.255.251: 
+[
+    {
+        "locationId": "lc_ca90a63362e04e2f974afa5773d3923c", 
+        "type": "groups", 
+        "namespace": "groups", 
+        "name": "groups", 
+        "householdId": "Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.GTKaA7ISl5zRbInU3mAD"
+    }, 
+    {
+        "players": [
+            {
+                "name": "Emulator", 
+                "capabilities": [
+                    "CLOUD", 
+                    "PLAYBACK", 
+                    "AIRPLAY", 
+                    "LINE_IN", 
+                    "VOICE", 
+                    "AUDIO_CLIP", 
+                    "MICROPHONE_SWITCH"
+                ], 
+                "websocketUrl": "wss://172.18.255.251:1443/websocket/api", 
+                "deviceIds": [
+                    "RINCON_0003861038C801400"
+                ], 
+                "apiVersion": "1.35.0-alpha.5-8-g39d9fd49+d1f8c80c16.74.0-41010", 
+                "softwareVersion": "74.0-41010-dev-build-20230502-main", 
+                "minApiVersion": "1.1.0", 
+                "isUnregistered": false, 
+                "id": "RINCON_0003861038C801400"
+            }, 
+            {
+                "name": "Emulator", 
+                "capabilities": [
+                    "CLOUD", 
+                    "HT_PLAYBACK", 
+                    "PLAYBACK", 
+                    "AIRPLAY", 
+                    "AUDIO_CLIP"
+                ], 
+                "websocketUrl": "wss://172.18.255.253:1443/websocket/api", 
+                "deviceIds": [
+                    "RINCON_00038610369D01400"
+                ], 
+                "apiVersion": "1.35.0-alpha.5-8-g39d9fd49+d1f8c80c16.74.0-41010", 
+                "softwareVersion": "74.0-41010-dev-build-20230502-main", 
+                "minApiVersion": "1.1.0", 
+                "isUnregistered": false, 
+                "id": "RINCON_00038610369D01400"
+            }, 
+            {
+                "name": "Emulator", 
+                "capabilities": [
+                    "CLOUD", 
+                    "PLAYBACK", 
+                    "AIRPLAY", 
+                    "LINE_IN", 
+                    "VOICE", 
+                    "AUDIO_CLIP", 
+                    "MICROPHONE_SWITCH"
+                ], 
+                "websocketUrl": "wss://172.18.255.252:1443/websocket/api", 
+                "deviceIds": [
+                    "RINCON_00038610381F01400"
+                ], 
+                "apiVersion": "1.35.0-alpha.5-8-g39d9fd49+d1f8c80c16.74.0-41010", 
+                "softwareVersion": "74.0-41010-dev-build-20230502-main", 
+                "minApiVersion": "1.1.0", 
+                "isUnregistered": false, 
+                "id": "RINCON_00038610381F01400"
+            }
+        ], 
+        "partial": false, 
+        "groups": [
+            {
+                "playerIds": [
+                    "RINCON_0003861038C801400"
+                ], 
+                "coordinatorId": "RINCON_0003861038C801400", 
+                "id": "RINCON_00038610369D01400:341756476", 
+                "name": "Emulator"
+            }, 
+            {
+                "playerIds": [
+                    "RINCON_00038610369D01400"
+                ], 
+                "coordinatorId": "RINCON_00038610369D01400", 
+                "id": "RINCON_00038610369D01400:341756477", 
+                "name": "Emulator"
+            }, 
+            {
+                "playerIds": [
+                    "RINCON_00038610381F01400"
+                ], 
+                "coordinatorId": "RINCON_00038610381F01400", 
+                "id": "RINCON_00038610381F01400:2910063515", 
+                "name": "Emulator"
+            }
+        ]
+    }
+]
+DEBUG:Muse-Websocket:<Tue May  2 18:37:11 2023> Sent to 172.18.255.252: 
+[
+    {
+        "command": "subscribe", 
+        "cmdId": "1", 
+        "namespace": "groups", 
+        "householdId": "Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.GTKaA7ISl5zRbInU3mAD"
+    }, 
+    {}
+]
+DEBUG:Muse-Websocket:No matched event found, waiting <1> seconds for more events
+INFO:Muse-Websocket:<Tue May  2 18:37:11 2023> Received from 172.18.255.252: 
+[
+    {
+        "success": true, 
+        "namespace": "groups", 
+        "householdId": "Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.GTKaA7ISl5zRbInU3mAD", 
+        "cmdId": "1", 
+        "locationId": "lc_ca90a63362e04e2f974afa5773d3923c", 
+        "type": "none", 
+        "response": "subscribe"
+    }, 
+    {}
+]
+INFO:Muse-Websocket:<Tue May  2 18:37:11 2023> Received from 172.18.255.252: 
+[
+    {
+        "locationId": "lc_ca90a63362e04e2f974afa5773d3923c", 
+        "type": "groups", 
+        "namespace": "groups", 
+        "name": "groups", 
+        "householdId": "Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.GTKaA7ISl5zRbInU3mAD"
+    }, 
+    {
+        "players": [
+            {
+                "name": "Emulator", 
+                "capabilities": [
+                    "CLOUD", 
+                    "PLAYBACK", 
+                    "AIRPLAY", 
+                    "LINE_IN", 
+                    "VOICE", 
+                    "AUDIO_CLIP", 
+                    "MICROPHONE_SWITCH"
+                ], 
+                "websocketUrl": "wss://172.18.255.252:1443/websocket/api", 
+                "deviceIds": [
+                    "RINCON_00038610381F01400"
+                ], 
+                "apiVersion": "1.35.0-alpha.5-8-g39d9fd49+d1f8c80c16.74.0-41010", 
+                "softwareVersion": "74.0-41010-dev-build-20230502-main", 
+                "minApiVersion": "1.1.0", 
+                "isUnregistered": false, 
+                "id": "RINCON_00038610381F01400"
+            }, 
+            {
+                "name": "Emulator", 
+                "capabilities": [
+                    "CLOUD", 
+                    "PLAYBACK", 
+                    "AIRPLAY", 
+                    "LINE_IN", 
+                    "VOICE", 
+                    "AUDIO_CLIP", 
+                    "MICROPHONE_SWITCH"
+                ], 
+                "websocketUrl": "wss://172.18.255.251:1443/websocket/api", 
+                "deviceIds": [
+                    "RINCON_0003861038C801400"
+                ], 
+                "apiVersion": "1.35.0-alpha.5-8-g39d9fd49+d1f8c80c16.74.0-41010", 
+                "softwareVersion": "74.0-41010-dev-build-20230502-main", 
+                "minApiVersion": "1.1.0", 
+                "isUnregistered": false, 
+                "id": "RINCON_0003861038C801400"
+            }, 
+            {
+                "name": "Emulator", 
+                "capabilities": [
+                    "CLOUD", 
+                    "HT_PLAYBACK", 
+                    "PLAYBACK", 
+                    "AIRPLAY", 
+                    "AUDIO_CLIP"
+                ], 
+                "websocketUrl": "wss://172.18.255.253:1443/websocket/api", 
+                "deviceIds": [
+                    "RINCON_00038610369D01400"
+                ], 
+                "apiVersion": "1.35.0-alpha.5-8-g39d9fd49+d1f8c80c16.74.0-41010", 
+                "softwareVersion": "74.0-41010-dev-build-20230502-main", 
+                "minApiVersion": "1.1.0", 
+                "isUnregistered": false, 
+                "id": "RINCON_00038610369D01400"
+            }
+        ], 
+        "partial": false, 
+        "groups": [
+            {
+                "playerIds": [
+                    "RINCON_00038610381F01400"
+                ], 
+                "coordinatorId": "RINCON_00038610381F01400", 
+                "id": "RINCON_00038610381F01400:2910063515", 
+                "name": "Emulator"
+            }, 
+            {
+                "playerIds": [
+                    "RINCON_0003861038C801400"
+                ], 
+                "coordinatorId": "RINCON_0003861038C801400", 
+                "id": "RINCON_00038610369D01400:341756476", 
+                "name": "Emulator"
+            }, 
+            {
+                "playerIds": [
+                    "RINCON_00038610369D01400"
+                ], 
+                "coordinatorId": "RINCON_00038610369D01400", 
+                "id": "RINCON_00038610369D01400:341756477", 
+                "name": "Emulator"
+            }
+        ]
+    }
+]
+DEBUG:Muse-Websocket:<Tue May  2 18:37:12 2023> Sent to 172.18.255.251: 
+[
+    {
+        "command": "getAreas", 
+        "cmdId": "2", 
+        "namespace": "areas", 
+        "householdId": "Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.GTKaA7ISl5zRbInU3mAD"
+    }, 
+    {}
+]
+DEBUG:Muse-Websocket:No matched event found, waiting <1> seconds for more events
+INFO:Muse-Websocket:<Tue May  2 18:37:12 2023> Received from 172.18.255.251: 
+[
+    {
+        "success": true, 
+        "namespace": "areas", 
+        "householdId": "Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.GTKaA7ISl5zRbInU3mAD", 
+        "cmdId": "2", 
+        "locationId": "lc_ca90a63362e04e2f974afa5773d3923c", 
+        "type": "areas", 
+        "response": "getAreas"
+    }, 
+    {
+        "version": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=", 
+        "areas": [
+            {
+                "isReadOnly": true, 
+                "playerIds": [
+                    "RINCON_0003861038C801400", 
+                    "RINCON_00038610369D01400", 
+                    "RINCON_00038610381F01400"
+                ], 
+                "id": "7055133f-81e7-45e6-ba70-8803966c7185", 
+                "name": "Everywhere"
+            }
+        ]
+    }
+]
+DEBUG:Muse-Websocket:<Tue May  2 18:37:13 2023> Sent to 172.18.255.251: 
+[
+    {
+        "command": "subscribe", 
+        "cmdId": "3", 
+        "namespace": "groups", 
+        "householdId": "Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.GTKaA7ISl5zRbInU3mAD"
+    }, 
+    {}
+]
+DEBUG:Muse-Websocket:No matched event found, waiting <1> seconds for more events
+INFO:Muse-Websocket:<Tue May  2 18:37:13 2023> Received from 172.18.255.251: 
+[
+    {
+        "success": true, 
+        "namespace": "groups", 
+        "householdId": "Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.GTKaA7ISl5zRbInU3mAD", 
+        "cmdId": "3", 
+        "locationId": "lc_ca90a63362e04e2f974afa5773d3923c", 
+        "type": "none", 
+        "response": "subscribe"
+    }, 
+    {}
+]
+INFO:Muse-Websocket:<Tue May  2 18:37:13 2023> Received from 172.18.255.251: 
+[
+    {
+        "locationId": "lc_ca90a63362e04e2f974afa5773d3923c", 
+        "type": "groups", 
+        "namespace": "groups", 
+        "name": "groups", 
+        "householdId": "Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.GTKaA7ISl5zRbInU3mAD"
+    }, 
+    {
+        "players": [
+            {
+                "name": "Emulator", 
+                "capabilities": [
+                    "CLOUD", 
+                    "PLAYBACK", 
+                    "AIRPLAY", 
+                    "LINE_IN", 
+                    "VOICE", 
+                    "AUDIO_CLIP", 
+                    "MICROPHONE_SWITCH"
+                ], 
+                "websocketUrl": "wss://172.18.255.251:1443/websocket/api", 
+                "deviceIds": [
+                    "RINCON_0003861038C801400"
+                ], 
+                "apiVersion": "1.35.0-alpha.5-8-g39d9fd49+d1f8c80c16.74.0-41010", 
+                "softwareVersion": "74.0-41010-dev-build-20230502-main", 
+                "minApiVersion": "1.1.0", 
+                "isUnregistered": false, 
+                "id": "RINCON_0003861038C801400"
+            }, 
+            {
+                "name": "Emulator", 
+                "capabilities": [
+                    "CLOUD", 
+                    "HT_PLAYBACK", 
+                    "PLAYBACK", 
+                    "AIRPLAY", 
+                    "AUDIO_CLIP"
+                ], 
+                "websocketUrl": "wss://172.18.255.253:1443/websocket/api", 
+                "deviceIds": [
+                    "RINCON_00038610369D01400"
+                ], 
+                "apiVersion": "1.35.0-alpha.5-8-g39d9fd49+d1f8c80c16.74.0-41010", 
+                "softwareVersion": "74.0-41010-dev-build-20230502-main", 
+                "minApiVersion": "1.1.0", 
+                "isUnregistered": false, 
+                "id": "RINCON_00038610369D01400"
+            }, 
+            {
+                "name": "Emulator", 
+                "capabilities": [
+                    "CLOUD", 
+                    "PLAYBACK", 
+                    "AIRPLAY", 
+                    "LINE_IN", 
+                    "VOICE", 
+                    "AUDIO_CLIP", 
+                    "MICROPHONE_SWITCH"
+                ], 
+                "websocketUrl": "wss://172.18.255.252:1443/websocket/api", 
+                "deviceIds": [
+                    "RINCON_00038610381F01400"
+                ], 
+                "apiVersion": "1.35.0-alpha.5-8-g39d9fd49+d1f8c80c16.74.0-41010", 
+                "softwareVersion": "74.0-41010-dev-build-20230502-main", 
+                "minApiVersion": "1.1.0", 
+                "isUnregistered": false, 
+                "id": "RINCON_00038610381F01400"
+            }
+        ], 
+        "partial": false, 
+        "groups": [
+            {
+                "playerIds": [
+                    "RINCON_0003861038C801400"
+                ], 
+                "coordinatorId": "RINCON_0003861038C801400", 
+                "id": "RINCON_00038610369D01400:341756476", 
+                "name": "Emulator"
+            }, 
+            {
+                "playerIds": [
+                    "RINCON_00038610369D01400"
+                ], 
+                "coordinatorId": "RINCON_00038610369D01400", 
+                "id": "RINCON_00038610369D01400:341756477", 
+                "name": "Emulator"
+            }, 
+            {
+                "playerIds": [
+                    "RINCON_00038610381F01400"
+                ], 
+                "coordinatorId": "RINCON_00038610381F01400", 
+                "id": "RINCON_00038610381F01400:2910063515", 
+                "name": "Emulator"
+            }
+        ]
+    }
+]
+DEBUG:Muse-REST:<Tue May  2 18:37:14 2023> REST Request:
+	GET https://172.18.255.251:1443/api/v1/households/Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.GTKaA7ISl5zRbInU3mAD/groups
+	Headers: {'X-Sonos-Api-Key': 'e61bc77c-39cd-4ed0-a5e7-5ad316a0efc5'}
+	Body: None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): 172.18.255.251:1443
+DEBUG:urllib3.connectionpool:https://172.18.255.251:1443 "GET /api/v1/households/Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.GTKaA7ISl5zRbInU3mAD/groups HTTP/1.1" 200 None
+INFO:Muse-REST:<Tue May  2 18:37:14 2023> REST Response:
+	Response status: 200
+	Response content: 
+{
+    "players": [
+        {
+            "name": "Emulator", 
+            "capabilities": [
+                "CLOUD", 
+                "PLAYBACK", 
+                "AIRPLAY", 
+                "LINE_IN", 
+                "VOICE", 
+                "AUDIO_CLIP", 
+                "MICROPHONE_SWITCH"
+            ], 
+            "websocketUrl": "wss://172.18.255.251:1443/websocket/api", 
+            "deviceIds": [
+                "RINCON_0003861038C801400"
+            ], 
+            "apiVersion": "1.35.0-alpha.5-8-g39d9fd49+d1f8c80c16.74.0-41010", 
+            "softwareVersion": "74.0-41010-dev-build-20230502-main", 
+            "minApiVersion": "1.1.0", 
+            "isUnregistered": false, 
+            "id": "RINCON_0003861038C801400"
+        }, 
+        {
+            "name": "Emulator", 
+            "capabilities": [
+                "CLOUD", 
+                "HT_PLAYBACK", 
+                "PLAYBACK", 
+                "AIRPLAY", 
+                "AUDIO_CLIP"
+            ], 
+            "websocketUrl": "wss://172.18.255.253:1443/websocket/api", 
+            "deviceIds": [
+                "RINCON_00038610369D01400"
+            ], 
+            "apiVersion": "1.35.0-alpha.5-8-g39d9fd49+d1f8c80c16.74.0-41010", 
+            "softwareVersion": "74.0-41010-dev-build-20230502-main", 
+            "minApiVersion": "1.1.0", 
+            "isUnregistered": false, 
+            "id": "RINCON_00038610369D01400"
+        }, 
+        {
+            "name": "Emulator", 
+            "capabilities": [
+                "CLOUD", 
+                "PLAYBACK", 
+                "AIRPLAY", 
+                "LINE_IN", 
+                "VOICE", 
+                "AUDIO_CLIP", 
+                "MICROPHONE_SWITCH"
+            ], 
+            "websocketUrl": "wss://172.18.255.252:1443/websocket/api", 
+            "deviceIds": [
+                "RINCON_00038610381F01400"
+            ], 
+            "apiVersion": "1.35.0-alpha.5-8-g39d9fd49+d1f8c80c16.74.0-41010", 
+            "softwareVersion": "74.0-41010-dev-build-20230502-main", 
+            "minApiVersion": "1.1.0", 
+            "isUnregistered": false, 
+            "id": "RINCON_00038610381F01400"
+        }
+    ], 
+    "partial": false, 
+    "groups": [
+        {
+            "playerIds": [
+                "RINCON_0003861038C801400"
+            ], 
+            "playbackState": "PLAYBACK_STATE_IDLE", 
+            "coordinatorId": "RINCON_0003861038C801400", 
+            "id": "RINCON_00038610369D01400:341756476", 
+            "name": "Emulator"
+        }, 
+        {
+            "playerIds": [
+                "RINCON_00038610369D01400"
+            ], 
+            "playbackState": "PLAYBACK_STATE_IDLE", 
+            "coordinatorId": "RINCON_00038610369D01400", 
+            "id": "RINCON_00038610369D01400:341756477", 
+            "name": "Emulator"
+        }, 
+        {
+            "playerIds": [
+                "RINCON_00038610381F01400"
+            ], 
+            "playbackState": "PLAYBACK_STATE_IDLE", 
+            "coordinatorId": "RINCON_00038610381F01400", 
+            "id": "RINCON_00038610381F01400:2910063515", 
+            "name": "Emulator"
+        }
+    ]
+}
+DEBUG:SONOS.pytest_automation.conftest:Found devices for testbed operations: ['diag_level']
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /diaglevel?module=muse&level=8 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "POST /diaglevel?module=muse&level=8 HTTP/1.1" 200 178
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 170
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /diaglevel?module=cloudqueue&level=5 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "POST /diaglevel?module=cloudqueue&level=5 HTTP/1.1" 200 178
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 170
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /diaglevel?module=chsrc&level=3 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "POST /diaglevel?module=chsrc&level=3 HTTP/1.1" 200 178
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 170
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /diaglevel?module=cqfsm&level=3 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "POST /diaglevel?module=cqfsm&level=3 HTTP/1.1" 200 178
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 170
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /diaglevel?module=cssc&level=4 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "POST /diaglevel?module=cssc&level=4 HTTP/1.1" 200 178
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 170
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /diaglevel?module=avt_impl&level=3 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "POST /diaglevel?module=avt_impl&level=3 HTTP/1.1" 200 178
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 170
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /diaglevel?module=certval&level=3 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "POST /diaglevel?module=certval&level=3 HTTP/1.1" 200 178
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 170
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /diaglevel?module=httpauth&level=3 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "POST /diaglevel?module=httpauth&level=3 HTTP/1.1" 200 178
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 170
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /diaglevel?module=rest&level=5 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "POST /diaglevel?module=rest&level=5 HTTP/1.1" 200 178
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 170
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /diaglevel?module=museauth&level=5 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "POST /diaglevel?module=museauth&level=5 HTTP/1.1" 200 178
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 170
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /diaglevel?module=ssl&level=5 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "POST /diaglevel?module=ssl&level=5 HTTP/1.1" 200 178
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 170
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /diaglevel?module=muse&level=8 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "POST /diaglevel?module=muse&level=8 HTTP/1.1" 200 189
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 181
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /diaglevel?module=cloudqueue&level=5 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "POST /diaglevel?module=cloudqueue&level=5 HTTP/1.1" 200 189
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 181
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /diaglevel?module=chsrc&level=3 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "POST /diaglevel?module=chsrc&level=3 HTTP/1.1" 200 189
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 181
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /diaglevel?module=cqfsm&level=3 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "POST /diaglevel?module=cqfsm&level=3 HTTP/1.1" 200 189
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 181
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /diaglevel?module=cssc&level=4 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "POST /diaglevel?module=cssc&level=4 HTTP/1.1" 200 189
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 181
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /diaglevel?module=avt_impl&level=3 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "POST /diaglevel?module=avt_impl&level=3 HTTP/1.1" 200 189
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 181
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /diaglevel?module=certval&level=3 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "POST /diaglevel?module=certval&level=3 HTTP/1.1" 200 189
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 181
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /diaglevel?module=httpauth&level=3 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "POST /diaglevel?module=httpauth&level=3 HTTP/1.1" 200 189
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 181
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /diaglevel?module=rest&level=5 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "POST /diaglevel?module=rest&level=5 HTTP/1.1" 200 189
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 181
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /diaglevel?module=museauth&level=5 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "POST /diaglevel?module=museauth&level=5 HTTP/1.1" 200 189
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 181
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /diaglevel?module=ssl&level=5 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "POST /diaglevel?module=ssl&level=5 HTTP/1.1" 200 189
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 181
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /diaglevel?module=muse&level=8 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "POST /diaglevel?module=muse&level=8 HTTP/1.1" 200 189
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 181
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /diaglevel?module=cloudqueue&level=5 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "POST /diaglevel?module=cloudqueue&level=5 HTTP/1.1" 200 189
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 181
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /diaglevel?module=chsrc&level=3 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "POST /diaglevel?module=chsrc&level=3 HTTP/1.1" 200 189
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 181
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /diaglevel?module=cqfsm&level=3 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "POST /diaglevel?module=cqfsm&level=3 HTTP/1.1" 200 189
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 181
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /diaglevel?module=cssc&level=4 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "POST /diaglevel?module=cssc&level=4 HTTP/1.1" 200 189
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 181
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /diaglevel?module=avt_impl&level=3 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "POST /diaglevel?module=avt_impl&level=3 HTTP/1.1" 200 189
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 181
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /diaglevel?module=certval&level=3 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "POST /diaglevel?module=certval&level=3 HTTP/1.1" 200 189
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 181
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /diaglevel?module=httpauth&level=3 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "POST /diaglevel?module=httpauth&level=3 HTTP/1.1" 200 189
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 181
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /diaglevel?module=rest&level=5 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "POST /diaglevel?module=rest&level=5 HTTP/1.1" 200 189
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 181
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /diaglevel?module=museauth&level=5 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "POST /diaglevel?module=museauth&level=5 HTTP/1.1" 200 189
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 181
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /diaglevel?module=ssl&level=5 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "POST /diaglevel?module=ssl&level=5 HTTP/1.1" 200 189
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 181
+DEBUG:Muse-Websocket:<Tue May  2 18:37:15 2023> Sent to 172.18.255.251: 
+[
+    {
+        "command": "createArea", 
+        "cmdId": "4", 
+        "namespace": "areas", 
+        "authorization": "bearer T5RV8rMZALzGGQLfkF0Xwc1K8ZEY", 
+        "householdId": "Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.GTKaA7ISl5zRbInU3mAD"
+    }, 
+    {
+        "playerIds": [
+            "RINCON_00038610381F01400"
+        ], 
+        "name": "Area_1"
+    }
+]
+INFO:root:Waiting for area response with name Area_1
+DEBUG:Muse-Websocket:No matched event found, waiting <1> seconds for more events
+INFO:Muse-Websocket:<Tue May  2 18:37:15 2023> Received from 172.18.255.251: 
+[
+    {
+        "success": true, 
+        "namespace": "areas", 
+        "householdId": "Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.GTKaA7ISl5zRbInU3mAD", 
+        "cmdId": "4", 
+        "locationId": "lc_ca90a63362e04e2f974afa5773d3923c", 
+        "type": "area", 
+        "response": "createArea"
+    }, 
+    {
+        "isReadOnly": false, 
+        "playerIds": [
+            "RINCON_00038610381F01400"
+        ], 
+        "id": "3e6f4989-dbef-4cb8-80f7-c97eae495e52", 
+        "name": "Area_1"
+    }
+]
+DEBUG:Muse-Websocket:<Tue May  2 18:37:16 2023> Sent to 172.18.255.251: 
+[
+    {
+        "command": "createArea", 
+        "cmdId": "5", 
+        "namespace": "areas", 
+        "authorization": "bearer T5RV8rMZALzGGQLfkF0Xwc1K8ZEY", 
+        "householdId": "Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.GTKaA7ISl5zRbInU3mAD"
+    }, 
+    {
+        "playerIds": [
+            "RINCON_0003861038C801400", 
+            "RINCON_00038610381F01400"
+        ], 
+        "name": "Area_2"
+    }
+]
+INFO:root:Waiting for area response with name Area_2
+DEBUG:Muse-Websocket:No matched event found, waiting <1> seconds for more events
+INFO:Muse-Websocket:<Tue May  2 18:37:16 2023> Received from 172.18.255.251: 
+[
+    {
+        "success": true, 
+        "namespace": "areas", 
+        "householdId": "Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.GTKaA7ISl5zRbInU3mAD", 
+        "cmdId": "5", 
+        "locationId": "lc_ca90a63362e04e2f974afa5773d3923c", 
+        "type": "area", 
+        "response": "createArea"
+    }, 
+    {
+        "isReadOnly": false, 
+        "playerIds": [
+            "RINCON_0003861038C801400", 
+            "RINCON_00038610381F01400"
+        ], 
+        "id": "92aed22c-bd13-4bce-8c44-c90de654565d", 
+        "name": "Area_2"
+    }
+]
+DEBUG:Muse-Websocket:<Tue May  2 18:37:17 2023> Sent to 172.18.255.251: 
+[
+    {
+        "command": "createGroup", 
+        "cmdId": "6", 
+        "namespace": "groups", 
+        "householdId": "Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.GTKaA7ISl5zRbInU3mAD"
+    }, 
+    {
+        "areaIds": [
+            "3e6f4989-dbef-4cb8-80f7-c97eae495e52", 
+            "92aed22c-bd13-4bce-8c44-c90de654565d"
+        ], 
+        "playerIds": [
+            "RINCON_0003861038C801400"
+        ]
+    }
+]
+DEBUG:Muse-Websocket:<Tue May  2 18:37:17 2023> Sent to 172.18.255.251: 
+[
+    {
+        "command": "getGroups", 
+        "cmdId": "7", 
+        "namespace": "groups", 
+        "householdId": "Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.GTKaA7ISl5zRbInU3mAD"
+    }, 
+    {}
+]
+DEBUG:Muse-Websocket:No matched event found, waiting <1> seconds for more events
+INFO:Muse-Websocket:<Tue May  2 18:37:17 2023> Received from 172.18.255.251: 
+[
+    {
+        "success": true, 
+        "namespace": "groups", 
+        "householdId": "Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.GTKaA7ISl5zRbInU3mAD", 
+        "cmdId": "6", 
+        "locationId": "lc_ca90a63362e04e2f974afa5773d3923c", 
+        "type": "groupInfo", 
+        "response": "createGroup"
+    }, 
+    {
+        "group": {
+            "playerIds": [
+                "RINCON_0003861038C801400", 
+                "RINCON_00038610381F01400"
+            ], 
+            "coordinatorId": "RINCON_0003861038C801400", 
+            "id": "RINCON_00038610369D01400:341756476", 
+            "name": "Emulator + 1"
+        }
+    }
+]
+INFO:Muse-Websocket:<Tue May  2 18:37:17 2023> Received from 172.18.255.251: 
+[
+    {
+        "success": true, 
+        "namespace": "groups", 
+        "householdId": "Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.GTKaA7ISl5zRbInU3mAD", 
+        "cmdId": "7", 
+        "locationId": "lc_ca90a63362e04e2f974afa5773d3923c", 
+        "type": "groups", 
+        "response": "getGroups"
+    }, 
+    {
+        "players": [
+            {
+                "name": "Emulator", 
+                "capabilities": [
+                    "CLOUD", 
+                    "PLAYBACK", 
+                    "AIRPLAY", 
+                    "LINE_IN", 
+                    "VOICE", 
+                    "AUDIO_CLIP", 
+                    "MICROPHONE_SWITCH"
+                ], 
+                "websocketUrl": "wss://172.18.255.251:1443/websocket/api", 
+                "deviceIds": [
+                    "RINCON_0003861038C801400"
+                ], 
+                "apiVersion": "1.35.0-alpha.5-8-g39d9fd49+d1f8c80c16.74.0-41010", 
+                "softwareVersion": "74.0-41010-dev-build-20230502-main", 
+                "minApiVersion": "1.1.0", 
+                "isUnregistered": false, 
+                "id": "RINCON_0003861038C801400"
+            }, 
+            {
+                "name": "Emulator", 
+                "capabilities": [
+                    "CLOUD", 
+                    "HT_PLAYBACK", 
+                    "PLAYBACK", 
+                    "AIRPLAY", 
+                    "AUDIO_CLIP"
+                ], 
+                "websocketUrl": "wss://172.18.255.253:1443/websocket/api", 
+                "deviceIds": [
+                    "RINCON_00038610369D01400"
+                ], 
+                "apiVersion": "1.35.0-alpha.5-8-g39d9fd49+d1f8c80c16.74.0-41010", 
+                "softwareVersion": "74.0-41010-dev-build-20230502-main", 
+                "minApiVersion": "1.1.0", 
+                "isUnregistered": false, 
+                "id": "RINCON_00038610369D01400"
+            }, 
+            {
+                "name": "Emulator", 
+                "capabilities": [
+                    "CLOUD", 
+                    "PLAYBACK", 
+                    "AIRPLAY", 
+                    "LINE_IN", 
+                    "VOICE", 
+                    "AUDIO_CLIP", 
+                    "MICROPHONE_SWITCH"
+                ], 
+                "websocketUrl": "wss://172.18.255.252:1443/websocket/api", 
+                "deviceIds": [
+                    "RINCON_00038610381F01400"
+                ], 
+                "apiVersion": "1.35.0-alpha.5-8-g39d9fd49+d1f8c80c16.74.0-41010", 
+                "softwareVersion": "74.0-41010-dev-build-20230502-main", 
+                "minApiVersion": "1.1.0", 
+                "isUnregistered": false, 
+                "id": "RINCON_00038610381F01400"
+            }
+        ], 
+        "partial": false, 
+        "groups": [
+            {
+                "playerIds": [
+                    "RINCON_0003861038C801400"
+                ], 
+                "playbackState": "PLAYBACK_STATE_IDLE", 
+                "coordinatorId": "RINCON_0003861038C801400", 
+                "id": "RINCON_00038610369D01400:341756476", 
+                "name": "Emulator"
+            }, 
+            {
+                "playerIds": [
+                    "RINCON_00038610369D01400"
+                ], 
+                "playbackState": "PLAYBACK_STATE_IDLE", 
+                "coordinatorId": "RINCON_00038610369D01400", 
+                "id": "RINCON_00038610369D01400:341756477", 
+                "name": "Emulator"
+            }, 
+            {
+                "playerIds": [
+                    "RINCON_00038610381F01400"
+                ], 
+                "playbackState": "PLAYBACK_STATE_IDLE", 
+                "coordinatorId": "RINCON_00038610381F01400", 
+                "id": "RINCON_00038610381F01400:2910063515", 
+                "name": "Emulator"
+            }
+        ]
+    }
+]
+DEBUG:Muse-Websocket:Discarded events for eventType: <GroupsEvent>, eventFilter: <lambda e: len(e.groups) == (num_groups_in_hh - new_group_count)>
+DEBUG:Muse-Websocket:DISCARDED EVENT: 
+<GroupInfoEvent>
+<[{u'cmdId': u'6',
+  u'householdId': u'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.GTKaA7ISl5zRbInU3mAD',
+  u'locationId': u'lc_ca90a63362e04e2f974afa5773d3923c',
+  u'namespace': u'groups',
+  u'response': u'createGroup',
+  u'success': True,
+  u'type': u'groupInfo'},
+ {u'group': {u'coordinatorId': u'RINCON_0003861038C801400',
+             u'id': u'RINCON_00038610369D01400:341756476',
+             u'name': u'Emulator + 1',
+             u'playerIds': [u'RINCON_0003861038C801400',
+                            u'RINCON_00038610381F01400']}}]>
+DEBUG:Muse-Websocket:DISCARDED EVENT: 
+<GroupsEvent>
+<[{u'cmdId': u'7',
+  u'householdId': u'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.GTKaA7ISl5zRbInU3mAD',
+  u'locationId': u'lc_ca90a63362e04e2f974afa5773d3923c',
+  u'namespace': u'groups',
+  u'response': u'getGroups',
+  u'success': True,
+  u'type': u'groups'},
+ {u'groups': [{u'coordinatorId': u'RINCON_0003861038C801400',
+               u'id': u'RINCON_00038610369D01400:341756476',
+               u'name': u'Emulator',
+               u'playbackState': u'PLAYBACK_STATE_IDLE',
+               u'playerIds': [u'RINCON_0003861038C801400']},
+              {u'coordinatorId': u'RINCON_00038610369D01400',
+               u'id': u'RINCON_00038610369D01400:341756477',
+               u'name': u'Emulator',
+               u'playbackState': u'PLAYBACK_STATE_IDLE',
+               u'playerIds': [u'RINCON_00038610369D01400']},
+              {u'coordinatorId': u'RINCON_00038610381F01400',
+               u'id': u'RINCON_00038610381F01400:2910063515',
+               u'name': u'Emulator',
+               u'playbackState': u'PLAYBACK_STATE_IDLE',
+               u'playerIds': [u'RINCON_00038610381F01400']}],
+  u'partial': False,
+  u'players': [{u'apiVersion': u'1.35.0-alpha.5-8-g39d9fd49+d1f8c80c16.74.0-41010',
+                u'capabilities': [u'CLOUD',
+                                  u'PLAYBACK',
+                                  u'AIRPLAY',
+                                  u'LINE_IN',
+                                  u'VOICE',
+                                  u'AUDIO_CLIP',
+                                  u'MICROPHONE_SWITCH'],
+                u'deviceIds': [u'RINCON_0003861038C801400'],
+                u'id': u'RINCON_0003861038C801400',
+                u'isUnregistered': False,
+                u'minApiVersion': u'1.1.0',
+                u'name': u'Emulator',
+                u'softwareVersion': u'74.0-41010-dev-build-20230502-main',
+                u'websocketUrl': u'wss://172.18.255.251:1443/websocket/api'},
+               {u'apiVersion': u'1.35.0-alpha.5-8-g39d9fd49+d1f8c80c16.74.0-41010',
+                u'capabilities': [u'CLOUD',
+                                  u'HT_PLAYBACK',
+                                  u'PLAYBACK',
+                                  u'AIRPLAY',
+                                  u'AUDIO_CLIP'],
+                u'deviceIds': [u'RINCON_00038610369D01400'],
+                u'id': u'RINCON_00038610369D01400',
+                u'isUnregistered': False,
+                u'minApiVersion': u'1.1.0',
+                u'name': u'Emulator',
+                u'softwareVersion': u'74.0-41010-dev-build-20230502-main',
+                u'websocketUrl': u'wss://172.18.255.253:1443/websocket/api'},
+               {u'apiVersion': u'1.35.0-alpha.5-8-g39d9fd49+d1f8c80c16.74.0-41010',
+                u'capabilities': [u'CLOUD',
+                                  u'PLAYBACK',
+                                  u'AIRPLAY',
+                                  u'LINE_IN',
+                                  u'VOICE',
+                                  u'AUDIO_CLIP',
+                                  u'MICROPHONE_SWITCH'],
+                u'deviceIds': [u'RINCON_00038610381F01400'],
+                u'id': u'RINCON_00038610381F01400',
+                u'isUnregistered': False,
+                u'minApiVersion': u'1.1.0',
+                u'name': u'Emulator',
+                u'softwareVersion': u'74.0-41010-dev-build-20230502-main',
+                u'websocketUrl': u'wss://172.18.255.252:1443/websocket/api'}]}]>
+DEBUG:Muse-Websocket:No matched event found, waiting <1> seconds for more events
+INFO:Muse-Websocket:<Tue May  2 18:37:18 2023> Received from 172.18.255.253: 
+[
+    {
+        "locationId": "lc_ca90a63362e04e2f974afa5773d3923c", 
+        "type": "groups", 
+        "namespace": "groups", 
+        "name": "groups", 
+        "householdId": "Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.GTKaA7ISl5zRbInU3mAD"
+    }, 
+    {
+        "players": [
+            {
+                "name": "Emulator", 
+                "capabilities": [
+                    "CLOUD", 
+                    "HT_PLAYBACK", 
+                    "PLAYBACK", 
+                    "AIRPLAY", 
+                    "AUDIO_CLIP", 
+                    "IR_CONTROL"
+                ], 
+                "websocketUrl": "wss://172.18.255.253:1443/websocket/api", 
+                "deviceIds": [
+                    "RINCON_00038610369D01400"
+                ], 
+                "apiVersion": "1.35.0-alpha.5-8-g39d9fd49+d1f8c80c16.74.0-41010", 
+                "softwareVersion": "74.0-41010-dev-build-20230502-main", 
+                "minApiVersion": "1.1.0", 
+                "isUnregistered": false, 
+                "id": "RINCON_00038610369D01400"
+            }, 
+            {
+                "name": "Emulator", 
+                "capabilities": [
+                    "CLOUD", 
+                    "PLAYBACK", 
+                    "AIRPLAY", 
+                    "LINE_IN", 
+                    "VOICE", 
+                    "AUDIO_CLIP", 
+                    "MICROPHONE_SWITCH"
+                ], 
+                "websocketUrl": "wss://172.18.255.252:1443/websocket/api", 
+                "deviceIds": [
+                    "RINCON_00038610381F01400"
+                ], 
+                "apiVersion": "1.35.0-alpha.5-8-g39d9fd49+d1f8c80c16.74.0-41010", 
+                "softwareVersion": "74.0-41010-dev-build-20230502-main", 
+                "minApiVersion": "1.1.0", 
+                "isUnregistered": false, 
+                "id": "RINCON_00038610381F01400"
+            }, 
+            {
+                "name": "Emulator", 
+                "capabilities": [
+                    "CLOUD", 
+                    "PLAYBACK", 
+                    "AIRPLAY", 
+                    "LINE_IN", 
+                    "VOICE", 
+                    "AUDIO_CLIP", 
+                    "MICROPHONE_SWITCH"
+                ], 
+                "websocketUrl": "wss://172.18.255.251:1443/websocket/api", 
+                "deviceIds": [
+                    "RINCON_0003861038C801400"
+                ], 
+                "apiVersion": "1.35.0-alpha.5-8-g39d9fd49+d1f8c80c16.74.0-41010", 
+                "softwareVersion": "74.0-41010-dev-build-20230502-main", 
+                "minApiVersion": "1.1.0", 
+                "isUnregistered": false, 
+                "id": "RINCON_0003861038C801400"
+            }
+        ], 
+        "partial": false, 
+        "groups": [
+            {
+                "playerIds": [
+                    "RINCON_00038610369D01400"
+                ], 
+                "coordinatorId": "RINCON_00038610369D01400", 
+                "id": "RINCON_00038610369D01400:341756477", 
+                "name": "Emulator"
+            }, 
+            {
+                "areaIds": [
+                    "3e6f4989-dbef-4cb8-80f7-c97eae495e52", 
+                    "92aed22c-bd13-4bce-8c44-c90de654565d"
+                ], 
+                "playerIds": [
+                    "RINCON_00038610381F01400", 
+                    "RINCON_0003861038C801400"
+                ], 
+                "coordinatorId": "RINCON_0003861038C801400", 
+                "id": "RINCON_00038610369D01400:341756476", 
+                "name": "Emulator + 1"
+            }
+        ]
+    }
+]
+INFO:Muse-Websocket:<Tue May  2 18:37:18 2023> Received from 172.18.255.252: 
+[
+    {
+        "locationId": "lc_ca90a63362e04e2f974afa5773d3923c", 
+        "type": "groups", 
+        "namespace": "groups", 
+        "name": "groups", 
+        "householdId": "Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.GTKaA7ISl5zRbInU3mAD"
+    }, 
+    {
+        "players": [
+            {
+                "name": "Emulator", 
+                "capabilities": [
+                    "CLOUD", 
+                    "PLAYBACK", 
+                    "AIRPLAY", 
+                    "LINE_IN", 
+                    "VOICE", 
+                    "AUDIO_CLIP", 
+                    "MICROPHONE_SWITCH"
+                ], 
+                "websocketUrl": "wss://172.18.255.252:1443/websocket/api", 
+                "deviceIds": [
+                    "RINCON_00038610381F01400"
+                ], 
+                "apiVersion": "1.35.0-alpha.5-8-g39d9fd49+d1f8c80c16.74.0-41010", 
+                "softwareVersion": "74.0-41010-dev-build-20230502-main", 
+                "minApiVersion": "1.1.0", 
+                "isUnregistered": false, 
+                "id": "RINCON_00038610381F01400"
+            }, 
+            {
+                "name": "Emulator", 
+                "capabilities": [
+                    "CLOUD", 
+                    "PLAYBACK", 
+                    "AIRPLAY", 
+                    "LINE_IN", 
+                    "VOICE", 
+                    "AUDIO_CLIP", 
+                    "MICROPHONE_SWITCH"
+                ], 
+                "websocketUrl": "wss://172.18.255.251:1443/websocket/api", 
+                "deviceIds": [
+                    "RINCON_0003861038C801400"
+                ], 
+                "apiVersion": "1.35.0-alpha.5-8-g39d9fd49+d1f8c80c16.74.0-41010", 
+                "softwareVersion": "74.0-41010-dev-build-20230502-main", 
+                "minApiVersion": "1.1.0", 
+                "isUnregistered": false, 
+                "id": "RINCON_0003861038C801400"
+            }, 
+            {
+                "name": "Emulator", 
+                "capabilities": [
+                    "CLOUD", 
+                    "HT_PLAYBACK", 
+                    "PLAYBACK", 
+                    "AIRPLAY", 
+                    "AUDIO_CLIP"
+                ], 
+                "websocketUrl": "wss://172.18.255.253:1443/websocket/api", 
+                "deviceIds": [
+                    "RINCON_00038610369D01400"
+                ], 
+                "apiVersion": "1.35.0-alpha.5-8-g39d9fd49+d1f8c80c16.74.0-41010", 
+                "softwareVersion": "74.0-41010-dev-build-20230502-main", 
+                "minApiVersion": "1.1.0", 
+                "isUnregistered": false, 
+                "id": "RINCON_00038610369D01400"
+            }
+        ], 
+        "partial": false, 
+        "groups": [
+            {
+                "areaIds": [
+                    "3e6f4989-dbef-4cb8-80f7-c97eae495e52", 
+                    "92aed22c-bd13-4bce-8c44-c90de654565d"
+                ], 
+                "playerIds": [
+                    "RINCON_00038610381F01400", 
+                    "RINCON_0003861038C801400"
+                ], 
+                "coordinatorId": "RINCON_0003861038C801400", 
+                "id": "RINCON_00038610369D01400:341756476", 
+                "name": "Emulator + 1"
+            }, 
+            {
+                "playerIds": [
+                    "RINCON_00038610369D01400"
+                ], 
+                "coordinatorId": "RINCON_00038610369D01400", 
+                "id": "RINCON_00038610369D01400:341756477", 
+                "name": "Emulator"
+            }
+        ]
+    }
+]
+DEBUG:Muse-Websocket:No matched event found, waiting <1> seconds for more events
+INFO:Muse-Websocket:<Tue May  2 18:37:19 2023> Received from 172.18.255.251: 
+[
+    {
+        "locationId": "lc_ca90a63362e04e2f974afa5773d3923c", 
+        "type": "groups", 
+        "namespace": "groups", 
+        "name": "groups", 
+        "householdId": "Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.GTKaA7ISl5zRbInU3mAD"
+    }, 
+    {
+        "players": [
+            {
+                "name": "Emulator", 
+                "capabilities": [
+                    "CLOUD", 
+                    "PLAYBACK", 
+                    "AIRPLAY", 
+                    "LINE_IN", 
+                    "VOICE", 
+                    "AUDIO_CLIP", 
+                    "MICROPHONE_SWITCH"
+                ], 
+                "websocketUrl": "wss://172.18.255.251:1443/websocket/api", 
+                "deviceIds": [
+                    "RINCON_0003861038C801400"
+                ], 
+                "apiVersion": "1.35.0-alpha.5-8-g39d9fd49+d1f8c80c16.74.0-41010", 
+                "softwareVersion": "74.0-41010-dev-build-20230502-main", 
+                "minApiVersion": "1.1.0", 
+                "isUnregistered": false, 
+                "id": "RINCON_0003861038C801400"
+            }, 
+            {
+                "name": "Emulator", 
+                "capabilities": [
+                    "CLOUD", 
+                    "HT_PLAYBACK", 
+                    "PLAYBACK", 
+                    "AIRPLAY", 
+                    "AUDIO_CLIP"
+                ], 
+                "websocketUrl": "wss://172.18.255.253:1443/websocket/api", 
+                "deviceIds": [
+                    "RINCON_00038610369D01400"
+                ], 
+                "apiVersion": "1.35.0-alpha.5-8-g39d9fd49+d1f8c80c16.74.0-41010", 
+                "softwareVersion": "74.0-41010-dev-build-20230502-main", 
+                "minApiVersion": "1.1.0", 
+                "isUnregistered": false, 
+                "id": "RINCON_00038610369D01400"
+            }, 
+            {
+                "name": "Emulator", 
+                "capabilities": [
+                    "CLOUD", 
+                    "PLAYBACK", 
+                    "AIRPLAY", 
+                    "LINE_IN", 
+                    "VOICE", 
+                    "AUDIO_CLIP", 
+                    "MICROPHONE_SWITCH"
+                ], 
+                "websocketUrl": "wss://172.18.255.252:1443/websocket/api", 
+                "deviceIds": [
+                    "RINCON_00038610381F01400"
+                ], 
+                "apiVersion": "1.35.0-alpha.5-8-g39d9fd49+d1f8c80c16.74.0-41010", 
+                "softwareVersion": "74.0-41010-dev-build-20230502-main", 
+                "minApiVersion": "1.1.0", 
+                "isUnregistered": false, 
+                "id": "RINCON_00038610381F01400"
+            }
+        ], 
+        "partial": false, 
+        "groups": [
+            {
+                "areaIds": [
+                    "3e6f4989-dbef-4cb8-80f7-c97eae495e52", 
+                    "92aed22c-bd13-4bce-8c44-c90de654565d"
+                ], 
+                "playerIds": [
+                    "RINCON_0003861038C801400", 
+                    "RINCON_00038610381F01400"
+                ], 
+                "coordinatorId": "RINCON_0003861038C801400", 
+                "id": "RINCON_00038610369D01400:341756476", 
+                "name": "Emulator + 1"
+            }, 
+            {
+                "playerIds": [
+                    "RINCON_00038610369D01400"
+                ], 
+                "coordinatorId": "RINCON_00038610369D01400", 
+                "id": "RINCON_00038610369D01400:341756477", 
+                "name": "Emulator"
+            }
+        ]
+    }
+]
+DEBUG:Muse-Websocket:<Tue May  2 18:37:20 2023> Sent to 172.18.255.251: 
+[
+    {
+        "command": "getGroups", 
+        "cmdId": "8", 
+        "namespace": "groups", 
+        "householdId": "Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.GTKaA7ISl5zRbInU3mAD"
+    }, 
+    {}
+]
+DEBUG:Muse-Websocket:No matched event found, waiting <1> seconds for more events
+INFO:Muse-Websocket:<Tue May  2 18:37:20 2023> Received from 172.18.255.251: 
+[
+    {
+        "success": true, 
+        "namespace": "groups", 
+        "householdId": "Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.GTKaA7ISl5zRbInU3mAD", 
+        "cmdId": "8", 
+        "locationId": "lc_ca90a63362e04e2f974afa5773d3923c", 
+        "type": "groups", 
+        "response": "getGroups"
+    }, 
+    {
+        "players": [
+            {
+                "name": "Emulator", 
+                "capabilities": [
+                    "CLOUD", 
+                    "PLAYBACK", 
+                    "AIRPLAY", 
+                    "LINE_IN", 
+                    "VOICE", 
+                    "AUDIO_CLIP", 
+                    "MICROPHONE_SWITCH"
+                ], 
+                "websocketUrl": "wss://172.18.255.251:1443/websocket/api", 
+                "deviceIds": [
+                    "RINCON_0003861038C801400"
+                ], 
+                "apiVersion": "1.35.0-alpha.5-8-g39d9fd49+d1f8c80c16.74.0-41010", 
+                "softwareVersion": "74.0-41010-dev-build-20230502-main", 
+                "minApiVersion": "1.1.0", 
+                "isUnregistered": false, 
+                "id": "RINCON_0003861038C801400"
+            }, 
+            {
+                "name": "Emulator", 
+                "capabilities": [
+                    "CLOUD", 
+                    "HT_PLAYBACK", 
+                    "PLAYBACK", 
+                    "AIRPLAY", 
+                    "AUDIO_CLIP"
+                ], 
+                "websocketUrl": "wss://172.18.255.253:1443/websocket/api", 
+                "deviceIds": [
+                    "RINCON_00038610369D01400"
+                ], 
+                "apiVersion": "1.35.0-alpha.5-8-g39d9fd49+d1f8c80c16.74.0-41010", 
+                "softwareVersion": "74.0-41010-dev-build-20230502-main", 
+                "minApiVersion": "1.1.0", 
+                "isUnregistered": false, 
+                "id": "RINCON_00038610369D01400"
+            }, 
+            {
+                "name": "Emulator", 
+                "capabilities": [
+                    "CLOUD", 
+                    "PLAYBACK", 
+                    "AIRPLAY", 
+                    "LINE_IN", 
+                    "VOICE", 
+                    "AUDIO_CLIP", 
+                    "MICROPHONE_SWITCH"
+                ], 
+                "websocketUrl": "wss://172.18.255.252:1443/websocket/api", 
+                "deviceIds": [
+                    "RINCON_00038610381F01400"
+                ], 
+                "apiVersion": "1.35.0-alpha.5-8-g39d9fd49+d1f8c80c16.74.0-41010", 
+                "softwareVersion": "74.0-41010-dev-build-20230502-main", 
+                "minApiVersion": "1.1.0", 
+                "isUnregistered": false, 
+                "id": "RINCON_00038610381F01400"
+            }
+        ], 
+        "partial": false, 
+        "groups": [
+            {
+                "name": "Emulator + 1", 
+                "areaIds": [
+                    "3e6f4989-dbef-4cb8-80f7-c97eae495e52", 
+                    "92aed22c-bd13-4bce-8c44-c90de654565d"
+                ], 
+                "playerIds": [
+                    "RINCON_0003861038C801400", 
+                    "RINCON_00038610381F01400"
+                ], 
+                "playbackState": "PLAYBACK_STATE_IDLE", 
+                "coordinatorId": "RINCON_0003861038C801400", 
+                "id": "RINCON_00038610369D01400:341756476"
+            }, 
+            {
+                "playerIds": [
+                    "RINCON_00038610369D01400"
+                ], 
+                "playbackState": "PLAYBACK_STATE_IDLE", 
+                "coordinatorId": "RINCON_00038610369D01400", 
+                "id": "RINCON_00038610369D01400:341756477", 
+                "name": "Emulator"
+            }
+        ]
+    }
+]
+DEBUG:Muse-Websocket:<Tue May  2 18:37:21 2023> Sent to 172.18.255.251: 
+[
+    {
+        "command": "getGroups", 
+        "cmdId": "9", 
+        "namespace": "groups", 
+        "householdId": "Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.GTKaA7ISl5zRbInU3mAD"
+    }, 
+    {}
+]
+DEBUG:Muse-Websocket:No matched event found, waiting <1> seconds for more events
+INFO:Muse-Websocket:<Tue May  2 18:37:21 2023> Received from 172.18.255.251: 
+[
+    {
+        "success": true, 
+        "namespace": "groups", 
+        "householdId": "Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.GTKaA7ISl5zRbInU3mAD", 
+        "cmdId": "9", 
+        "locationId": "lc_ca90a63362e04e2f974afa5773d3923c", 
+        "type": "groups", 
+        "response": "getGroups"
+    }, 
+    {
+        "players": [
+            {
+                "name": "Emulator", 
+                "capabilities": [
+                    "CLOUD", 
+                    "PLAYBACK", 
+                    "AIRPLAY", 
+                    "LINE_IN", 
+                    "VOICE", 
+                    "AUDIO_CLIP", 
+                    "MICROPHONE_SWITCH"
+                ], 
+                "websocketUrl": "wss://172.18.255.251:1443/websocket/api", 
+                "deviceIds": [
+                    "RINCON_0003861038C801400"
+                ], 
+                "apiVersion": "1.35.0-alpha.5-8-g39d9fd49+d1f8c80c16.74.0-41010", 
+                "softwareVersion": "74.0-41010-dev-build-20230502-main", 
+                "minApiVersion": "1.1.0", 
+                "isUnregistered": false, 
+                "id": "RINCON_0003861038C801400"
+            }, 
+            {
+                "name": "Emulator", 
+                "capabilities": [
+                    "CLOUD", 
+                    "HT_PLAYBACK", 
+                    "PLAYBACK", 
+                    "AIRPLAY", 
+                    "AUDIO_CLIP"
+                ], 
+                "websocketUrl": "wss://172.18.255.253:1443/websocket/api", 
+                "deviceIds": [
+                    "RINCON_00038610369D01400"
+                ], 
+                "apiVersion": "1.35.0-alpha.5-8-g39d9fd49+d1f8c80c16.74.0-41010", 
+                "softwareVersion": "74.0-41010-dev-build-20230502-main", 
+                "minApiVersion": "1.1.0", 
+                "isUnregistered": false, 
+                "id": "RINCON_00038610369D01400"
+            }, 
+            {
+                "name": "Emulator", 
+                "capabilities": [
+                    "CLOUD", 
+                    "PLAYBACK", 
+                    "AIRPLAY", 
+                    "LINE_IN", 
+                    "VOICE", 
+                    "AUDIO_CLIP", 
+                    "MICROPHONE_SWITCH"
+                ], 
+                "websocketUrl": "wss://172.18.255.252:1443/websocket/api", 
+                "deviceIds": [
+                    "RINCON_00038610381F01400"
+                ], 
+                "apiVersion": "1.35.0-alpha.5-8-g39d9fd49+d1f8c80c16.74.0-41010", 
+                "softwareVersion": "74.0-41010-dev-build-20230502-main", 
+                "minApiVersion": "1.1.0", 
+                "isUnregistered": false, 
+                "id": "RINCON_00038610381F01400"
+            }
+        ], 
+        "partial": false, 
+        "groups": [
+            {
+                "name": "Emulator + 1", 
+                "areaIds": [
+                    "3e6f4989-dbef-4cb8-80f7-c97eae495e52", 
+                    "92aed22c-bd13-4bce-8c44-c90de654565d"
+                ], 
+                "playerIds": [
+                    "RINCON_0003861038C801400", 
+                    "RINCON_00038610381F01400"
+                ], 
+                "playbackState": "PLAYBACK_STATE_IDLE", 
+                "coordinatorId": "RINCON_0003861038C801400", 
+                "id": "RINCON_00038610369D01400:341756476"
+            }, 
+            {
+                "playerIds": [
+                    "RINCON_00038610369D01400"
+                ], 
+                "playbackState": "PLAYBACK_STATE_IDLE", 
+                "coordinatorId": "RINCON_00038610369D01400", 
+                "id": "RINCON_00038610369D01400:341756477", 
+                "name": "Emulator"
+            }
+        ]
+    }
+]
+DEBUG:Muse-Websocket:<Tue May  2 18:37:22 2023> Sent to 172.18.255.252: 
+[
+    {
+        "command": "getGroups", 
+        "cmdId": "2", 
+        "namespace": "groups", 
+        "householdId": "Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.GTKaA7ISl5zRbInU3mAD"
+    }, 
+    {}
+]
+INFO:Muse-Websocket:<Tue May  2 18:37:22 2023> Received from 172.18.255.252: 
+[
+    {
+        "success": true, 
+        "namespace": "groups", 
+        "householdId": "Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.GTKaA7ISl5zRbInU3mAD", 
+        "cmdId": "2", 
+        "locationId": "lc_ca90a63362e04e2f974afa5773d3923c", 
+        "type": "groups", 
+        "response": "getGroups"
+    }, 
+    {
+        "players": [
+            {
+                "name": "Emulator", 
+                "capabilities": [
+                    "CLOUD", 
+                    "PLAYBACK", 
+                    "AIRPLAY", 
+                    "LINE_IN", 
+                    "VOICE", 
+                    "AUDIO_CLIP", 
+                    "MICROPHONE_SWITCH"
+                ], 
+                "websocketUrl": "wss://172.18.255.252:1443/websocket/api", 
+                "deviceIds": [
+                    "RINCON_00038610381F01400"
+                ], 
+                "apiVersion": "1.35.0-alpha.5-8-g39d9fd49+d1f8c80c16.74.0-41010", 
+                "softwareVersion": "74.0-41010-dev-build-20230502-main", 
+                "minApiVersion": "1.1.0", 
+                "isUnregistered": false, 
+                "id": "RINCON_00038610381F01400"
+            }, 
+            {
+                "name": "Emulator", 
+                "capabilities": [
+                    "CLOUD", 
+                    "PLAYBACK", 
+                    "AIRPLAY", 
+                    "LINE_IN", 
+                    "VOICE", 
+                    "AUDIO_CLIP", 
+                    "MICROPHONE_SWITCH"
+                ], 
+                "websocketUrl": "wss://172.18.255.251:1443/websocket/api", 
+                "deviceIds": [
+                    "RINCON_0003861038C801400"
+                ], 
+                "apiVersion": "1.35.0-alpha.5-8-g39d9fd49+d1f8c80c16.74.0-41010", 
+                "softwareVersion": "74.0-41010-dev-build-20230502-main", 
+                "minApiVersion": "1.1.0", 
+                "isUnregistered": false, 
+                "id": "RINCON_0003861038C801400"
+            }, 
+            {
+                "name": "Emulator", 
+                "capabilities": [
+                    "CLOUD", 
+                    "HT_PLAYBACK", 
+                    "PLAYBACK", 
+                    "AIRPLAY", 
+                    "AUDIO_CLIP"
+                ], 
+                "websocketUrl": "wss://172.18.255.253:1443/websocket/api", 
+                "deviceIds": [
+                    "RINCON_00038610369D01400"
+                ], 
+                "apiVersion": "1.35.0-alpha.5-8-g39d9fd49+d1f8c80c16.74.0-41010", 
+                "softwareVersion": "74.0-41010-dev-build-20230502-main", 
+                "minApiVersion": "1.1.0", 
+                "isUnregistered": false, 
+                "id": "RINCON_00038610369D01400"
+            }
+        ], 
+        "partial": false, 
+        "groups": [
+            {
+                "name": "Emulator + 1", 
+                "areaIds": [
+                    "3e6f4989-dbef-4cb8-80f7-c97eae495e52", 
+                    "92aed22c-bd13-4bce-8c44-c90de654565d"
+                ], 
+                "playerIds": [
+                    "RINCON_00038610381F01400", 
+                    "RINCON_0003861038C801400"
+                ], 
+                "playbackState": "PLAYBACK_STATE_IDLE", 
+                "coordinatorId": "RINCON_0003861038C801400", 
+                "id": "RINCON_00038610369D01400:341756476"
+            }, 
+            {
+                "playerIds": [
+                    "RINCON_00038610369D01400"
+                ], 
+                "playbackState": "PLAYBACK_STATE_IDLE", 
+                "coordinatorId": "RINCON_00038610369D01400", 
+                "id": "RINCON_00038610369D01400:341756477", 
+                "name": "Emulator"
+            }
+        ]
+    }
+]
+DEBUG:Muse-Websocket:<Tue May  2 18:37:22 2023> Sent to 172.18.255.251: 
+[
+    {
+        "command": "updateArea", 
+        "cmdId": "10", 
+        "namespace": "areas", 
+        "authorization": "bearer T5RV8rMZALzGGQLfkF0Xwc1K8ZEY", 
+        "householdId": "Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.GTKaA7ISl5zRbInU3mAD"
+    }, 
+    {
+        "areaId": "3e6f4989-dbef-4cb8-80f7-c97eae495e52", 
+        "playerIds": [
+            "RINCON_00038610369D01400"
+        ], 
+        "name": "Area_1"
+    }
+]
+DEBUG:Muse-Websocket:No matched event found, waiting <1> seconds for more events
+INFO:Muse-Websocket:<Tue May  2 18:37:22 2023> Received from 172.18.255.251: 
+[
+    {
+        "success": true, 
+        "namespace": "areas", 
+        "householdId": "Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.GTKaA7ISl5zRbInU3mAD", 
+        "cmdId": "10", 
+        "locationId": "lc_ca90a63362e04e2f974afa5773d3923c", 
+        "type": "area", 
+        "response": "updateArea"
+    }, 
+    {
+        "isReadOnly": false, 
+        "playerIds": [
+            "RINCON_00038610369D01400"
+        ], 
+        "id": "3e6f4989-dbef-4cb8-80f7-c97eae495e52", 
+        "name": "Area_1"
+    }
+]
+INFO:Muse-Websocket:<Tue May  2 18:37:22 2023> Received from 172.18.255.251: 
+[
+    {
+        "locationId": "lc_ca90a63362e04e2f974afa5773d3923c", 
+        "type": "groups", 
+        "namespace": "groups", 
+        "name": "groups", 
+        "householdId": "Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.GTKaA7ISl5zRbInU3mAD"
+    }, 
+    {
+        "players": [
+            {
+                "name": "Emulator", 
+                "capabilities": [
+                    "CLOUD", 
+                    "PLAYBACK", 
+                    "AIRPLAY", 
+                    "LINE_IN", 
+                    "VOICE", 
+                    "AUDIO_CLIP", 
+                    "MICROPHONE_SWITCH"
+                ], 
+                "websocketUrl": "wss://172.18.255.251:1443/websocket/api", 
+                "deviceIds": [
+                    "RINCON_0003861038C801400"
+                ], 
+                "apiVersion": "1.35.0-alpha.5-8-g39d9fd49+d1f8c80c16.74.0-41010", 
+                "softwareVersion": "74.0-41010-dev-build-20230502-main", 
+                "minApiVersion": "1.1.0", 
+                "isUnregistered": false, 
+                "id": "RINCON_0003861038C801400"
+            }, 
+            {
+                "name": "Emulator", 
+                "capabilities": [
+                    "CLOUD", 
+                    "HT_PLAYBACK", 
+                    "PLAYBACK", 
+                    "AIRPLAY", 
+                    "AUDIO_CLIP"
+                ], 
+                "websocketUrl": "wss://172.18.255.253:1443/websocket/api", 
+                "deviceIds": [
+                    "RINCON_00038610369D01400"
+                ], 
+                "apiVersion": "1.35.0-alpha.5-8-g39d9fd49+d1f8c80c16.74.0-41010", 
+                "softwareVersion": "74.0-41010-dev-build-20230502-main", 
+                "minApiVersion": "1.1.0", 
+                "isUnregistered": false, 
+                "id": "RINCON_00038610369D01400"
+            }, 
+            {
+                "name": "Emulator", 
+                "capabilities": [
+                    "CLOUD", 
+                    "PLAYBACK", 
+                    "AIRPLAY", 
+                    "LINE_IN", 
+                    "VOICE", 
+                    "AUDIO_CLIP", 
+                    "MICROPHONE_SWITCH"
+                ], 
+                "websocketUrl": "wss://172.18.255.252:1443/websocket/api", 
+                "deviceIds": [
+                    "RINCON_00038610381F01400"
+                ], 
+                "apiVersion": "1.35.0-alpha.5-8-g39d9fd49+d1f8c80c16.74.0-41010", 
+                "softwareVersion": "74.0-41010-dev-build-20230502-main", 
+                "minApiVersion": "1.1.0", 
+                "isUnregistered": false, 
+                "id": "RINCON_00038610381F01400"
+            }
+        ], 
+        "partial": false, 
+        "groups": [
+            {
+                "areaIds": [
+                    "92aed22c-bd13-4bce-8c44-c90de654565d"
+                ], 
+                "playerIds": [
+                    "RINCON_0003861038C801400", 
+                    "RINCON_00038610381F01400"
+                ], 
+                "coordinatorId": "RINCON_0003861038C801400", 
+                "id": "RINCON_00038610369D01400:341756476", 
+                "name": "Emulator + 1"
+            }, 
+            {
+                "playerIds": [
+                    "RINCON_00038610369D01400"
+                ], 
+                "coordinatorId": "RINCON_00038610369D01400", 
+                "id": "RINCON_00038610369D01400:341756477", 
+                "name": "Emulator"
+            }
+        ]
+    }
+]
+DEBUG:Muse-Websocket:<Tue May  2 18:37:23 2023> Sent to 172.18.255.251: 
+[
+    {
+        "command": "getGroups", 
+        "cmdId": "11", 
+        "namespace": "groups", 
+        "householdId": "Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.GTKaA7ISl5zRbInU3mAD"
+    }, 
+    {}
+]
+DEBUG:Muse-Websocket:No matched event found, waiting <1> seconds for more events
+INFO:Muse-Websocket:<Tue May  2 18:37:23 2023> Received from 172.18.255.251: 
+[
+    {
+        "success": true, 
+        "namespace": "groups", 
+        "householdId": "Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.GTKaA7ISl5zRbInU3mAD", 
+        "cmdId": "11", 
+        "locationId": "lc_ca90a63362e04e2f974afa5773d3923c", 
+        "type": "groups", 
+        "response": "getGroups"
+    }, 
+    {
+        "players": [
+            {
+                "name": "Emulator", 
+                "capabilities": [
+                    "CLOUD", 
+                    "PLAYBACK", 
+                    "AIRPLAY", 
+                    "LINE_IN", 
+                    "VOICE", 
+                    "AUDIO_CLIP", 
+                    "MICROPHONE_SWITCH"
+                ], 
+                "websocketUrl": "wss://172.18.255.251:1443/websocket/api", 
+                "deviceIds": [
+                    "RINCON_0003861038C801400"
+                ], 
+                "apiVersion": "1.35.0-alpha.5-8-g39d9fd49+d1f8c80c16.74.0-41010", 
+                "softwareVersion": "74.0-41010-dev-build-20230502-main", 
+                "minApiVersion": "1.1.0", 
+                "isUnregistered": false, 
+                "id": "RINCON_0003861038C801400"
+            }, 
+            {
+                "name": "Emulator", 
+                "capabilities": [
+                    "CLOUD", 
+                    "HT_PLAYBACK", 
+                    "PLAYBACK", 
+                    "AIRPLAY", 
+                    "AUDIO_CLIP"
+                ], 
+                "websocketUrl": "wss://172.18.255.253:1443/websocket/api", 
+                "deviceIds": [
+                    "RINCON_00038610369D01400"
+                ], 
+                "apiVersion": "1.35.0-alpha.5-8-g39d9fd49+d1f8c80c16.74.0-41010", 
+                "softwareVersion": "74.0-41010-dev-build-20230502-main", 
+                "minApiVersion": "1.1.0", 
+                "isUnregistered": false, 
+                "id": "RINCON_00038610369D01400"
+            }, 
+            {
+                "name": "Emulator", 
+                "capabilities": [
+                    "CLOUD", 
+                    "PLAYBACK", 
+                    "AIRPLAY", 
+                    "LINE_IN", 
+                    "VOICE", 
+                    "AUDIO_CLIP", 
+                    "MICROPHONE_SWITCH"
+                ], 
+                "websocketUrl": "wss://172.18.255.252:1443/websocket/api", 
+                "deviceIds": [
+                    "RINCON_00038610381F01400"
+                ], 
+                "apiVersion": "1.35.0-alpha.5-8-g39d9fd49+d1f8c80c16.74.0-41010", 
+                "softwareVersion": "74.0-41010-dev-build-20230502-main", 
+                "minApiVersion": "1.1.0", 
+                "isUnregistered": false, 
+                "id": "RINCON_00038610381F01400"
+            }
+        ], 
+        "partial": false, 
+        "groups": [
+            {
+                "name": "Emulator + 1", 
+                "areaIds": [
+                    "92aed22c-bd13-4bce-8c44-c90de654565d"
+                ], 
+                "playerIds": [
+                    "RINCON_0003861038C801400", 
+                    "RINCON_00038610381F01400"
+                ], 
+                "playbackState": "PLAYBACK_STATE_IDLE", 
+                "coordinatorId": "RINCON_0003861038C801400", 
+                "id": "RINCON_00038610369D01400:341756476"
+            }, 
+            {
+                "playerIds": [
+                    "RINCON_00038610369D01400"
+                ], 
+                "playbackState": "PLAYBACK_STATE_IDLE", 
+                "coordinatorId": "RINCON_00038610369D01400", 
+                "id": "RINCON_00038610369D01400:341756477", 
+                "name": "Emulator"
+            }
+        ]
+    }
+]
+DEBUG:Muse-Websocket:<Tue May  2 18:37:24 2023> Sent to 172.18.255.252: 
+[
+    {
+        "command": "getGroups", 
+        "cmdId": "3", 
+        "namespace": "groups", 
+        "householdId": "Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.GTKaA7ISl5zRbInU3mAD"
+    }, 
+    {}
+]
+DEBUG:urllib3.connectionpool:http://172.18.255.250:1400 "POST /diagmsg HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /diagmsg HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "POST /diagmsg HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /diagmsg HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "POST /diagmsg HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /diagmsg HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "POST /diagmsg HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /diaglevel?module=default&level=1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "POST /diaglevel?module=default&level=1 HTTP/1.1" 200 178
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 170
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /diaglevel?module=default&level=1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "POST /diaglevel?module=default&level=1 HTTP/1.1" 200 189
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 181
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /diaglevel?module=default&level=1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "POST /diaglevel?module=default&level=1 HTTP/1.1" 200 189
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 181
+DEBUG:Muse-Websocket:<Tue May  2 18:37:24 2023> Sent to 172.18.255.251: 
+[
+    {
+        "command": "getAreas", 
+        "cmdId": "12", 
+        "namespace": "areas", 
+        "householdId": "Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.GTKaA7ISl5zRbInU3mAD"
+    }, 
+    {}
+]
+DEBUG:Muse-Websocket:No matched event found, waiting <1> seconds for more events
+INFO:Muse-Websocket:<Tue May  2 18:37:24 2023> Received from 172.18.255.251: 
+[
+    {
+        "success": true, 
+        "namespace": "areas", 
+        "householdId": "Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.GTKaA7ISl5zRbInU3mAD", 
+        "cmdId": "12", 
+        "locationId": "lc_ca90a63362e04e2f974afa5773d3923c", 
+        "type": "areas", 
+        "response": "getAreas"
+    }, 
+    {
+        "version": "RVLrkhuPk/wn/TAX0HrlChDfRTiNxecg+FiAuQ4XL/s=", 
+        "areas": [
+            {
+                "isReadOnly": false, 
+                "playerIds": [
+                    "RINCON_00038610369D01400"
+                ], 
+                "id": "3e6f4989-dbef-4cb8-80f7-c97eae495e52", 
+                "name": "Area_1"
+            }, 
+            {
+                "isReadOnly": false, 
+                "playerIds": [
+                    "RINCON_0003861038C801400", 
+                    "RINCON_00038610381F01400"
+                ], 
+                "id": "92aed22c-bd13-4bce-8c44-c90de654565d", 
+                "name": "Area_2"
+            }, 
+            {
+                "isReadOnly": true, 
+                "playerIds": [
+                    "RINCON_0003861038C801400", 
+                    "RINCON_00038610369D01400", 
+                    "RINCON_00038610381F01400"
+                ], 
+                "id": "7055133f-81e7-45e6-ba70-8803966c7185", 
+                "name": "Everywhere"
+            }
+        ]
+    }
+]
+DEBUG:Muse-Websocket:<Tue May  2 18:37:25 2023> Sent to 172.18.255.251: 
+[
+    {
+        "command": "removeArea", 
+        "cmdId": "13", 
+        "namespace": "areas", 
+        "authorization": "bearer T5RV8rMZALzGGQLfkF0Xwc1K8ZEY", 
+        "householdId": "Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.GTKaA7ISl5zRbInU3mAD"
+    }, 
+    {
+        "areaId": "3e6f4989-dbef-4cb8-80f7-c97eae495e52"
+    }
+]
+DEBUG:Muse-Websocket:No matched event found, waiting <1> seconds for more events
+INFO:Muse-Websocket:<Tue May  2 18:37:25 2023> Received from 172.18.255.251: 
+[
+    {
+        "success": true, 
+        "namespace": "areas", 
+        "householdId": "Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.GTKaA7ISl5zRbInU3mAD", 
+        "cmdId": "13", 
+        "locationId": "lc_ca90a63362e04e2f974afa5773d3923c", 
+        "type": "none", 
+        "response": "removeArea"
+    }, 
+    {}
+]
+DEBUG:Muse-Websocket:<Tue May  2 18:37:26 2023> Sent to 172.18.255.251: 
+[
+    {
+        "command": "removeArea", 
+        "cmdId": "14", 
+        "namespace": "areas", 
+        "authorization": "bearer T5RV8rMZALzGGQLfkF0Xwc1K8ZEY", 
+        "householdId": "Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.GTKaA7ISl5zRbInU3mAD"
+    }, 
+    {
+        "areaId": "92aed22c-bd13-4bce-8c44-c90de654565d"
+    }
+]
+DEBUG:Muse-Websocket:No matched event found, waiting <1> seconds for more events
+INFO:Muse-Websocket:<Tue May  2 18:37:26 2023> Received from 172.18.255.251: 
+[
+    {
+        "success": true, 
+        "namespace": "areas", 
+        "householdId": "Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.GTKaA7ISl5zRbInU3mAD", 
+        "cmdId": "14", 
+        "locationId": "lc_ca90a63362e04e2f974afa5773d3923c", 
+        "type": "none", 
+        "response": "removeArea"
+    }, 
+    {}
+]
+DEBUG:Muse-Websocket:<Tue May  2 18:37:27 2023> Sent to 172.18.255.251: 
+[
+    {
+        "command": "getAreas", 
+        "cmdId": "15", 
+        "namespace": "areas", 
+        "householdId": "Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.GTKaA7ISl5zRbInU3mAD"
+    }, 
+    {}
+]
+DEBUG:Muse-Websocket:No matched event found, waiting <1> seconds for more events
+INFO:Muse-Websocket:<Tue May  2 18:37:27 2023> Received from 172.18.255.251: 
+[
+    {
+        "success": true, 
+        "namespace": "areas", 
+        "householdId": "Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.GTKaA7ISl5zRbInU3mAD", 
+        "cmdId": "15", 
+        "locationId": "lc_ca90a63362e04e2f974afa5773d3923c", 
+        "type": "areas", 
+        "response": "getAreas"
+    }, 
+    {
+        "version": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=", 
+        "areas": [
+            {
+                "isReadOnly": true, 
+                "playerIds": [
+                    "RINCON_0003861038C801400", 
+                    "RINCON_00038610369D01400", 
+                    "RINCON_00038610381F01400"
+                ], 
+                "id": "7055133f-81e7-45e6-ba70-8803966c7185", 
+                "name": "Everywhere"
+            }
+        ]
+    }
+]
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /udplog HTTP/1.1" 200 None
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.253] command: <grep -v "LogToExternal" /jffs/localsettings.txt > /tmp/nokeyword.txt ; mv /tmp/nokeyword.txt /jffs/localsettings.txt>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.253] response: <>
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /udplog HTTP/1.1" 200 None
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.253] command: <grep -v "LogToExternal" /jffs/localsettings.txt > /tmp/nokeyword.txt ; mv /tmp/nokeyword.txt /jffs/localsettings.txt>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.253] response: <>
+INFO:root:
+========================= BEGIN ANACAPA LOG, SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=00038610369D, architecture=fury, hardware_version=1.36.1.0-1.0) =========================
+*		
+*		[1970-01-01 00:26:04.465] <udplog,0> enabled 172.18.0.7:3333
+*		[1970-01-01 00:26:04.639] <muse,6> [4] [0].command=subscribe
+*		[1970-01-01 00:26:04.640] <muse,6> [4] [0].cmdId=1
+*		[1970-01-01 00:26:04.641] <muse,6> [4] [0].namespace=groups
+*		[1970-01-01 00:26:04.642] <muse,6> [4] [0].householdId=Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.GTKaA7ISl5zRbInU3mAD
+*		[1970-01-01 00:26:04.643] <muse,3> RMuseController activating namespace (ns=groups, cmd=subscribe).
+*		[1970-01-01 00:26:04.647] <muse,4> [4] Received command groups#subscribe(1)
+*		[1970-01-01 00:26:04.648] <muse,3> Dispatching command (ns=groups, cmd=subscribe).
+*		[1970-01-01 00:26:04.653] <muse,3> [4] sending event: none()
+*		[1970-01-01 00:26:04.655] <muse,3> [4] sending event: groups(groups)
+*		[1970-01-01 00:26:04.658] <muse,3> [4] Sent response (success=true,type=none) to groups#subscribe(1) [took 19 ms] [upnp method: None]
+*		[1970-01-01 00:26:04.933] <cpu,0> error reading /sys/devices/system/cpu/cpu0/cpufreq/stats/time_in_state: Bad file descriptor
+*		[1970-01-01 00:26:06.939] <zpsa,1> Attempting to preinstall SID=303 (attempt 2)
+*		[1970-01-01 00:26:07.012] <ssl,5> sali.sonos.radio:443 cache load
+*		[1970-01-01 00:26:07.013] <ssl,5> sali.sonos.radio:443 not cached
+*		[1970-01-01 00:26:07.014] <ssl,2> initiating SSL connection to sali.sonos.radio with local port 40806
+*		[1970-01-01 00:26:07.025] <certval,3> cert validation for sali.sonos.radio (local port 40806)
+*		[1970-01-01 00:26:07.086] <ssl,5> connected to sali.sonos.radio using TLS-ECDHE-RSA-WITH-AES-128-GCM-SHA256
+*		[1970-01-01 00:26:07.088] <ssl,5> sali.sonos.radio:443 cache stored (standard)
+*		[1970-01-01 00:26:07.247] <soap,1> getDeviceAuthToken faultcode: Client.AuthTokenExpired, faultstring: Token Expired
+*		[1970-01-01 00:26:07.251] <dns,1> sali.sonos.radio -> 99.84.108.100
+*		[1970-01-01 00:26:07.253] <control_client,1> [-,dfa438db-96da-440d-9d19-cebf8b739564] getDeviceAuthToken failed, ret = 1036, httpRes = 200, tvStart = 1566 s 986127 us, m_tvConnectDone = 1576 s 986080 us, m_tvDone = 1586 s 986080 us, tvNow = 1567 s 251114 us
+*		[1970-01-01 00:26:07.253] <sonoscp,0> Sonos Radio: https://sali.sonos.radio/smapi#getDeviceAuthToken failed, ret = 1036
+*		[1970-01-01 00:26:07.254] <accountsmgr,0> Failed to preinstall service. Type=77575 res=1036
+*		[1970-01-01 00:26:09.184] <cpu,0> error reading /sys/devices/system/cpu/cpu0/cpufreq/stats/time_in_state: Bad file descriptor
+*		[1970-01-01 00:26:10.225] <diagmsg,0> [172.18.0.7] Start test: test_saved_groups_updateArea_updates_areaIds
+*		[1970-01-01 00:26:10.435] <ssl,5> 172.18.255.251:1843 cache load
+*		[1970-01-01 00:26:10.436] <ssl,5> 172.18.255.251:1843 cache hit (hh)
+*		[1970-01-01 00:26:10.437] <ssl,2> initiating SSL connection to 172.18.255.251 with local port 54982
+*		[1970-01-01 00:26:10.443] <ssl,5> connected to 172.18.255.251 using TLS-RSA-WITH-AES-128-GCM-SHA256
+*		[1970-01-01 00:26:10.444] <ssl,5> 172.18.255.251:1843 cache update (hh)
+*		[1970-01-01 00:26:10.466] <muse,7> h: householdId: Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.GTKaA7ISl5zRbInU3mAD
+*		[1970-01-01 00:26:10.467] <muse,7> h: locationId: lc_ca90a63362e04e2f974afa5773d3923c
+*		[1970-01-01 00:26:11.431] <ssl,5> 172.18.255.251:1843 cache load
+*		[1970-01-01 00:26:11.432] <ssl,5> 172.18.255.251:1843 cache hit (hh)
+*		[1970-01-01 00:26:11.433] <ssl,2> initiating SSL connection to 172.18.255.251 with local port 54994
+*		[1970-01-01 00:26:11.442] <ssl,5> connected to 172.18.255.251 using TLS-RSA-WITH-AES-128-GCM-SHA256
+*		[1970-01-01 00:26:11.445] <ssl,5> 172.18.255.251:1843 cache update (hh)
+*		[1970-01-01 00:26:11.467] <muse,7> h: householdId: Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.GTKaA7ISl5zRbInU3mAD
+*		[1970-01-01 00:26:11.468] <muse,7> h: locationId: lc_ca90a63362e04e2f974afa5773d3923c
+*		[1970-01-01 00:26:13.614] <muse,7> h: householdId: Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.GTKaA7ISl5zRbInU3mAD
+*		[1970-01-01 00:26:13.616] <muse,7> h: locationId: lc_ca90a63362e04e2f974afa5773d3923c
+*		[1970-01-01 00:26:13.617] <muse,4> [4] scheduled event groups
+*		[1970-01-01 00:26:13.621] <muse,3> [4] sending event: groups(groups)
+*		[1970-01-01 00:26:14.601] <cpu,0> error reading /sys/devices/system/cpu/cpu0/cpufreq/stats/time_in_state: Bad file descriptor
+*		[1970-01-01 00:26:18.255] <ssl,5> 172.18.255.250:1843 cache load
+*		[1970-01-01 00:26:18.257] <ssl,5> 172.18.255.250:1843 cache hit (hh)
+*		[1970-01-01 00:26:18.258] <ssl,2> initiating SSL connection to 172.18.255.250 with local port 52132
+*		[1970-01-01 00:26:18.268] <ssl,5> connected to 172.18.255.250 using TLS-RSA-WITH-AES-128-GCM-SHA256
+*		[1970-01-01 00:26:18.271] <ssl,5> 172.18.255.250:1843 cache update (hh)
+*		[1970-01-01 00:26:18.305] <muse,7> h: householdId: Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.GTKaA7ISl5zRbInU3mAD
+*		[1970-01-01 00:26:18.306] <muse,7> h: locationId: lc_ca90a63362e04e2f974afa5773d3923c
+*		[1970-01-01 00:26:19.384] <diagmsg,0> [172.18.0.7] Stop test: test_saved_groups_updateArea_updates_areaIds
+*		[1970-01-01 00:26:19.553] <cpu,0> error reading /sys/devices/system/cpu/cpu0/cpufreq/stats/time_in_state: Bad file descriptor
+*		[1970-01-01 00:26:20.631] <ssl,5> 172.18.255.251:1843 cache load
+*		[1970-01-01 00:26:20.632] <ssl,5> 172.18.255.251:1843 cache hit (hh)
+*		[1970-01-01 00:26:20.633] <ssl,2> initiating SSL connection to 172.18.255.251 with local port 55022
+*		[1970-01-01 00:26:20.638] <ssl,5> connected to 172.18.255.251 using TLS-RSA-WITH-AES-128-GCM-SHA256
+*		[1970-01-01 00:26:20.639] <ssl,5> 172.18.255.251:1843 cache update (hh)
+*		[1970-01-01 00:26:20.658] <muse,7> h: householdId: Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.GTKaA7ISl5zRbInU3mAD
+*		[1970-01-01 00:26:20.659] <muse,7> h: locationId: lc_ca90a63362e04e2f974afa5773d3923c
+*		[1970-01-01 00:26:21.619] <ssl,5> 172.18.255.251:1843 cache load
+*		[1970-01-01 00:26:21.621] <ssl,5> 172.18.255.251:1843 cache hit (hh)
+*		[1970-01-01 00:26:21.621] <ssl,2> initiating SSL connection to 172.18.255.251 with local port 55034
+*		[1970-01-01 00:26:21.626] <ssl,5> connected to 172.18.255.251 using TLS-RSA-WITH-AES-128-GCM-SHA256
+*		[1970-01-01 00:26:21.628] <ssl,5> 172.18.255.251:1843 cache update (hh)
+*		[1970-01-01 00:26:21.647] <muse,7> h: householdId: Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.GTKaA7ISl5zRbInU3mAD
+*		[1970-01-01 00:26:21.649] <muse,7> h: locationId: lc_ca90a63362e04e2f974afa5773d3923c
+*
+========================== END ANACAPA LOG, SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=00038610369D, architecture=fury, hardware_version=1.36.1.0-1.0) ==========================
+
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /udplog HTTP/1.1" 200 None
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.252] command: <grep -v "LogToExternal" /jffs/localsettings.txt > /tmp/nokeyword.txt ; mv /tmp/nokeyword.txt /jffs/localsettings.txt>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.252] response: <>
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /udplog HTTP/1.1" 200 None
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.252] command: <grep -v "LogToExternal" /jffs/localsettings.txt > /tmp/nokeyword.txt ; mv /tmp/nokeyword.txt /jffs/localsettings.txt>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.252] response: <>
+INFO:root:
+========================= BEGIN ANACAPA LOG, SonosZoneComponent(ip=172.18.255.252, modelNumber=S39, serialNumber=00038610381F, architecture=optimo, hardware_version=1.38.1.0-1.0) =========================
+*		
+*		[1970-01-01 00:24:40.716] <udplog,0> enabled 172.18.0.7:3333
+*		[1970-01-01 00:24:42.779] <muse,6> [82] [0].command=subscribe
+*		[1970-01-01 00:24:42.780] <muse,6> [82] [0].cmdId=1
+*		[1970-01-01 00:24:42.781] <muse,6> [82] [0].namespace=groups
+*		[1970-01-01 00:24:42.781] <muse,6> [82] [0].householdId=Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.GTKaA7ISl5zRbInU3mAD
+*		[1970-01-01 00:24:42.781] <muse,3> RMuseController activating namespace (ns=groups, cmd=subscribe).
+*		[1970-01-01 00:24:42.782] <muse,4> [82] Received command groups#subscribe(1)
+*		[1970-01-01 00:24:42.782] <muse,3> Dispatching command (ns=groups, cmd=subscribe).
+*		[1970-01-01 00:24:42.784] <muse,3> [82] sending event: none()
+*		[1970-01-01 00:24:42.785] <muse,3> [82] sending event: groups(groups)
+*		[1970-01-01 00:24:42.786] <muse,3> [82] Sent response (success=true,type=none) to groups#subscribe(1) [took 6 ms] [upnp method: None]
+*		[1970-01-01 00:24:43.172] <cpu,0> error reading /sys/devices/system/cpu/cpu0/cpufreq/stats/time_in_state: Bad file descriptor
+*		[1970-01-01 00:24:43.628] <topology,3> handleNewOrUpdatedZP: SSDP found RINCON_00038610369D01400 at http://172.18.255.253:1400/xml/device_description.xml; age: 1800; addr: 172.18.255.253:53978; host: 239.255.255.250:1900; proxy: ; ports={1443-1843}
+*		[1970-01-01 00:24:43.629] <topology,3> handleNewOrUpdatedZP: SSDP found RINCON_00038610369D01400 at http://172.18.255.253:1400/xml/device_description.xml; age: 1800; addr: 172.18.255.253:53978; host: 239.255.255.250:1900; proxy: ; ports={1443-1843}
+*		[1970-01-01 00:24:45.630] <topology,0> Stop topology monitor
+*		[1970-01-01 00:24:46.345] <diagmsg,0> [172.18.0.7] Start test: test_saved_groups_updateArea_updates_areaIds
+*		[1970-01-01 00:24:46.549] <ssl,5> 172.18.255.251:1843 cache load
+*		[1970-01-01 00:24:46.549] <ssl,5> 172.18.255.251:1843 cache hit (hh)
+*		[1970-01-01 00:24:46.550] <ssl,2> initiating SSL connection to 172.18.255.251 with local port 46834
+*		[1970-01-01 00:24:46.554] <ssl,5> connected to 172.18.255.251 using TLS-RSA-WITH-AES-128-GCM-SHA256
+*		[1970-01-01 00:24:46.555] <ssl,5> 172.18.255.251:1843 cache update (hh)
+*		[1970-01-01 00:24:46.572] <muse,7> h: householdId: Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.GTKaA7ISl5zRbInU3mAD
+*		[1970-01-01 00:24:46.572] <muse,7> h: locationId: lc_ca90a63362e04e2f974afa5773d3923c
+*		[1970-01-01 00:24:47.546] <ssl,5> 172.18.255.251:1843 cache load
+*		[1970-01-01 00:24:47.547] <ssl,5> 172.18.255.251:1843 cache hit (hh)
+*		[1970-01-01 00:24:47.547] <ssl,2> initiating SSL connection to 172.18.255.251 with local port 46846
+*		[1970-01-01 00:24:47.552] <ssl,5> connected to 172.18.255.251 using TLS-RSA-WITH-AES-128-GCM-SHA256
+*		[1970-01-01 00:24:47.554] <ssl,5> 172.18.255.251:1843 cache update (hh)
+*		[1970-01-01 00:24:47.571] <muse,7> h: householdId: Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.GTKaA7ISl5zRbInU3mAD
+*		[1970-01-01 00:24:47.572] <muse,7> h: locationId: lc_ca90a63362e04e2f974afa5773d3923c
+*		[1970-01-01 00:24:48.384] <avt_impl,1> SetAVTransportURI to x-rincon:RINCON_0003861038C801400
+*		[1970-01-01 00:24:48.385] <avt_impl,2> setTransportToRinconGroupURI x-rincon:RINCON_0003861038C801400
+*		[1970-01-01 00:24:48.386] <muse,3> notify group coordinator RINCON_00038610381F01400:2910063515 changed
+*		[1970-01-01 00:24:48.386] <muse,7> h: groupId: RINCON_00038610381F01400:2910063515
+*		[1970-01-01 00:24:48.399] <topology,1> Changing coordinator RINCON_0003861038C801400; start topology monitor
+*		[1970-01-01 00:24:48.400] <chsrc,3> handling req while stopped: 4
+*		[1970-01-01 00:24:48.402] <cpu,0> error reading /sys/devices/system/cpu/cpu0/cpufreq/stats/time_in_state: Bad file descriptor
+*		[1970-01-01 00:24:48.422] <chsnk,1> synchronizedPlay: noderx pause request
+*		[1970-01-01 00:24:48.462] <chsnk,1> Channel Sink in stopped state (dc:1488.403681)
+*		[1970-01-01 00:24:48.465] <chsnk,1> SNTP waiting for valid at 1488.465909
+*		[1970-01-01 00:24:48.467] <muse,7> h: householdId: Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.GTKaA7ISl5zRbInU3mAD
+*		[1970-01-01 00:24:48.468] <muse,7> h: locationId: lc_ca90a63362e04e2f974afa5773d3923c
+*		[1970-01-01 00:24:48.468] <muse,7> h: groupId: RINCON_00038610369D01400:341756476
+*		[1970-01-01 00:24:48.468] <muse,7> h: householdId: Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.GTKaA7ISl5zRbInU3mAD
+*		[1970-01-01 00:24:48.469] <muse,7> h: locationId: lc_ca90a63362e04e2f974afa5773d3923c
+*		[1970-01-01 00:24:48.469] <muse,7> h: groupId: RINCON_00038610369D01400:341756476
+*		[1970-01-01 00:24:48.469] <muse,7> h: householdId: Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.GTKaA7ISl5zRbInU3mAD
+*		[1970-01-01 00:24:48.470] <muse,7> h: locationId: lc_ca90a63362e04e2f974afa5773d3923c
+*		[1970-01-01 00:24:48.470] <muse,7> h: groupId: RINCON_00038610369D01400:341756476
+*		[1970-01-01 00:24:49.691] <ssl,5> 172.18.255.251:1843 cache load
+*		[1970-01-01 00:24:49.693] <topology,3> Got GM info for 15 (RINCON_0003861038C801400, Emulator) in group RINCON_00038610369D01400:341756476 (gc)
+*		[1970-01-01 00:24:49.693] <ssl,5> 172.18.255.251:1843 cache hit (hh)
+*		[1970-01-01 00:24:49.694] <ssl,2> initiating SSL connection to 172.18.255.251 with local port 46860
+*		[1970-01-01 00:24:49.698] <ssl,5> connected to 172.18.255.251 using TLS-RSA-WITH-AES-128-GCM-SHA256
+*		[1970-01-01 00:24:49.699] <ssl,5> 172.18.255.251:1843 cache update (hh)
+*		[1970-01-01 00:24:49.717] <chsnk,1> SNTP valid 1 continue to play 1 at 1489.717624
+*		[1970-01-01 00:24:49.726] <muse,7> h: householdId: Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.GTKaA7ISl5zRbInU3mAD
+*		[1970-01-01 00:24:49.727] <muse,7> h: locationId: lc_ca90a63362e04e2f974afa5773d3923c
+*		[1970-01-01 00:24:49.727] <muse,4> [82] scheduled event groups
+*		[1970-01-01 00:24:49.729] <muse,7> h: householdId: Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP
+*		[1970-01-01 00:24:49.729] <muse,7> h: locationId: lc_ca90a63362e04e2f974afa5773d3923c
+*		[1970-01-01 00:24:49.730] <muse,3> [82] sending event: groups(groups)
+*		[1970-01-01 00:24:53.421] <muse,6> [82] [0].command=getGroups
+*		[1970-01-01 00:24:53.422] <muse,6> [82] [0].cmdId=2
+*		[1970-01-01 00:24:53.423] <muse,6> [82] [0].namespace=groups
+*		[1970-01-01 00:24:53.423] <muse,6> [82] [0].householdId=Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.GTKaA7ISl5zRbInU3mAD
+*		[1970-01-01 00:24:53.424] <muse,3> RMuseController activating namespace (ns=groups, cmd=getGroups).
+*		[1970-01-01 00:24:53.425] <muse,4> [82] Received command groups#getGroups(2)
+*		[1970-01-01 00:24:53.426] <muse,3> Dispatching command (ns=groups, cmd=getGroups).
+*		[1970-01-01 00:24:53.436] <muse,3> [82] sending event: groups(groups)
+*		[1970-01-01 00:24:53.443] <muse,3> [82] Sent response (success=true,type=groups) to groups#getGroups(2) [took 22 ms] [upnp method: None]
+*		[1970-01-01 00:24:53.735] <cpu,0> error reading /sys/devices/system/cpu/cpu0/cpufreq/stats/time_in_state: Bad file descriptor
+*		[1970-01-01 00:24:53.799] <ssl,5> 172.18.255.251:1843 cache load
+*		[1970-01-01 00:24:53.800] <ssl,5> 172.18.255.251:1843 cache hit (hh)
+*		[1970-01-01 00:24:53.802] <ssl,2> initiating SSL connection to 172.18.255.251 with local port 46884
+*		[1970-01-01 00:24:53.821] <ssl,5> connected to 172.18.255.251 using TLS-RSA-WITH-AES-128-GCM-SHA256
+*		[1970-01-01 00:24:53.825] <ssl,5> 172.18.255.251:1843 cache update (hh)
+*		[1970-01-01 00:24:53.928] <muse,7> h: householdId: Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.GTKaA7ISl5zRbInU3mAD
+*		[1970-01-01 00:24:53.929] <muse,7> h: locationId: lc_ca90a63362e04e2f974afa5773d3923c
+*		[1970-01-01 00:24:54.134] <topology,3> handleNewOrUpdatedZP: SSDP found RINCON_00038610369D01400 at http://172.18.255.253:1400/xml/device_description.xml; age: 1800; addr: 172.18.255.253:53978; host: 239.255.255.250:1900; proxy: ; ports={1443-1843}
+*		[1970-01-01 00:24:55.471] <muse,6> [82] [0].command=getGroups
+*		[1970-01-01 00:24:55.472] <muse,6> [82] [0].cmdId=3
+*		[1970-01-01 00:24:55.473] <muse,6> [82] [0].namespace=groups
+*		[1970-01-01 00:24:55.473] <muse,6> [82] [0].householdId=Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.GTKaA7ISl5zRbInU3mAD
+*		[1970-01-01 00:24:55.474] <muse,3> RMuseController activating namespace (ns=groups, cmd=getGroups).
+*		[1970-01-01 00:24:55.474] <muse,4> [82] Received command groups#getGroups(3)
+*		[1970-01-01 00:24:55.475] <muse,3> Dispatching command (ns=groups, cmd=getGroups).
+*		[1970-01-01 00:24:55.477] <muse,3> [82] sending event: groups(groups)
+*		[1970-01-01 00:24:55.478] <muse,3> [82] Sent response (success=true,type=groups) to groups#getGroups(3) [took 7 ms] [upnp method: None]
+*		[1970-01-01 00:24:55.507] <diagmsg,0> [172.18.0.7] Stop test: test_saved_groups_updateArea_updates_areaIds
+*		[1970-01-01 00:24:56.748] <ssl,5> 172.18.255.251:1843 cache load
+*		[1970-01-01 00:24:56.749] <ssl,5> 172.18.255.251:1843 cache hit (hh)
+*		[1970-01-01 00:24:56.749] <ssl,2> initiating SSL connection to 172.18.255.251 with local port 46896
+*		[1970-01-01 00:24:56.756] <ssl,5> connected to 172.18.255.251 using TLS-RSA-WITH-AES-128-GCM-SHA256
+*		[1970-01-01 00:24:56.757] <ssl,5> 172.18.255.251:1843 cache update (hh)
+*		[1970-01-01 00:24:56.773] <muse,7> h: householdId: Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.GTKaA7ISl5zRbInU3mAD
+*		[1970-01-01 00:24:56.774] <muse,7> h: locationId: lc_ca90a63362e04e2f974afa5773d3923c
+*		[1970-01-01 00:24:57.735] <ssl,5> 172.18.255.251:1843 cache load
+*		[1970-01-01 00:24:57.735] <ssl,5> 172.18.255.251:1843 cache hit (hh)
+*		[1970-01-01 00:24:57.735] <ssl,2> initiating SSL connection to 172.18.255.251 with local port 46908
+*		[1970-01-01 00:24:57.739] <ssl,5> connected to 172.18.255.251 using TLS-RSA-WITH-AES-128-GCM-SHA256
+*		[1970-01-01 00:24:57.740] <ssl,5> 172.18.255.251:1843 cache update (hh)
+*		[1970-01-01 00:24:57.759] <muse,7> h: householdId: Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.GTKaA7ISl5zRbInU3mAD
+*		[1970-01-01 00:24:57.759] <muse,7> h: locationId: lc_ca90a63362e04e2f974afa5773d3923c
+*		[1970-01-01 00:24:58.797] <cpu,0> error reading /sys/devices/system/cpu/cpu0/cpufreq/stats/time_in_state: Bad file descriptor
+*
+========================== END ANACAPA LOG, SonosZoneComponent(ip=172.18.255.252, modelNumber=S39, serialNumber=00038610381F, architecture=optimo, hardware_version=1.38.1.0-1.0) ==========================
+
+DEBUG:Muse-Websocket:<Tue May  2 18:37:29 2023> Closed ws connection to: wss://172.18.255.251:1443/websocket/api?key=e61bc77c-39cd-4ed0-a5e7-5ad316a0efc5
+
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.ChannelMapSet> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=0003861038C8, architecture=optimo, hardware_version=1.38.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.ChannelMapSet> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=0003861038C8, architecture=optimo, hardware_version=1.38.1.0-1.0) = 
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.HTSatChanMapSet> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=0003861038C8, architecture=optimo, hardware_version=1.38.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.HTSatChanMapSet> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=0003861038C8, architecture=optimo, hardware_version=1.38.1.0-1.0) = 
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.HTSatChanMapSet> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=0003861038C8, architecture=optimo, hardware_version=1.38.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.HTSatChanMapSet> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=0003861038C8, architecture=optimo, hardware_version=1.38.1.0-1.0) = 
+DEBUG:SONOS.sonos.services.base:Getting state variable <GroupManagement.GroupCoordinatorIsLocal> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=0003861038C8, architecture=optimo, hardware_version=1.38.1.0-1.0)
+DEBUG:Muse-Websocket:<Tue May  2 18:37:29 2023> Closed ws connection to: wss://172.18.255.252:1443/websocket/api?key=e61bc77c-39cd-4ed0-a5e7-5ad316a0efc5
+
+DEBUG:SONOS.sonos.services.base:State variable <GroupManagement.GroupCoordinatorIsLocal> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=0003861038C8, architecture=optimo, hardware_version=1.38.1.0-1.0) = 1
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=0003861038C8, architecture=optimo, hardware_version=1.38.1.0-1.0) invokes AVTransport.GetTransportInfo("InstanceID"="0", "headers"="{}")
+DEBUG:Muse-Websocket:<Tue May  2 18:37:29 2023> Closed ws connection to: wss://172.18.255.253:1443/websocket/api?key=e61bc77c-39cd-4ed0-a5e7-5ad316a0efc5
+
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=0003861038C8, architecture=optimo, hardware_version=1.38.1.0-1.0) AVTransport.GetTransportInfo returns '{'CurrentTransportState': u'STOPPED', 'CurrentTransportStatus': u'OK', 'CurrentSpeed': u'1'}'
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=0003861038C8, architecture=optimo, hardware_version=1.38.1.0-1.0) invokes AVTransport.GetTransportInfo("InstanceID"="0", "headers"="{}")
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=0003861038C8, architecture=optimo, hardware_version=1.38.1.0-1.0) AVTransport.GetTransportInfo returns '{'CurrentTransportState': u'STOPPED', 'CurrentTransportStatus': u'OK', 'CurrentSpeed': u'1'}'
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=0003861038C8, architecture=optimo, hardware_version=1.38.1.0-1.0) invokes RenderingControl.SetVolume("InstanceID"="0", "DesiredVolume"="10", "Channel"="Master", "headers"="{}")
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=0003861038C8, architecture=optimo, hardware_version=1.38.1.0-1.0) RenderingControl.SetVolume returns '{}'
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=0003861038C8, architecture=optimo, hardware_version=1.38.1.0-1.0) invokes ContentDirectory.Browse("ObjectID"="Q:0", "BrowseFlag"="BrowseDirectChildren", "Filter"="0", "headers"="{}", "RequestedCount"="0", "StartingIndex"="0", "SortCriteria"="")
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=0003861038C8, architecture=optimo, hardware_version=1.38.1.0-1.0) ContentDirectory.Browse returns '{'NumberReturned': u'0', 'UpdateID': u'1', 'Result': u'<DIDL-Lite xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:upnp="urn:schemas-upnp-org:metadata-1-0/upnp/" xmlns:r="urn:schemas-rinconnetworks-com:metadata-1-0/" xmlns="urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/"></DIDL-Lite>', 'TotalMatches': u'0'}'
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.ChannelMapSet> for SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=00038610369D, architecture=fury, hardware_version=1.36.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.ChannelMapSet> for SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=00038610369D, architecture=fury, hardware_version=1.36.1.0-1.0) = 
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.HTSatChanMapSet> for SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=00038610369D, architecture=fury, hardware_version=1.36.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.HTSatChanMapSet> for SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=00038610369D, architecture=fury, hardware_version=1.36.1.0-1.0) = 
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.HTSatChanMapSet> for SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=00038610369D, architecture=fury, hardware_version=1.36.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.HTSatChanMapSet> for SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=00038610369D, architecture=fury, hardware_version=1.36.1.0-1.0) = 
+DEBUG:SONOS.sonos.services.base:Getting state variable <GroupManagement.GroupCoordinatorIsLocal> for SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=00038610369D, architecture=fury, hardware_version=1.36.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <GroupManagement.GroupCoordinatorIsLocal> for SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=00038610369D, architecture=fury, hardware_version=1.36.1.0-1.0) = 1
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=00038610369D, architecture=fury, hardware_version=1.36.1.0-1.0) invokes AVTransport.GetTransportInfo("InstanceID"="0", "headers"="{}")
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=00038610369D, architecture=fury, hardware_version=1.36.1.0-1.0) AVTransport.GetTransportInfo returns '{'CurrentTransportState': u'STOPPED', 'CurrentTransportStatus': u'OK', 'CurrentSpeed': u'1'}'
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=00038610369D, architecture=fury, hardware_version=1.36.1.0-1.0) invokes AVTransport.GetTransportInfo("InstanceID"="0", "headers"="{}")
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=00038610369D, architecture=fury, hardware_version=1.36.1.0-1.0) AVTransport.GetTransportInfo returns '{'CurrentTransportState': u'STOPPED', 'CurrentTransportStatus': u'OK', 'CurrentSpeed': u'1'}'
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=00038610369D, architecture=fury, hardware_version=1.36.1.0-1.0) invokes RenderingControl.SetVolume("InstanceID"="0", "DesiredVolume"="10", "Channel"="Master", "headers"="{}")
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=00038610369D, architecture=fury, hardware_version=1.36.1.0-1.0) RenderingControl.SetVolume returns '{}'
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=00038610369D, architecture=fury, hardware_version=1.36.1.0-1.0) invokes ContentDirectory.Browse("ObjectID"="Q:0", "BrowseFlag"="BrowseDirectChildren", "Filter"="0", "headers"="{}", "RequestedCount"="0", "StartingIndex"="0", "SortCriteria"="")
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=00038610369D, architecture=fury, hardware_version=1.36.1.0-1.0) ContentDirectory.Browse returns '{'NumberReturned': u'0', 'UpdateID': u'0', 'Result': u'<DIDL-Lite xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:upnp="urn:schemas-upnp-org:metadata-1-0/upnp/" xmlns:r="urn:schemas-rinconnetworks-com:metadata-1-0/" xmlns="urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/"></DIDL-Lite>', 'TotalMatches': u'0'}'
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.ChannelMapSet> for SonosZoneComponent(ip=172.18.255.252, modelNumber=S39, serialNumber=00038610381F, architecture=optimo, hardware_version=1.38.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.ChannelMapSet> for SonosZoneComponent(ip=172.18.255.252, modelNumber=S39, serialNumber=00038610381F, architecture=optimo, hardware_version=1.38.1.0-1.0) = 
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.HTSatChanMapSet> for SonosZoneComponent(ip=172.18.255.252, modelNumber=S39, serialNumber=00038610381F, architecture=optimo, hardware_version=1.38.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.HTSatChanMapSet> for SonosZoneComponent(ip=172.18.255.252, modelNumber=S39, serialNumber=00038610381F, architecture=optimo, hardware_version=1.38.1.0-1.0) = 
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.HTSatChanMapSet> for SonosZoneComponent(ip=172.18.255.252, modelNumber=S39, serialNumber=00038610381F, architecture=optimo, hardware_version=1.38.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.HTSatChanMapSet> for SonosZoneComponent(ip=172.18.255.252, modelNumber=S39, serialNumber=00038610381F, architecture=optimo, hardware_version=1.38.1.0-1.0) = 
+DEBUG:SONOS.sonos.services.base:Getting state variable <GroupManagement.GroupCoordinatorIsLocal> for SonosZoneComponent(ip=172.18.255.252, modelNumber=S39, serialNumber=00038610381F, architecture=optimo, hardware_version=1.38.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <GroupManagement.GroupCoordinatorIsLocal> for SonosZoneComponent(ip=172.18.255.252, modelNumber=S39, serialNumber=00038610381F, architecture=optimo, hardware_version=1.38.1.0-1.0) = 0
+DEBUG:SONOS.sonos.services.base:Getting state variable <ZoneGroupTopology.ZoneGroupID> for SonosZoneComponent(ip=172.18.255.252, modelNumber=S39, serialNumber=00038610381F, architecture=optimo, hardware_version=1.38.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <ZoneGroupTopology.ZoneGroupID> for SonosZoneComponent(ip=172.18.255.252, modelNumber=S39, serialNumber=00038610381F, architecture=optimo, hardware_version=1.38.1.0-1.0) = RINCON_00038610369D01400:341756476
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.252, modelNumber=S39, serialNumber=00038610381F, architecture=optimo, hardware_version=1.38.1.0-1.0) invokes AVTransport.BecomeCoordinatorOfStandaloneGroup("InstanceID"="0", "headers"="{}")
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.252, modelNumber=S39, serialNumber=00038610381F, architecture=optimo, hardware_version=1.38.1.0-1.0) AVTransport.BecomeCoordinatorOfStandaloneGroup returns '{'DelegatedGroupCoordinatorID': u'', 'NewGroupID': u'RINCON_00038610381F01400:2910063516'}'
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:SONOS.sonos.services.base:Getting state variable <ZoneGroupTopology.ZoneGroupID> for SonosZoneComponent(ip=172.18.255.252, modelNumber=S39, serialNumber=00038610381F, architecture=optimo, hardware_version=1.38.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <ZoneGroupTopology.ZoneGroupID> for SonosZoneComponent(ip=172.18.255.252, modelNumber=S39, serialNumber=00038610381F, architecture=optimo, hardware_version=1.38.1.0-1.0) = RINCON_00038610369D01400:341756476
+DEBUG:SONOS.sonos.services.base:Getting state variable <ZoneGroupTopology.ZoneGroupID> for SonosZoneComponent(ip=172.18.255.252, modelNumber=S39, serialNumber=00038610381F, architecture=optimo, hardware_version=1.38.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <ZoneGroupTopology.ZoneGroupID> for SonosZoneComponent(ip=172.18.255.252, modelNumber=S39, serialNumber=00038610381F, architecture=optimo, hardware_version=1.38.1.0-1.0) = RINCON_00038610381F01400:2910063516
+INFO:SONOS.sonos.services.common:wait_until_true: Waited 2.01807689667 seconds
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:SONOS.sonos.services.base:Getting state variable <GroupManagement.GroupCoordinatorIsLocal> for SonosZoneComponent(ip=172.18.255.252, modelNumber=S39, serialNumber=00038610381F, architecture=optimo, hardware_version=1.38.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <GroupManagement.GroupCoordinatorIsLocal> for SonosZoneComponent(ip=172.18.255.252, modelNumber=S39, serialNumber=00038610381F, architecture=optimo, hardware_version=1.38.1.0-1.0) = 1
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.252, modelNumber=S39, serialNumber=00038610381F, architecture=optimo, hardware_version=1.38.1.0-1.0) invokes AVTransport.GetTransportInfo("InstanceID"="0", "headers"="{}")
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.252, modelNumber=S39, serialNumber=00038610381F, architecture=optimo, hardware_version=1.38.1.0-1.0) AVTransport.GetTransportInfo returns '{'CurrentTransportState': u'STOPPED', 'CurrentTransportStatus': u'OK', 'CurrentSpeed': u'1'}'
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.252, modelNumber=S39, serialNumber=00038610381F, architecture=optimo, hardware_version=1.38.1.0-1.0) invokes AVTransport.GetTransportInfo("InstanceID"="0", "headers"="{}")
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.252, modelNumber=S39, serialNumber=00038610381F, architecture=optimo, hardware_version=1.38.1.0-1.0) AVTransport.GetTransportInfo returns '{'CurrentTransportState': u'STOPPED', 'CurrentTransportStatus': u'OK', 'CurrentSpeed': u'1'}'
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.252, modelNumber=S39, serialNumber=00038610381F, architecture=optimo, hardware_version=1.38.1.0-1.0) invokes RenderingControl.SetVolume("InstanceID"="0", "DesiredVolume"="10", "Channel"="Master", "headers"="{}")
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.252, modelNumber=S39, serialNumber=00038610381F, architecture=optimo, hardware_version=1.38.1.0-1.0) RenderingControl.SetVolume returns '{}'
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.252, modelNumber=S39, serialNumber=00038610381F, architecture=optimo, hardware_version=1.38.1.0-1.0) invokes ContentDirectory.Browse("ObjectID"="Q:0", "BrowseFlag"="BrowseDirectChildren", "Filter"="0", "headers"="{}", "RequestedCount"="0", "StartingIndex"="0", "SortCriteria"="")
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.252, modelNumber=S39, serialNumber=00038610381F, architecture=optimo, hardware_version=1.38.1.0-1.0) ContentDirectory.Browse returns '{'NumberReturned': u'0', 'UpdateID': u'3', 'Result': u'<DIDL-Lite xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:upnp="urn:schemas-upnp-org:metadata-1-0/upnp/" xmlns:r="urn:schemas-rinconnetworks-com:metadata-1-0/" xmlns="urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/"></DIDL-Lite>', 'TotalMatches': u'0'}'
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.253] command: <test -e /jffs/backtrace && echo $?>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.253] response: <>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.252] command: <test -e /jffs/backtrace && echo $?>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.252] response: <>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.251] command: <test -e /jffs/backtrace && echo $?>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.251] response: <>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.250] command: <test -e /jffs/backtrace && echo $?>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.250] response: <>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.253] command: <test -e /jffs/watchdog.log && echo $?>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.253] response: <>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.252] command: <test -e /jffs/watchdog.log && echo $?>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.252] response: <>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.251] command: <test -e /jffs/watchdog.log && echo $?>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.251] response: <>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.250] command: <test -e /jffs/watchdog.log && echo $?>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.250] response: <>
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.ChannelMapSet> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=0003861038C8, architecture=optimo, hardware_version=1.38.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.ChannelMapSet> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=0003861038C8, architecture=optimo, hardware_version=1.38.1.0-1.0) = 
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.HTSatChanMapSet> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=0003861038C8, architecture=optimo, hardware_version=1.38.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.HTSatChanMapSet> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=0003861038C8, architecture=optimo, hardware_version=1.38.1.0-1.0) = 
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.HTSatChanMapSet> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=0003861038C8, architecture=optimo, hardware_version=1.38.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.HTSatChanMapSet> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=0003861038C8, architecture=optimo, hardware_version=1.38.1.0-1.0) = 
+DEBUG:SONOS.sonos.services.base:Getting state variable <GroupManagement.GroupCoordinatorIsLocal> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=0003861038C8, architecture=optimo, hardware_version=1.38.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <GroupManagement.GroupCoordinatorIsLocal> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=0003861038C8, architecture=optimo, hardware_version=1.38.1.0-1.0) = 1
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=0003861038C8, architecture=optimo, hardware_version=1.38.1.0-1.0) invokes AVTransport.GetTransportInfo("InstanceID"="0", "headers"="{}")
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=0003861038C8, architecture=optimo, hardware_version=1.38.1.0-1.0) AVTransport.GetTransportInfo returns '{'CurrentTransportState': u'STOPPED', 'CurrentTransportStatus': u'OK', 'CurrentSpeed': u'1'}'
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=0003861038C8, architecture=optimo, hardware_version=1.38.1.0-1.0) invokes AVTransport.GetTransportInfo("InstanceID"="0", "headers"="{}")
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=0003861038C8, architecture=optimo, hardware_version=1.38.1.0-1.0) AVTransport.GetTransportInfo returns '{'CurrentTransportState': u'STOPPED', 'CurrentTransportStatus': u'OK', 'CurrentSpeed': u'1'}'
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=0003861038C8, architecture=optimo, hardware_version=1.38.1.0-1.0) invokes RenderingControl.SetVolume("InstanceID"="0", "DesiredVolume"="10", "Channel"="Master", "headers"="{}")
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=0003861038C8, architecture=optimo, hardware_version=1.38.1.0-1.0) RenderingControl.SetVolume returns '{}'
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=0003861038C8, architecture=optimo, hardware_version=1.38.1.0-1.0) invokes ContentDirectory.Browse("ObjectID"="Q:0", "BrowseFlag"="BrowseDirectChildren", "Filter"="0", "headers"="{}", "RequestedCount"="0", "StartingIndex"="0", "SortCriteria"="")
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=0003861038C8, architecture=optimo, hardware_version=1.38.1.0-1.0) ContentDirectory.Browse returns '{'NumberReturned': u'0', 'UpdateID': u'1', 'Result': u'<DIDL-Lite xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:upnp="urn:schemas-upnp-org:metadata-1-0/upnp/" xmlns:r="urn:schemas-rinconnetworks-com:metadata-1-0/" xmlns="urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/"></DIDL-Lite>', 'TotalMatches': u'0'}'
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=0003861038C8, architecture=optimo, hardware_version=1.38.1.0-1.0) invokes SystemProperties.GetString("headers"="{}", "VariableName"="O_CLOUD_API_BASE_URL")
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=0003861038C8, architecture=optimo, hardware_version=1.38.1.0-1.0) invokes SystemProperties.GetString("headers"="{}", "VariableName"="O_AUTOMATION_CLOUD_DOMAIN")
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=0003861038C8, architecture=optimo, hardware_version=1.38.1.0-1.0) invokes SystemProperties.GetString("headers"="{}", "VariableName"="O_AUTOMATION_CLOUD_DOMAIN_MUTUAL_SSL")

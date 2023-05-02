@@ -1,0 +1,407 @@
+{
+  "uid" : "f08c789d201e1eab",
+  "name" : "test_capability_from_response_on_unsupported_devices[device_filter2-supported_devices2-FIXED_VOLUME]",
+  "fullName" : "player.muse.test_groups_namespace#test_capability_from_response_on_unsupported_devices[device_filter2-supported_devices2-FIXED_VOLUME]",
+  "historyId" : "3f8e8b7f772b3562b66821ed8fe0aaba",
+  "time" : {
+    "start" : 1683050124218,
+    "stop" : 1683050124219,
+    "duration" : 1
+  },
+  "description" : "\n    Test getGroups response from unsupported_device and verify it\n    - does not advertise CAPABILITY on unsupported_zp\n    - advertises CAPABILITY on supported_zp\n    :param dut_manager:\n    :param function_dut:\n    :param ws_client:\n    :param supported_devices:\n    :param capability:\n    :return:\n    ",
+  "descriptionHtml" : "<pre><code>Test getGroups response from unsupported_device and verify it\n- does not advertise CAPABILITY on unsupported_zp\n- advertises CAPABILITY on supported_zp\n:param dut_manager:\n:param function_dut:\n:param ws_client:\n:param supported_devices:\n:param capability:\n:return:\n</code></pre>\n",
+  "status" : "skipped",
+  "statusMessage" : "Skipped: SIMULATOR_SKIP: No line out capable simulator is included in the testbed.",
+  "statusTrace" : "('/test/python/tests/src/pytest_automation/player/muse/test_groups_namespace.py', 181, u'Skipped: SIMULATOR_SKIP: No line out capable simulator is included in the testbed.')",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "override_diag_levels",
+    "time" : {
+      "start" : 1683050123648,
+      "stop" : 1683050124183,
+      "duration" : 535
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "print_player_logs",
+    "time" : {
+      "start" : 1683050121969,
+      "stop" : 1683050121970,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "operation_kwargs",
+    "time" : {
+      "start" : 1683050123648,
+      "stop" : 1683050123648,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "cleanup_websocket_connections",
+    "time" : {
+      "start" : 1683050122477,
+      "stop" : 1683050122477,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "print_muse_logs",
+    "time" : {
+      "start" : 1683050121970,
+      "stop" : 1683050121970,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "function_dut",
+    "time" : {
+      "start" : 1683050121970,
+      "stop" : 1683050122477,
+      "duration" : 507
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "ws_client",
+    "time" : {
+      "start" : 1683050122477,
+      "stop" : 1683050123647,
+      "duration" : 1170
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "diag_levels",
+    "time" : {
+      "start" : 1683050123648,
+      "stop" : 1683050123648,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "diag_level_devices",
+    "time" : {
+      "start" : 1683050123648,
+      "stop" : 1683050123648,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "reset_dut_and_ws_managers",
+    "time" : {
+      "start" : 1683050121970,
+      "stop" : 1683050121970,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "operation_devices",
+    "time" : {
+      "start" : 1683050123648,
+      "stop" : 1683050123648,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "default_operation_devices",
+    "time" : {
+      "start" : 1683050123648,
+      "stop" : 1683050123648,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "websocket_manager",
+    "time" : {
+      "start" : 1683050094631,
+      "stop" : 1683050094631,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "dut_manager",
+    "time" : {
+      "start" : 1683050094630,
+      "stop" : 1683050094630,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "\n    Test getGroups response from unsupported_device and verify it\n    - does not advertise CAPABILITY on unsupported_zp\n    - advertises CAPABILITY on supported_zp\n    :param dut_manager:\n    :param function_dut:\n    :param ws_client:\n    :param supported_devices:\n    :param capability:\n    :return:\n    ",
+    "status" : "skipped",
+    "statusMessage" : "Skipped: SIMULATOR_SKIP: No line out capable simulator is included in the testbed.",
+    "statusTrace" : "('/test/python/tests/src/pytest_automation/player/muse/test_groups_namespace.py', 181, u'Skipped: SIMULATOR_SKIP: No line out capable simulator is included in the testbed.')",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d82632823d3eb4b",
+      "name" : "stderr",
+      "source" : "d82632823d3eb4b.txt",
+      "type" : "text/plain",
+      "size" : 44988
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "override_diag_levels::0",
+    "time" : {
+      "start" : 1683050124254,
+      "stop" : 1683050124304,
+      "duration" : 50
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "print_player_logs::0",
+    "time" : {
+      "start" : 1683050124389,
+      "stop" : 1683050124961,
+      "duration" : 572
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "cleanup_websocket_connections::0",
+    "time" : {
+      "start" : 1683050124306,
+      "stop" : 1683050124307,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "print_muse_logs::0",
+    "time" : {
+      "start" : 1683050124388,
+      "stop" : 1683050124388,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "reset_dut_and_ws_managers::0",
+    "time" : {
+      "start" : 1683050124308,
+      "stop" : 1683050124387,
+      "duration" : 79
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "websocket_manager::0",
+    "time" : {
+      "start" : 1683050402068,
+      "stop" : 1683050402068,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "dut_manager::0",
+    "time" : {
+      "start" : 1683050402071,
+      "stop" : 1683050402071,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "groups_namespaces"
+  }, {
+    "name" : "tag",
+    "value" : "nightly"
+  }, {
+    "name" : "tag",
+    "value" : "priority3"
+  }, {
+    "name" : "parentSuite",
+    "value" : "player.muse"
+  }, {
+    "name" : "suite",
+    "value" : "test_groups_namespace"
+  }, {
+    "name" : "host",
+    "value" : "007faf58b9de"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython2"
+  }, {
+    "name" : "package",
+    "value" : "player.muse.test_groups_namespace"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "capability",
+    "value" : "'FIXED_VOLUME'"
+  }, {
+    "name" : "device_filter",
+    "value" : "['S9', 'S3', 'ZP120', 'S1', 'S25', 'S6', 'S5', 'S16', 'S50', 'S19', 'S18', 'S39', 'S38', 'S13', 'S12', 'S11', 'S36', 'S17', 'S30', 'S33', 'S14', 'S22', 'S45', 'S20', 'S21', 'S40', 'S27', 'S24', 'S43', 'S28', 'S29', 'S48', 'S44', 'S35', 'S34', 'S31', 'S41']"
+  }, {
+    "name" : "supported_devices",
+    "value" : "['ZP80', 'ZP90', 'ZP100', 'S15', 'S23']"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "groups_namespaces", "nightly", "priority3" ]
+  },
+  "source" : "f08c789d201e1eab.json",
+  "parameterValues" : [ "'FIXED_VOLUME'", "['S9', 'S3', 'ZP120', 'S1', 'S25', 'S6', 'S5', 'S16', 'S50', 'S19', 'S18', 'S39', 'S38', 'S13', 'S12', 'S11', 'S36', 'S17', 'S30', 'S33', 'S14', 'S22', 'S45', 'S20', 'S21', 'S40', 'S27', 'S24', 'S43', 'S28', 'S29', 'S48', 'S44', 'S35', 'S34', 'S31', 'S41']", "['ZP80', 'ZP90', 'ZP100', 'S15', 'S23']" ]
+}

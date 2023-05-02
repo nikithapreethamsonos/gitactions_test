@@ -1,0 +1,637 @@
+{
+  "uid" : "4970462f0115b7a7",
+  "name" : "test_playback_state_using_setGroup_and_remove_GM[device_filter0-False]",
+  "fullName" : "player.muse.test_groups_namespace#test_playback_state_using_setGroup_and_remove_GM[device_filter0-False]",
+  "historyId" : "cce8346ebd886eeda0d98584cd36eb99",
+  "time" : {
+    "start" : 1683050181005,
+    "stop" : 1683050189708,
+    "duration" : 8703
+  },
+  "description" : "\n    Verify playback state from getGroups response when group is created using setGroup and group member is removed\n    :param dut_manager:\n    :param function_dut:\n    :param ws_client:\n    :param device_filter:\n    :param groups_in_hh:\n    :return:\n    ",
+  "descriptionHtml" : "<pre><code>Verify playback state from getGroups response when group is created using setGroup and group member is removed\n:param dut_manager:\n:param function_dut:\n:param ws_client:\n:param device_filter:\n:param groups_in_hh:\n:return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "cleanup_websocket_connections",
+    "time" : {
+      "start" : 1683050171207,
+      "stop" : 1683050171207,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "start_CQ_playback",
+    "time" : {
+      "start" : 1683050179377,
+      "stop" : 1683050180379,
+      "duration" : 1002
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "print_player_logs",
+    "time" : {
+      "start" : 1683050170450,
+      "stop" : 1683050170450,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "print_muse_logs",
+    "time" : {
+      "start" : 1683050170451,
+      "stop" : 1683050170451,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "diag_level_devices",
+    "time" : {
+      "start" : 1683050180420,
+      "stop" : 1683050180420,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "function_dut",
+    "time" : {
+      "start" : 1683050170451,
+      "stop" : 1683050171207,
+      "duration" : 756
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "operation_devices",
+    "time" : {
+      "start" : 1683050180420,
+      "stop" : 1683050180420,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "subscribe_groups",
+    "time" : {
+      "start" : 1683050174432,
+      "stop" : 1683050175435,
+      "duration" : 1003
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "groups_in_hh",
+    "time" : {
+      "start" : 1683050180379,
+      "stop" : 1683050180419,
+      "duration" : 40
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "ws_client",
+    "time" : {
+      "start" : 1683050171207,
+      "stop" : 1683050174432,
+      "duration" : 3225
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "operation_kwargs",
+    "time" : {
+      "start" : 1683050180419,
+      "stop" : 1683050180420,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "reset_dut_and_ws_managers",
+    "time" : {
+      "start" : 1683050170451,
+      "stop" : 1683050170451,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "default_operation_devices",
+    "time" : {
+      "start" : 1683050180420,
+      "stop" : 1683050180420,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "websocket_manager",
+    "time" : {
+      "start" : 1683050094631,
+      "stop" : 1683050094631,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "diag_levels",
+    "time" : {
+      "start" : 1683050180420,
+      "stop" : 1683050180420,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "override_diag_levels",
+    "time" : {
+      "start" : 1683050180420,
+      "stop" : 1683050180963,
+      "duration" : 543
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "create_muse_session",
+    "time" : {
+      "start" : 1683050177286,
+      "stop" : 1683050179376,
+      "duration" : 2090
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "dut_manager",
+    "time" : {
+      "start" : 1683050094630,
+      "stop" : 1683050094630,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "mock_cq_server",
+    "time" : {
+      "start" : 1683050175435,
+      "stop" : 1683050177286,
+      "duration" : 1851
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "\n    Verify playback state from getGroups response when group is created using setGroup and group member is removed\n    :param dut_manager:\n    :param function_dut:\n    :param ws_client:\n    :param device_filter:\n    :param groups_in_hh:\n    :return:\n    ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Return list of player serials from DUTs",
+      "time" : {
+        "start" : 1683050181538,
+        "stop" : 1683050181538,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "test_devices",
+        "value" : "[SonosZoneComponent(id=139768419775824, ip=172.18.255.252, modelNumber=S39, serialNumber=000386103803, architecture=optimo, hardware_version=1.38.1.0-1.0), SonosZoneComponent(id=139767987518096, ip=172.18.255.251, modelNumber=S39, serialNumber=00038610385E, architecture=optimo, hardware_version=1.38.1.0-1.0)]"
+      }, {
+        "name" : "reversed",
+        "value" : "None"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verify number of groups in household",
+      "time" : {
+        "start" : 1683050181579,
+        "stop" : 1683050183584,
+        "duration" : 2005
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "ws_client",
+        "value" : "<sonos.museclient.muse_websocket_client.MuseWebsocketClient object at 0x7f1e4408c050>"
+      }, {
+        "name" : "num_groups_in_hh",
+        "value" : "3"
+      }, {
+        "name" : "new_group_count",
+        "value" : "1"
+      }, {
+        "name" : "timeout",
+        "value" : "10"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verify group coordinators' and group members' playerIds against a GroupsEvent response",
+      "time" : {
+        "start" : 1683050183600,
+        "stop" : 1683050184604,
+        "duration" : 1004
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "ws_client",
+        "value" : "<sonos.museclient.muse_websocket_client.MuseWebsocketClient object at 0x7f1e4408c050>"
+      }, {
+        "name" : "gc",
+        "value" : "SonosZoneComponent(id=139768419775824, ip=172.18.255.252, modelNumber=S39, serialNumber=000386103803, architecture=optimo, hardware_version=1.38.1.0-1.0)"
+      }, {
+        "name" : "expected_players_in_group",
+        "value" : "[SonosZoneComponent(id=139768419775824, ip=172.18.255.252, modelNumber=S39, serialNumber=000386103803, architecture=optimo, hardware_version=1.38.1.0-1.0), SonosZoneComponent(id=139767987518096, ip=172.18.255.251, modelNumber=S39, serialNumber=00038610385E, architecture=optimo, hardware_version=1.38.1.0-1.0)]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verify a list of playerIds along with their playback state against a GroupsEvent response",
+      "time" : {
+        "start" : 1683050185647,
+        "stop" : 1683050186651,
+        "duration" : 1004
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "ws_client",
+        "value" : "<sonos.museclient.muse_websocket_client.MuseWebsocketClient object at 0x7f1e4408c050>"
+      }, {
+        "name" : "zp_list",
+        "value" : "SonosZoneComponent(id=139768419775824, ip=172.18.255.252, modelNumber=S39, serialNumber=000386103803, architecture=optimo, hardware_version=1.38.1.0-1.0)"
+      }, {
+        "name" : "expected_playback_state_list",
+        "value" : "'PLAYBACK_STATE_PLAYING'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verify number of groups in household",
+      "time" : {
+        "start" : 1683050186692,
+        "stop" : 1683050188695,
+        "duration" : 2003
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "ws_client",
+        "value" : "<sonos.museclient.muse_websocket_client.MuseWebsocketClient object at 0x7f1e4408c050>"
+      }, {
+        "name" : "num_groups_in_hh",
+        "value" : "3"
+      }, {
+        "name" : "new_group_count",
+        "value" : "0"
+      }, {
+        "name" : "timeout",
+        "value" : "10"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verify a list of playerIds along with their playback state against a GroupsEvent response",
+      "time" : {
+        "start" : 1683050188705,
+        "stop" : 1683050189708,
+        "duration" : 1003
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "ws_client",
+        "value" : "<sonos.museclient.muse_websocket_client.MuseWebsocketClient object at 0x7f1e4408c050>"
+      }, {
+        "name" : "zp_list",
+        "value" : "[SonosZoneComponent(id=139768419775824, ip=172.18.255.252, modelNumber=S39, serialNumber=000386103803, architecture=optimo, hardware_version=1.38.1.0-1.0), SonosZoneComponent(id=139767987518096, ip=172.18.255.251, modelNumber=S39, serialNumber=00038610385E, architecture=optimo, hardware_version=1.38.1.0-1.0)]"
+      }, {
+        "name" : "expected_playback_state_list",
+        "value" : "['PLAYBACK_STATE_PLAYING', 'PLAYBACK_STATE_IDLE']"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "e392d3e15037ccb9",
+      "name" : "stderr",
+      "source" : "e392d3e15037ccb9.txt",
+      "type" : "text/plain",
+      "size" : 117558
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "cleanup_websocket_connections::0",
+    "time" : {
+      "start" : 1683050189808,
+      "stop" : 1683050189810,
+      "duration" : 2
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "print_player_logs::0",
+    "time" : {
+      "start" : 1683050192101,
+      "stop" : 1683050192670,
+      "duration" : 569
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "print_muse_logs::0",
+    "time" : {
+      "start" : 1683050192101,
+      "stop" : 1683050192101,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "reset_dut_and_ws_managers::0",
+    "time" : {
+      "start" : 1683050189810,
+      "stop" : 1683050192100,
+      "duration" : 2290
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "websocket_manager::0",
+    "time" : {
+      "start" : 1683050402068,
+      "stop" : 1683050402068,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "override_diag_levels::0",
+    "time" : {
+      "start" : 1683050189748,
+      "stop" : 1683050189800,
+      "duration" : 52
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "dut_manager::0",
+    "time" : {
+      "start" : 1683050402071,
+      "stop" : 1683050402071,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "mock_cq_server::0",
+    "time" : {
+      "start" : 1683050189803,
+      "stop" : 1683050189807,
+      "duration" : 4
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "groups_namespaces"
+  }, {
+    "name" : "tag",
+    "value" : "nightly"
+  }, {
+    "name" : "tag",
+    "value" : "priority3"
+  }, {
+    "name" : "parentSuite",
+    "value" : "player.muse"
+  }, {
+    "name" : "suite",
+    "value" : "test_groups_namespace"
+  }, {
+    "name" : "host",
+    "value" : "007faf58b9de"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython2"
+  }, {
+    "name" : "package",
+    "value" : "player.muse.test_groups_namespace"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "device_filter",
+    "value" : "frozenset(['S9', 'S3', 'S17', 'S1', 'S43', 'S6', 'S5', 'S30', 'S33', 'S50', 'ZP90', 'S19', 'S18', 'S39', 'S38', 'ZP100', 'S13', 'S12', 'S11', 'S36', 'ZP120', 'S16', 'S15', 'S14', 'S22', 'S23', 'S20', 'S21', 'S40', 'S27', 'S24', 'S25', 'S28', 'S29', 'S48', 'S44', 'S45', 'ZP80', 'S35', 'S34', 'S31', 'S41'])"
+  }, {
+    "name" : "play_on_completion",
+    "value" : "False"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "groups_namespaces", "nightly", "priority3" ]
+  },
+  "source" : "4970462f0115b7a7.json",
+  "parameterValues" : [ "frozenset(['S9', 'S3', 'S17', 'S1', 'S43', 'S6', 'S5', 'S30', 'S33', 'S50', 'ZP90', 'S19', 'S18', 'S39', 'S38', 'ZP100', 'S13', 'S12', 'S11', 'S36', 'ZP120', 'S16', 'S15', 'S14', 'S22', 'S23', 'S20', 'S21', 'S40', 'S27', 'S24', 'S25', 'S28', 'S29', 'S48', 'S44', 'S45', 'ZP80', 'S35', 'S34', 'S31', 'S41'])", "False" ]
+}

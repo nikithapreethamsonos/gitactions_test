@@ -1,0 +1,930 @@
+{
+  "uid" : "8227615e497a039c",
+  "name" : "test_audio_clip_success_with_track_and_no_CQ_playback[Short tracks clip source-default audioclip setting]",
+  "fullName" : "player.muse.test_audioClip_namespace#test_audio_clip_success_with_track_and_no_CQ_playback[Short tracks clip source-default audioclip setting]",
+  "historyId" : "6e131077bdb848237af7d63ca7638422",
+  "time" : {
+    "start" : 1683050036081,
+    "stop" : 1683050038090,
+    "duration" : 2009
+  },
+  "description" : "\n    Test to verify loadAudioClip command with different priorities,\n    clipType with streamUrl followed by cancelAudioClip command\n    without any CQ playback and verify volume is unchanged\n    after audioClip commands\n    :param ws_client:\n    :param expected_clipType: retrieve expected_clipType from loadAudioClip\n    :param streamUrl: Url of the track hosted using mock CQ\n    :param priority: priority from priorityEnum\n    :param clipType: clipType from clipTypeEnum\n    :param audioclip_status_queue: Queue for verifying audioClip Status messages\n    :return:\n    ",
+  "descriptionHtml" : "<pre><code>Test to verify loadAudioClip command with different priorities,\nclipType with streamUrl followed by cancelAudioClip command\nwithout any CQ playback and verify volume is unchanged\nafter audioClip commands\n:param ws_client:\n:param expected_clipType: retrieve expected_clipType from loadAudioClip\n:param streamUrl: Url of the track hosted using mock CQ\n:param priority: priority from priorityEnum\n:param clipType: clipType from clipTypeEnum\n:param audioclip_status_queue: Queue for verifying audioClip Status messages\n:return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup_verify_volume_unchanged_teardown",
+    "time" : {
+      "start" : 1683050034431,
+      "stop" : 1683050035435,
+      "duration" : 1004
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "websocket_manager",
+    "time" : {
+      "start" : 1683050030965,
+      "stop" : 1683050030965,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "operation_devices",
+    "time" : {
+      "start" : 1683050035436,
+      "stop" : 1683050035436,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "set_hosts_override",
+    "time" : {
+      "start" : 1683050031579,
+      "stop" : 1683050031579,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "print_muse_logs",
+    "time" : {
+      "start" : 1683050031466,
+      "stop" : 1683050031466,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "module_dut",
+    "time" : {
+      "start" : 1683050031579,
+      "stop" : 1683050031579,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "all_playback_devices",
+    "time" : {
+      "start" : 1683050028595,
+      "stop" : 1683050028595,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "diag_level_devices",
+    "time" : {
+      "start" : 1683050035436,
+      "stop" : 1683050035436,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "disable_speaker_audio",
+    "time" : {
+      "start" : 1683050030901,
+      "stop" : 1683050030902,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "ws_client",
+    "time" : {
+      "start" : 1683050033442,
+      "stop" : 1683050034430,
+      "duration" : 988
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "player_diag_levels",
+    "time" : {
+      "start" : 1683050026837,
+      "stop" : 1683050026837,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "audioclip_status_queue",
+    "time" : {
+      "start" : 1683050035435,
+      "stop" : 1683050035435,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "streamUrl",
+    "time" : {
+      "start" : 1683050031580,
+      "stop" : 1683050033441,
+      "duration" : 1861
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "reset_dut_and_ws_managers",
+    "time" : {
+      "start" : 1683050031466,
+      "stop" : 1683050031579,
+      "duration" : 113
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "expected_clipType",
+    "time" : {
+      "start" : 1683050035435,
+      "stop" : 1683050035435,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "mock_cq_control",
+    "time" : {
+      "start" : 1683050030902,
+      "stop" : 1683050030915,
+      "duration" : 13
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "print_player_logs",
+    "time" : {
+      "start" : 1683050030965,
+      "stop" : 1683050031466,
+      "duration" : 501
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "default_operation_devices",
+    "time" : {
+      "start" : 1683050035436,
+      "stop" : 1683050035436,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "a_playback_device",
+    "time" : {
+      "start" : 1683050028595,
+      "stop" : 1683050028595,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "environment",
+    "time" : {
+      "start" : 1683050026836,
+      "stop" : 1683050026836,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "cleanup_player_overrides",
+    "time" : {
+      "start" : 1683050028595,
+      "stop" : 1683050028630,
+      "duration" : 35
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "muse_disable_speaker_audio",
+    "time" : {
+      "start" : 1683050030902,
+      "stop" : 1683050030902,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "operation_kwargs",
+    "time" : {
+      "start" : 1683050035435,
+      "stop" : 1683050035436,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "diag_levels",
+    "time" : {
+      "start" : 1683050035436,
+      "stop" : 1683050035436,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "override_diag_levels",
+    "time" : {
+      "start" : 1683050035436,
+      "stop" : 1683050036043,
+      "duration" : 607
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "cleanup_websocket_connections",
+    "time" : {
+      "start" : 1683050033442,
+      "stop" : 1683050033442,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "dut_manager",
+    "time" : {
+      "start" : 1683050030915,
+      "stop" : 1683050030915,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "all_device_which_can_override_amps_interface",
+    "time" : {
+      "start" : 1683050028631,
+      "stop" : 1683050030901,
+      "duration" : 2270
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "pytestconfig",
+    "time" : {
+      "start" : 1683050026837,
+      "stop" : 1683050026837,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "all_devices",
+    "time" : {
+      "start" : 1683050026837,
+      "stop" : 1683050028595,
+      "duration" : 1758
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "get_module_dut",
+    "time" : {
+      "start" : 1683050030916,
+      "stop" : 1683050030965,
+      "duration" : 49
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "\n    Test to verify loadAudioClip command with different priorities,\n    clipType with streamUrl followed by cancelAudioClip command\n    without any CQ playback and verify volume is unchanged\n    after audioClip commands\n    :param ws_client:\n    :param expected_clipType: retrieve expected_clipType from loadAudioClip\n    :param streamUrl: Url of the track hosted using mock CQ\n    :param priority: priority from priorityEnum\n    :param clipType: clipType from clipTypeEnum\n    :param audioclip_status_queue: Queue for verifying audioClip Status messages\n    :return:\n    ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Send and verify loadAudioClip from a player",
+      "time" : {
+        "start" : 1683050036082,
+        "stop" : 1683050037084,
+        "duration" : 1002
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Send loadAudioClip to a player",
+        "time" : {
+          "start" : 1683050036082,
+          "stop" : 1683050036082,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "ws_client",
+          "value" : "<sonos.museclient.muse_websocket_client.MuseWebsocketClient object at 0x7fd41c730f50>"
+        }, {
+          "name" : "streamUrl",
+          "value" : "'http://172.18.0.7:3000/track/data/0'"
+        }, {
+          "name" : "priority",
+          "value" : "'HIGH'"
+        }, {
+          "name" : "clipType",
+          "value" : "'CUSTOM'"
+        }, {
+          "name" : "httpAuthorization",
+          "value" : "None"
+        }, {
+          "name" : "volume",
+          "value" : "None"
+        }, {
+          "name" : "clipBehavior",
+          "value" : "None"
+        }, {
+          "name" : "clipMetadata",
+          "value" : "None"
+        }, {
+          "name" : "volumeRampDownSeconds",
+          "value" : "None"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "ws_client",
+        "value" : "<sonos.museclient.muse_websocket_client.MuseWebsocketClient object at 0x7fd41c730f50>"
+      }, {
+        "name" : "streamUrl",
+        "value" : "'http://172.18.0.7:3000/track/data/0'"
+      }, {
+        "name" : "priority",
+        "value" : "'HIGH'"
+      }, {
+        "name" : "clipType",
+        "value" : "'CUSTOM'"
+      }, {
+        "name" : "expected_clipType",
+        "value" : "'CUSTOM'"
+      }, {
+        "name" : "httpAuthorization",
+        "value" : "None"
+      }, {
+        "name" : "volume",
+        "value" : "None"
+      }, {
+        "name" : "clipBehavior",
+        "value" : "None"
+      }, {
+        "name" : "clipMetadata",
+        "value" : "None"
+      }, {
+        "name" : "volumeRampDownSeconds",
+        "value" : "None"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verify AudioClipStatus events from a player against expected events queue",
+      "time" : {
+        "start" : 1683050037084,
+        "stop" : 1683050037085,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "ws_client",
+        "value" : "<sonos.museclient.muse_websocket_client.MuseWebsocketClient object at 0x7fd41c730f50>"
+      }, {
+        "name" : "audioclip_status_queue",
+        "value" : "<pytest_automation.player.muse.common.StatusQueue instance at 0x7fd41c6c0290>"
+      }, {
+        "name" : "id",
+        "value" : "'54058900-60b1-4dde-ab78-8e055d5cbded'"
+      }, {
+        "name" : "priority",
+        "value" : "'HIGH'"
+      }, {
+        "name" : "expected_events",
+        "value" : "'ACTIVE'"
+      }, {
+        "name" : "timeout",
+        "value" : "20"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verify AudioClipStatus events from a player against expected events queue",
+      "time" : {
+        "start" : 1683050037086,
+        "stop" : 1683050038090,
+        "duration" : 1004
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "ws_client",
+        "value" : "<sonos.museclient.muse_websocket_client.MuseWebsocketClient object at 0x7fd41c730f50>"
+      }, {
+        "name" : "audioclip_status_queue",
+        "value" : "<pytest_automation.player.muse.common.StatusQueue instance at 0x7fd41c6c0290>"
+      }, {
+        "name" : "id",
+        "value" : "'54058900-60b1-4dde-ab78-8e055d5cbded'"
+      }, {
+        "name" : "priority",
+        "value" : "'HIGH'"
+      }, {
+        "name" : "expected_events",
+        "value" : "'DISMISSED'"
+      }, {
+        "name" : "timeout",
+        "value" : "20"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "4abb1d5c9af0b89",
+      "name" : "stderr",
+      "source" : "4abb1d5c9af0b89.txt",
+      "type" : "text/plain",
+      "size" : 68814
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "setup_verify_volume_unchanged_teardown::0",
+    "time" : {
+      "start" : 1683050038173,
+      "stop" : 1683050039175,
+      "duration" : 1002
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "websocket_manager::0",
+    "time" : {
+      "start" : 1683050316847,
+      "stop" : 1683050316847,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "set_hosts_override::0",
+    "time" : {
+      "start" : 1683050039186,
+      "stop" : 1683050039187,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "print_muse_logs::0",
+    "time" : {
+      "start" : 1683050039259,
+      "stop" : 1683050039259,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "disable_speaker_audio::0",
+    "time" : {
+      "start" : 1683050422601,
+      "stop" : 1683050422601,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "player_diag_levels::0",
+    "time" : {
+      "start" : 1683050422632,
+      "stop" : 1683050422632,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "audioclip_status_queue::0",
+    "time" : {
+      "start" : 1683050038173,
+      "stop" : 1683050038173,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "streamUrl::0",
+    "time" : {
+      "start" : 1683050039179,
+      "stop" : 1683050039186,
+      "duration" : 7
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "reset_dut_and_ws_managers::0",
+    "time" : {
+      "start" : 1683050039187,
+      "stop" : 1683050039258,
+      "duration" : 71
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "print_player_logs::0",
+    "time" : {
+      "start" : 1683050039259,
+      "stop" : 1683050040699,
+      "duration" : 1440
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "cleanup_player_overrides::0",
+    "time" : {
+      "start" : 1683050422602,
+      "stop" : 1683050422628,
+      "duration" : 26
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "override_diag_levels::0",
+    "time" : {
+      "start" : 1683050038126,
+      "stop" : 1683050038171,
+      "duration" : 45
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "cleanup_websocket_connections::0",
+    "time" : {
+      "start" : 1683050039177,
+      "stop" : 1683050039178,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "dut_manager::0",
+    "time" : {
+      "start" : 1683050316851,
+      "stop" : 1683050316918,
+      "duration" : 67
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "nightly"
+  }, {
+    "name" : "tag",
+    "value" : "priority3"
+  }, {
+    "name" : "tag",
+    "value" : "audioClip_namespace"
+  }, {
+    "name" : "parentSuite",
+    "value" : "player.muse"
+  }, {
+    "name" : "suite",
+    "value" : "test_audioClip_namespace"
+  }, {
+    "name" : "host",
+    "value" : "d151f2b2e742"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython2"
+  }, {
+    "name" : "package",
+    "value" : "player.muse.test_audioClip_namespace"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "clipType",
+    "value" : "'CUSTOM'"
+  }, {
+    "name" : "library_path",
+    "value" : "'/smapi/short_length/'"
+  }, {
+    "name" : "muted",
+    "value" : "True"
+  }, {
+    "name" : "priority",
+    "value" : "'HIGH'"
+  }, {
+    "name" : "proto",
+    "value" : "'http'"
+  }, {
+    "name" : "track",
+    "value" : "'0'"
+  }, {
+    "name" : "vol",
+    "value" : "0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "nightly", "priority3", "audioClip_namespace" ]
+  },
+  "source" : "8227615e497a039c.json",
+  "parameterValues" : [ "'CUSTOM'", "'/smapi/short_length/'", "True", "'HIGH'", "'http'", "'0'", "0" ]
+}

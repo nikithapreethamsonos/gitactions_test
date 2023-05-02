@@ -1,0 +1,1586 @@
+{
+  "uid" : "ac1e44fce1d1d31d",
+  "name" : "test_saved_groups_using_createGroup",
+  "fullName" : "player.muse.test_saved_groups#test_saved_groups_using_createGroup",
+  "historyId" : "03bc1f51b3a2db7f35320fd915365e52",
+  "time" : {
+    "start" : 1683052245239,
+    "stop" : 1683052271089,
+    "duration" : 25850
+  },
+  "description" : "\n    Verify areaIds are added/cleared/updated/unchanged on all ZPs using createGroup cmd when:\n     1) group is created with areaIds arg - areaIds added\n     - Set SourceAreaIds using GC, GM, verify:\n     -  a) change via GM does not trigger a change of areaIds for the group in groups response\n     -  b) change via GC triggers a change of areaIds for the group in groups response\n     2) area is removed using removeArea - areaIds updated\n     3) new group member is added to existing group - areaIds unchanged\n     4) createGroup on existing group - areaIds updated\n     5) group member is removed from existing group - areaIds unchanged\n     6) createGroup with invalid areaIds fails - areaIds unchanged\n    :param module_dut:\n    :param setup_teardown_two_zps:\n    :param groups_in_hh:\n    :param ws_client:\n    :param dut_manager:\n    :return:\n    ",
+  "descriptionHtml" : "<pre><code>Verify areaIds are added/cleared/updated/unchanged on all ZPs using createGroup cmd when:\n 1) group is created with areaIds arg - areaIds added\n - Set SourceAreaIds using GC, GM, verify:\n -  a) change via GM does not trigger a change of areaIds for the group in groups response\n -  b) change via GC triggers a change of areaIds for the group in groups response\n 2) area is removed using removeArea - areaIds updated\n 3) new group member is added to existing group - areaIds unchanged\n 4) createGroup on existing group - areaIds updated\n 5) group member is removed from existing group - areaIds unchanged\n 6) createGroup with invalid areaIds fails - areaIds unchanged\n:param module_dut:\n:param setup_teardown_two_zps:\n:param groups_in_hh:\n:param ws_client:\n:param dut_manager:\n:return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "default_operation_devices",
+    "time" : {
+      "start" : 1683052244712,
+      "stop" : 1683052244712,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "environment",
+    "time" : {
+      "start" : 1683051861654,
+      "stop" : 1683051861654,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "pytestconfig",
+    "time" : {
+      "start" : 1683051861654,
+      "stop" : 1683051861654,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "operation_devices",
+    "time" : {
+      "start" : 1683052244712,
+      "stop" : 1683052244712,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "module_dut",
+    "time" : {
+      "start" : 1683052233855,
+      "stop" : 1683052233855,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "operation_kwargs",
+    "time" : {
+      "start" : 1683052244712,
+      "stop" : 1683052244712,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "cleanup_player_overrides",
+    "time" : {
+      "start" : 1683051865354,
+      "stop" : 1683051865386,
+      "duration" : 32
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "all_devices",
+    "time" : {
+      "start" : 1683051861655,
+      "stop" : 1683051865353,
+      "duration" : 3698
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "setup_teardown_areas",
+    "time" : {
+      "start" : 1683052242662,
+      "stop" : 1683052243664,
+      "duration" : 1002
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Clear all areas from a player",
+      "time" : {
+        "start" : 1683052242662,
+        "stop" : 1683052243663,
+        "duration" : 1001
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Send getAreas from a player and verify success",
+        "time" : {
+          "start" : 1683052242662,
+          "stop" : 1683052243663,
+          "duration" : 1001
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "ws_client",
+          "value" : "<sonos.museclient.muse_websocket_client.MuseWebsocketClient object at 0x7f7bbba74190>"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "ws_client",
+        "value" : "<sonos.museclient.muse_websocket_client.MuseWebsocketClient object at 0x7f7bbba74190>"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "muse_disable_speaker_audio",
+    "time" : {
+      "start" : 1683051867444,
+      "stop" : 1683051867444,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "print_muse_logs",
+    "time" : {
+      "start" : 1683052233712,
+      "stop" : 1683052233713,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "setup_teardown_two_zps",
+    "time" : {
+      "start" : 1683052235283,
+      "stop" : 1683052242662,
+      "duration" : 7379
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Verify a list of playerIds against a GroupsEvent response on all players",
+      "time" : {
+        "start" : 1683052239606,
+        "stop" : 1683052242662,
+        "duration" : 3056
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Verify a list of playerIds against a GroupsEvent response",
+        "time" : {
+          "start" : 1683052240625,
+          "stop" : 1683052240625,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "resp",
+          "value" : "<sonos.museclient.muse_events.GroupsEvent object at 0x7f7bb87de450>"
+        }, {
+          "name" : "expected_zps",
+          "value" : "[SonosZoneComponent(id=140170055465424, ip=172.18.255.251, modelNumber=S39, serialNumber=0003861038C8, architecture=optimo, hardware_version=1.38.1.0-1.0), SonosZoneComponent(id=140169930137552, ip=172.18.255.252, modelNumber=S39, serialNumber=00038610381F, architecture=optimo, hardware_version=1.38.1.0-1.0), SonosZoneComponent(id=140170013725968, ip=172.18.255.253, modelNumber=S36, serialNumber=00038610369D, architecture=fury, hardware_version=1.36.1.0-1.0)]"
+        }, {
+          "name" : "is_bonded",
+          "value" : "False"
+        }, {
+          "name" : "return_bool",
+          "value" : "True"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Verify a list of playerIds against a GroupsEvent response",
+        "time" : {
+          "start" : 1683052241644,
+          "stop" : 1683052241644,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "resp",
+          "value" : "<sonos.museclient.muse_events.GroupsEvent object at 0x7f7bdade2fd0>"
+        }, {
+          "name" : "expected_zps",
+          "value" : "[SonosZoneComponent(id=140170055465424, ip=172.18.255.251, modelNumber=S39, serialNumber=0003861038C8, architecture=optimo, hardware_version=1.38.1.0-1.0), SonosZoneComponent(id=140169930137552, ip=172.18.255.252, modelNumber=S39, serialNumber=00038610381F, architecture=optimo, hardware_version=1.38.1.0-1.0), SonosZoneComponent(id=140170013725968, ip=172.18.255.253, modelNumber=S36, serialNumber=00038610369D, architecture=fury, hardware_version=1.36.1.0-1.0)]"
+        }, {
+          "name" : "is_bonded",
+          "value" : "False"
+        }, {
+          "name" : "return_bool",
+          "value" : "True"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Verify a list of playerIds against a GroupsEvent response",
+        "time" : {
+          "start" : 1683052242662,
+          "stop" : 1683052242662,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "resp",
+          "value" : "<sonos.museclient.muse_events.GroupsEvent object at 0x7f7bb81ba950>"
+        }, {
+          "name" : "expected_zps",
+          "value" : "[SonosZoneComponent(id=140170055465424, ip=172.18.255.251, modelNumber=S39, serialNumber=0003861038C8, architecture=optimo, hardware_version=1.38.1.0-1.0), SonosZoneComponent(id=140169930137552, ip=172.18.255.252, modelNumber=S39, serialNumber=00038610381F, architecture=optimo, hardware_version=1.38.1.0-1.0), SonosZoneComponent(id=140170013725968, ip=172.18.255.253, modelNumber=S36, serialNumber=00038610369D, architecture=fury, hardware_version=1.36.1.0-1.0)]"
+        }, {
+          "name" : "is_bonded",
+          "value" : "False"
+        }, {
+          "name" : "return_bool",
+          "value" : "True"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "expected_zps",
+        "value" : "[SonosZoneComponent(id=140170055465424, ip=172.18.255.251, modelNumber=S39, serialNumber=0003861038C8, architecture=optimo, hardware_version=1.38.1.0-1.0), SonosZoneComponent(id=140169930137552, ip=172.18.255.252, modelNumber=S39, serialNumber=00038610381F, architecture=optimo, hardware_version=1.38.1.0-1.0), SonosZoneComponent(id=140170013725968, ip=172.18.255.253, modelNumber=S36, serialNumber=00038610369D, architecture=fury, hardware_version=1.36.1.0-1.0)]"
+      }, {
+        "name" : "websocket_connections",
+        "value" : "[<sonos.museclient.muse_websocket_client.MuseWebsocketClient object at 0x7f7bb86ce6d0>, <sonos.museclient.muse_websocket_client.MuseWebsocketClient object at 0x7f7bbba74190>, <sonos.museclient.muse_websocket_client.MuseWebsocketClient object at 0x7f7bb83eda50>]"
+      }, {
+        "name" : "timeout",
+        "value" : "30"
+      } ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "diag_levels",
+    "time" : {
+      "start" : 1683052244712,
+      "stop" : 1683052244712,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "ws_client",
+    "time" : {
+      "start" : 1683052233855,
+      "stop" : 1683052235282,
+      "duration" : 1427
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "diag_level_devices",
+    "time" : {
+      "start" : 1683052244712,
+      "stop" : 1683052244712,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "websocket_manager",
+    "time" : {
+      "start" : 1683052225515,
+      "stop" : 1683052225515,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "disable_speaker_audio",
+    "time" : {
+      "start" : 1683051867443,
+      "stop" : 1683051867444,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "print_player_logs",
+    "time" : {
+      "start" : 1683052233233,
+      "stop" : 1683052233712,
+      "duration" : 479
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "dut_manager",
+    "time" : {
+      "start" : 1683052225515,
+      "stop" : 1683052225515,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "all_playback_devices",
+    "time" : {
+      "start" : 1683051865354,
+      "stop" : 1683051865354,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "player_diag_levels",
+    "time" : {
+      "start" : 1683051861654,
+      "stop" : 1683051861654,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "reset_dut_and_ws_managers",
+    "time" : {
+      "start" : 1683052233713,
+      "stop" : 1683052233854,
+      "duration" : 141
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "groups_in_hh",
+    "time" : {
+      "start" : 1683052244667,
+      "stop" : 1683052244711,
+      "duration" : 44
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "get_module_dut",
+    "time" : {
+      "start" : 1683052225515,
+      "stop" : 1683052226087,
+      "duration" : 572
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "cleanup_websocket_connections",
+    "time" : {
+      "start" : 1683052233855,
+      "stop" : 1683052233855,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "override_diag_levels",
+    "time" : {
+      "start" : 1683052244712,
+      "stop" : 1683052245202,
+      "duration" : 490
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "all_device_which_can_override_amps_interface",
+    "time" : {
+      "start" : 1683051865386,
+      "stop" : 1683051867443,
+      "duration" : 2057
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "a_playback_device",
+    "time" : {
+      "start" : 1683051865354,
+      "stop" : 1683051865354,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "subscribe_groups",
+    "time" : {
+      "start" : 1683052243664,
+      "stop" : 1683052244667,
+      "duration" : 1003
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "\n    Verify areaIds are added/cleared/updated/unchanged on all ZPs using createGroup cmd when:\n     1) group is created with areaIds arg - areaIds added\n     - Set SourceAreaIds using GC, GM, verify:\n     -  a) change via GM does not trigger a change of areaIds for the group in groups response\n     -  b) change via GC triggers a change of areaIds for the group in groups response\n     2) area is removed using removeArea - areaIds updated\n     3) new group member is added to existing group - areaIds unchanged\n     4) createGroup on existing group - areaIds updated\n     5) group member is removed from existing group - areaIds unchanged\n     6) createGroup with invalid areaIds fails - areaIds unchanged\n    :param module_dut:\n    :param setup_teardown_two_zps:\n    :param groups_in_hh:\n    :param ws_client:\n    :param dut_manager:\n    :return:\n    ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Send createArea from a player and verify success",
+      "time" : {
+        "start" : 1683052245240,
+        "stop" : 1683052246242,
+        "duration" : 1002
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "ws_client",
+        "value" : "<sonos.museclient.muse_websocket_client.MuseWebsocketClient object at 0x7f7bbba74190>"
+      }, {
+        "name" : "name",
+        "value" : "'Area_1'"
+      }, {
+        "name" : "playerIds",
+        "value" : "'RINCON_0003861038C801400'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Send createArea from a player and verify success",
+      "time" : {
+        "start" : 1683052246243,
+        "stop" : 1683052247245,
+        "duration" : 1002
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "ws_client",
+        "value" : "<sonos.museclient.muse_websocket_client.MuseWebsocketClient object at 0x7f7bbba74190>"
+      }, {
+        "name" : "name",
+        "value" : "'Area_2'"
+      }, {
+        "name" : "playerIds",
+        "value" : "['RINCON_0003861038C801400', 'RINCON_00038610381F01400']"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Send createArea from a player and verify success",
+      "time" : {
+        "start" : 1683052247245,
+        "stop" : 1683052248247,
+        "duration" : 1002
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "ws_client",
+        "value" : "<sonos.museclient.muse_websocket_client.MuseWebsocketClient object at 0x7f7bbba74190>"
+      }, {
+        "name" : "name",
+        "value" : "'Area_3'"
+      }, {
+        "name" : "playerIds",
+        "value" : "['RINCON_0003861038C801400', 'RINCON_00038610381F01400', 'RINCON_00038610369D01400']"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Return list of player serials from DUTs",
+      "time" : {
+        "start" : 1683052248258,
+        "stop" : 1683052248258,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "test_devices",
+        "value" : "[SonosZoneComponent(id=140169930137552, ip=172.18.255.252, modelNumber=S39, serialNumber=00038610381F, architecture=optimo, hardware_version=1.38.1.0-1.0), SonosZoneComponent(id=140170055465424, ip=172.18.255.251, modelNumber=S39, serialNumber=0003861038C8, architecture=optimo, hardware_version=1.38.1.0-1.0)]"
+      }, {
+        "name" : "reversed",
+        "value" : "None"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verify number of groups in household",
+      "time" : {
+        "start" : 1683052248259,
+        "stop" : 1683052250262,
+        "duration" : 2003
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "ws_client",
+        "value" : "<sonos.museclient.muse_websocket_client.MuseWebsocketClient object at 0x7f7bbba74190>"
+      }, {
+        "name" : "num_groups_in_hh",
+        "value" : "3"
+      }, {
+        "name" : "new_group_count",
+        "value" : "1"
+      }, {
+        "name" : "timeout",
+        "value" : "10"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verify group coordinators' and group members' playerIds against a GroupsEvent response",
+      "time" : {
+        "start" : 1683052250277,
+        "stop" : 1683052251281,
+        "duration" : 1004
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "ws_client",
+        "value" : "<sonos.museclient.muse_websocket_client.MuseWebsocketClient object at 0x7f7bbba74190>"
+      }, {
+        "name" : "gc",
+        "value" : "SonosZoneComponent(id=140169930137552, ip=172.18.255.252, modelNumber=S39, serialNumber=00038610381F, architecture=optimo, hardware_version=1.38.1.0-1.0)"
+      }, {
+        "name" : "expected_players_in_group",
+        "value" : "[SonosZoneComponent(id=140169930137552, ip=172.18.255.252, modelNumber=S39, serialNumber=00038610381F, architecture=optimo, hardware_version=1.38.1.0-1.0), SonosZoneComponent(id=140170055465424, ip=172.18.255.251, modelNumber=S39, serialNumber=0003861038C8, architecture=optimo, hardware_version=1.38.1.0-1.0)]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verify areaIds in Groups Event from a player",
+      "time" : {
+        "start" : 1683052251293,
+        "stop" : 1683052252296,
+        "duration" : 1003
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "ws_connection_list",
+        "value" : "[<sonos.museclient.muse_websocket_client.MuseWebsocketClient object at 0x7f7bbba74190>, <sonos.museclient.muse_websocket_client.MuseWebsocketClient object at 0x7f7bb83eda50>, <sonos.museclient.muse_websocket_client.MuseWebsocketClient object at 0x7f7bb86ce6d0>]"
+      }, {
+        "name" : "gc",
+        "value" : "SonosZoneComponent(id=140169930137552, ip=172.18.255.252, modelNumber=S39, serialNumber=00038610381F, architecture=optimo, hardware_version=1.38.1.0-1.0)"
+      }, {
+        "name" : "zp_list",
+        "value" : "[SonosZoneComponent(id=140170055465424, ip=172.18.255.251, modelNumber=S39, serialNumber=0003861038C8, architecture=optimo, hardware_version=1.38.1.0-1.0), SonosZoneComponent(id=140169930137552, ip=172.18.255.252, modelNumber=S39, serialNumber=00038610381F, architecture=optimo, hardware_version=1.38.1.0-1.0), SonosZoneComponent(id=140170013725968, ip=172.18.255.253, modelNumber=S36, serialNumber=00038610369D, architecture=fury, hardware_version=1.36.1.0-1.0)]"
+      }, {
+        "name" : "expected_areaIds",
+        "value" : "[u'66a352c5-513e-4fa6-9f56-2b4d3dff9a9f', u'22dae557-8d5d-48be-b2ac-bef3f924199b']"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verify areaIds in Groups Event from a player",
+      "time" : {
+        "start" : 1683052253408,
+        "stop" : 1683052254509,
+        "duration" : 1101
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "ws_connection_list",
+        "value" : "[<sonos.museclient.muse_websocket_client.MuseWebsocketClient object at 0x7f7bbba74190>, <sonos.museclient.muse_websocket_client.MuseWebsocketClient object at 0x7f7bb83eda50>, <sonos.museclient.muse_websocket_client.MuseWebsocketClient object at 0x7f7bb86ce6d0>]"
+      }, {
+        "name" : "gc",
+        "value" : "SonosZoneComponent(id=140169930137552, ip=172.18.255.252, modelNumber=S39, serialNumber=00038610381F, architecture=optimo, hardware_version=1.38.1.0-1.0)"
+      }, {
+        "name" : "zp_list",
+        "value" : "[SonosZoneComponent(id=140170055465424, ip=172.18.255.251, modelNumber=S39, serialNumber=0003861038C8, architecture=optimo, hardware_version=1.38.1.0-1.0), SonosZoneComponent(id=140169930137552, ip=172.18.255.252, modelNumber=S39, serialNumber=00038610381F, architecture=optimo, hardware_version=1.38.1.0-1.0), SonosZoneComponent(id=140170013725968, ip=172.18.255.253, modelNumber=S36, serialNumber=00038610369D, architecture=fury, hardware_version=1.36.1.0-1.0)]"
+      }, {
+        "name" : "expected_areaIds",
+        "value" : "['66a352c5-513e-4fa6-9f56-2b4d3dff9a9f', '22dae557-8d5d-48be-b2ac-bef3f924199b']"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verify areaIds in Groups Event from a player",
+      "time" : {
+        "start" : 1683052254587,
+        "stop" : 1683052255596,
+        "duration" : 1009
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "ws_connection_list",
+        "value" : "[<sonos.museclient.muse_websocket_client.MuseWebsocketClient object at 0x7f7bbba74190>, <sonos.museclient.muse_websocket_client.MuseWebsocketClient object at 0x7f7bb83eda50>, <sonos.museclient.muse_websocket_client.MuseWebsocketClient object at 0x7f7bb86ce6d0>]"
+      }, {
+        "name" : "gc",
+        "value" : "SonosZoneComponent(id=140169930137552, ip=172.18.255.252, modelNumber=S39, serialNumber=00038610381F, architecture=optimo, hardware_version=1.38.1.0-1.0)"
+      }, {
+        "name" : "zp_list",
+        "value" : "[SonosZoneComponent(id=140170055465424, ip=172.18.255.251, modelNumber=S39, serialNumber=0003861038C8, architecture=optimo, hardware_version=1.38.1.0-1.0), SonosZoneComponent(id=140169930137552, ip=172.18.255.252, modelNumber=S39, serialNumber=00038610381F, architecture=optimo, hardware_version=1.38.1.0-1.0), SonosZoneComponent(id=140170013725968, ip=172.18.255.253, modelNumber=S36, serialNumber=00038610369D, architecture=fury, hardware_version=1.36.1.0-1.0)]"
+      }, {
+        "name" : "expected_areaIds",
+        "value" : "'66a352c5-513e-4fa6-9f56-2b4d3dff9a9f'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Send removeArea from a player and verify success",
+      "time" : {
+        "start" : 1683052255609,
+        "stop" : 1683052256611,
+        "duration" : 1002
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "ws_client",
+        "value" : "<sonos.museclient.muse_websocket_client.MuseWebsocketClient object at 0x7f7bbba74190>"
+      }, {
+        "name" : "areaId",
+        "value" : "'22dae557-8d5d-48be-b2ac-bef3f924199b'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verify areaIds in Groups Event from a player",
+      "time" : {
+        "start" : 1683052256623,
+        "stop" : 1683052257626,
+        "duration" : 1003
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "ws_connection_list",
+        "value" : "[<sonos.museclient.muse_websocket_client.MuseWebsocketClient object at 0x7f7bbba74190>, <sonos.museclient.muse_websocket_client.MuseWebsocketClient object at 0x7f7bb83eda50>, <sonos.museclient.muse_websocket_client.MuseWebsocketClient object at 0x7f7bb86ce6d0>]"
+      }, {
+        "name" : "gc",
+        "value" : "SonosZoneComponent(id=140169930137552, ip=172.18.255.252, modelNumber=S39, serialNumber=00038610381F, architecture=optimo, hardware_version=1.38.1.0-1.0)"
+      }, {
+        "name" : "zp_list",
+        "value" : "[SonosZoneComponent(id=140170055465424, ip=172.18.255.251, modelNumber=S39, serialNumber=0003861038C8, architecture=optimo, hardware_version=1.38.1.0-1.0), SonosZoneComponent(id=140169930137552, ip=172.18.255.252, modelNumber=S39, serialNumber=00038610381F, architecture=optimo, hardware_version=1.38.1.0-1.0), SonosZoneComponent(id=140170013725968, ip=172.18.255.253, modelNumber=S36, serialNumber=00038610369D, architecture=fury, hardware_version=1.36.1.0-1.0)]"
+      }, {
+        "name" : "expected_areaIds",
+        "value" : "[u'66a352c5-513e-4fa6-9f56-2b4d3dff9a9f']"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verify number of groups in household",
+      "time" : {
+        "start" : 1683052258836,
+        "stop" : 1683052258836,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "ws_client",
+        "value" : "<sonos.museclient.muse_websocket_client.MuseWebsocketClient object at 0x7f7bbba74190>"
+      }, {
+        "name" : "num_groups_in_hh",
+        "value" : "3"
+      }, {
+        "name" : "new_group_count",
+        "value" : "2"
+      }, {
+        "name" : "timeout",
+        "value" : "10"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Return group coordinator out of a list of players",
+      "time" : {
+        "start" : 1683052258871,
+        "stop" : 1683052258890,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "list_of_zps",
+        "value" : "[SonosZoneComponent(id=140170055465424, ip=172.18.255.251, modelNumber=S39, serialNumber=0003861038C8, architecture=optimo, hardware_version=1.38.1.0-1.0), SonosZoneComponent(id=140169930137552, ip=172.18.255.252, modelNumber=S39, serialNumber=00038610381F, architecture=optimo, hardware_version=1.38.1.0-1.0), SonosZoneComponent(id=140170013725968, ip=172.18.255.253, modelNumber=S36, serialNumber=00038610369D, architecture=fury, hardware_version=1.36.1.0-1.0)]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verify group coordinators' and group members' playerIds against a GroupsEvent response",
+      "time" : {
+        "start" : 1683052258912,
+        "stop" : 1683052258915,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "ws_client",
+        "value" : "<sonos.museclient.muse_websocket_client.MuseWebsocketClient object at 0x7f7bbba74190>"
+      }, {
+        "name" : "gc",
+        "value" : "SonosZoneComponent(id=140169930137552, ip=172.18.255.252, modelNumber=S39, serialNumber=00038610381F, architecture=optimo, hardware_version=1.38.1.0-1.0)"
+      }, {
+        "name" : "expected_players_in_group",
+        "value" : "[SonosZoneComponent(id=140169930137552, ip=172.18.255.252, modelNumber=S39, serialNumber=00038610381F, architecture=optimo, hardware_version=1.38.1.0-1.0), SonosZoneComponent(id=140170055465424, ip=172.18.255.251, modelNumber=S39, serialNumber=0003861038C8, architecture=optimo, hardware_version=1.38.1.0-1.0), SonosZoneComponent(id=140170013725968, ip=172.18.255.253, modelNumber=S36, serialNumber=00038610369D, architecture=fury, hardware_version=1.36.1.0-1.0)]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verify areaIds in Groups Event from a player",
+      "time" : {
+        "start" : 1683052258938,
+        "stop" : 1683052259942,
+        "duration" : 1004
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "ws_connection_list",
+        "value" : "[<sonos.museclient.muse_websocket_client.MuseWebsocketClient object at 0x7f7bbba74190>, <sonos.museclient.muse_websocket_client.MuseWebsocketClient object at 0x7f7bb83eda50>, <sonos.museclient.muse_websocket_client.MuseWebsocketClient object at 0x7f7bb86ce6d0>]"
+      }, {
+        "name" : "gc",
+        "value" : "SonosZoneComponent(id=140169930137552, ip=172.18.255.252, modelNumber=S39, serialNumber=00038610381F, architecture=optimo, hardware_version=1.38.1.0-1.0)"
+      }, {
+        "name" : "zp_list",
+        "value" : "[SonosZoneComponent(id=140170055465424, ip=172.18.255.251, modelNumber=S39, serialNumber=0003861038C8, architecture=optimo, hardware_version=1.38.1.0-1.0), SonosZoneComponent(id=140169930137552, ip=172.18.255.252, modelNumber=S39, serialNumber=00038610381F, architecture=optimo, hardware_version=1.38.1.0-1.0), SonosZoneComponent(id=140170013725968, ip=172.18.255.253, modelNumber=S36, serialNumber=00038610369D, architecture=fury, hardware_version=1.36.1.0-1.0)]"
+      }, {
+        "name" : "expected_areaIds",
+        "value" : "[u'66a352c5-513e-4fa6-9f56-2b4d3dff9a9f']"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Return list of player serials from DUTs",
+      "time" : {
+        "start" : 1683052259973,
+        "stop" : 1683052259973,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "test_devices",
+        "value" : "[SonosZoneComponent(id=140169930137552, ip=172.18.255.252, modelNumber=S39, serialNumber=00038610381F, architecture=optimo, hardware_version=1.38.1.0-1.0), SonosZoneComponent(id=140170055465424, ip=172.18.255.251, modelNumber=S39, serialNumber=0003861038C8, architecture=optimo, hardware_version=1.38.1.0-1.0), SonosZoneComponent(id=140170013725968, ip=172.18.255.253, modelNumber=S36, serialNumber=00038610369D, architecture=fury, hardware_version=1.36.1.0-1.0)]"
+      }, {
+        "name" : "reversed",
+        "value" : "None"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verify number of groups in household",
+      "time" : {
+        "start" : 1683052259974,
+        "stop" : 1683052260977,
+        "duration" : 1003
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "ws_client",
+        "value" : "<sonos.museclient.muse_websocket_client.MuseWebsocketClient object at 0x7f7bbba74190>"
+      }, {
+        "name" : "num_groups_in_hh",
+        "value" : "3"
+      }, {
+        "name" : "new_group_count",
+        "value" : "2"
+      }, {
+        "name" : "timeout",
+        "value" : "10"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verify group coordinators' and group members' playerIds against a GroupsEvent response",
+      "time" : {
+        "start" : 1683052260996,
+        "stop" : 1683052262000,
+        "duration" : 1004
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "ws_client",
+        "value" : "<sonos.museclient.muse_websocket_client.MuseWebsocketClient object at 0x7f7bbba74190>"
+      }, {
+        "name" : "gc",
+        "value" : "SonosZoneComponent(id=140169930137552, ip=172.18.255.252, modelNumber=S39, serialNumber=00038610381F, architecture=optimo, hardware_version=1.38.1.0-1.0)"
+      }, {
+        "name" : "expected_players_in_group",
+        "value" : "[SonosZoneComponent(id=140169930137552, ip=172.18.255.252, modelNumber=S39, serialNumber=00038610381F, architecture=optimo, hardware_version=1.38.1.0-1.0), SonosZoneComponent(id=140170055465424, ip=172.18.255.251, modelNumber=S39, serialNumber=0003861038C8, architecture=optimo, hardware_version=1.38.1.0-1.0), SonosZoneComponent(id=140170013725968, ip=172.18.255.253, modelNumber=S36, serialNumber=00038610369D, architecture=fury, hardware_version=1.36.1.0-1.0)]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verify areaIds in Groups Event from a player",
+      "time" : {
+        "start" : 1683052262011,
+        "stop" : 1683052263015,
+        "duration" : 1004
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "ws_connection_list",
+        "value" : "[<sonos.museclient.muse_websocket_client.MuseWebsocketClient object at 0x7f7bbba74190>, <sonos.museclient.muse_websocket_client.MuseWebsocketClient object at 0x7f7bb83eda50>, <sonos.museclient.muse_websocket_client.MuseWebsocketClient object at 0x7f7bb86ce6d0>]"
+      }, {
+        "name" : "gc",
+        "value" : "SonosZoneComponent(id=140169930137552, ip=172.18.255.252, modelNumber=S39, serialNumber=00038610381F, architecture=optimo, hardware_version=1.38.1.0-1.0)"
+      }, {
+        "name" : "zp_list",
+        "value" : "[SonosZoneComponent(id=140170055465424, ip=172.18.255.251, modelNumber=S39, serialNumber=0003861038C8, architecture=optimo, hardware_version=1.38.1.0-1.0), SonosZoneComponent(id=140169930137552, ip=172.18.255.252, modelNumber=S39, serialNumber=00038610381F, architecture=optimo, hardware_version=1.38.1.0-1.0), SonosZoneComponent(id=140170013725968, ip=172.18.255.253, modelNumber=S36, serialNumber=00038610369D, architecture=fury, hardware_version=1.36.1.0-1.0)]"
+      }, {
+        "name" : "expected_areaIds",
+        "value" : "[u'e3df9dbf-393d-47ed-964b-4eeab62df0b3']"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verify number of groups in household",
+      "time" : {
+        "start" : 1683052266962,
+        "stop" : 1683052266962,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "ws_client",
+        "value" : "<sonos.museclient.muse_websocket_client.MuseWebsocketClient object at 0x7f7bbba74190>"
+      }, {
+        "name" : "num_groups_in_hh",
+        "value" : "3"
+      }, {
+        "name" : "new_group_count",
+        "value" : "1"
+      }, {
+        "name" : "timeout",
+        "value" : "10"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Return group coordinator out of a list of players",
+      "time" : {
+        "start" : 1683052266981,
+        "stop" : 1683052266994,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "list_of_zps",
+        "value" : "[SonosZoneComponent(id=140169930137552, ip=172.18.255.252, modelNumber=S39, serialNumber=00038610381F, architecture=optimo, hardware_version=1.38.1.0-1.0), SonosZoneComponent(id=140170055465424, ip=172.18.255.251, modelNumber=S39, serialNumber=0003861038C8, architecture=optimo, hardware_version=1.38.1.0-1.0)]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verify group coordinators' and group members' playerIds against a GroupsEvent response",
+      "time" : {
+        "start" : 1683052267010,
+        "stop" : 1683052267013,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "ws_client",
+        "value" : "<sonos.museclient.muse_websocket_client.MuseWebsocketClient object at 0x7f7bbba74190>"
+      }, {
+        "name" : "gc",
+        "value" : "SonosZoneComponent(id=140169930137552, ip=172.18.255.252, modelNumber=S39, serialNumber=00038610381F, architecture=optimo, hardware_version=1.38.1.0-1.0)"
+      }, {
+        "name" : "expected_players_in_group",
+        "value" : "[SonosZoneComponent(id=140169930137552, ip=172.18.255.252, modelNumber=S39, serialNumber=00038610381F, architecture=optimo, hardware_version=1.38.1.0-1.0), SonosZoneComponent(id=140170055465424, ip=172.18.255.251, modelNumber=S39, serialNumber=0003861038C8, architecture=optimo, hardware_version=1.38.1.0-1.0)]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verify areaIds in Groups Event from a player",
+      "time" : {
+        "start" : 1683052267032,
+        "stop" : 1683052268036,
+        "duration" : 1004
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "ws_connection_list",
+        "value" : "[<sonos.museclient.muse_websocket_client.MuseWebsocketClient object at 0x7f7bbba74190>, <sonos.museclient.muse_websocket_client.MuseWebsocketClient object at 0x7f7bb83eda50>, <sonos.museclient.muse_websocket_client.MuseWebsocketClient object at 0x7f7bb86ce6d0>]"
+      }, {
+        "name" : "gc",
+        "value" : "SonosZoneComponent(id=140169930137552, ip=172.18.255.252, modelNumber=S39, serialNumber=00038610381F, architecture=optimo, hardware_version=1.38.1.0-1.0)"
+      }, {
+        "name" : "zp_list",
+        "value" : "[SonosZoneComponent(id=140170055465424, ip=172.18.255.251, modelNumber=S39, serialNumber=0003861038C8, architecture=optimo, hardware_version=1.38.1.0-1.0), SonosZoneComponent(id=140169930137552, ip=172.18.255.252, modelNumber=S39, serialNumber=00038610381F, architecture=optimo, hardware_version=1.38.1.0-1.0), SonosZoneComponent(id=140170013725968, ip=172.18.255.253, modelNumber=S36, serialNumber=00038610369D, architecture=fury, hardware_version=1.36.1.0-1.0)]"
+      }, {
+        "name" : "expected",
+        "value" : "False"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Return list of player serials from DUTs",
+      "time" : {
+        "start" : 1683052268067,
+        "stop" : 1683052268067,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "test_devices",
+        "value" : "[SonosZoneComponent(id=140169930137552, ip=172.18.255.252, modelNumber=S39, serialNumber=00038610381F, architecture=optimo, hardware_version=1.38.1.0-1.0), SonosZoneComponent(id=140170055465424, ip=172.18.255.251, modelNumber=S39, serialNumber=0003861038C8, architecture=optimo, hardware_version=1.38.1.0-1.0), SonosZoneComponent(id=140170013725968, ip=172.18.255.253, modelNumber=S36, serialNumber=00038610369D, architecture=fury, hardware_version=1.36.1.0-1.0)]"
+      }, {
+        "name" : "reversed",
+        "value" : "None"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verify number of groups in household",
+      "time" : {
+        "start" : 1683052269070,
+        "stop" : 1683052270072,
+        "duration" : 1002
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "ws_client",
+        "value" : "<sonos.museclient.muse_websocket_client.MuseWebsocketClient object at 0x7f7bbba74190>"
+      }, {
+        "name" : "num_groups_in_hh",
+        "value" : "3"
+      }, {
+        "name" : "new_group_count",
+        "value" : "1"
+      }, {
+        "name" : "timeout",
+        "value" : "10"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verify areaIds in Groups Event from a player",
+      "time" : {
+        "start" : 1683052270082,
+        "stop" : 1683052271088,
+        "duration" : 1006
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "ws_connection_list",
+        "value" : "[<sonos.museclient.muse_websocket_client.MuseWebsocketClient object at 0x7f7bbba74190>, <sonos.museclient.muse_websocket_client.MuseWebsocketClient object at 0x7f7bb83eda50>, <sonos.museclient.muse_websocket_client.MuseWebsocketClient object at 0x7f7bb86ce6d0>]"
+      }, {
+        "name" : "gc",
+        "value" : "SonosZoneComponent(id=140169930137552, ip=172.18.255.252, modelNumber=S39, serialNumber=00038610381F, architecture=optimo, hardware_version=1.38.1.0-1.0)"
+      }, {
+        "name" : "zp_list",
+        "value" : "[SonosZoneComponent(id=140170055465424, ip=172.18.255.251, modelNumber=S39, serialNumber=0003861038C8, architecture=optimo, hardware_version=1.38.1.0-1.0), SonosZoneComponent(id=140169930137552, ip=172.18.255.252, modelNumber=S39, serialNumber=00038610381F, architecture=optimo, hardware_version=1.38.1.0-1.0), SonosZoneComponent(id=140170013725968, ip=172.18.255.253, modelNumber=S36, serialNumber=00038610369D, architecture=fury, hardware_version=1.36.1.0-1.0)]"
+      }, {
+        "name" : "expected",
+        "value" : "False"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "94835de9afd0a52e",
+      "name" : "stdout",
+      "source" : "94835de9afd0a52e.txt",
+      "type" : "text/plain",
+      "size" : 79
+    }, {
+      "uid" : "2d456d428d287e17",
+      "name" : "stderr",
+      "source" : "2d456d428d287e17.txt",
+      "type" : "text/plain",
+      "size" : 363662
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 26,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "cleanup_player_overrides::0",
+    "time" : {
+      "start" : 1683052653153,
+      "stop" : 1683052653184,
+      "duration" : 31
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "setup_teardown_areas::0",
+    "time" : {
+      "start" : 1683052271173,
+      "stop" : 1683052275182,
+      "duration" : 4009
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Clear all areas from a player",
+      "time" : {
+        "start" : 1683052271173,
+        "stop" : 1683052275181,
+        "duration" : 4008
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Send getAreas from a player and verify success",
+        "time" : {
+          "start" : 1683052271173,
+          "stop" : 1683052272175,
+          "duration" : 1002
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "ws_client",
+          "value" : "<sonos.museclient.muse_websocket_client.MuseWebsocketClient object at 0x7f7bbba74190>"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Send removeArea from a player and verify success",
+        "time" : {
+          "start" : 1683052272175,
+          "stop" : 1683052273177,
+          "duration" : 1002
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "ws_client",
+          "value" : "<sonos.museclient.muse_websocket_client.MuseWebsocketClient object at 0x7f7bbba74190>"
+        }, {
+          "name" : "areaId",
+          "value" : "'66a352c5-513e-4fa6-9f56-2b4d3dff9a9f'"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Send removeArea from a player and verify success",
+        "time" : {
+          "start" : 1683052273177,
+          "stop" : 1683052274179,
+          "duration" : 1002
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "ws_client",
+          "value" : "<sonos.museclient.muse_websocket_client.MuseWebsocketClient object at 0x7f7bbba74190>"
+        }, {
+          "name" : "areaId",
+          "value" : "'e3df9dbf-393d-47ed-964b-4eeab62df0b3'"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Send getAreas from a player and verify success",
+        "time" : {
+          "start" : 1683052274179,
+          "stop" : 1683052275181,
+          "duration" : 1002
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "ws_client",
+          "value" : "<sonos.museclient.muse_websocket_client.MuseWebsocketClient object at 0x7f7bbba74190>"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "ws_client",
+        "value" : "<sonos.museclient.muse_websocket_client.MuseWebsocketClient object at 0x7f7bbba74190>"
+      } ],
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "print_muse_logs::0",
+    "time" : {
+      "start" : 1683052279368,
+      "stop" : 1683052279368,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "setup_teardown_two_zps::0",
+    "time" : {
+      "start" : 1683052275183,
+      "stop" : 1683052276022,
+      "duration" : 839
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "websocket_manager::0",
+    "time" : {
+      "start" : 1683052653076,
+      "stop" : 1683052653076,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "disable_speaker_audio::0",
+    "time" : {
+      "start" : 1683052653152,
+      "stop" : 1683052653152,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "print_player_logs::0",
+    "time" : {
+      "start" : 1683052279369,
+      "stop" : 1683052279937,
+      "duration" : 568
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "dut_manager::0",
+    "time" : {
+      "start" : 1683052653079,
+      "stop" : 1683052653149,
+      "duration" : 70
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "player_diag_levels::0",
+    "time" : {
+      "start" : 1683052653190,
+      "stop" : 1683052653190,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "reset_dut_and_ws_managers::0",
+    "time" : {
+      "start" : 1683052276029,
+      "stop" : 1683052279368,
+      "duration" : 3339
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "cleanup_websocket_connections::0",
+    "time" : {
+      "start" : 1683052276024,
+      "stop" : 1683052276029,
+      "duration" : 5
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "override_diag_levels::0",
+    "time" : {
+      "start" : 1683052271127,
+      "stop" : 1683052271170,
+      "duration" : 43
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "nightly"
+  }, {
+    "name" : "tag",
+    "value" : "priority3"
+  }, {
+    "name" : "tag",
+    "value" : "groups_namespaces"
+  }, {
+    "name" : "parentSuite",
+    "value" : "player.muse"
+  }, {
+    "name" : "suite",
+    "value" : "test_saved_groups"
+  }, {
+    "name" : "host",
+    "value" : "e8d850172b68"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython2"
+  }, {
+    "name" : "package",
+    "value" : "player.muse.test_saved_groups"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "4cb7154d8da33e7b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683050420864,
+        "stop" : 1683050445839,
+        "duration" : 24975
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "groups_namespaces", "nightly", "priority3" ]
+  },
+  "source" : "ac1e44fce1d1d31d.json",
+  "parameterValues" : [ ]
+}

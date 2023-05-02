@@ -1,0 +1,511 @@
+{
+  "uid" : "845377236169fa43",
+  "name" : "test_config_download_failure[Default Mock Config]",
+  "fullName" : "player.muse.test_muse_metric_logging#test_config_download_failure[Default Mock Config]",
+  "historyId" : "ebf379a3db1ae2eda973585fca94432c",
+  "time" : {
+    "start" : 1683050352563,
+    "stop" : 1683050368726,
+    "duration" : 16163
+  },
+  "description" : "\n\n    :param module_dut:\n    :param mock_cq_control:\n    :param mock_player_services_control:\n    :return:\n    ",
+  "descriptionHtml" : "<pre><code>:param module_dut:\n:param mock_cq_control:\n:param mock_player_services_control:\n:return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "mock_cq_server",
+    "time" : {
+      "start" : 1683050321849,
+      "stop" : 1683050323731,
+      "duration" : 1882
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "operation_devices",
+    "time" : {
+      "start" : 1683050351851,
+      "stop" : 1683050351852,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "print_muse_logs",
+    "time" : {
+      "start" : 1683050321656,
+      "stop" : 1683050321656,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "cloudqueue_metrics",
+    "time" : {
+      "start" : 1683050323731,
+      "stop" : 1683050351851,
+      "duration" : 28120
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Trigger job with job_text from :1400/jobs page",
+      "time" : {
+        "start" : 1683050336816,
+        "stop" : 1683050351838,
+        "duration" : 15022
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "zp",
+        "value" : "SonosZoneComponent(id=140098808954768, ip=172.18.255.251, modelNumber=S39, serialNumber=0003861038C2, architecture=optimo, hardware_version=1.38.1.0-1.0)"
+      }, {
+        "name" : "job_text",
+        "value" : "'Upload Events'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "print_player_logs",
+    "time" : {
+      "start" : 1683050321172,
+      "stop" : 1683050321656,
+      "duration" : 484
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "operation_kwargs",
+    "time" : {
+      "start" : 1683050351851,
+      "stop" : 1683050351851,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "mock_player_services_control",
+    "time" : {
+      "start" : 1683050321725,
+      "stop" : 1683050321849,
+      "duration" : 124
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Trigger job with job_text from :1400/jobs page",
+      "time" : {
+        "start" : 1683050321766,
+        "stop" : 1683050321827,
+        "duration" : 61
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "zp",
+        "value" : "SonosZoneComponent(id=140098808954768, ip=172.18.255.251, modelNumber=S39, serialNumber=0003861038C2, architecture=optimo, hardware_version=1.38.1.0-1.0)"
+      }, {
+        "name" : "job_text",
+        "value" : "'Fetch cloud config'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "reset_dut_and_ws_managers",
+    "time" : {
+      "start" : 1683050321656,
+      "stop" : 1683050321725,
+      "duration" : 69
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "diag_levels",
+    "time" : {
+      "start" : 1683050351852,
+      "stop" : 1683050351852,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "override_diag_levels",
+    "time" : {
+      "start" : 1683050351852,
+      "stop" : 1683050352527,
+      "duration" : 675
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "module_dut",
+    "time" : {
+      "start" : 1683050321725,
+      "stop" : 1683050321725,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "default_operation_devices",
+    "time" : {
+      "start" : 1683050351852,
+      "stop" : 1683050351852,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "diag_level_devices",
+    "time" : {
+      "start" : 1683050351852,
+      "stop" : 1683050351852,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "\n\n    :param module_dut:\n    :param mock_cq_control:\n    :param mock_player_services_control:\n    :return:\n    ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Fetch Cloud Configs while using MockPlayerCloudServices on a player",
+      "time" : {
+        "start" : 1683050352582,
+        "stop" : 1683050352654,
+        "duration" : 72
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Trigger job with job_text from :1400/jobs page",
+        "time" : {
+          "start" : 1683050352590,
+          "stop" : 1683050352654,
+          "duration" : 64
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "zp",
+          "value" : "SonosZoneComponent(id=140098808954768, ip=172.18.255.251, modelNumber=S39, serialNumber=0003861038C2, architecture=optimo, hardware_version=1.38.1.0-1.0)"
+        }, {
+          "name" : "job_text",
+          "value" : "'Fetch cloud config'"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "zp",
+        "value" : "SonosZoneComponent(id=140098808954768, ip=172.18.255.251, modelNumber=S39, serialNumber=0003861038C2, architecture=optimo, hardware_version=1.38.1.0-1.0)"
+      }, {
+        "name" : "mpsc",
+        "value" : "<webserver.helpers.mock_player_cloud_services_control.MockPlayerCloudServicesControl object at 0x7f6b222ebd90>"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verify metrics event on the mock services for the reporting submitted by the player",
+      "time" : {
+        "start" : 1683050352661,
+        "stop" : 1683050368722,
+        "duration" : 16061
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Trigger job with job_text from :1400/jobs page",
+        "time" : {
+          "start" : 1683050352667,
+          "stop" : 1683050367690,
+          "duration" : 15023
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "zp",
+          "value" : "SonosZoneComponent(id=140098808954768, ip=172.18.255.251, modelNumber=S39, serialNumber=0003861038C2, architecture=optimo, hardware_version=1.38.1.0-1.0)"
+        }, {
+          "name" : "job_text",
+          "value" : "'Upload Events'"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "args",
+        "value" : "(SonosZoneComponent(id=140098808954768, ip=172.18.255.251, modelNumber=S39, serialNumber=0003861038C2, architecture=optimo, hardware_version=1.38.1.0-1.0), <webserver.helpers.cloud_queue_control.CloudQueueControl object at 0x7f6b22322110>, 'metricsConfig', 'failReason', 'failed to download', 1)"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "d01f05008f558d4c",
+      "name" : "stdout",
+      "source" : "d01f05008f558d4c.txt",
+      "type" : "text/plain",
+      "size" : 4578
+    }, {
+      "uid" : "c5a7e74c9d5f2d40",
+      "name" : "stderr",
+      "source" : "c5a7e74c9d5f2d40.txt",
+      "type" : "text/plain",
+      "size" : 216660
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "mock_cq_server::0",
+    "time" : {
+      "start" : 1683050385550,
+      "stop" : 1683050385555,
+      "duration" : 5
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "print_muse_logs::0",
+    "time" : {
+      "start" : 1683050385670,
+      "stop" : 1683050385670,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "cloudqueue_metrics::0",
+    "time" : {
+      "start" : 1683050368832,
+      "stop" : 1683050385550,
+      "duration" : 16718
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "print_player_logs::0",
+    "time" : {
+      "start" : 1683050385670,
+      "stop" : 1683050386249,
+      "duration" : 579
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "mock_player_services_control::0",
+    "time" : {
+      "start" : 1683050385555,
+      "stop" : 1683050385559,
+      "duration" : 4
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "reset_dut_and_ws_managers::0",
+    "time" : {
+      "start" : 1683050385560,
+      "stop" : 1683050385669,
+      "duration" : 109
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "override_diag_levels::0",
+    "time" : {
+      "start" : 1683050368768,
+      "stop" : 1683050368830,
+      "duration" : 62
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "metric_logging"
+  }, {
+    "name" : "tag",
+    "value" : "nightly"
+  }, {
+    "name" : "tag",
+    "value" : "priority3"
+  }, {
+    "name" : "parentSuite",
+    "value" : "player.muse"
+  }, {
+    "name" : "suite",
+    "value" : "test_muse_metric_logging"
+  }, {
+    "name" : "host",
+    "value" : "9e5d51084c72"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython2"
+  }, {
+    "name" : "package",
+    "value" : "player.muse.test_muse_metric_logging"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "config_properties",
+    "value" : "None"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "metric_logging", "nightly", "priority3" ]
+  },
+  "source" : "845377236169fa43.json",
+  "parameterValues" : [ "None" ]
+}

@@ -1,0 +1,552 @@
+{
+  "uid" : "2e676525fea56627",
+  "name" : "test_send_muse_command_to_mock_lechmere[not fragmented]",
+  "fullName" : "cloud.lechmere.test_mock_lechmere_connections#test_send_muse_command_to_mock_lechmere[not fragmented]",
+  "historyId" : "a6116fb053edd0b0034956d06f05768e",
+  "time" : {
+    "start" : 1683049598362,
+    "stop" : 1683049598477,
+    "duration" : 115
+  },
+  "description" : "\n    SWPBL-86366\n    Verify that the player is able to support continuation frames from the mock lechmere\n\n    :param module_dut:\n    :param mock_player_services_control:\n    :param fragmented: Boolean that determines if the lechmere command sent should use fragmented data transfer\n    :return:\n    ",
+  "descriptionHtml" : "<pre><code>SWPBL-86366\nVerify that the player is able to support continuation frames from the mock lechmere\n\n:param module_dut:\n:param mock_player_services_control:\n:param fragmented: Boolean that determines if the lechmere command sent should use fragmented data transfer\n:return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "player_diag_levels",
+    "time" : {
+      "start" : 1683049567197,
+      "stop" : 1683049567197,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "default_operation_devices",
+    "time" : {
+      "start" : 1683049598174,
+      "stop" : 1683049598174,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "operation_devices",
+    "time" : {
+      "start" : 1683049598174,
+      "stop" : 1683049598174,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "mock_player_services_control",
+    "time" : {
+      "start" : 1683049598052,
+      "stop" : 1683049598173,
+      "duration" : 121
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Trigger job with job_text from :1400/jobs page",
+      "time" : {
+        "start" : 1683049598094,
+        "stop" : 1683049598150,
+        "duration" : 56
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "zp",
+        "value" : "SonosZoneComponent(id=140589718691728, ip=172.18.255.251, modelNumber=S39, serialNumber=00038610380F, architecture=optimo, hardware_version=1.38.1.0-1.0)"
+      }, {
+        "name" : "job_text",
+        "value" : "'Fetch cloud config'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "diag_level_devices",
+    "time" : {
+      "start" : 1683049598174,
+      "stop" : 1683049598174,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "all_devices",
+    "time" : {
+      "start" : 1683049567197,
+      "stop" : 1683049568782,
+      "duration" : 1585
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "reset_dut_and_ws_managers",
+    "time" : {
+      "start" : 1683049597984,
+      "stop" : 1683049598052,
+      "duration" : 68
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "init_mpsc",
+    "time" : {
+      "start" : 1683049568832,
+      "stop" : 1683049571466,
+      "duration" : 2634
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "get_module_dut",
+    "time" : {
+      "start" : 1683049568783,
+      "stop" : 1683049568832,
+      "duration" : 49
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "environment",
+    "time" : {
+      "start" : 1683049567196,
+      "stop" : 1683049567197,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "override_diag_levels",
+    "time" : {
+      "start" : 1683049598175,
+      "stop" : 1683049598360,
+      "duration" : 185
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "diag_levels",
+    "time" : {
+      "start" : 1683049598175,
+      "stop" : 1683049598175,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "websocket_manager",
+    "time" : {
+      "start" : 1683049571467,
+      "stop" : 1683049571467,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "pytestconfig",
+    "time" : {
+      "start" : 1683049567197,
+      "stop" : 1683049567197,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "all_playback_devices",
+    "time" : {
+      "start" : 1683049568782,
+      "stop" : 1683049568782,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "module_dut",
+    "time" : {
+      "start" : 1683049598052,
+      "stop" : 1683049598052,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "operation_kwargs",
+    "time" : {
+      "start" : 1683049598174,
+      "stop" : 1683049598174,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "dut_manager",
+    "time" : {
+      "start" : 1683049568782,
+      "stop" : 1683049568782,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "\n    SWPBL-86366\n    Verify that the player is able to support continuation frames from the mock lechmere\n\n    :param module_dut:\n    :param mock_player_services_control:\n    :param fragmented: Boolean that determines if the lechmere command sent should use fragmented data transfer\n    :return:\n    ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Wait for player connection and registration with mock lechmere",
+      "time" : {
+        "start" : 1683049598384,
+        "stop" : 1683049598406,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Verify reg message sent to mock lechmere.",
+        "time" : {
+          "start" : 1683049598401,
+          "stop" : 1683049598406,
+          "duration" : 5
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "module_dut",
+          "value" : "SonosZoneComponent(id=140589718691728, ip=172.18.255.251, modelNumber=S39, serialNumber=00038610380F, architecture=optimo, hardware_version=1.38.1.0-1.0)"
+        }, {
+          "name" : "mock_player_services_control",
+          "value" : "<webserver.helpers.mock_player_cloud_services_control.MockPlayerCloudServicesControl object at 0x7fdd8b9b2bd0>"
+        }, {
+          "name" : "expected_protocol",
+          "value" : "None"
+        }, {
+          "name" : "verifier",
+          "value" : "None"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "module_dut",
+        "value" : "SonosZoneComponent(id=140589718691728, ip=172.18.255.251, modelNumber=S39, serialNumber=00038610380F, architecture=optimo, hardware_version=1.38.1.0-1.0)"
+      }, {
+        "name" : "mock_player_services_control",
+        "value" : "<webserver.helpers.mock_player_cloud_services_control.MockPlayerCloudServicesControl object at 0x7fdd8b9b2bd0>"
+      }, {
+        "name" : "iteration_delay",
+        "value" : "0.5"
+      }, {
+        "name" : "registration_timeout",
+        "value" : "15"
+      }, {
+        "name" : "cloud_connected_timeout",
+        "value" : "65"
+      }, {
+        "name" : "expected_protocol",
+        "value" : "None"
+      }, {
+        "name" : "verifier",
+        "value" : "None"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "56232888eddeee01",
+      "name" : "stdout",
+      "source" : "56232888eddeee01.txt",
+      "type" : "text/plain",
+      "size" : 2137
+    }, {
+      "uid" : "e0fca83390741666",
+      "name" : "stderr",
+      "source" : "e0fca83390741666.txt",
+      "type" : "text/plain",
+      "size" : 42693
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "player_diag_levels::0",
+    "time" : {
+      "start" : 1683049749282,
+      "stop" : 1683049749282,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "mock_player_services_control::0",
+    "time" : {
+      "start" : 1683049598534,
+      "stop" : 1683049598536,
+      "duration" : 2
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "reset_dut_and_ws_managers::0",
+    "time" : {
+      "start" : 1683049598537,
+      "stop" : 1683049598612,
+      "duration" : 75
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "init_mpsc::0",
+    "time" : {
+      "start" : 1683049738252,
+      "stop" : 1683049749153,
+      "duration" : 10901
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "override_diag_levels::0",
+    "time" : {
+      "start" : 1683049598478,
+      "stop" : 1683049598532,
+      "duration" : 54
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "websocket_manager::0",
+    "time" : {
+      "start" : 1683049738251,
+      "stop" : 1683049738251,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "dut_manager::0",
+    "time" : {
+      "start" : 1683049749156,
+      "stop" : 1683049749278,
+      "duration" : 122
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "nightly"
+  }, {
+    "name" : "tag",
+    "value" : "priority3"
+  }, {
+    "name" : "tag",
+    "value" : "cloud_connection_stats"
+  }, {
+    "name" : "parentSuite",
+    "value" : "cloud.lechmere"
+  }, {
+    "name" : "suite",
+    "value" : "test_mock_lechmere_connections"
+  }, {
+    "name" : "host",
+    "value" : "e9e4699ea06f"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython2"
+  }, {
+    "name" : "package",
+    "value" : "cloud.lechmere.test_mock_lechmere_connections"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "config_properties",
+    "value" : "None"
+  }, {
+    "name" : "fragmented",
+    "value" : "'False'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "nightly", "cloud_connection_stats", "priority3" ]
+  },
+  "source" : "2e676525fea56627.json",
+  "parameterValues" : [ "None", "'False'" ]
+}
