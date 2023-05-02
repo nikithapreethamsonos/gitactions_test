@@ -1,0 +1,448 @@
+Created MockAuthService
+Verbose logging turned on
+{
+  message: 'WARNING!!! process.env.NODE_ENV is not defined.To disable the module set process.env.NODE_ENV to any of the supplied ignoredNodeEnvironments: production',
+  level: 'warn',
+  service: 'express-oas-generator',
+  timestamp: '2023-05-02T15:47:20.591Z'
+}
+Supported Lechmere protocols: [lechmere.7,lechmere.6,lechmere.4,lechmere.3]
+Mock Accounts Replication server is ready
+Mock Recycle Service server is ready
+Mock Internal Recycle Service server is ready
+Mock Metrics Config server is ready
+Mock Entitlements server is ready
+Mock Grants server is ready
+Postman generator service is ready
+Registration timeout set to 10 seconds
+Logs can be found with: GET /request/api/logs
+SSL Session history can be found with: GET /request/sessions/logs
+Logs can be cleared with: GET /request/*/clear 
+AuthZ service created. Manage at http://localhost:44989/authz/mock/config.html
+Cloud feature config service using: {"enableMusicAccountReplication":true,"enableApiKeyValidation":false,"enableExternalPartnerMode":false,"enableMuseCmdParamReporting":false,"disableWebSocketPerMessageDeflate":false,"enableVoiceDataCollection":false,"metricsConfigURL":null,"metricsService":{"submissionIntervalSeconds":300,"wifiTxRateThreshold":0,"wifiLatencyThresholdMillis":0},"spotifyAdaptiveBitrate":{"enable":false,"timeoutMinutes":120,"thresholdDC":5},"accessPolicyControl":{"enableCloudSetting":false,"defaultValue":"INSECURE"},"enableUPnPOverTLS":{"commandControl":false,"subscriptionControl":false,"eventControl":false},"enableThorForMuseV1":false,"enableLechmereV7":false}
+Mock Playback Link server is ready.
+Using mock cloud services
+Runtime OAS Generator is ready
+Server listening on http://localhost:44989
+Websocket REST API: /websockets/api/v0
+Server listening for SSL on https://localhost:36707
+Server listening for mutual SSL on https://localhost:37391
+200 [05/02/23 3:47:21 pm] GET /request/api/logs SWGen=-
+200 [05/02/23 3:47:21 pm] POST /auth/oauth/v3/clients?clientKey=e61bc77c-39cd-4ed0-a5e7-5ad316a0efc5&keyName=test SWGen=-
+200 [05/02/23 3:47:22 pm] GET /request/api/logs/clear SWGen=-
+200 [05/02/23 3:47:29 pm] POST /auth/oauth/v2/create-user-token SWGen=-
+200 [05/02/23 3:47:31 pm] GET /auth/oauth/v2/validate?access_token=53291e0-e900-11ed-b6eb-a9914fdacc24a53291e0-e900-11ed-b6eb-a9914fdacc24a53291e0-e900-11ed-b6eb-a9914fdacc24a53291e0-e900-11ed-b6eb-a9914fdacc24a53291e0-e900-11ed-b6eb-a9914fdacc24a53291e0-e900-11ed-b6eb-a9914fdacc24a53291e0-e900-11ed-b6eb-a9914fdacc24a53291e0-e900-11ed-b6eb-a9914fdacc24a53291e0-e900-11ed-b6eb-a9914fdacc24a53291e0-e900-11ed-b6eb-a9914fdacc24a53291e0-e900-11ed-b6eb-a9914fdacc24a53291e0-e900-11ed-b6eb-a9914fdacc24a53291e0-e900-11ed-b6eb-a9914fdacc24a53291e0-e900-11ed-b6eb-a9914fdacc24a53291e0-e900-11ed-b6eb-a9914fdacc24a53291e0-e900-11ed-b6eb-a9914fdacc24a53291e0-e900-11ed-b6eb-a9914fdacc24a53291e0-e900-11ed-b6eb-a9914fdacc24a53291e0-e900-11ed-b6eb-a9914fdacc24a53291e0-e900-11ed-b6eb-a9914fdacc24a53291e0-e900-11ed-b6eb-a9914fdacc24a53291e0-e900-11ed-b6eb-a9914fdacc24a53291e0-e900-11ed-b6eb-a9914fdacc24a53291e0-e900-11ed-b6eb-a9914fdacc24a53291e0-e900-11ed-b6eb-a9914fdacc24a53291e0-e900-11ed-b6eb-a9914fdacc24a53291e0-e900-11ed-b6eb-a9914fdacc24a53291e0-e900-11ed-b6eb-a9914fdacc24a53291e0-e900-11ed-b6eb-a9914fdacc24a53291e0-e900-11ed-b6eb-a9914fdacc24a53291e0-e900-11ed-b6eb-a9914fdacc24a53291e0-e900-11ed-b6eb-a9914fdacc24a53291e0-e900-11ed-b6eb-a9914fdacc24a53291e0-e900-11ed-b6eb-a9914fdacc24a53291e0-e900-11ed-b6eb-a9914fdacc24a53291e0-e900-11ed-b6eb-a9914fdacc24a53291e0-e900-11ed-b6eb-a9914fdacc24a53291e0-e900-11ed-b6eb-a9914fdacc24a53291e0-e900-11ed-b6eb-a9914fdacc24a53291e0-e900-11ed-b6eb-a9914fdacc24a53291e0-e900-11ed-b6eb-a9914fdacc24a53291e0-e900-11ed-b6eb-a9914fdacc24a53291e0-e900-11ed-b6eb-a9914fdacc24a53291e0-e900-11ed-b6eb-a9914fdacc24a53291e0-e900-11ed-b6eb-a9914fdacc24a53291e0-e900-11ed-b6eb-a9914fdacc24a53291e0-e900-11ed-b6eb-a9914fdacc24a53291e0-e900-11ed-b6eb-a9914fdacc24a53291e0-e900-11ed-b6eb-a9914fdacc24a53291e0-e900-11ed-b6eb-a9914fdacc24a53291e0-e900-11ed-b6eb-a9914fdacc24a53291e0-e900-11ed-b6eb-a9914fdacc24a53291e0-e900-11ed-b6eb-a9914fdacc24a53291e0-e900-11ed-b6eb-a9914fdacc24a53291e0-e900-11ed-b SWGen=2
+Client using [lechmere.7] protocol
+[
+  {
+    namespace: 'topology:1',
+    householdId: 'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP',
+    locationId: 'lc_03b17f1e885f4983bc4ac7c1ac90fb3e',
+    name: 'cloudRegistration',
+    type: 'cloudRegistrationStatus'
+  },
+  {
+    sonosId: '998936323',
+    householdLocationId: 'Q5kfDMy8NfkWq90gctYjzg==',
+    museHouseholdId: 'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.G6ModKccIdiM7VS2sehE',
+    playerId: 'RINCON_0003861038EC01400',
+    groupId: 'RINCON_0003861038EC01400:558987078',
+    sessionId: null,
+    roomName: 'Emulator',
+    groupName: 'Emulator',
+    serial: '0003861038EC',
+    model: 'S39',
+    modelDisplayName: 'Era 100',
+    ipAddr: '172.19.255.251',
+    port: 1400,
+    isCoordinator: true,
+    isVisible: true,
+    isSatellite: false,
+    isSecure: true,
+    bootSequenceId: 3,
+    hwVersion: '1.38.1.0-1.0',
+    swVersion: '74.0-41010-dev-build-20230502-main',
+    swGen: 2,
+    dhcpMac: '0003861038EC',
+    networkIPAddress: '172.19.0.0',
+    networkMask: '255.255.0.0',
+    systemUptimeSeconds: 579,
+    anacapaUptimeSeconds: 2,
+    apiVersion: '1.35.0-alpha.5-8-g39d9fd49+d1f8c80c16.74.0-41010',
+    minApiVersion: '1.1.0',
+    capabilities: [
+      'PLAYBACK',
+      'AIRPLAY',
+      'LINE_IN',
+      'VOICE',
+      'AUDIO_CLIP',
+      'MICROPHONE_SWITCH'
+    ],
+    householdId: 'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP',
+    locationId: 'lc_03b17f1e885f4983bc4ac7c1ac90fb3e'
+  }
+]
+Received registration message from [0003861038EC]
+REGISTRATION ACK sent to [0003861038ec]: 07040000{}
+My client is: [object Object]
+SET CONFIG sent to [0003861038ec]: 07050000{"museHouseholdId":"Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.G6ModKccIdiM7VS2sehE","locationId":"lc_03b17f1e885f4983bc4ac7c1ac90fb3e"}
+200 [05/02/23 3:47:38 pm] GET /entitlements/api/v1/users/998936323/entitlements SWGen=2
+[
+  {
+    namespace: 'topology:1',
+    householdId: 'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP',
+    locationId: 'lc_03b17f1e885f4983bc4ac7c1ac90fb3e',
+    name: 'cloudRegistration',
+    type: 'cloudRegistrationStatus'
+  },
+  {
+    sonosId: '998936323',
+    householdLocationId: 'Q5kfDMy8NfkWq90gctYjzg==',
+    museHouseholdId: 'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.G6ModKccIdiM7VS2sehE',
+    playerId: 'RINCON_0003861038EC01400',
+    groupId: 'RINCON_0003861038EC01400:558987078',
+    sessionId: null,
+    roomName: 'Emulator',
+    groupName: 'Emulator',
+    serial: '0003861038EC',
+    model: 'S39',
+    modelDisplayName: 'Era 100',
+    ipAddr: '172.19.255.251',
+    port: 1400,
+    isCoordinator: true,
+    isVisible: true,
+    isSatellite: false,
+    isSecure: true,
+    bootSequenceId: 3,
+    hwVersion: '1.38.1.0-1.0',
+    swVersion: '74.0-41010-dev-build-20230502-main',
+    swGen: 2,
+    dhcpMac: '0003861038EC',
+    networkIPAddress: '172.19.0.0',
+    networkMask: '255.255.0.0',
+    systemUptimeSeconds: 579,
+    anacapaUptimeSeconds: 2,
+    apiVersion: '1.35.0-alpha.5-8-g39d9fd49+d1f8c80c16.74.0-41010',
+    minApiVersion: '1.1.0',
+    capabilities: [
+      'CLOUD',
+      'PLAYBACK',
+      'AIRPLAY',
+      'LINE_IN',
+      'VOICE',
+      'AUDIO_CLIP',
+      'MICROPHONE_SWITCH'
+    ],
+    householdId: 'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP',
+    locationId: 'lc_03b17f1e885f4983bc4ac7c1ac90fb3e'
+  }
+]
+Received registration message from [0003861038EC]
+*** Looks like a SET CONFIG response ***
+My client is: [object Object]
+200 [05/02/23 3:47:40 pm] POST /auth/oauth/v3/clients?clientKey=e61bc77c-39cd-4ed0-a5e7-5ad316a0efc5&keyName=test SWGen=-
+200 [05/02/23 3:47:40 pm] GET /request/api/logs/clear SWGen=-
+200 [05/02/23 3:47:45 pm] GET /features/v1/config?swVersion=74.0-41010-dev-build-20230502-main&hwVersion=1.38.1.0-1.0 SWGen=2
+Client using [lechmere.6] protocol
+[
+  {
+    namespace: 'topology:1',
+    householdId: 'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP',
+    locationId: 'lc_03b17f1e885f4983bc4ac7c1ac90fb3e',
+    name: 'cloudRegistration',
+    type: 'cloudRegistrationStatus'
+  },
+  {
+    sonosId: '998936323',
+    householdLocationId: 'Q5kfDMy8NfkWq90gctYjzg==',
+    museHouseholdId: 'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.G6ModKccIdiM7VS2sehE',
+    playerId: 'RINCON_0003861038EC01400',
+    groupId: 'RINCON_0003861038EC01400:558987078',
+    sessionId: null,
+    roomName: 'Emulator',
+    groupName: 'Emulator',
+    serial: '0003861038EC',
+    model: 'S39',
+    modelDisplayName: 'Era 100',
+    ipAddr: '172.19.255.251',
+    port: 1400,
+    isCoordinator: true,
+    isVisible: true,
+    isSatellite: false,
+    isSecure: true,
+    bootSequenceId: 3,
+    hwVersion: '1.38.1.0-1.0',
+    swVersion: '74.0-41010-dev-build-20230502-main',
+    swGen: 2,
+    dhcpMac: '0003861038EC',
+    networkIPAddress: '172.19.0.0',
+    networkMask: '255.255.0.0',
+    systemUptimeSeconds: 579,
+    anacapaUptimeSeconds: 2,
+    apiVersion: '1.35.0-alpha.5-8-g39d9fd49+d1f8c80c16.74.0-41010',
+    minApiVersion: '1.1.0',
+    capabilities: [
+      'CLOUD',
+      'PLAYBACK',
+      'AIRPLAY',
+      'LINE_IN',
+      'VOICE',
+      'AUDIO_CLIP',
+      'MICROPHONE_SWITCH'
+    ],
+    householdId: 'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP',
+    locationId: 'lc_03b17f1e885f4983bc4ac7c1ac90fb3e'
+  }
+]
+Received registration message from [0003861038EC]
+REGISTRATION ACK sent to [0003861038ec]: 06040000{}
+My client is: [object Object]
+SET CONFIG sent to [0003861038ec]: 06050000{"museHouseholdId":"Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.G6ModKccIdiM7VS2sehE","locationId":"lc_03b17f1e885f4983bc4ac7c1ac90fb3e"}
+{
+  connection: 'close',
+  host: 'music-accounts.dev.ws.sonos.com:37391',
+  accept: '*/*',
+  'user-agent': 'Linux UPnP/1.0 Sonos/74.0-41010-dev-build-20230502-main (ZPS39)',
+  'content-type': 'application/xml',
+  'transfer-encoding': 'chunked',
+  'x-sonos-swgen': '2',
+  'x-sonos-firmware': '74.0-41010-dev-build-20230502-main',
+  'x-sonos-muse-api': '1.35.0-alpha.5-8-g39d9fd49+d1f8c80c16',
+  'x-sonos-id-hash': 'GrCyaV11UX5Prp5RW4zCu24/vXLgR0TBdQuE98Q2jlY=',
+  'x-sonos-musehouseholdid': 'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.G6ModKccIdiM7VS2sehE',
+  'x-sonos-sync-method': 'full'
+}
+householdId is Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.G6ModKccIdiM7VS2sehE
+Accounts updated by player request
+Received 1 accounts
+[{"$":{"Type":"81671","SerialNum":"1","Flags":"2","VClockHousehold":"RINCON_0003861038EC01400:3"},"UN":"X_#Svc81671-0-Token","MD":"1","OADevID":"Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP","Hash":"VPs74iJ64dnMK9FsYasSWw==","Token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiOUkwZDZHWTUwTXJ2aEpYNE54VUtvWmtnMXA1VSIsImlhdCI6MTY4MzA0MjQ1OSwiZXhwIjoxNjgzMDQ2MDU4fQ.eSTZQ94sy8ZpwdbKZ9BPRu04P8F2ZbwKQYg9Vtyxvhg","Key":"v5aEQaHAGVtoRut66CrRH1EJsHNbKbYd"}]
+changed muse household id row 1
+200 [05/02/23 3:47:45 pm] POST /music-account/v0/accounts SWGen=2
+[
+  {
+    namespace: 'topology:1',
+    householdId: 'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP',
+    name: 'cloudRegistration',
+    type: 'cloudRegistrationStatus'
+  },
+  {
+    sonosId: '998936323',
+    householdLocationId: 'Q5kfDMy8NfkWq90gctYjzg==',
+    museHouseholdId: 'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.G6ModKccIdiM7VS2sehE',
+    playerId: 'RINCON_0003861038EC01400',
+    groupId: 'RINCON_0003861038EC01400:558987078',
+    sessionId: null,
+    roomName: 'Emulator',
+    groupName: 'Emulator',
+    serial: '0003861038EC',
+    model: 'S39',
+    modelDisplayName: 'Era 100',
+    ipAddr: '172.19.255.251',
+    port: 1400,
+    isCoordinator: true,
+    isVisible: true,
+    isSatellite: false,
+    isSecure: true,
+    bootSequenceId: 3,
+    hwVersion: '1.38.1.0-1.0',
+    swVersion: '74.0-41010-dev-build-20230502-main',
+    swGen: 2,
+    dhcpMac: '0003861038EC',
+    networkIPAddress: '172.19.0.0',
+    networkMask: '255.255.0.0',
+    systemUptimeSeconds: 587,
+    anacapaUptimeSeconds: 10,
+    apiVersion: '1.35.0-alpha.5-8-g39d9fd49+d1f8c80c16.74.0-41010',
+    minApiVersion: '1.1.0',
+    capabilities: [
+      'CLOUD',
+      'PLAYBACK',
+      'AIRPLAY',
+      'LINE_IN',
+      'VOICE',
+      'AUDIO_CLIP',
+      'MICROPHONE_SWITCH'
+    ],
+    householdId: 'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP',
+    locationId: undefined
+  }
+]
+Received registration message from [0003861038EC]
+*** Looks like a SET CONFIG response ***
+My client is: [object Object]
+Client using [lechmere.6] protocol
+200 [05/02/23 3:47:53 pm] GET /entitlements/api/v1/users/998936323/entitlements SWGen=2
+[
+  {
+    namespace: 'topology:1',
+    householdId: 'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP',
+    name: 'cloudRegistration',
+    type: 'cloudRegistrationStatus'
+  },
+  {
+    sonosId: '998936323',
+    householdLocationId: 'Q5kfDMy8NfkWq90gctYjzg==',
+    museHouseholdId: 'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.G6ModKccIdiM7VS2sehE',
+    playerId: 'RINCON_0003861038EC01400',
+    groupId: 'RINCON_0003861038EC01400:4133616658',
+    sessionId: null,
+    roomName: 'Emulator',
+    groupName: 'Emulator',
+    serial: '0003861038EC',
+    model: 'S39',
+    modelDisplayName: 'Era 100',
+    ipAddr: '172.19.255.251',
+    port: 1400,
+    isCoordinator: true,
+    isVisible: true,
+    isSatellite: false,
+    isSecure: true,
+    bootSequenceId: 4,
+    hwVersion: '1.38.1.0-1.0',
+    swVersion: '74.0-41010-dev-build-20230502-main',
+    swGen: 2,
+    dhcpMac: '0003861038EC',
+    networkIPAddress: '172.19.0.0',
+    networkMask: '255.255.0.0',
+    systemUptimeSeconds: 594,
+    anacapaUptimeSeconds: 2,
+    apiVersion: '1.35.0-alpha.5-8-g39d9fd49+d1f8c80c16.74.0-41010',
+    minApiVersion: '1.1.0',
+    capabilities: [
+      'CLOUD',
+      'PLAYBACK',
+      'AIRPLAY',
+      'LINE_IN',
+      'VOICE',
+      'AUDIO_CLIP',
+      'MICROPHONE_SWITCH'
+    ],
+    householdId: 'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP',
+    locationId: undefined
+  }
+]
+Received registration message from [0003861038EC]
+REGISTRATION ACK sent to [0003861038ec]: 06040000{}
+My client is: [object Object]
+SET CONFIG sent to [0003861038ec]: 06050000{"museHouseholdId":"Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.G6ModKccIdiM7VS2sehE"}
+200 [05/02/23 3:48:02 pm] GET /features/v1/config?swVersion=74.0-41010-dev-build-20230502-main&hwVersion=1.38.1.0-1.0 SWGen=2
+200 [05/02/23 3:48:45 pm] POST /features/v1/set-config-properties SWGen=-
+200 [05/02/23 3:48:46 pm] GET /features/v1/config?swVersion=74.0-41010-dev-build-20230502-main&hwVersion=1.38.1.0-1.0 SWGen=2
+200 [05/02/23 3:48:46 pm] GET /zpMetricsConfig/prod SWGen=2
+Client using [lechmere.6] protocol
+[
+  {
+    namespace: 'topology:1',
+    householdId: 'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP',
+    name: 'cloudRegistration',
+    type: 'cloudRegistrationStatus'
+  },
+  {
+    sonosId: '998936323',
+    householdLocationId: 'Q5kfDMy8NfkWq90gctYjzg==',
+    museHouseholdId: 'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.G6ModKccIdiM7VS2sehE',
+    playerId: 'RINCON_0003861038EC01400',
+    groupId: 'RINCON_0003861038EC01400:3290944146',
+    sessionId: null,
+    roomName: 'Emulator',
+    groupName: 'Emulator',
+    serial: '0003861038EC',
+    model: 'S39',
+    modelDisplayName: 'Era 100',
+    ipAddr: '172.19.255.251',
+    port: 1400,
+    isCoordinator: true,
+    isVisible: true,
+    isSatellite: false,
+    isSecure: true,
+    bootSequenceId: 5,
+    hwVersion: '1.38.1.0-1.0',
+    swVersion: '74.0-41010-dev-build-20230502-main',
+    swGen: 2,
+    dhcpMac: '0003861038EC',
+    networkIPAddress: '172.19.0.0',
+    networkMask: '255.255.0.0',
+    systemUptimeSeconds: 655,
+    anacapaUptimeSeconds: 2,
+    apiVersion: '1.35.0-alpha.5-8-g39d9fd49+d1f8c80c16.74.0-41010',
+    minApiVersion: '1.1.0',
+    capabilities: [
+      'CLOUD',
+      'PLAYBACK',
+      'AIRPLAY',
+      'LINE_IN',
+      'VOICE',
+      'AUDIO_CLIP',
+      'MICROPHONE_SWITCH'
+    ],
+    householdId: 'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP',
+    locationId: undefined
+  }
+]
+Received registration message from [0003861038EC]
+REGISTRATION ACK sent to [0003861038ec]: 06040000{}
+My client is: [object Object]
+SET CONFIG sent to [0003861038ec]: 06050000{"museHouseholdId":"Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.G6ModKccIdiM7VS2sehE"}
+200 [05/02/23 3:48:57 pm] GET /request/api/logs SWGen=-
+200 [05/02/23 3:49:00 pm] GET /entitlements/api/v1/users/998936323/entitlements SWGen=2
+[WARNING] JSON schema validation is currently disabled for GET /v1/users/998936323/settings?targetSettingsOnly=false 
+	See the "JSON Schema Validation" section in the README for more information.
+200 [05/02/23 3:49:00 pm] GET /api/v1/users/998936323/settings?targetSettingsOnly=false SWGen=2
+200 [05/02/23 3:49:02 pm] GET /features/v1/config?swVersion=74.0-41010-dev-build-20230502-main&hwVersion=1.38.1.0-1.0 SWGen=2
+200 [05/02/23 3:49:02 pm] GET /zpMetricsConfig/prod SWGen=2
+Client using [lechmere.6] protocol
+200 [05/02/23 3:49:57 pm] GET /entitlements/api/v1/users/998936323/entitlements SWGen=2
+[
+  {
+    namespace: 'topology:1',
+    householdId: 'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP',
+    name: 'cloudRegistration',
+    type: 'cloudRegistrationStatus'
+  },
+  {
+    sonosId: '998936323',
+    householdLocationId: 'Q5kfDMy8NfkWq90gctYjzg==',
+    museHouseholdId: 'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.G6ModKccIdiM7VS2sehE',
+    playerId: 'RINCON_0003861038EC01400',
+    groupId: 'RINCON_0003861038EC01400:4160835337',
+    sessionId: null,
+    roomName: 'Emulator',
+    groupName: 'Emulator',
+    serial: '0003861038EC',
+    model: 'S39',
+    modelDisplayName: 'Era 100',
+    ipAddr: '172.19.255.251',
+    port: 1400,
+    isCoordinator: true,
+    isVisible: true,
+    isSatellite: false,
+    isSecure: true,
+    bootSequenceId: 6,
+    hwVersion: '1.38.1.0-1.0',
+    swVersion: '74.0-41010-dev-build-20230502-main',
+    swGen: 2,
+    dhcpMac: '0003861038EC',
+    networkIPAddress: '172.19.0.0',
+    networkMask: '255.255.0.0',
+    systemUptimeSeconds: 718,
+    anacapaUptimeSeconds: 2,
+    apiVersion: '1.35.0-alpha.5-8-g39d9fd49+d1f8c80c16.74.0-41010',
+    minApiVersion: '1.1.0',
+    capabilities: [
+      'CLOUD',
+      'PLAYBACK',
+      'AIRPLAY',
+      'LINE_IN',
+      'VOICE',
+      'AUDIO_CLIP',
+      'MICROPHONE_SWITCH'
+    ],
+    householdId: 'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP',
+    locationId: undefined
+  }
+]
+Received registration message from [0003861038EC]
+REGISTRATION ACK sent to [0003861038ec]: 06040000{}
+My client is: [object Object]
+SET CONFIG sent to [0003861038ec]: 06050000{"museHouseholdId":"Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.G6ModKccIdiM7VS2sehE"}
+200 [05/02/23 3:49:58 pm] GET /auth/oauth/v3/clients/flush SWGen=-

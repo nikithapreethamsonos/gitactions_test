@@ -1,0 +1,287 @@
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.19.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.19.255.251:1400 "GET /udplog HTTP/1.1" 200 None
+INFO:SONOS.ssh_client.SSHClient:[172.19.255.251] command: <grep -v "LogToExternal" /jffs/localsettings.txt > /tmp/nokeyword.txt ; mv /tmp/nokeyword.txt /jffs/localsettings.txt>
+INFO:SONOS.ssh_client.SSHClient:[172.19.255.251] response: <>
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.19.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.19.255.251:1400 "GET /udplog HTTP/1.1" 200 None
+INFO:SONOS.ssh_client.SSHClient:[172.19.255.251] command: <grep -v "LogToExternal" /jffs/localsettings.txt > /tmp/nokeyword.txt ; mv /tmp/nokeyword.txt /jffs/localsettings.txt>
+INFO:SONOS.ssh_client.SSHClient:[172.19.255.251] response: <>
+WARNING:SONOS.ZP.Logger:Log file cleanup failed, already gone?
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.19.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.19.255.251:1400 "GET /udplog HTTP/1.1" 200 None
+INFO:SONOS.ssh_client.SSHClient:[172.19.255.251] command: <grep -v "LogToExternal" /jffs/localsettings.txt > /tmp/nokeyword.txt ; mv /tmp/nokeyword.txt /jffs/localsettings.txt>
+INFO:SONOS.ssh_client.SSHClient:[172.19.255.251] response: <>
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.19.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.19.255.251:1400 "GET /udplog?host=172.19.0.7&port=3333 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.19.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.19.255.251:1400 "GET /status/perf HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.19.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.19.255.251:1400 "GET /status/tmp/AirPlay.log HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.19.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.19.255.251:1400 "GET /status/opt/log/anacapa.vi.trace HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.19.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.19.255.251:1400 "GET /status/opt/log/libassistant.log.2 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.19.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.19.255.251:1400 "GET /status/opt/log/libassistant.log.1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.19.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.19.255.251:1400 "GET /status/opt/log/libassistant.log HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.19.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.19.255.251:1400 "GET /status/opt/log/anacapa.dc.trace HTTP/1.1" 200 None
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.ChannelMapSet> for SonosZoneComponent(ip=172.19.255.251, modelNumber=S39, serialNumber=00038610388D, architecture=optimo, hardware_version=1.38.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.ChannelMapSet> for SonosZoneComponent(ip=172.19.255.251, modelNumber=S39, serialNumber=00038610388D, architecture=optimo, hardware_version=1.38.1.0-1.0) = 
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.HTSatChanMapSet> for SonosZoneComponent(ip=172.19.255.251, modelNumber=S39, serialNumber=00038610388D, architecture=optimo, hardware_version=1.38.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.HTSatChanMapSet> for SonosZoneComponent(ip=172.19.255.251, modelNumber=S39, serialNumber=00038610388D, architecture=optimo, hardware_version=1.38.1.0-1.0) = 
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.HTSatChanMapSet> for SonosZoneComponent(ip=172.19.255.251, modelNumber=S39, serialNumber=00038610388D, architecture=optimo, hardware_version=1.38.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.HTSatChanMapSet> for SonosZoneComponent(ip=172.19.255.251, modelNumber=S39, serialNumber=00038610388D, architecture=optimo, hardware_version=1.38.1.0-1.0) = 
+DEBUG:SONOS.sonos.services.base:Getting state variable <GroupManagement.GroupCoordinatorIsLocal> for SonosZoneComponent(ip=172.19.255.251, modelNumber=S39, serialNumber=00038610388D, architecture=optimo, hardware_version=1.38.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <GroupManagement.GroupCoordinatorIsLocal> for SonosZoneComponent(ip=172.19.255.251, modelNumber=S39, serialNumber=00038610388D, architecture=optimo, hardware_version=1.38.1.0-1.0) = 1
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.19.255.251, modelNumber=S39, serialNumber=00038610388D, architecture=optimo, hardware_version=1.38.1.0-1.0) invokes AVTransport.GetTransportInfo("InstanceID"="0", "headers"="{}")
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.19.255.251, modelNumber=S39, serialNumber=00038610388D, architecture=optimo, hardware_version=1.38.1.0-1.0) AVTransport.GetTransportInfo returns '{'CurrentTransportState': u'STOPPED', 'CurrentTransportStatus': u'OK', 'CurrentSpeed': u'1'}'
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.19.255.251, modelNumber=S39, serialNumber=00038610388D, architecture=optimo, hardware_version=1.38.1.0-1.0) invokes AVTransport.GetTransportInfo("InstanceID"="0", "headers"="{}")
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.19.255.251, modelNumber=S39, serialNumber=00038610388D, architecture=optimo, hardware_version=1.38.1.0-1.0) AVTransport.GetTransportInfo returns '{'CurrentTransportState': u'STOPPED', 'CurrentTransportStatus': u'OK', 'CurrentSpeed': u'1'}'
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.19.255.251, modelNumber=S39, serialNumber=00038610388D, architecture=optimo, hardware_version=1.38.1.0-1.0) invokes RenderingControl.SetVolume("InstanceID"="0", "DesiredVolume"="10", "Channel"="Master", "headers"="{}")
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.19.255.251, modelNumber=S39, serialNumber=00038610388D, architecture=optimo, hardware_version=1.38.1.0-1.0) RenderingControl.SetVolume returns '{}'
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.19.255.251, modelNumber=S39, serialNumber=00038610388D, architecture=optimo, hardware_version=1.38.1.0-1.0) invokes ContentDirectory.Browse("ObjectID"="Q:0", "BrowseFlag"="BrowseDirectChildren", "Filter"="0", "headers"="{}", "RequestedCount"="0", "StartingIndex"="0", "SortCriteria"="")
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.19.255.251, modelNumber=S39, serialNumber=00038610388D, architecture=optimo, hardware_version=1.38.1.0-1.0) ContentDirectory.Browse returns '{'NumberReturned': u'0', 'UpdateID': u'3', 'Result': u'<DIDL-Lite xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:upnp="urn:schemas-upnp-org:metadata-1-0/upnp/" xmlns:r="urn:schemas-rinconnetworks-com:metadata-1-0/" xmlns="urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/"></DIDL-Lite>', 'TotalMatches': u'0'}'
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): oauth.test.ws.sonos.com:443
+DEBUG:urllib3.connectionpool:https://oauth.test.ws.sonos.com:443 "POST /auth/oauth/v2/token HTTP/1.1" 401 89
+CRITICAL:Client Oauth Token:Got 401 response code from https://oauth.test.ws.sonos.com/auth/oauth/v2/token trying to get OAuth token, credentials may be bad (specify with environment variables OAUTH_USER='example@sonos.com' and OAUTH_PW='password')
+CRITICAL:Client Oauth Token:Request -- url:<https://oauth.test.ws.sonos.com/auth/oauth/v2/token>, headers:<{'Content-Length': '114', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'User-Agent': 'python-requests/2.27.1', 'Connection': 'keep-alive', 'Content-Type': 'application/x-www-form-urlencoded', 'Authorization': 'Basic MTg0ZjEyMGEtZjg2OS00MDk5LTk3NDMtNzIwMTRjMjc4NTVkOjQyZWQ0NTViLTNiMWUtNGI3MS1iMWJhLWE4YzhkMWYxYWYwMw=='}>, body:<username=sw_plat_api_simulator_test_user%40test.sonos.com&password=R%21nc0n123&grant_type=password&scope=hh-config>
+CRITICAL:Client Oauth Token:Response -- url:<https://oauth.test.ws.sonos.com/auth/oauth/v2/token>, headers:<{'Content-Length': '89', 'Expires': 'Tue, 02 May 2023 15:56:23 GMT', 'Date': 'Tue, 02 May 2023 15:56:23 GMT', 'Connection': 'close', 'Pragma': 'no-cache', 'Cache-Control': 'max-age=0, no-cache, no-store', 'X-Sonos-Reason': 'invalid_user', 'Content-Type': 'application/json'}>, body:<{"reason": "Missing or invalid username, password combination", "error": "invalid_grant"}>
+WARNING:retry.api:401 Client Error: Unauthorized for url: https://oauth.test.ws.sonos.com/auth/oauth/v2/token, retrying in 10 seconds...
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): oauth.test.ws.sonos.com:443
+DEBUG:urllib3.connectionpool:https://oauth.test.ws.sonos.com:443 "POST /auth/oauth/v2/token HTTP/1.1" 401 89
+CRITICAL:Client Oauth Token:Got 401 response code from https://oauth.test.ws.sonos.com/auth/oauth/v2/token trying to get OAuth token, credentials may be bad (specify with environment variables OAUTH_USER='example@sonos.com' and OAUTH_PW='password')
+CRITICAL:Client Oauth Token:Request -- url:<https://oauth.test.ws.sonos.com/auth/oauth/v2/token>, headers:<{'Content-Length': '114', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'User-Agent': 'python-requests/2.27.1', 'Connection': 'keep-alive', 'Content-Type': 'application/x-www-form-urlencoded', 'Authorization': 'Basic MTg0ZjEyMGEtZjg2OS00MDk5LTk3NDMtNzIwMTRjMjc4NTVkOjQyZWQ0NTViLTNiMWUtNGI3MS1iMWJhLWE4YzhkMWYxYWYwMw=='}>, body:<username=sw_plat_api_simulator_test_user%40test.sonos.com&password=R%21nc0n123&grant_type=password&scope=hh-config>
+CRITICAL:Client Oauth Token:Response -- url:<https://oauth.test.ws.sonos.com/auth/oauth/v2/token>, headers:<{'Content-Length': '89', 'Expires': 'Tue, 02 May 2023 15:56:33 GMT', 'Date': 'Tue, 02 May 2023 15:56:33 GMT', 'Connection': 'close', 'Pragma': 'no-cache', 'Cache-Control': 'max-age=0, no-cache, no-store', 'X-Sonos-Reason': 'invalid_user', 'Content-Type': 'application/json'}>, body:<{"reason": "Missing or invalid username, password combination", "error": "invalid_grant"}>
+WARNING:retry.api:401 Client Error: Unauthorized for url: https://oauth.test.ws.sonos.com/auth/oauth/v2/token, retrying in 10 seconds...
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): oauth.test.ws.sonos.com:443
+DEBUG:urllib3.connectionpool:https://oauth.test.ws.sonos.com:443 "POST /auth/oauth/v2/token HTTP/1.1" 401 89
+CRITICAL:Client Oauth Token:Got 401 response code from https://oauth.test.ws.sonos.com/auth/oauth/v2/token trying to get OAuth token, credentials may be bad (specify with environment variables OAUTH_USER='example@sonos.com' and OAUTH_PW='password')
+CRITICAL:Client Oauth Token:Request -- url:<https://oauth.test.ws.sonos.com/auth/oauth/v2/token>, headers:<{'Content-Length': '114', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'User-Agent': 'python-requests/2.27.1', 'Connection': 'keep-alive', 'Content-Type': 'application/x-www-form-urlencoded', 'Authorization': 'Basic MTg0ZjEyMGEtZjg2OS00MDk5LTk3NDMtNzIwMTRjMjc4NTVkOjQyZWQ0NTViLTNiMWUtNGI3MS1iMWJhLWE4YzhkMWYxYWYwMw=='}>, body:<username=sw_plat_api_simulator_test_user%40test.sonos.com&password=R%21nc0n123&grant_type=password&scope=hh-config>
+CRITICAL:Client Oauth Token:Response -- url:<https://oauth.test.ws.sonos.com/auth/oauth/v2/token>, headers:<{'Content-Length': '89', 'Expires': 'Tue, 02 May 2023 15:56:45 GMT', 'Date': 'Tue, 02 May 2023 15:56:45 GMT', 'Connection': 'close', 'Pragma': 'no-cache', 'Cache-Control': 'max-age=0, no-cache, no-store', 'X-Sonos-Reason': 'invalid_user', 'Content-Type': 'application/json'}>, body:<{"reason": "Missing or invalid username, password combination", "error": "invalid_grant"}>
+WARNING:retry.api:401 Client Error: Unauthorized for url: https://oauth.test.ws.sonos.com/auth/oauth/v2/token, retrying in 10 seconds...
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): oauth.test.ws.sonos.com:443
+DEBUG:urllib3.connectionpool:https://oauth.test.ws.sonos.com:443 "POST /auth/oauth/v2/token HTTP/1.1" 401 89
+CRITICAL:Client Oauth Token:Got 401 response code from https://oauth.test.ws.sonos.com/auth/oauth/v2/token trying to get OAuth token, credentials may be bad (specify with environment variables OAUTH_USER='example@sonos.com' and OAUTH_PW='password')
+CRITICAL:Client Oauth Token:Request -- url:<https://oauth.test.ws.sonos.com/auth/oauth/v2/token>, headers:<{'Content-Length': '114', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'User-Agent': 'python-requests/2.27.1', 'Connection': 'keep-alive', 'Content-Type': 'application/x-www-form-urlencoded', 'Authorization': 'Basic MTg0ZjEyMGEtZjg2OS00MDk5LTk3NDMtNzIwMTRjMjc4NTVkOjQyZWQ0NTViLTNiMWUtNGI3MS1iMWJhLWE4YzhkMWYxYWYwMw=='}>, body:<username=sw_plat_api_simulator_test_user%40test.sonos.com&password=R%21nc0n123&grant_type=password&scope=hh-config>
+CRITICAL:Client Oauth Token:Response -- url:<https://oauth.test.ws.sonos.com/auth/oauth/v2/token>, headers:<{'Content-Length': '89', 'Expires': 'Tue, 02 May 2023 15:56:56 GMT', 'Date': 'Tue, 02 May 2023 15:56:56 GMT', 'Connection': 'close', 'Pragma': 'no-cache', 'Cache-Control': 'max-age=0, no-cache, no-store', 'X-Sonos-Reason': 'invalid_user', 'Content-Type': 'application/json'}>, body:<{"reason": "Missing or invalid username, password combination", "error": "invalid_grant"}>
+WARNING:retry.api:401 Client Error: Unauthorized for url: https://oauth.test.ws.sonos.com/auth/oauth/v2/token, retrying in 10 seconds...
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): oauth.test.ws.sonos.com:443
+DEBUG:urllib3.connectionpool:https://oauth.test.ws.sonos.com:443 "POST /auth/oauth/v2/token HTTP/1.1" 401 89
+CRITICAL:Client Oauth Token:Got 401 response code from https://oauth.test.ws.sonos.com/auth/oauth/v2/token trying to get OAuth token, credentials may be bad (specify with environment variables OAUTH_USER='example@sonos.com' and OAUTH_PW='password')
+CRITICAL:Client Oauth Token:Request -- url:<https://oauth.test.ws.sonos.com/auth/oauth/v2/token>, headers:<{'Content-Length': '114', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'User-Agent': 'python-requests/2.27.1', 'Connection': 'keep-alive', 'Content-Type': 'application/x-www-form-urlencoded', 'Authorization': 'Basic MTg0ZjEyMGEtZjg2OS00MDk5LTk3NDMtNzIwMTRjMjc4NTVkOjQyZWQ0NTViLTNiMWUtNGI3MS1iMWJhLWE4YzhkMWYxYWYwMw=='}>, body:<username=sw_plat_api_simulator_test_user%40test.sonos.com&password=R%21nc0n123&grant_type=password&scope=hh-config>
+CRITICAL:Client Oauth Token:Response -- url:<https://oauth.test.ws.sonos.com/auth/oauth/v2/token>, headers:<{'Content-Length': '89', 'Expires': 'Tue, 02 May 2023 15:57:06 GMT', 'Date': 'Tue, 02 May 2023 15:57:06 GMT', 'Connection': 'close', 'Pragma': 'no-cache', 'Cache-Control': 'max-age=0, no-cache, no-store', 'X-Sonos-Reason': 'invalid_user', 'Content-Type': 'application/json'}>, body:<{"reason": "Missing or invalid username, password combination", "error": "invalid_grant"}>
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.ChannelMapSet> for SonosZoneComponent(ip=172.19.255.251, modelNumber=S39, serialNumber=00038610388D, architecture=optimo, hardware_version=1.38.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.ChannelMapSet> for SonosZoneComponent(ip=172.19.255.251, modelNumber=S39, serialNumber=00038610388D, architecture=optimo, hardware_version=1.38.1.0-1.0) = 
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.HTSatChanMapSet> for SonosZoneComponent(ip=172.19.255.251, modelNumber=S39, serialNumber=00038610388D, architecture=optimo, hardware_version=1.38.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.HTSatChanMapSet> for SonosZoneComponent(ip=172.19.255.251, modelNumber=S39, serialNumber=00038610388D, architecture=optimo, hardware_version=1.38.1.0-1.0) = 
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.HTSatChanMapSet> for SonosZoneComponent(ip=172.19.255.251, modelNumber=S39, serialNumber=00038610388D, architecture=optimo, hardware_version=1.38.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.HTSatChanMapSet> for SonosZoneComponent(ip=172.19.255.251, modelNumber=S39, serialNumber=00038610388D, architecture=optimo, hardware_version=1.38.1.0-1.0) = 
+DEBUG:SONOS.sonos.services.base:Getting state variable <GroupManagement.GroupCoordinatorIsLocal> for SonosZoneComponent(ip=172.19.255.251, modelNumber=S39, serialNumber=00038610388D, architecture=optimo, hardware_version=1.38.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <GroupManagement.GroupCoordinatorIsLocal> for SonosZoneComponent(ip=172.19.255.251, modelNumber=S39, serialNumber=00038610388D, architecture=optimo, hardware_version=1.38.1.0-1.0) = 1
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.19.255.251, modelNumber=S39, serialNumber=00038610388D, architecture=optimo, hardware_version=1.38.1.0-1.0) invokes AVTransport.GetTransportInfo("InstanceID"="0", "headers"="{}")
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.19.255.251, modelNumber=S39, serialNumber=00038610388D, architecture=optimo, hardware_version=1.38.1.0-1.0) AVTransport.GetTransportInfo returns '{'CurrentTransportState': u'STOPPED', 'CurrentTransportStatus': u'OK', 'CurrentSpeed': u'1'}'
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.19.255.251, modelNumber=S39, serialNumber=00038610388D, architecture=optimo, hardware_version=1.38.1.0-1.0) invokes AVTransport.GetTransportInfo("InstanceID"="0", "headers"="{}")
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.19.255.251, modelNumber=S39, serialNumber=00038610388D, architecture=optimo, hardware_version=1.38.1.0-1.0) AVTransport.GetTransportInfo returns '{'CurrentTransportState': u'STOPPED', 'CurrentTransportStatus': u'OK', 'CurrentSpeed': u'1'}'
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.19.255.251, modelNumber=S39, serialNumber=00038610388D, architecture=optimo, hardware_version=1.38.1.0-1.0) invokes RenderingControl.SetVolume("InstanceID"="0", "DesiredVolume"="10", "Channel"="Master", "headers"="{}")
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.19.255.251, modelNumber=S39, serialNumber=00038610388D, architecture=optimo, hardware_version=1.38.1.0-1.0) RenderingControl.SetVolume returns '{}'
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.19.255.251, modelNumber=S39, serialNumber=00038610388D, architecture=optimo, hardware_version=1.38.1.0-1.0) invokes ContentDirectory.Browse("ObjectID"="Q:0", "BrowseFlag"="BrowseDirectChildren", "Filter"="0", "headers"="{}", "RequestedCount"="0", "StartingIndex"="0", "SortCriteria"="")
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.19.255.251, modelNumber=S39, serialNumber=00038610388D, architecture=optimo, hardware_version=1.38.1.0-1.0) ContentDirectory.Browse returns '{'NumberReturned': u'0', 'UpdateID': u'3', 'Result': u'<DIDL-Lite xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:upnp="urn:schemas-upnp-org:metadata-1-0/upnp/" xmlns:r="urn:schemas-rinconnetworks-com:metadata-1-0/" xmlns="urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/"></DIDL-Lite>', 'TotalMatches': u'0'}'
+INFO:SONOS.ssh_client.SSHClient:[172.19.255.253] command: <test -e /jffs/backtrace && echo $?>
+INFO:SONOS.ssh_client.SSHClient:[172.19.255.253] response: <>
+INFO:SONOS.ssh_client.SSHClient:[172.19.255.252] command: <test -e /jffs/backtrace && echo $?>
+INFO:SONOS.ssh_client.SSHClient:[172.19.255.252] response: <>
+INFO:SONOS.ssh_client.SSHClient:[172.19.255.251] command: <test -e /jffs/backtrace && echo $?>
+INFO:SONOS.ssh_client.SSHClient:[172.19.255.251] response: <>
+INFO:SONOS.ssh_client.SSHClient:[172.19.255.250] command: <test -e /jffs/backtrace && echo $?>
+INFO:SONOS.ssh_client.SSHClient:[172.19.255.250] response: <>
+INFO:SONOS.ssh_client.SSHClient:[172.19.255.253] command: <test -e /jffs/watchdog.log && echo $?>
+INFO:SONOS.ssh_client.SSHClient:[172.19.255.253] response: <>
+INFO:SONOS.ssh_client.SSHClient:[172.19.255.252] command: <test -e /jffs/watchdog.log && echo $?>
+INFO:SONOS.ssh_client.SSHClient:[172.19.255.252] response: <>
+INFO:SONOS.ssh_client.SSHClient:[172.19.255.251] command: <test -e /jffs/watchdog.log && echo $?>
+INFO:SONOS.ssh_client.SSHClient:[172.19.255.251] response: <>
+INFO:SONOS.ssh_client.SSHClient:[172.19.255.250] command: <test -e /jffs/watchdog.log && echo $?>
+INFO:SONOS.ssh_client.SSHClient:[172.19.255.250] response: <>
+INFO:SONOS.ssh_client.SSHClient:[172.19.255.251] command: <test -e /jffs/backtrace && echo $?>
+INFO:SONOS.ssh_client.SSHClient:[172.19.255.251] response: <>
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.19.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.19.255.251:1400 "GET /udplog HTTP/1.1" 200 None
+INFO:SONOS.ssh_client.SSHClient:[172.19.255.251] command: <grep -v "LogToExternal" /jffs/localsettings.txt > /tmp/nokeyword.txt ; mv /tmp/nokeyword.txt /jffs/localsettings.txt>
+INFO:SONOS.ssh_client.SSHClient:[172.19.255.251] response: <>
+INFO:SONOS.ZP.Logger:
+========================= BEGIN ANACAPA LOG, (PRIMARY) SonosZoneComponent(ip=172.19.255.251, modelNumber=S39, serialNumber=00038610388D, architecture=optimo, hardware_version=1.38.1.0-1.0) =========================
+*		
+*		[1970-01-01 00:18:17.307] <udplog,0> enabled 172.19.0.7:3333
+*		[1970-01-01 00:18:18.246] <cpu,0> error reading /sys/devices/system/cpu/cpu0/cpufreq/stats/time_in_state: Bad file descriptor
+*		[1970-01-01 00:18:23.249] <cpu,0> error reading /sys/devices/system/cpu/cpu0/cpufreq/stats/time_in_state: Bad file descriptor
+*		[1970-01-01 00:18:28.251] <cpu,0> error reading /sys/devices/system/cpu/cpu0/cpufreq/stats/time_in_state: Bad file descriptor
+*		[1970-01-01 00:18:33.254] <cpu,0> error reading /sys/devices/system/cpu/cpu0/cpufreq/stats/time_in_state: Bad file descriptor
+*		[1970-01-01 00:18:38.256] <cpu,0> error reading /sys/devices/system/cpu/cpu0/cpufreq/stats/time_in_state: Bad file descriptor
+*		[1970-01-01 00:18:43.259] <cpu,0> error reading /sys/devices/system/cpu/cpu0/cpufreq/stats/time_in_state: Bad file descriptor
+*		[1970-01-01 00:18:48.272] <cpu,0> error reading /sys/devices/system/cpu/cpu0/cpufreq/stats/time_in_state: Bad file descriptor
+*		[1970-01-01 00:18:53.276] <cpu,0> error reading /sys/devices/system/cpu/cpu0/cpufreq/stats/time_in_state: Bad file descriptor
+*		[1970-01-01 00:18:58.278] <cpu,0> error reading /sys/devices/system/cpu/cpu0/cpufreq/stats/time_in_state: Bad file descriptor
+*
+========================== END ANACAPA LOG, (PRIMARY) SonosZoneComponent(ip=172.19.255.251, modelNumber=S39, serialNumber=00038610388D, architecture=optimo, hardware_version=1.38.1.0-1.0) ==========================
+
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.19.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.19.255.251:1400 "GET /status/perf HTTP/1.1" 200 None
+INFO:SONOS.ZP.Logger:
+========================= BEGIN PERF LOG, (PRIMARY) SonosZoneComponent(ip=172.19.255.251, modelNumber=S39, serialNumber=00038610388D, architecture=optimo, hardware_version=1.38.1.0-1.0) =========================
+*		
+*		Counter: GM Log
+*		        1090.928:      grp RINCON_00038610388D01400 RINCON_00038610388D01400:2345182089
+*		
+*		
+*		Counter: AVT Play Log
+*		currently: STOPPED 
+*		
+*		
+*		Counter: CHSRC Fill Level
+*		        1142:      0        0        0        0  00       0       0       0       0           0
+*		
+*		
+*		Counter: CHSRC FSM
+*		              time                              where              css     pos/len      item-id       framer                               op                     hint
+*		
+*		
+*		Counter: RC Event Log
+*		        1141.500: SetVolume(ch:Master, vol:10) rc=0 [172.19.0.7 Coherence PageGetter]
+*		        1141.500: SetVolumeWithoutProxy(ch:Master, vol:10) rc=0 [172.19.0.7 Coherence PageGetter]
+*		        1097.410: SetVolume(ch:Master, vol:10) rc=0 [172.19.0.7 Coherence PageGetter]
+*		        1097.410: SetVolumeWithoutProxy(ch:Master, vol:10) rc=0 [172.19.0.7 Coherence PageGetter]
+*		
+*
+========================== END PERF LOG, (PRIMARY) SonosZoneComponent(ip=172.19.255.251, modelNumber=S39, serialNumber=00038610388D, architecture=optimo, hardware_version=1.38.1.0-1.0) ==========================
+
+INFO:SONOS.ssh_client.SSHClient:[172.19.255.253] command: <test -e /jffs/backtrace && echo $?>
+INFO:SONOS.ssh_client.SSHClient:[172.19.255.253] response: <>
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.19.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.19.255.253:1400 "GET /udplog HTTP/1.1" 200 None
+INFO:SONOS.ssh_client.SSHClient:[172.19.255.253] command: <grep -v "LogToExternal" /jffs/localsettings.txt > /tmp/nokeyword.txt ; mv /tmp/nokeyword.txt /jffs/localsettings.txt>
+INFO:SONOS.ssh_client.SSHClient:[172.19.255.253] response: <>
+INFO:SONOS.ZP.Logger:
+========================= BEGIN ANACAPA LOG, (SECONDARY) SonosZoneComponent(ip=172.19.255.253, modelNumber=S36, serialNumber=00038610363B, architecture=fury, hardware_version=1.36.1.0-1.0) =========================
+*		
+*		[1970-01-01 00:19:54.502] <udplog,0> enabled 172.19.0.7:3333
+*		[1970-01-01 00:19:54.636] <cpu,0> error reading /sys/devices/system/cpu/cpu0/cpufreq/stats/time_in_state: Bad file descriptor
+*		[1970-01-01 00:19:55.638] <topology,0> Stop topology monitor
+*		[1970-01-01 00:19:56.754] <muse,3> RMuseController activating namespace (ns=info, cmd=getInfo).
+*		[1970-01-01 00:19:56.755] <muse,4> [29] Received command info#getInfo()
+*		[1970-01-01 00:19:56.756] <muse,3> Dispatching command (ns=info, cmd=getInfo).
+*		[1970-01-01 00:19:56.758] <muse,3> (REST) [29] sending: discoveryInfo
+*		[1970-01-01 00:19:56.760] <muse,3> [29] Sent response (success=true,type=discoveryInfo) to info#getInfo() [took 6 ms] [upnp method: None]
+*		[1970-01-01 00:19:56.800] <rest,3> checkApiKeyExists: X-Sonos-Api-Key not set
+*
+========================== END ANACAPA LOG, (SECONDARY) SonosZoneComponent(ip=172.19.255.253, modelNumber=S36, serialNumber=00038610363B, architecture=fury, hardware_version=1.36.1.0-1.0) ==========================
+
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.19.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.19.255.253:1400 "GET /status/perf HTTP/1.1" 200 None
+INFO:SONOS.ZP.Logger:
+========================= BEGIN PERF LOG, (SECONDARY) SonosZoneComponent(ip=172.19.255.253, modelNumber=S36, serialNumber=00038610363B, architecture=fury, hardware_version=1.36.1.0-1.0) =========================
+*		
+*		Counter: GM Log
+*		        1222.583:      grp RINCON_00038610363B01400 RINCON_00038610363B01400:1261317758
+*		        1209.215:      grp RINCON_00038610387B01400 RINCON_00038610387B01400:3905248188
+*		
+*		
+*		Counter: AVT Play Log
+*		        1222.592: state = STOPPED
+*		        1222.592: track = 
+*		        1222.592:   avt = 
+*		        1209.297: state = PLAYING
+*		        1209.297: track = x-rincon:RINCON_00038610387B01400
+*		        1209.297:   avt = x-rincon:RINCON_00038610387B01400
+*		
+*		
+*		Counter: CHSRC Fill Level
+*		        1271:      0        0        0        0  00       0       0       0       0           0
+*		
+*		
+*		Counter: CHSRC FSM
+*		       1222.588951 handleWorkRequestWhileStoppe:02857          STOPPED     0/0                                   REMOVE_ALL_TRACKS_FROM_QUEUE                         
+*		       1222.588692                      execute:00419          STOPPED     0/0                                   REMOVE_ALL_TRACKS_FROM_QUEUE                         
+*		       1222.588412           recordCurrentState:00994          STOPPED     0/0                                                           NONE                         
+*		       1222.585847 handleWorkRequestWhileStoppe:02857          STOPPED     0/0                                           CHANGE_TRANSPORT_URI                         
+*		       1222.585578                      execute:00419          STOPPED     0/0                                           CHANGE_TRANSPORT_URI                         
+*		       1221.566951 handleWorkRequestWhileStoppe:02857          STOPPED     0/0                                         PREPARE_FOR_DELEGATION                         
+*		       1221.566534                      execute:00419          STOPPED     0/0                                         PREPARE_FOR_DELEGATION                         
+*		       1209.219411 handleWorkRequestWhileStoppe:02857          STOPPED     0/0                                   REMOVE_ALL_TRACKS_FROM_QUEUE                         
+*		       1209.219135                      execute:00419          STOPPED     0/0                                   REMOVE_ALL_TRACKS_FROM_QUEUE                         
+*		       1209.215826               int_enterState:00732          STOPPED     0/0                                                           NONE                         
+*		       1209.215780               int_enterState:00662          STOPPED     0/0                                                           NONE                         
+*		
+*		
+*		Counter: RC Event Log
+*		        1224.653: SetVolume(ch:Master, vol:10) rc=0 [172.19.0.7 Coherence PageGetter]
+*		        1224.653: SetVolumeWithoutProxy(ch:Master, vol:10) rc=0 [172.19.0.7 Coherence PageGetter]
+*		        1222.591: RestoreVolumePriorToRamp(ch:Master) rc=800 [172.19.0.7 Coherence PageGetter]
+*		        1209.221: RestoreVolumePriorToRamp(ch:Master) rc=800 [172.19.255.251 Linux UPnP/1.0 Sonos/74.0-41010-dev-build-20230502-main (ZPS39)]
+*		
+*
+========================== END PERF LOG, (SECONDARY) SonosZoneComponent(ip=172.19.255.253, modelNumber=S36, serialNumber=00038610363B, architecture=fury, hardware_version=1.36.1.0-1.0) ==========================
+
+INFO:SONOS.ssh_client.SSHClient:[172.19.255.252] command: <test -e /jffs/backtrace && echo $?>
+INFO:SONOS.ssh_client.SSHClient:[172.19.255.252] response: <>
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.19.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.19.255.252:1400 "GET /udplog HTTP/1.1" 200 None
+INFO:SONOS.ssh_client.SSHClient:[172.19.255.252] command: <grep -v "LogToExternal" /jffs/localsettings.txt > /tmp/nokeyword.txt ; mv /tmp/nokeyword.txt /jffs/localsettings.txt>
+INFO:SONOS.ssh_client.SSHClient:[172.19.255.252] response: <>
+INFO:SONOS.ZP.Logger:
+========================= BEGIN ANACAPA LOG, (SECONDARY) SonosZoneComponent(ip=172.19.255.252, modelNumber=S39, serialNumber=00038610387B, architecture=optimo, hardware_version=1.38.1.0-1.0) =========================
+*		
+*		[1970-01-01 00:18:48.686] <udplog,0> enabled 172.19.0.7:3333
+*		[1970-01-01 00:18:50.283] <muse,3> RMuseController activating namespace (ns=info, cmd=getInfo).
+*		[1970-01-01 00:18:50.283] <muse,4> [70] Received command info#getInfo()
+*		[1970-01-01 00:18:50.284] <muse,3> Dispatching command (ns=info, cmd=getInfo).
+*		[1970-01-01 00:18:50.285] <muse,3> (REST) [70] sending: discoveryInfo
+*		[1970-01-01 00:18:50.285] <muse,3> [70] Sent response (success=true,type=discoveryInfo) to info#getInfo() [took 3 ms] [upnp method: None]
+*		[1970-01-01 00:18:50.318] <rest,3> checkApiKeyExists: X-Sonos-Api-Key not set
+*
+========================== END ANACAPA LOG, (SECONDARY) SonosZoneComponent(ip=172.19.255.252, modelNumber=S39, serialNumber=00038610387B, architecture=optimo, hardware_version=1.38.1.0-1.0) ==========================
+
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.19.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.19.255.252:1400 "GET /status/perf HTTP/1.1" 200 None
+INFO:SONOS.ZP.Logger:
+========================= BEGIN PERF LOG, (SECONDARY) SonosZoneComponent(ip=172.19.255.252, modelNumber=S39, serialNumber=00038610387B, architecture=optimo, hardware_version=1.38.1.0-1.0) =========================
+*		
+*		Counter: GM Log
+*		        1157.354: ( 0) rem RINCON_00038610363B01400
+*		        1154.051: ( 1) rem RINCON_00038610388D01400
+*		        1143.998: ( 2) add RINCON_00038610363B01400
+*		        1139.921: ( 1) add RINCON_00038610388D01400
+*		
+*		
+*		Counter: AVT Play Log
+*		        1139.897:  upnp = pause() [172.19.255.251 Linux UPnP/1.0 Sonos/74.0-41010-dev-build-20230502-main (ZPS39)]
+*		
+*		
+*		Counter: CHSRC Fill Level
+*		        1206:      0        0        0        0  00       0       0       0       0           0
+*		
+*		
+*		Counter: CHSRC FSM
+*		       1139.897818               int_enterState:00662          STOPPED     0/0                                                           NONE                         
+*		
+*		
+*		Counter: RC Event Log
+*		        1156.230: SetVolume(ch:Master, vol:10) rc=0 [172.19.0.7 Coherence PageGetter]
+*		        1156.230: SetVolumeWithoutProxy(ch:Master, vol:10) rc=0 [172.19.0.7 Coherence PageGetter]
+*		
+*
+========================== END PERF LOG, (SECONDARY) SonosZoneComponent(ip=172.19.255.252, modelNumber=S39, serialNumber=00038610387B, architecture=optimo, hardware_version=1.38.1.0-1.0) ==========================
+
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.19.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.19.255.253:1400 "GET /udplog HTTP/1.1" 200 None
+INFO:SONOS.ssh_client.SSHClient:[172.19.255.253] command: <grep -v "LogToExternal" /jffs/localsettings.txt > /tmp/nokeyword.txt ; mv /tmp/nokeyword.txt /jffs/localsettings.txt>
+INFO:SONOS.ssh_client.SSHClient:[172.19.255.253] response: <>
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.19.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.19.255.251:1400 "GET /udplog HTTP/1.1" 200 None
+INFO:SONOS.ssh_client.SSHClient:[172.19.255.251] command: <grep -v "LogToExternal" /jffs/localsettings.txt > /tmp/nokeyword.txt ; mv /tmp/nokeyword.txt /jffs/localsettings.txt>
+INFO:SONOS.ssh_client.SSHClient:[172.19.255.251] response: <>
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.19.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.19.255.252:1400 "GET /udplog HTTP/1.1" 200 None
+INFO:SONOS.ssh_client.SSHClient:[172.19.255.252] command: <grep -v "LogToExternal" /jffs/localsettings.txt > /tmp/nokeyword.txt ; mv /tmp/nokeyword.txt /jffs/localsettings.txt>
+INFO:SONOS.ssh_client.SSHClient:[172.19.255.252] response: <>
