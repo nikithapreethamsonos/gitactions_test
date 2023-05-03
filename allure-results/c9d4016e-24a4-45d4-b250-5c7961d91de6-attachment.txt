@@ -1,0 +1,521 @@
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.ChannelMapSet> for SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=0003861036E5, architecture=fury, hardware_version=1.36.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.ChannelMapSet> for SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=0003861036E5, architecture=fury, hardware_version=1.36.1.0-1.0) = 
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.HTSatChanMapSet> for SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=0003861036E5, architecture=fury, hardware_version=1.36.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.HTSatChanMapSet> for SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=0003861036E5, architecture=fury, hardware_version=1.36.1.0-1.0) = 
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.HTSatChanMapSet> for SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=0003861036E5, architecture=fury, hardware_version=1.36.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.HTSatChanMapSet> for SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=0003861036E5, architecture=fury, hardware_version=1.36.1.0-1.0) = 
+DEBUG:SONOS.sonos.services.base:Getting state variable <GroupManagement.GroupCoordinatorIsLocal> for SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=0003861036E5, architecture=fury, hardware_version=1.36.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <GroupManagement.GroupCoordinatorIsLocal> for SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=0003861036E5, architecture=fury, hardware_version=1.36.1.0-1.0) = 1
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=0003861036E5, architecture=fury, hardware_version=1.36.1.0-1.0) invokes AVTransport.GetTransportInfo("InstanceID"="0", "headers"="{}")
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=0003861036E5, architecture=fury, hardware_version=1.36.1.0-1.0) AVTransport.GetTransportInfo returns '{'CurrentTransportState': u'STOPPED', 'CurrentTransportStatus': u'OK', 'CurrentSpeed': u'1'}'
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=0003861036E5, architecture=fury, hardware_version=1.36.1.0-1.0) invokes AVTransport.GetTransportInfo("InstanceID"="0", "headers"="{}")
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=0003861036E5, architecture=fury, hardware_version=1.36.1.0-1.0) AVTransport.GetTransportInfo returns '{'CurrentTransportState': u'STOPPED', 'CurrentTransportStatus': u'OK', 'CurrentSpeed': u'1'}'
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=0003861036E5, architecture=fury, hardware_version=1.36.1.0-1.0) invokes RenderingControl.SetVolume("InstanceID"="0", "DesiredVolume"="10", "Channel"="Master", "headers"="{}")
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=0003861036E5, architecture=fury, hardware_version=1.36.1.0-1.0) RenderingControl.SetVolume returns '{}'
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=0003861036E5, architecture=fury, hardware_version=1.36.1.0-1.0) invokes ContentDirectory.Browse("ObjectID"="Q:0", "BrowseFlag"="BrowseDirectChildren", "Filter"="0", "headers"="{}", "RequestedCount"="0", "StartingIndex"="0", "SortCriteria"="")
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=0003861036E5, architecture=fury, hardware_version=1.36.1.0-1.0) ContentDirectory.Browse returns '{'NumberReturned': u'0', 'UpdateID': u'0', 'Result': u'<DIDL-Lite xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:upnp="urn:schemas-upnp-org:metadata-1-0/upnp/" xmlns:r="urn:schemas-rinconnetworks-com:metadata-1-0/" xmlns="urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/"></DIDL-Lite>', 'TotalMatches': u'0'}'
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=0003861036E5, architecture=fury, hardware_version=1.36.1.0-1.0) invokes SystemProperties.GetString("headers"="{}", "VariableName"="O_SONOS_CLOUD_API_TEST_ENV")
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=0003861036E5, architecture=fury, hardware_version=1.36.1.0-1.0) SystemProperties.GetString returns '{'StringValue': u'test'}'
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.SecureRegState> for SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=0003861036E5, architecture=fury, hardware_version=1.36.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.SecureRegState> for SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=0003861036E5, architecture=fury, hardware_version=1.36.1.0-1.0) = 3
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=0003861036E5, architecture=fury, hardware_version=1.36.1.0-1.0) invokes SystemProperties.GetString("headers"="{}", "VariableName"="O_AUTOMATION_CLOUD_DOMAIN_MUTUAL_SSL")
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=0003861036E5, architecture=fury, hardware_version=1.36.1.0-1.0) SystemProperties.GetString returns '{'StringValue': u'dev.ws.sonos.com:44223'}'
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=0003861036E5, architecture=fury, hardware_version=1.36.1.0-1.0) invokes SystemProperties.GetString("headers"="{}", "VariableName"="O_AUTOMATION_CLOUD_DOMAIN")
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=0003861036E5, architecture=fury, hardware_version=1.36.1.0-1.0) SystemProperties.GetString returns '{'StringValue': u'dev.ws.sonos.com:38469'}'
+DEBUG:Muse-REST:<Wed May  3 18:16:17 2023> REST Request:
+	POST https://172.18.255.253:1443/api/v1/households/Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.3CFB5niotV_Yavn9mngz/platformInternal/invalidateCache
+	Headers: {'Content-Length': '30', 'X-Sonos-Api-Key': 'e61bc77c-39cd-4ed0-a5e7-5ad316a0efc5', 'Content-Type': 'application/json'}
+	Body: {"cacheNamespace": "settings"}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): 172.18.255.253:1443
+DEBUG:urllib3.connectionpool:https://172.18.255.253:1443 "POST /api/v1/households/Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.3CFB5niotV_Yavn9mngz/platformInternal/invalidateCache HTTP/1.1" 200 None
+INFO:Muse-REST:<Wed May  3 18:16:17 2023> REST Response:
+	Response status: 200
+	Response content: 
+{}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /jobs HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /jobs?job=FetchCloudCfg HTTP/1.1" 200 None
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /status/cloud HTTP/1.1" 200 None
+DEBUG:SONOS.sonos.services.common:XMLAccessor '.value' lookup was 'None'.
+ELEMENT: <Element 'LastWebSocketCode' at 0x7fee827de490>
+INDEXERS: ["<CloudStatusValues.ROOT: 'Cloud'>", '*']
+DOCUMENT:
+<?xml version="1.0" ?>
+<ZPSupportInfo>
+	<Cloud>
+		<ProtocolVersion>06</ProtocolVersion>
+		<LoadBalancerHost>lechmere-v1.dev.ws.sonos.com:44223(172.18.0.6)</LoadBalancerHost>
+		<WebsocketServerHost>lechmere-v1.dev.ws.sonos.com(172.18.0.6)</WebsocketServerHost>
+		<State>Open</State>
+		<MillisecondsOpen>191416</MillisecondsOpen>
+		<PerMsgDeflate>off</PerMsgDeflate>
+		<TotalUncompressedKBytesSent>3.526 KB</TotalUncompressedKBytesSent>
+		<TotalCompressedKBytesSent>0.000 KB</TotalCompressedKBytesSent>
+		<TotalKBytesSent>3.526 KB</TotalKBytesSent>
+		<TotalUncompressedKBytesReceived>0.420 KB</TotalUncompressedKBytesReceived>
+		<TotalCompressedKBytesDecompressed>0.000 KB</TotalCompressedKBytesDecompressed>
+		<TotalKBytesReceived>0.420 KB</TotalKBytesReceived>
+		<OpenCount>3</OpenCount>
+		<CloseCount>2</CloseCount>
+		<ConsecutiveFailures>0</ConsecutiveFailures>
+		<UnackedPings>0</UnackedPings>
+		<LastPingTime>1</LastPingTime>
+		<PingTimeWeightedAverage>1</PingTimeWeightedAverage>
+		<Messages>3</Messages>
+		<LastHttpStatus>101</LastHttpStatus>
+		<LastWebSocketCode/>
+		<LastRetryAfter/>
+		<MillisecondsToNextConnect/>
+		<WebsocketRegistration>Current (OK)</WebsocketRegistration>
+	</Cloud>
+</ZPSupportInfo>
+
+
+DEBUG:SONOS.sonos.services.common:XMLAccessor '.value' lookup was 'None'.
+ELEMENT: <Element 'LastRetryAfter' at 0x7fee827de550>
+INDEXERS: ["<CloudStatusValues.ROOT: 'Cloud'>", '*']
+DOCUMENT:
+<?xml version="1.0" ?>
+<ZPSupportInfo>
+	<Cloud>
+		<ProtocolVersion>06</ProtocolVersion>
+		<LoadBalancerHost>lechmere-v1.dev.ws.sonos.com:44223(172.18.0.6)</LoadBalancerHost>
+		<WebsocketServerHost>lechmere-v1.dev.ws.sonos.com(172.18.0.6)</WebsocketServerHost>
+		<State>Open</State>
+		<MillisecondsOpen>191416</MillisecondsOpen>
+		<PerMsgDeflate>off</PerMsgDeflate>
+		<TotalUncompressedKBytesSent>3.526 KB</TotalUncompressedKBytesSent>
+		<TotalCompressedKBytesSent>0.000 KB</TotalCompressedKBytesSent>
+		<TotalKBytesSent>3.526 KB</TotalKBytesSent>
+		<TotalUncompressedKBytesReceived>0.420 KB</TotalUncompressedKBytesReceived>
+		<TotalCompressedKBytesDecompressed>0.000 KB</TotalCompressedKBytesDecompressed>
+		<TotalKBytesReceived>0.420 KB</TotalKBytesReceived>
+		<OpenCount>3</OpenCount>
+		<CloseCount>2</CloseCount>
+		<ConsecutiveFailures>0</ConsecutiveFailures>
+		<UnackedPings>0</UnackedPings>
+		<LastPingTime>1</LastPingTime>
+		<PingTimeWeightedAverage>1</PingTimeWeightedAverage>
+		<Messages>3</Messages>
+		<LastHttpStatus>101</LastHttpStatus>
+		<LastWebSocketCode/>
+		<LastRetryAfter/>
+		<MillisecondsToNextConnect/>
+		<WebsocketRegistration>Current (OK)</WebsocketRegistration>
+	</Cloud>
+</ZPSupportInfo>
+
+
+DEBUG:SONOS.sonos.services.common:XMLAccessor '.value' lookup was 'None'.
+ELEMENT: <Element 'MillisecondsToNextConnect' at 0x7fee827de7d0>
+INDEXERS: ["<CloudStatusValues.ROOT: 'Cloud'>", '*']
+DOCUMENT:
+<?xml version="1.0" ?>
+<ZPSupportInfo>
+	<Cloud>
+		<ProtocolVersion>06</ProtocolVersion>
+		<LoadBalancerHost>lechmere-v1.dev.ws.sonos.com:44223(172.18.0.6)</LoadBalancerHost>
+		<WebsocketServerHost>lechmere-v1.dev.ws.sonos.com(172.18.0.6)</WebsocketServerHost>
+		<State>Open</State>
+		<MillisecondsOpen>191416</MillisecondsOpen>
+		<PerMsgDeflate>off</PerMsgDeflate>
+		<TotalUncompressedKBytesSent>3.526 KB</TotalUncompressedKBytesSent>
+		<TotalCompressedKBytesSent>0.000 KB</TotalCompressedKBytesSent>
+		<TotalKBytesSent>3.526 KB</TotalKBytesSent>
+		<TotalUncompressedKBytesReceived>0.420 KB</TotalUncompressedKBytesReceived>
+		<TotalCompressedKBytesDecompressed>0.000 KB</TotalCompressedKBytesDecompressed>
+		<TotalKBytesReceived>0.420 KB</TotalKBytesReceived>
+		<OpenCount>3</OpenCount>
+		<CloseCount>2</CloseCount>
+		<ConsecutiveFailures>0</ConsecutiveFailures>
+		<UnackedPings>0</UnackedPings>
+		<LastPingTime>1</LastPingTime>
+		<PingTimeWeightedAverage>1</PingTimeWeightedAverage>
+		<Messages>3</Messages>
+		<LastHttpStatus>101</LastHttpStatus>
+		<LastWebSocketCode/>
+		<LastRetryAfter/>
+		<MillisecondsToNextConnect/>
+		<WebsocketRegistration>Current (OK)</WebsocketRegistration>
+	</Cloud>
+</ZPSupportInfo>
+
+
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "POST /auth/oauth/v3/clients?clientKey=e61bc77c-39cd-4ed0-a5e7-5ad316a0efc5&keyName=test HTTP/1.1" 200 181
+DEBUG:SONOS.pytest_automation.conftest:Found devices for testbed operations: ['diag_level']
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /diaglevel?module=httpauth&level=3 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "POST /diaglevel?module=httpauth&level=3 HTTP/1.1" 200 123
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 115
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /diaglevel?module=topology&level=3 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "POST /diaglevel?module=topology&level=3 HTTP/1.1" 200 123
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 115
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /diaglevel?module=zpsa&level=3 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "POST /diaglevel?module=zpsa&level=3 HTTP/1.1" 200 123
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 115
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /diaglevel?module=httpauth&level=3 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "POST /diaglevel?module=httpauth&level=3 HTTP/1.1" 200 108
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 100
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /diaglevel?module=topology&level=3 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "POST /diaglevel?module=topology&level=3 HTTP/1.1" 200 108
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 100
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /diaglevel?module=zpsa&level=3 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "POST /diaglevel?module=zpsa&level=3 HTTP/1.1" 200 108
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 100
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /diaglevel?module=httpauth&level=3 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "POST /diaglevel?module=httpauth&level=3 HTTP/1.1" 200 108
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 100
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /diaglevel?module=topology&level=3 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "POST /diaglevel?module=topology&level=3 HTTP/1.1" 200 108
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 100
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /diaglevel?module=zpsa&level=3 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "POST /diaglevel?module=zpsa&level=3 HTTP/1.1" 200 108
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 100
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /diaglevel?module=cloudrequest&level=5 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "POST /diaglevel?module=cloudrequest&level=5 HTTP/1.1" 200 123
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 115
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /status/cloud HTTP/1.1" 200 None
+DEBUG:SONOS.sonos.services.common:XMLAccessor '.value' lookup was 'None'.
+ELEMENT: <Element 'LastWebSocketCode' at 0x7fee827f8150>
+INDEXERS: ["<CloudStatusValues.ROOT: 'Cloud'>", '*']
+DOCUMENT:
+<?xml version="1.0" ?>
+<ZPSupportInfo>
+	<Cloud>
+		<ProtocolVersion>06</ProtocolVersion>
+		<LoadBalancerHost>lechmere-v1.dev.ws.sonos.com:44223(172.18.0.6)</LoadBalancerHost>
+		<WebsocketServerHost>lechmere-v1.dev.ws.sonos.com(172.18.0.6)</WebsocketServerHost>
+		<State>Open</State>
+		<MillisecondsOpen>191615</MillisecondsOpen>
+		<PerMsgDeflate>off</PerMsgDeflate>
+		<TotalUncompressedKBytesSent>3.526 KB</TotalUncompressedKBytesSent>
+		<TotalCompressedKBytesSent>0.000 KB</TotalCompressedKBytesSent>
+		<TotalKBytesSent>3.526 KB</TotalKBytesSent>
+		<TotalUncompressedKBytesReceived>0.420 KB</TotalUncompressedKBytesReceived>
+		<TotalCompressedKBytesDecompressed>0.000 KB</TotalCompressedKBytesDecompressed>
+		<TotalKBytesReceived>0.420 KB</TotalKBytesReceived>
+		<OpenCount>3</OpenCount>
+		<CloseCount>2</CloseCount>
+		<ConsecutiveFailures>0</ConsecutiveFailures>
+		<UnackedPings>0</UnackedPings>
+		<LastPingTime>1</LastPingTime>
+		<PingTimeWeightedAverage>1</PingTimeWeightedAverage>
+		<Messages>3</Messages>
+		<LastHttpStatus>101</LastHttpStatus>
+		<LastWebSocketCode/>
+		<LastRetryAfter/>
+		<MillisecondsToNextConnect/>
+		<WebsocketRegistration>Current (OK)</WebsocketRegistration>
+	</Cloud>
+</ZPSupportInfo>
+
+
+DEBUG:SONOS.sonos.services.common:XMLAccessor '.value' lookup was 'None'.
+ELEMENT: <Element 'LastRetryAfter' at 0x7fee827f81d0>
+INDEXERS: ["<CloudStatusValues.ROOT: 'Cloud'>", '*']
+DOCUMENT:
+<?xml version="1.0" ?>
+<ZPSupportInfo>
+	<Cloud>
+		<ProtocolVersion>06</ProtocolVersion>
+		<LoadBalancerHost>lechmere-v1.dev.ws.sonos.com:44223(172.18.0.6)</LoadBalancerHost>
+		<WebsocketServerHost>lechmere-v1.dev.ws.sonos.com(172.18.0.6)</WebsocketServerHost>
+		<State>Open</State>
+		<MillisecondsOpen>191615</MillisecondsOpen>
+		<PerMsgDeflate>off</PerMsgDeflate>
+		<TotalUncompressedKBytesSent>3.526 KB</TotalUncompressedKBytesSent>
+		<TotalCompressedKBytesSent>0.000 KB</TotalCompressedKBytesSent>
+		<TotalKBytesSent>3.526 KB</TotalKBytesSent>
+		<TotalUncompressedKBytesReceived>0.420 KB</TotalUncompressedKBytesReceived>
+		<TotalCompressedKBytesDecompressed>0.000 KB</TotalCompressedKBytesDecompressed>
+		<TotalKBytesReceived>0.420 KB</TotalKBytesReceived>
+		<OpenCount>3</OpenCount>
+		<CloseCount>2</CloseCount>
+		<ConsecutiveFailures>0</ConsecutiveFailures>
+		<UnackedPings>0</UnackedPings>
+		<LastPingTime>1</LastPingTime>
+		<PingTimeWeightedAverage>1</PingTimeWeightedAverage>
+		<Messages>3</Messages>
+		<LastHttpStatus>101</LastHttpStatus>
+		<LastWebSocketCode/>
+		<LastRetryAfter/>
+		<MillisecondsToNextConnect/>
+		<WebsocketRegistration>Current (OK)</WebsocketRegistration>
+	</Cloud>
+</ZPSupportInfo>
+
+
+DEBUG:SONOS.sonos.services.common:XMLAccessor '.value' lookup was 'None'.
+ELEMENT: <Element 'MillisecondsToNextConnect' at 0x7fee827f8250>
+INDEXERS: ["<CloudStatusValues.ROOT: 'Cloud'>", '*']
+DOCUMENT:
+<?xml version="1.0" ?>
+<ZPSupportInfo>
+	<Cloud>
+		<ProtocolVersion>06</ProtocolVersion>
+		<LoadBalancerHost>lechmere-v1.dev.ws.sonos.com:44223(172.18.0.6)</LoadBalancerHost>
+		<WebsocketServerHost>lechmere-v1.dev.ws.sonos.com(172.18.0.6)</WebsocketServerHost>
+		<State>Open</State>
+		<MillisecondsOpen>191615</MillisecondsOpen>
+		<PerMsgDeflate>off</PerMsgDeflate>
+		<TotalUncompressedKBytesSent>3.526 KB</TotalUncompressedKBytesSent>
+		<TotalCompressedKBytesSent>0.000 KB</TotalCompressedKBytesSent>
+		<TotalKBytesSent>3.526 KB</TotalKBytesSent>
+		<TotalUncompressedKBytesReceived>0.420 KB</TotalUncompressedKBytesReceived>
+		<TotalCompressedKBytesDecompressed>0.000 KB</TotalCompressedKBytesDecompressed>
+		<TotalKBytesReceived>0.420 KB</TotalKBytesReceived>
+		<OpenCount>3</OpenCount>
+		<CloseCount>2</CloseCount>
+		<ConsecutiveFailures>0</ConsecutiveFailures>
+		<UnackedPings>0</UnackedPings>
+		<LastPingTime>1</LastPingTime>
+		<PingTimeWeightedAverage>1</PingTimeWeightedAverage>
+		<Messages>3</Messages>
+		<LastHttpStatus>101</LastHttpStatus>
+		<LastWebSocketCode/>
+		<LastRetryAfter/>
+		<MillisecondsToNextConnect/>
+		<WebsocketRegistration>Current (OK)</WebsocketRegistration>
+	</Cloud>
+</ZPSupportInfo>
+
+
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5 HTTP/1.1" 200 979
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5 HTTP/1.1" 200 979
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/protocol HTTP/1.1" 200 10
+INFO:root:Registration message received: [
+    {
+        "playerId": "RINCON_0003861036E501400", 
+        "anacapaUptimeSeconds": 199, 
+        "minApiVersion": "1.1.0", 
+        "networkMask": "255.255.0.0", 
+        "serial": "0003861036E5", 
+        "port": 1400, 
+        "bootSequenceId": 3, 
+        "capabilities": [
+            "CLOUD", 
+            "HT_PLAYBACK", 
+            "PLAYBACK", 
+            "AIRPLAY", 
+            "AUDIO_CLIP", 
+            "IR_CONTROL"
+        ], 
+        "groupId": "RINCON_0003861036E501400:444056066", 
+        "groupName": "Emulator", 
+        "sonosId": "998936323", 
+        "hwVersion": "1.36.1.0-1.0", 
+        "systemUptimeSeconds": 973, 
+        "dhcpMac": "0003861036E5", 
+        "swVersion": "74.0-41021-dev-build-20230503-main", 
+        "ipAddr": "172.18.255.253", 
+        "isCoordinator": true, 
+        "modelDisplayName": "Ray", 
+        "isSecure": true, 
+        "networkIPAddress": "172.18.0.0", 
+        "swGen": 2, 
+        "apiVersion": "1.35.0-alpha.5-8-g39d9fd49+d1f8c80c16.74.0-41021", 
+        "householdId": "Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP", 
+        "roomName": "Emulator", 
+        "sessionId": "RINCON_0003861036E501400:444056066@3654407248", 
+        "householdLocationId": "jEGFWeFEt29ZFxLtcEMoLg==", 
+        "isVisible": true, 
+        "isSatellite": false, 
+        "museHouseholdId": "Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.3CFB5niotV_Yavn9mngz", 
+        "model": "S36"
+    }
+]
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:Muse-REST:<Wed May  3 18:16:17 2023> REST Request:
+	GET https://172.18.255.253:1443/api/v1/players/local/info
+	Headers: {'X-Sonos-Api-Key': 'e61bc77c-39cd-4ed0-a5e7-5ad316a0efc5'}
+	Body: None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): 172.18.255.253:1443
+DEBUG:urllib3.connectionpool:https://172.18.255.253:1443 "GET /api/v1/players/local/info HTTP/1.1" 200 None
+INFO:Muse-REST:<Wed May  3 18:16:17 2023> REST Response:
+	Response status: 200
+	Response content: 
+{
+    "playerId": "RINCON_0003861036E501400", 
+    "websocketUrl": "wss://172.18.255.253:1443/websocket/api", 
+    "householdId": "Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.3CFB5niotV_Yavn9mngz", 
+    "restUrl": "https://172.18.255.253:1443/api", 
+    "device": {
+        "name": "Emulator", 
+        "serialNumber": "00-03-86-10-36-E5:8", 
+        "websocketUrl": "wss://172.18.255.253:1443/websocket/api", 
+        "swGen": 2, 
+        "apiVersion": "1.35.0-alpha.5-8-g39d9fd49+d1f8c80c16.74.0-41021", 
+        "id": "RINCON_0003861036E501400", 
+        "softwareVersion": "74.0-41021-dev-build-20230503-main", 
+        "capabilities": [
+            "CLOUD", 
+            "HT_PLAYBACK", 
+            "PLAYBACK", 
+            "AIRPLAY", 
+            "AUDIO_CLIP", 
+            "IR_CONTROL"
+        ], 
+        "modelDisplayName": "Ray", 
+        "hwVersion": "1.36.1.0-1.0", 
+        "model": "S36", 
+        "minApiVersion": "1.1.0"
+    }, 
+    "groupId": "RINCON_0003861036E501400:444056066"
+}
+DEBUG:SONOS.sonos.services.base:Getting state variable <GroupManagement.LocalGroupUUID> for SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=0003861036E5, architecture=fury, hardware_version=1.36.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <GroupManagement.LocalGroupUUID> for SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=0003861036E5, architecture=fury, hardware_version=1.36.1.0-1.0) = RINCON_0003861036E501400:444056066
+INFO:root:Sending create session command: [
+    {
+        "command": "createSession", 
+        "namespace": "playbackSession:1", 
+        "groupId": "RINCON_0003861036E501400:444056066", 
+        "householdId": "Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.3CFB5niotV_Yavn9mngz"
+    }, 
+    {
+        "customData": "playlistid:12345", 
+        "appContext": "1a2b3c", 
+        "appId": "com.example.yourAppId"
+    }
+]
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "POST /websockets/api/v0/0003861036E5/muse HTTP/1.1" 200 374
+INFO:root:CreateSession response is: [
+    {
+        "success": true, 
+        "namespace": "playbackSession:1", 
+        "groupId": "RINCON_0003861036E501400:444056066", 
+        "householdId": "Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.3CFB5niotV_Yavn9mngz", 
+        "type": "sessionStatus", 
+        "response": "createSession"
+    }, 
+    {
+        "sessionId": "RINCON_0003861036E501400:444056066@2600515982", 
+        "customData": "playlistid:12345", 
+        "sessionCreated": true, 
+        "sessionState": "SESSION_STATE_CONNECTED"
+    }
+]
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /diaglevel?module=cloudrequest&level=1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "POST /diaglevel?module=cloudrequest&level=1 HTTP/1.1" 200 123
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 115
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /diaglevel?module=default&level=1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "POST /diaglevel?module=default&level=1 HTTP/1.1" 200 123
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 115
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /diaglevel?module=default&level=1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "POST /diaglevel?module=default&level=1 HTTP/1.1" 200 108
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 100
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /diaglevel?module=default&level=1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "POST /diaglevel?module=default&level=1 HTTP/1.1" 200 108
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 100
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /auth/oauth/v3/clients/flush HTTP/1.1" 200 2
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.ChannelMapSet> for SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=0003861036E5, architecture=fury, hardware_version=1.36.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.ChannelMapSet> for SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=0003861036E5, architecture=fury, hardware_version=1.36.1.0-1.0) = 
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.HTSatChanMapSet> for SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=0003861036E5, architecture=fury, hardware_version=1.36.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.HTSatChanMapSet> for SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=0003861036E5, architecture=fury, hardware_version=1.36.1.0-1.0) = 
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.HTSatChanMapSet> for SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=0003861036E5, architecture=fury, hardware_version=1.36.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.HTSatChanMapSet> for SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=0003861036E5, architecture=fury, hardware_version=1.36.1.0-1.0) = 
+DEBUG:SONOS.sonos.services.base:Getting state variable <GroupManagement.GroupCoordinatorIsLocal> for SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=0003861036E5, architecture=fury, hardware_version=1.36.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <GroupManagement.GroupCoordinatorIsLocal> for SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=0003861036E5, architecture=fury, hardware_version=1.36.1.0-1.0) = 1
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=0003861036E5, architecture=fury, hardware_version=1.36.1.0-1.0) invokes AVTransport.GetTransportInfo("InstanceID"="0", "headers"="{}")
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=0003861036E5, architecture=fury, hardware_version=1.36.1.0-1.0) AVTransport.GetTransportInfo returns '{'CurrentTransportState': u'STOPPED', 'CurrentTransportStatus': u'OK', 'CurrentSpeed': u'1'}'
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=0003861036E5, architecture=fury, hardware_version=1.36.1.0-1.0) invokes AVTransport.GetTransportInfo("InstanceID"="0", "headers"="{}")
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=0003861036E5, architecture=fury, hardware_version=1.36.1.0-1.0) AVTransport.GetTransportInfo returns '{'CurrentTransportState': u'STOPPED', 'CurrentTransportStatus': u'OK', 'CurrentSpeed': u'1'}'
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=0003861036E5, architecture=fury, hardware_version=1.36.1.0-1.0) invokes RenderingControl.SetVolume("InstanceID"="0", "DesiredVolume"="10", "Channel"="Master", "headers"="{}")
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=0003861036E5, architecture=fury, hardware_version=1.36.1.0-1.0) RenderingControl.SetVolume returns '{}'
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=0003861036E5, architecture=fury, hardware_version=1.36.1.0-1.0) invokes ContentDirectory.Browse("ObjectID"="Q:0", "BrowseFlag"="BrowseDirectChildren", "Filter"="0", "headers"="{}", "RequestedCount"="0", "StartingIndex"="0", "SortCriteria"="")
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=0003861036E5, architecture=fury, hardware_version=1.36.1.0-1.0) ContentDirectory.Browse returns '{'NumberReturned': u'0', 'UpdateID': u'0', 'Result': u'<DIDL-Lite xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:upnp="urn:schemas-upnp-org:metadata-1-0/upnp/" xmlns:r="urn:schemas-rinconnetworks-com:metadata-1-0/" xmlns="urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/"></DIDL-Lite>', 'TotalMatches': u'0'}'

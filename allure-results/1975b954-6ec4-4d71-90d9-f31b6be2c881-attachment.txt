@@ -1,0 +1,714 @@
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.ChannelMapSet> for SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=0003861036E5, architecture=fury, hardware_version=1.36.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.ChannelMapSet> for SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=0003861036E5, architecture=fury, hardware_version=1.36.1.0-1.0) = 
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.HTSatChanMapSet> for SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=0003861036E5, architecture=fury, hardware_version=1.36.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.HTSatChanMapSet> for SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=0003861036E5, architecture=fury, hardware_version=1.36.1.0-1.0) = 
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.HTSatChanMapSet> for SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=0003861036E5, architecture=fury, hardware_version=1.36.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.HTSatChanMapSet> for SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=0003861036E5, architecture=fury, hardware_version=1.36.1.0-1.0) = 
+DEBUG:SONOS.sonos.services.base:Getting state variable <GroupManagement.GroupCoordinatorIsLocal> for SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=0003861036E5, architecture=fury, hardware_version=1.36.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <GroupManagement.GroupCoordinatorIsLocal> for SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=0003861036E5, architecture=fury, hardware_version=1.36.1.0-1.0) = 1
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=0003861036E5, architecture=fury, hardware_version=1.36.1.0-1.0) invokes AVTransport.GetTransportInfo("InstanceID"="0", "headers"="{}")
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=0003861036E5, architecture=fury, hardware_version=1.36.1.0-1.0) AVTransport.GetTransportInfo returns '{'CurrentTransportState': u'STOPPED', 'CurrentTransportStatus': u'OK', 'CurrentSpeed': u'1'}'
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=0003861036E5, architecture=fury, hardware_version=1.36.1.0-1.0) invokes AVTransport.GetTransportInfo("InstanceID"="0", "headers"="{}")
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=0003861036E5, architecture=fury, hardware_version=1.36.1.0-1.0) AVTransport.GetTransportInfo returns '{'CurrentTransportState': u'STOPPED', 'CurrentTransportStatus': u'OK', 'CurrentSpeed': u'1'}'
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=0003861036E5, architecture=fury, hardware_version=1.36.1.0-1.0) invokes RenderingControl.SetVolume("InstanceID"="0", "DesiredVolume"="10", "Channel"="Master", "headers"="{}")
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=0003861036E5, architecture=fury, hardware_version=1.36.1.0-1.0) RenderingControl.SetVolume returns '{}'
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=0003861036E5, architecture=fury, hardware_version=1.36.1.0-1.0) invokes ContentDirectory.Browse("ObjectID"="Q:0", "BrowseFlag"="BrowseDirectChildren", "Filter"="0", "headers"="{}", "RequestedCount"="0", "StartingIndex"="0", "SortCriteria"="")
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=0003861036E5, architecture=fury, hardware_version=1.36.1.0-1.0) ContentDirectory.Browse returns '{'NumberReturned': u'0', 'UpdateID': u'0', 'Result': u'<DIDL-Lite xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:upnp="urn:schemas-upnp-org:metadata-1-0/upnp/" xmlns:r="urn:schemas-rinconnetworks-com:metadata-1-0/" xmlns="urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/"></DIDL-Lite>', 'TotalMatches': u'0'}'
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=0003861036E5, architecture=fury, hardware_version=1.36.1.0-1.0) invokes SystemProperties.GetString("headers"="{}", "VariableName"="O_SONOS_CLOUD_API_TEST_ENV")
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=0003861036E5, architecture=fury, hardware_version=1.36.1.0-1.0) SystemProperties.GetString returns '{'StringValue': u'test'}'
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.SecureRegState> for SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=0003861036E5, architecture=fury, hardware_version=1.36.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.SecureRegState> for SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=0003861036E5, architecture=fury, hardware_version=1.36.1.0-1.0) = 3
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=0003861036E5, architecture=fury, hardware_version=1.36.1.0-1.0) invokes SystemProperties.GetString("headers"="{}", "VariableName"="O_AUTOMATION_CLOUD_DOMAIN_MUTUAL_SSL")
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=0003861036E5, architecture=fury, hardware_version=1.36.1.0-1.0) SystemProperties.GetString returns '{'StringValue': u'dev.ws.sonos.com:44223'}'
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=0003861036E5, architecture=fury, hardware_version=1.36.1.0-1.0) invokes SystemProperties.GetString("headers"="{}", "VariableName"="O_AUTOMATION_CLOUD_DOMAIN")
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=0003861036E5, architecture=fury, hardware_version=1.36.1.0-1.0) SystemProperties.GetString returns '{'StringValue': u'dev.ws.sonos.com:38469'}'
+DEBUG:Muse-REST:<Wed May  3 18:13:05 2023> REST Request:
+	POST https://172.18.255.253:1443/api/v1/households/Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.3CFB5niotV_Yavn9mngz/platformInternal/invalidateCache
+	Headers: {'Content-Length': '30', 'X-Sonos-Api-Key': 'e61bc77c-39cd-4ed0-a5e7-5ad316a0efc5', 'Content-Type': 'application/json'}
+	Body: {"cacheNamespace": "settings"}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): 172.18.255.253:1443
+DEBUG:urllib3.connectionpool:https://172.18.255.253:1443 "POST /api/v1/households/Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.3CFB5niotV_Yavn9mngz/platformInternal/invalidateCache HTTP/1.1" 200 None
+INFO:Muse-REST:<Wed May  3 18:13:05 2023> REST Response:
+	Response status: 200
+	Response content: 
+{}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /jobs HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /jobs?job=FetchCloudCfg HTTP/1.1" 200 None
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /status/cloud HTTP/1.1" 200 None
+DEBUG:SONOS.sonos.services.common:XMLAccessor '.value' lookup was 'None'.
+ELEMENT: <Element 'LastPingTime' at 0x7fee85077290>
+INDEXERS: ["<CloudStatusValues.ROOT: 'Cloud'>", '*']
+DOCUMENT:
+<?xml version="1.0" ?>
+<ZPSupportInfo>
+	<Cloud>
+		<ProtocolVersion>07</ProtocolVersion>
+		<LoadBalancerHost>lechmere-v1.dev.ws.sonos.com:44223(172.18.0.6)</LoadBalancerHost>
+		<WebsocketServerHost>lechmere-v1.dev.ws.sonos.com(172.18.0.6)</WebsocketServerHost>
+		<State>Open</State>
+		<MillisecondsOpen>394</MillisecondsOpen>
+		<PerMsgDeflate>off</PerMsgDeflate>
+		<TotalUncompressedKBytesSent>1.064 KB</TotalUncompressedKBytesSent>
+		<TotalCompressedKBytesSent>0.000 KB</TotalCompressedKBytesSent>
+		<TotalKBytesSent>1.064 KB</TotalKBytesSent>
+		<TotalUncompressedKBytesReceived>0.146 KB</TotalUncompressedKBytesReceived>
+		<TotalCompressedKBytesDecompressed>0.000 KB</TotalCompressedKBytesDecompressed>
+		<TotalKBytesReceived>0.146 KB</TotalKBytesReceived>
+		<OpenCount>2</OpenCount>
+		<CloseCount>1</CloseCount>
+		<ConsecutiveFailures>0</ConsecutiveFailures>
+		<UnackedPings>0</UnackedPings>
+		<LastPingTime/>
+		<PingTimeWeightedAverage/>
+		<Messages>2</Messages>
+		<LastHttpStatus>101</LastHttpStatus>
+		<LastWebSocketCode/>
+		<LastRetryAfter/>
+		<MillisecondsToNextConnect/>
+		<WebsocketRegistration>Current (OK)</WebsocketRegistration>
+	</Cloud>
+</ZPSupportInfo>
+
+
+DEBUG:SONOS.sonos.services.common:XMLAccessor '.value' lookup was 'None'.
+ELEMENT: <Element 'PingTimeWeightedAverage' at 0x7fee85077a90>
+INDEXERS: ["<CloudStatusValues.ROOT: 'Cloud'>", '*']
+DOCUMENT:
+<?xml version="1.0" ?>
+<ZPSupportInfo>
+	<Cloud>
+		<ProtocolVersion>07</ProtocolVersion>
+		<LoadBalancerHost>lechmere-v1.dev.ws.sonos.com:44223(172.18.0.6)</LoadBalancerHost>
+		<WebsocketServerHost>lechmere-v1.dev.ws.sonos.com(172.18.0.6)</WebsocketServerHost>
+		<State>Open</State>
+		<MillisecondsOpen>394</MillisecondsOpen>
+		<PerMsgDeflate>off</PerMsgDeflate>
+		<TotalUncompressedKBytesSent>1.064 KB</TotalUncompressedKBytesSent>
+		<TotalCompressedKBytesSent>0.000 KB</TotalCompressedKBytesSent>
+		<TotalKBytesSent>1.064 KB</TotalKBytesSent>
+		<TotalUncompressedKBytesReceived>0.146 KB</TotalUncompressedKBytesReceived>
+		<TotalCompressedKBytesDecompressed>0.000 KB</TotalCompressedKBytesDecompressed>
+		<TotalKBytesReceived>0.146 KB</TotalKBytesReceived>
+		<OpenCount>2</OpenCount>
+		<CloseCount>1</CloseCount>
+		<ConsecutiveFailures>0</ConsecutiveFailures>
+		<UnackedPings>0</UnackedPings>
+		<LastPingTime/>
+		<PingTimeWeightedAverage/>
+		<Messages>2</Messages>
+		<LastHttpStatus>101</LastHttpStatus>
+		<LastWebSocketCode/>
+		<LastRetryAfter/>
+		<MillisecondsToNextConnect/>
+		<WebsocketRegistration>Current (OK)</WebsocketRegistration>
+	</Cloud>
+</ZPSupportInfo>
+
+
+DEBUG:SONOS.sonos.services.common:XMLAccessor '.value' lookup was 'None'.
+ELEMENT: <Element 'LastWebSocketCode' at 0x7fee85077b90>
+INDEXERS: ["<CloudStatusValues.ROOT: 'Cloud'>", '*']
+DOCUMENT:
+<?xml version="1.0" ?>
+<ZPSupportInfo>
+	<Cloud>
+		<ProtocolVersion>07</ProtocolVersion>
+		<LoadBalancerHost>lechmere-v1.dev.ws.sonos.com:44223(172.18.0.6)</LoadBalancerHost>
+		<WebsocketServerHost>lechmere-v1.dev.ws.sonos.com(172.18.0.6)</WebsocketServerHost>
+		<State>Open</State>
+		<MillisecondsOpen>394</MillisecondsOpen>
+		<PerMsgDeflate>off</PerMsgDeflate>
+		<TotalUncompressedKBytesSent>1.064 KB</TotalUncompressedKBytesSent>
+		<TotalCompressedKBytesSent>0.000 KB</TotalCompressedKBytesSent>
+		<TotalKBytesSent>1.064 KB</TotalKBytesSent>
+		<TotalUncompressedKBytesReceived>0.146 KB</TotalUncompressedKBytesReceived>
+		<TotalCompressedKBytesDecompressed>0.000 KB</TotalCompressedKBytesDecompressed>
+		<TotalKBytesReceived>0.146 KB</TotalKBytesReceived>
+		<OpenCount>2</OpenCount>
+		<CloseCount>1</CloseCount>
+		<ConsecutiveFailures>0</ConsecutiveFailures>
+		<UnackedPings>0</UnackedPings>
+		<LastPingTime/>
+		<PingTimeWeightedAverage/>
+		<Messages>2</Messages>
+		<LastHttpStatus>101</LastHttpStatus>
+		<LastWebSocketCode/>
+		<LastRetryAfter/>
+		<MillisecondsToNextConnect/>
+		<WebsocketRegistration>Current (OK)</WebsocketRegistration>
+	</Cloud>
+</ZPSupportInfo>
+
+
+DEBUG:SONOS.sonos.services.common:XMLAccessor '.value' lookup was 'None'.
+ELEMENT: <Element 'LastRetryAfter' at 0x7fee85077cd0>
+INDEXERS: ["<CloudStatusValues.ROOT: 'Cloud'>", '*']
+DOCUMENT:
+<?xml version="1.0" ?>
+<ZPSupportInfo>
+	<Cloud>
+		<ProtocolVersion>07</ProtocolVersion>
+		<LoadBalancerHost>lechmere-v1.dev.ws.sonos.com:44223(172.18.0.6)</LoadBalancerHost>
+		<WebsocketServerHost>lechmere-v1.dev.ws.sonos.com(172.18.0.6)</WebsocketServerHost>
+		<State>Open</State>
+		<MillisecondsOpen>394</MillisecondsOpen>
+		<PerMsgDeflate>off</PerMsgDeflate>
+		<TotalUncompressedKBytesSent>1.064 KB</TotalUncompressedKBytesSent>
+		<TotalCompressedKBytesSent>0.000 KB</TotalCompressedKBytesSent>
+		<TotalKBytesSent>1.064 KB</TotalKBytesSent>
+		<TotalUncompressedKBytesReceived>0.146 KB</TotalUncompressedKBytesReceived>
+		<TotalCompressedKBytesDecompressed>0.000 KB</TotalCompressedKBytesDecompressed>
+		<TotalKBytesReceived>0.146 KB</TotalKBytesReceived>
+		<OpenCount>2</OpenCount>
+		<CloseCount>1</CloseCount>
+		<ConsecutiveFailures>0</ConsecutiveFailures>
+		<UnackedPings>0</UnackedPings>
+		<LastPingTime/>
+		<PingTimeWeightedAverage/>
+		<Messages>2</Messages>
+		<LastHttpStatus>101</LastHttpStatus>
+		<LastWebSocketCode/>
+		<LastRetryAfter/>
+		<MillisecondsToNextConnect/>
+		<WebsocketRegistration>Current (OK)</WebsocketRegistration>
+	</Cloud>
+</ZPSupportInfo>
+
+
+DEBUG:SONOS.sonos.services.common:XMLAccessor '.value' lookup was 'None'.
+ELEMENT: <Element 'MillisecondsToNextConnect' at 0x7fee85077f50>
+INDEXERS: ["<CloudStatusValues.ROOT: 'Cloud'>", '*']
+DOCUMENT:
+<?xml version="1.0" ?>
+<ZPSupportInfo>
+	<Cloud>
+		<ProtocolVersion>07</ProtocolVersion>
+		<LoadBalancerHost>lechmere-v1.dev.ws.sonos.com:44223(172.18.0.6)</LoadBalancerHost>
+		<WebsocketServerHost>lechmere-v1.dev.ws.sonos.com(172.18.0.6)</WebsocketServerHost>
+		<State>Open</State>
+		<MillisecondsOpen>394</MillisecondsOpen>
+		<PerMsgDeflate>off</PerMsgDeflate>
+		<TotalUncompressedKBytesSent>1.064 KB</TotalUncompressedKBytesSent>
+		<TotalCompressedKBytesSent>0.000 KB</TotalCompressedKBytesSent>
+		<TotalKBytesSent>1.064 KB</TotalKBytesSent>
+		<TotalUncompressedKBytesReceived>0.146 KB</TotalUncompressedKBytesReceived>
+		<TotalCompressedKBytesDecompressed>0.000 KB</TotalCompressedKBytesDecompressed>
+		<TotalKBytesReceived>0.146 KB</TotalKBytesReceived>
+		<OpenCount>2</OpenCount>
+		<CloseCount>1</CloseCount>
+		<ConsecutiveFailures>0</ConsecutiveFailures>
+		<UnackedPings>0</UnackedPings>
+		<LastPingTime/>
+		<PingTimeWeightedAverage/>
+		<Messages>2</Messages>
+		<LastHttpStatus>101</LastHttpStatus>
+		<LastWebSocketCode/>
+		<LastRetryAfter/>
+		<MillisecondsToNextConnect/>
+		<WebsocketRegistration>Current (OK)</WebsocketRegistration>
+	</Cloud>
+</ZPSupportInfo>
+
+
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "POST /auth/oauth/v3/clients?clientKey=e61bc77c-39cd-4ed0-a5e7-5ad316a0efc5&keyName=test HTTP/1.1" 200 181
+DEBUG:SONOS.pytest_automation.conftest:Found devices for testbed operations: ['diag_level']
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /diaglevel?module=httpauth&level=3 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "POST /diaglevel?module=httpauth&level=3 HTTP/1.1" 200 108
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 100
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /diaglevel?module=topology&level=3 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "POST /diaglevel?module=topology&level=3 HTTP/1.1" 200 108
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 100
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /diaglevel?module=zpsa&level=3 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "POST /diaglevel?module=zpsa&level=3 HTTP/1.1" 200 108
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 100
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /diaglevel?module=httpauth&level=3 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "POST /diaglevel?module=httpauth&level=3 HTTP/1.1" 200 108
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 100
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /diaglevel?module=topology&level=3 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "POST /diaglevel?module=topology&level=3 HTTP/1.1" 200 108
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 100
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /diaglevel?module=zpsa&level=3 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "POST /diaglevel?module=zpsa&level=3 HTTP/1.1" 200 108
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 100
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /diaglevel?module=httpauth&level=3 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "POST /diaglevel?module=httpauth&level=3 HTTP/1.1" 200 108
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 100
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /diaglevel?module=topology&level=3 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "POST /diaglevel?module=topology&level=3 HTTP/1.1" 200 108
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 100
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /diaglevel?module=zpsa&level=3 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "POST /diaglevel?module=zpsa&level=3 HTTP/1.1" 200 108
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 100
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5 HTTP/1.1" 200 985
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "POST /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /websockets/api/v0/0003861036e5/checkAlive HTTP/1.1" 200 4
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /diaglevel?module=default&level=1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "POST /diaglevel?module=default&level=1 HTTP/1.1" 200 108
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 100
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /diaglevel?module=default&level=1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "POST /diaglevel?module=default&level=1 HTTP/1.1" 200 108
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 100
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /diaglevel?module=default&level=1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "POST /diaglevel?module=default&level=1 HTTP/1.1" 200 108
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 100
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:33153
+DEBUG:urllib3.connectionpool:http://172.18.0.6:33153 "GET /auth/oauth/v3/clients/flush HTTP/1.1" 200 2
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.ChannelMapSet> for SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=0003861036E5, architecture=fury, hardware_version=1.36.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.ChannelMapSet> for SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=0003861036E5, architecture=fury, hardware_version=1.36.1.0-1.0) = 
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.HTSatChanMapSet> for SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=0003861036E5, architecture=fury, hardware_version=1.36.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.HTSatChanMapSet> for SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=0003861036E5, architecture=fury, hardware_version=1.36.1.0-1.0) = 
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.HTSatChanMapSet> for SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=0003861036E5, architecture=fury, hardware_version=1.36.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.HTSatChanMapSet> for SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=0003861036E5, architecture=fury, hardware_version=1.36.1.0-1.0) = 
+DEBUG:SONOS.sonos.services.base:Getting state variable <GroupManagement.GroupCoordinatorIsLocal> for SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=0003861036E5, architecture=fury, hardware_version=1.36.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <GroupManagement.GroupCoordinatorIsLocal> for SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=0003861036E5, architecture=fury, hardware_version=1.36.1.0-1.0) = 1
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=0003861036E5, architecture=fury, hardware_version=1.36.1.0-1.0) invokes AVTransport.GetTransportInfo("InstanceID"="0", "headers"="{}")
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=0003861036E5, architecture=fury, hardware_version=1.36.1.0-1.0) AVTransport.GetTransportInfo returns '{'CurrentTransportState': u'STOPPED', 'CurrentTransportStatus': u'OK', 'CurrentSpeed': u'1'}'
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=0003861036E5, architecture=fury, hardware_version=1.36.1.0-1.0) invokes AVTransport.GetTransportInfo("InstanceID"="0", "headers"="{}")
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=0003861036E5, architecture=fury, hardware_version=1.36.1.0-1.0) AVTransport.GetTransportInfo returns '{'CurrentTransportState': u'STOPPED', 'CurrentTransportStatus': u'OK', 'CurrentSpeed': u'1'}'
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=0003861036E5, architecture=fury, hardware_version=1.36.1.0-1.0) invokes RenderingControl.SetVolume("InstanceID"="0", "DesiredVolume"="10", "Channel"="Master", "headers"="{}")
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=0003861036E5, architecture=fury, hardware_version=1.36.1.0-1.0) RenderingControl.SetVolume returns '{}'
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=0003861036E5, architecture=fury, hardware_version=1.36.1.0-1.0) invokes ContentDirectory.Browse("ObjectID"="Q:0", "BrowseFlag"="BrowseDirectChildren", "Filter"="0", "headers"="{}", "RequestedCount"="0", "StartingIndex"="0", "SortCriteria"="")
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=0003861036E5, architecture=fury, hardware_version=1.36.1.0-1.0) ContentDirectory.Browse returns '{'NumberReturned': u'0', 'UpdateID': u'0', 'Result': u'<DIDL-Lite xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:upnp="urn:schemas-upnp-org:metadata-1-0/upnp/" xmlns:r="urn:schemas-rinconnetworks-com:metadata-1-0/" xmlns="urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/"></DIDL-Lite>', 'TotalMatches': u'0'}'
