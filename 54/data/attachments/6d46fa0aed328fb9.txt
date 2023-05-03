@@ -1,0 +1,61 @@
+200 [05/03/23 6:16:17 pm] GET /request/api/logs/clear SWGen=-
+[
+  {
+    namespace: 'topology:1',
+    householdId: 'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP',
+    name: 'cloudRegistration',
+    type: 'cloudRegistrationStatus'
+  },
+  {
+    sonosId: '998936323',
+    householdLocationId: 'jEGFWeFEt29ZFxLtcEMoLg==',
+    museHouseholdId: 'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.3CFB5niotV_Yavn9mngz',
+    playerId: 'RINCON_0003861036E501400',
+    groupId: 'RINCON_0003861036E501400:444056066',
+    sessionId: 'RINCON_0003861036E501400:444056066@3654407248',
+    roomName: 'Emulator',
+    groupName: 'Emulator',
+    serial: '0003861036E5',
+    model: 'S36',
+    modelDisplayName: 'Ray',
+    ipAddr: '172.18.255.253',
+    port: 1400,
+    isCoordinator: true,
+    isVisible: true,
+    isSatellite: false,
+    isSecure: true,
+    bootSequenceId: 3,
+    hwVersion: '1.36.1.0-1.0',
+    swVersion: '74.0-41021-dev-build-20230503-main',
+    swGen: 2,
+    dhcpMac: '0003861036E5',
+    networkIPAddress: '172.18.0.0',
+    networkMask: '255.255.0.0',
+    systemUptimeSeconds: 973,
+    anacapaUptimeSeconds: 199,
+    apiVersion: '1.35.0-alpha.5-8-g39d9fd49+d1f8c80c16.74.0-41021',
+    minApiVersion: '1.1.0',
+    capabilities: [
+      'CLOUD',
+      'HT_PLAYBACK',
+      'PLAYBACK',
+      'AIRPLAY',
+      'AUDIO_CLIP',
+      'IR_CONTROL'
+    ],
+    householdId: 'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP',
+    locationId: undefined
+  }
+]
+Received registration message from [0003861036E5]
+*** Looks like a SET CONFIG response ***
+My client is: [object Object]
+200 [05/03/23 6:16:17 pm] GET /features/v1/config?swVersion=74.0-41021-dev-build-20230503-main&hwVersion=1.36.1.0-1.0 SWGen=2
+200 [05/03/23 6:16:17 pm] POST /auth/oauth/v3/clients?clientKey=e61bc77c-39cd-4ed0-a5e7-5ad316a0efc5&keyName=test SWGen=-
+200 [05/03/23 6:16:17 pm] GET /request/api/logs/clear SWGen=-
+200 [05/03/23 6:16:17 pm] GET /websockets/api/v0/0003861036e5 SWGen=-
+200 [05/03/23 6:16:17 pm] GET /websockets/api/v0/0003861036e5 SWGen=-
+200 [05/03/23 6:16:17 pm] GET /websockets/api/v0/0003861036e5/protocol SWGen=-
+Received command response from [0003861036e5]
+200 [05/03/23 6:16:17 pm] POST /websockets/api/v0/0003861036E5/muse SWGen=-
+200 [05/03/23 6:16:17 pm] GET /auth/oauth/v3/clients/flush SWGen=-

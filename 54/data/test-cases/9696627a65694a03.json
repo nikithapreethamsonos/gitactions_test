@@ -1,0 +1,1365 @@
+{
+  "uid" : "9696627a65694a03",
+  "name" : "test_getInfo[AIRPLAY Devices]",
+  "fullName" : "player.muse.test_info_namespace#test_getInfo[AIRPLAY Devices]",
+  "historyId" : "57130799b68b9f17f4df630ea418f62b",
+  "time" : {
+    "start" : 1683137643817,
+    "stop" : 1683137645964,
+    "duration" : 2147
+  },
+  "description" : "\n    Verifies the fields in an DiscoveryInfoEvent returned from a getInfo call\n    SWPBL-87625 - Implement muse getInfo command\n    :param function_dut:\n    :param ws_client:\n    :return:\n    ",
+  "descriptionHtml" : "<pre><code>Verifies the fields in an DiscoveryInfoEvent returned from a getInfo call\nSWPBL-87625 - Implement muse getInfo command\n:param function_dut:\n:param ws_client:\n:return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "dut_manager",
+    "time" : {
+      "start" : 1683137624142,
+      "stop" : 1683137624142,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "function_dut",
+    "time" : {
+      "start" : 1683137639936,
+      "stop" : 1683137640487,
+      "duration" : 551
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "all_playback_devices",
+    "time" : {
+      "start" : 1683137622207,
+      "stop" : 1683137622207,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "override_diag_levels",
+    "time" : {
+      "start" : 1683137643130,
+      "stop" : 1683137643783,
+      "duration" : 653
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "ws_client_v2",
+    "time" : {
+      "start" : 1683137641948,
+      "stop" : 1683137643129,
+      "duration" : 1181
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "print_muse_logs",
+    "time" : {
+      "start" : 1683137639935,
+      "stop" : 1683137639936,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "print_player_logs",
+    "time" : {
+      "start" : 1683137639935,
+      "stop" : 1683137639935,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "operation_kwargs",
+    "time" : {
+      "start" : 1683137643129,
+      "stop" : 1683137643130,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "diag_level_devices",
+    "time" : {
+      "start" : 1683137643130,
+      "stop" : 1683137643130,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "operation_devices",
+    "time" : {
+      "start" : 1683137643130,
+      "stop" : 1683137643130,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "pytestconfig",
+    "time" : {
+      "start" : 1683137620985,
+      "stop" : 1683137620985,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "all_devices",
+    "time" : {
+      "start" : 1683137620986,
+      "stop" : 1683137622206,
+      "duration" : 1220
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "player_diag_levels",
+    "time" : {
+      "start" : 1683137620985,
+      "stop" : 1683137620986,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "disable_speaker_audio",
+    "time" : {
+      "start" : 1683137624141,
+      "stop" : 1683137624141,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "diag_levels",
+    "time" : {
+      "start" : 1683137643130,
+      "stop" : 1683137643130,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "environment",
+    "time" : {
+      "start" : 1683137620985,
+      "stop" : 1683137620985,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "ws_client",
+    "time" : {
+      "start" : 1683137640487,
+      "stop" : 1683137641948,
+      "duration" : 1461
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "websocket_manager",
+    "time" : {
+      "start" : 1683137624142,
+      "stop" : 1683137624142,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "muse_disable_speaker_audio",
+    "time" : {
+      "start" : 1683137624142,
+      "stop" : 1683137624142,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "reset_dut_and_ws_managers",
+    "time" : {
+      "start" : 1683137639936,
+      "stop" : 1683137639936,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "cleanup_player_overrides",
+    "time" : {
+      "start" : 1683137622207,
+      "stop" : 1683137622239,
+      "duration" : 32
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "all_device_which_can_override_amps_interface",
+    "time" : {
+      "start" : 1683137622240,
+      "stop" : 1683137624141,
+      "duration" : 1901
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "default_operation_devices",
+    "time" : {
+      "start" : 1683137643130,
+      "stop" : 1683137643130,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "a_playback_device",
+    "time" : {
+      "start" : 1683137622207,
+      "stop" : 1683137622207,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "cleanup_websocket_connections",
+    "time" : {
+      "start" : 1683137640487,
+      "stop" : 1683137640487,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "\n    Verifies the fields in an DiscoveryInfoEvent returned from a getInfo call\n    SWPBL-87625 - Implement muse getInfo command\n    :param function_dut:\n    :param ws_client:\n    :return:\n    ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Helper to verify device attributes on a player",
+      "time" : {
+        "start" : 1683137644825,
+        "stop" : 1683137644893,
+        "duration" : 68
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Calculate device capabilities on a player",
+        "time" : {
+          "start" : 1683137644830,
+          "stop" : 1683137644830,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "zp",
+          "value" : "SonosZoneComponent(id=139854437765072, ip=172.18.255.251, modelNumber=S39, serialNumber=000386103899, architecture=optimo, hardware_version=1.38.1.0-1.0)"
+        }, {
+          "name" : "capability",
+          "value" : "'AIRPLAY'"
+        }, {
+          "name" : "is_master",
+          "value" : "True"
+        }, {
+          "name" : "is_bonded",
+          "value" : "False"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Calculate device capabilities on a player",
+        "time" : {
+          "start" : 1683137644834,
+          "stop" : 1683137644834,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "zp",
+          "value" : "SonosZoneComponent(id=139854437765072, ip=172.18.255.251, modelNumber=S39, serialNumber=000386103899, architecture=optimo, hardware_version=1.38.1.0-1.0)"
+        }, {
+          "name" : "capability",
+          "value" : "'AUDIO_CLIP'"
+        }, {
+          "name" : "is_master",
+          "value" : "True"
+        }, {
+          "name" : "is_bonded",
+          "value" : "False"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Calculate device capabilities on a player",
+        "time" : {
+          "start" : 1683137644839,
+          "stop" : 1683137644839,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "zp",
+          "value" : "SonosZoneComponent(id=139854437765072, ip=172.18.255.251, modelNumber=S39, serialNumber=000386103899, architecture=optimo, hardware_version=1.38.1.0-1.0)"
+        }, {
+          "name" : "capability",
+          "value" : "'CLOUD'"
+        }, {
+          "name" : "is_master",
+          "value" : "True"
+        }, {
+          "name" : "is_bonded",
+          "value" : "False"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Calculate device capabilities on a player",
+        "time" : {
+          "start" : 1683137644844,
+          "stop" : 1683137644844,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "zp",
+          "value" : "SonosZoneComponent(id=139854437765072, ip=172.18.255.251, modelNumber=S39, serialNumber=000386103899, architecture=optimo, hardware_version=1.38.1.0-1.0)"
+        }, {
+          "name" : "capability",
+          "value" : "'HT_PLAYBACK'"
+        }, {
+          "name" : "is_master",
+          "value" : "True"
+        }, {
+          "name" : "is_bonded",
+          "value" : "False"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Calculate device capabilities on a player",
+        "time" : {
+          "start" : 1683137644848,
+          "stop" : 1683137644848,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "zp",
+          "value" : "SonosZoneComponent(id=139854437765072, ip=172.18.255.251, modelNumber=S39, serialNumber=000386103899, architecture=optimo, hardware_version=1.38.1.0-1.0)"
+        }, {
+          "name" : "capability",
+          "value" : "'LINE_IN'"
+        }, {
+          "name" : "is_master",
+          "value" : "True"
+        }, {
+          "name" : "is_bonded",
+          "value" : "False"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Calculate device capabilities on a player",
+        "time" : {
+          "start" : 1683137644851,
+          "stop" : 1683137644851,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "zp",
+          "value" : "SonosZoneComponent(id=139854437765072, ip=172.18.255.251, modelNumber=S39, serialNumber=000386103899, architecture=optimo, hardware_version=1.38.1.0-1.0)"
+        }, {
+          "name" : "capability",
+          "value" : "'IR_CONTROL'"
+        }, {
+          "name" : "is_master",
+          "value" : "True"
+        }, {
+          "name" : "is_bonded",
+          "value" : "False"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Calculate device capabilities on a player",
+        "time" : {
+          "start" : 1683137644856,
+          "stop" : 1683137644856,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "zp",
+          "value" : "SonosZoneComponent(id=139854437765072, ip=172.18.255.251, modelNumber=S39, serialNumber=000386103899, architecture=optimo, hardware_version=1.38.1.0-1.0)"
+        }, {
+          "name" : "capability",
+          "value" : "'HDMI'"
+        }, {
+          "name" : "is_master",
+          "value" : "True"
+        }, {
+          "name" : "is_bonded",
+          "value" : "False"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Calculate device capabilities on a player",
+        "time" : {
+          "start" : 1683137644860,
+          "stop" : 1683137644870,
+          "duration" : 10
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "zp",
+          "value" : "SonosZoneComponent(id=139854437765072, ip=172.18.255.251, modelNumber=S39, serialNumber=000386103899, architecture=optimo, hardware_version=1.38.1.0-1.0)"
+        }, {
+          "name" : "capability",
+          "value" : "'PLAYBACK'"
+        }, {
+          "name" : "is_master",
+          "value" : "True"
+        }, {
+          "name" : "is_bonded",
+          "value" : "False"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Calculate device capabilities on a player",
+        "time" : {
+          "start" : 1683137644874,
+          "stop" : 1683137644874,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "zp",
+          "value" : "SonosZoneComponent(id=139854437765072, ip=172.18.255.251, modelNumber=S39, serialNumber=000386103899, architecture=optimo, hardware_version=1.38.1.0-1.0)"
+        }, {
+          "name" : "capability",
+          "value" : "'SPEAKER_DETECTION'"
+        }, {
+          "name" : "is_master",
+          "value" : "True"
+        }, {
+          "name" : "is_bonded",
+          "value" : "False"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Calculate device capabilities on a player",
+        "time" : {
+          "start" : 1683137644879,
+          "stop" : 1683137644879,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "zp",
+          "value" : "SonosZoneComponent(id=139854437765072, ip=172.18.255.251, modelNumber=S39, serialNumber=000386103899, architecture=optimo, hardware_version=1.38.1.0-1.0)"
+        }, {
+          "name" : "capability",
+          "value" : "'VOICE'"
+        }, {
+          "name" : "is_master",
+          "value" : "True"
+        }, {
+          "name" : "is_bonded",
+          "value" : "False"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Calculate device capabilities on a player",
+        "time" : {
+          "start" : 1683137644882,
+          "stop" : 1683137644882,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "zp",
+          "value" : "SonosZoneComponent(id=139854437765072, ip=172.18.255.251, modelNumber=S39, serialNumber=000386103899, architecture=optimo, hardware_version=1.38.1.0-1.0)"
+        }, {
+          "name" : "capability",
+          "value" : "'HT_POWER_STATE'"
+        }, {
+          "name" : "is_master",
+          "value" : "True"
+        }, {
+          "name" : "is_bonded",
+          "value" : "False"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Calculate device capabilities on a player",
+        "time" : {
+          "start" : 1683137644887,
+          "stop" : 1683137644887,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "zp",
+          "value" : "SonosZoneComponent(id=139854437765072, ip=172.18.255.251, modelNumber=S39, serialNumber=000386103899, architecture=optimo, hardware_version=1.38.1.0-1.0)"
+        }, {
+          "name" : "capability",
+          "value" : "'FIXED_VOLUME'"
+        }, {
+          "name" : "is_master",
+          "value" : "True"
+        }, {
+          "name" : "is_bonded",
+          "value" : "False"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Calculate device capabilities on a player",
+        "time" : {
+          "start" : 1683137644893,
+          "stop" : 1683137644893,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "zp",
+          "value" : "SonosZoneComponent(id=139854437765072, ip=172.18.255.251, modelNumber=S39, serialNumber=000386103899, architecture=optimo, hardware_version=1.38.1.0-1.0)"
+        }, {
+          "name" : "capability",
+          "value" : "'MICROPHONE_SWITCH'"
+        }, {
+          "name" : "is_master",
+          "value" : "True"
+        }, {
+          "name" : "is_bonded",
+          "value" : "False"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "device",
+        "value" : "{u'name': u'Emulator', u'serialNumber': u'00-03-86-10-38-99:2', u'websocketUrl': u'wss://172.18.255.251:1443/websocket/api', u'swGen': 2, u'apiVersion': u'1.35.0-alpha.5-8-g39d9fd49+d1f8c80c16.74.0-41021', u'id': u'RINCON_00038610389901400', u'softwareVersion': u'74.0-41021-dev-build-20230503-main', u'capabilities': [u'CLOUD', u'PLAYBACK', u'AIRPLAY', u'LINE_IN', u'VOICE', u'AUDIO_CLIP', u'MICROPHONE_SWITCH'], u'modelDisplayName': u'Era 100', u'hwVersion': u'1.38.1.0-1.0', u'model': u'S39', u'minApiVersion': u'1.1.0'}"
+      }, {
+        "name" : "zp",
+        "value" : "SonosZoneComponent(id=139854437765072, ip=172.18.255.251, modelNumber=S39, serialNumber=000386103899, architecture=optimo, hardware_version=1.38.1.0-1.0)"
+      }, {
+        "name" : "is_master",
+        "value" : "True"
+      }, {
+        "name" : "is_bonded",
+        "value" : "False"
+      } ],
+      "stepsCount" : 13,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Helper to verify device attributes on a player",
+      "time" : {
+        "start" : 1683137645900,
+        "stop" : 1683137645964,
+        "duration" : 64
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Calculate device capabilities on a player",
+        "time" : {
+          "start" : 1683137645904,
+          "stop" : 1683137645904,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "zp",
+          "value" : "SonosZoneComponent(id=139854437765072, ip=172.18.255.251, modelNumber=S39, serialNumber=000386103899, architecture=optimo, hardware_version=1.38.1.0-1.0)"
+        }, {
+          "name" : "capability",
+          "value" : "'AIRPLAY'"
+        }, {
+          "name" : "is_master",
+          "value" : "True"
+        }, {
+          "name" : "is_bonded",
+          "value" : "False"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Calculate device capabilities on a player",
+        "time" : {
+          "start" : 1683137645908,
+          "stop" : 1683137645908,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "zp",
+          "value" : "SonosZoneComponent(id=139854437765072, ip=172.18.255.251, modelNumber=S39, serialNumber=000386103899, architecture=optimo, hardware_version=1.38.1.0-1.0)"
+        }, {
+          "name" : "capability",
+          "value" : "'AUDIO_CLIP'"
+        }, {
+          "name" : "is_master",
+          "value" : "True"
+        }, {
+          "name" : "is_bonded",
+          "value" : "False"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Calculate device capabilities on a player",
+        "time" : {
+          "start" : 1683137645913,
+          "stop" : 1683137645913,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "zp",
+          "value" : "SonosZoneComponent(id=139854437765072, ip=172.18.255.251, modelNumber=S39, serialNumber=000386103899, architecture=optimo, hardware_version=1.38.1.0-1.0)"
+        }, {
+          "name" : "capability",
+          "value" : "'CLOUD'"
+        }, {
+          "name" : "is_master",
+          "value" : "True"
+        }, {
+          "name" : "is_bonded",
+          "value" : "False"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Calculate device capabilities on a player",
+        "time" : {
+          "start" : 1683137645916,
+          "stop" : 1683137645916,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "zp",
+          "value" : "SonosZoneComponent(id=139854437765072, ip=172.18.255.251, modelNumber=S39, serialNumber=000386103899, architecture=optimo, hardware_version=1.38.1.0-1.0)"
+        }, {
+          "name" : "capability",
+          "value" : "'HT_PLAYBACK'"
+        }, {
+          "name" : "is_master",
+          "value" : "True"
+        }, {
+          "name" : "is_bonded",
+          "value" : "False"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Calculate device capabilities on a player",
+        "time" : {
+          "start" : 1683137645920,
+          "stop" : 1683137645920,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "zp",
+          "value" : "SonosZoneComponent(id=139854437765072, ip=172.18.255.251, modelNumber=S39, serialNumber=000386103899, architecture=optimo, hardware_version=1.38.1.0-1.0)"
+        }, {
+          "name" : "capability",
+          "value" : "'LINE_IN'"
+        }, {
+          "name" : "is_master",
+          "value" : "True"
+        }, {
+          "name" : "is_bonded",
+          "value" : "False"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Calculate device capabilities on a player",
+        "time" : {
+          "start" : 1683137645924,
+          "stop" : 1683137645924,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "zp",
+          "value" : "SonosZoneComponent(id=139854437765072, ip=172.18.255.251, modelNumber=S39, serialNumber=000386103899, architecture=optimo, hardware_version=1.38.1.0-1.0)"
+        }, {
+          "name" : "capability",
+          "value" : "'IR_CONTROL'"
+        }, {
+          "name" : "is_master",
+          "value" : "True"
+        }, {
+          "name" : "is_bonded",
+          "value" : "False"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Calculate device capabilities on a player",
+        "time" : {
+          "start" : 1683137645929,
+          "stop" : 1683137645929,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "zp",
+          "value" : "SonosZoneComponent(id=139854437765072, ip=172.18.255.251, modelNumber=S39, serialNumber=000386103899, architecture=optimo, hardware_version=1.38.1.0-1.0)"
+        }, {
+          "name" : "capability",
+          "value" : "'HDMI'"
+        }, {
+          "name" : "is_master",
+          "value" : "True"
+        }, {
+          "name" : "is_bonded",
+          "value" : "False"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Calculate device capabilities on a player",
+        "time" : {
+          "start" : 1683137645932,
+          "stop" : 1683137645943,
+          "duration" : 11
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "zp",
+          "value" : "SonosZoneComponent(id=139854437765072, ip=172.18.255.251, modelNumber=S39, serialNumber=000386103899, architecture=optimo, hardware_version=1.38.1.0-1.0)"
+        }, {
+          "name" : "capability",
+          "value" : "'PLAYBACK'"
+        }, {
+          "name" : "is_master",
+          "value" : "True"
+        }, {
+          "name" : "is_bonded",
+          "value" : "False"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Calculate device capabilities on a player",
+        "time" : {
+          "start" : 1683137645947,
+          "stop" : 1683137645948,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "zp",
+          "value" : "SonosZoneComponent(id=139854437765072, ip=172.18.255.251, modelNumber=S39, serialNumber=000386103899, architecture=optimo, hardware_version=1.38.1.0-1.0)"
+        }, {
+          "name" : "capability",
+          "value" : "'SPEAKER_DETECTION'"
+        }, {
+          "name" : "is_master",
+          "value" : "True"
+        }, {
+          "name" : "is_bonded",
+          "value" : "False"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Calculate device capabilities on a player",
+        "time" : {
+          "start" : 1683137645952,
+          "stop" : 1683137645952,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "zp",
+          "value" : "SonosZoneComponent(id=139854437765072, ip=172.18.255.251, modelNumber=S39, serialNumber=000386103899, architecture=optimo, hardware_version=1.38.1.0-1.0)"
+        }, {
+          "name" : "capability",
+          "value" : "'VOICE'"
+        }, {
+          "name" : "is_master",
+          "value" : "True"
+        }, {
+          "name" : "is_bonded",
+          "value" : "False"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Calculate device capabilities on a player",
+        "time" : {
+          "start" : 1683137645957,
+          "stop" : 1683137645957,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "zp",
+          "value" : "SonosZoneComponent(id=139854437765072, ip=172.18.255.251, modelNumber=S39, serialNumber=000386103899, architecture=optimo, hardware_version=1.38.1.0-1.0)"
+        }, {
+          "name" : "capability",
+          "value" : "'HT_POWER_STATE'"
+        }, {
+          "name" : "is_master",
+          "value" : "True"
+        }, {
+          "name" : "is_bonded",
+          "value" : "False"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Calculate device capabilities on a player",
+        "time" : {
+          "start" : 1683137645960,
+          "stop" : 1683137645960,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "zp",
+          "value" : "SonosZoneComponent(id=139854437765072, ip=172.18.255.251, modelNumber=S39, serialNumber=000386103899, architecture=optimo, hardware_version=1.38.1.0-1.0)"
+        }, {
+          "name" : "capability",
+          "value" : "'FIXED_VOLUME'"
+        }, {
+          "name" : "is_master",
+          "value" : "True"
+        }, {
+          "name" : "is_bonded",
+          "value" : "False"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Calculate device capabilities on a player",
+        "time" : {
+          "start" : 1683137645964,
+          "stop" : 1683137645964,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "zp",
+          "value" : "SonosZoneComponent(id=139854437765072, ip=172.18.255.251, modelNumber=S39, serialNumber=000386103899, architecture=optimo, hardware_version=1.38.1.0-1.0)"
+        }, {
+          "name" : "capability",
+          "value" : "'MICROPHONE_SWITCH'"
+        }, {
+          "name" : "is_master",
+          "value" : "True"
+        }, {
+          "name" : "is_bonded",
+          "value" : "False"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "device",
+        "value" : "{u'name': u'Emulator', u'serialNumber': u'00-03-86-10-38-99:2', u'websocketUrl': u'wss://Sonos-000386103899.local:1443/websocket/api', u'swGen': 2, u'apiVersion': u'1.35.0-alpha.5-8-g39d9fd49+d1f8c80c16.74.0-41021', u'id': u'RINCON_00038610389901400', u'softwareVersion': u'74.0-41021-dev-build-20230503-main', u'capabilities': [u'CLOUD', u'PLAYBACK', u'AIRPLAY', u'LINE_IN', u'VOICE', u'AUDIO_CLIP', u'MICROPHONE_SWITCH'], u'modelDisplayName': u'Era 100', u'hwVersion': u'1.38.1.0-1.0', u'model': u'S39', u'minApiVersion': u'1.1.0'}"
+      }, {
+        "name" : "zp",
+        "value" : "SonosZoneComponent(id=139854437765072, ip=172.18.255.251, modelNumber=S39, serialNumber=000386103899, architecture=optimo, hardware_version=1.38.1.0-1.0)"
+      }, {
+        "name" : "is_master",
+        "value" : "True"
+      }, {
+        "name" : "is_bonded",
+        "value" : "False"
+      } ],
+      "stepsCount" : 13,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "b6f00967c1113faa",
+      "name" : "stderr",
+      "source" : "b6f00967c1113faa.txt",
+      "type" : "text/plain",
+      "size" : 61740
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 28,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "dut_manager::0",
+    "time" : {
+      "start" : 1683137679578,
+      "stop" : 1683137679636,
+      "duration" : 58
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "override_diag_levels::0",
+    "time" : {
+      "start" : 1683137645995,
+      "stop" : 1683137646047,
+      "duration" : 52
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "print_muse_logs::0",
+    "time" : {
+      "start" : 1683137646108,
+      "stop" : 1683137646108,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "print_player_logs::0",
+    "time" : {
+      "start" : 1683137646108,
+      "stop" : 1683137646579,
+      "duration" : 471
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "player_diag_levels::0",
+    "time" : {
+      "start" : 1683137788422,
+      "stop" : 1683137788422,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "disable_speaker_audio::0",
+    "time" : {
+      "start" : 1683137788383,
+      "stop" : 1683137788383,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "websocket_manager::0",
+    "time" : {
+      "start" : 1683137679576,
+      "stop" : 1683137679577,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "reset_dut_and_ws_managers::0",
+    "time" : {
+      "start" : 1683137646052,
+      "stop" : 1683137646107,
+      "duration" : 55
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "cleanup_player_overrides::0",
+    "time" : {
+      "start" : 1683137788384,
+      "stop" : 1683137788418,
+      "duration" : 34
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "cleanup_websocket_connections::0",
+    "time" : {
+      "start" : 1683137646049,
+      "stop" : 1683137646051,
+      "duration" : 2
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "muse_info_tests"
+  }, {
+    "name" : "tag",
+    "value" : "nightly"
+  }, {
+    "name" : "tag",
+    "value" : "priority3"
+  }, {
+    "name" : "parentSuite",
+    "value" : "player.muse"
+  }, {
+    "name" : "suite",
+    "value" : "test_info_namespace"
+  }, {
+    "name" : "host",
+    "value" : "2427f78c05ed"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython2"
+  }, {
+    "name" : "package",
+    "value" : "player.muse.test_info_namespace"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "device_filter",
+    "value" : "['S6', 'S11', 'S13', 'S14', 'S16', 'S17', 'S18', 'S19', 'S20', 'S21', 'S22', 'S23', 'S24', 'S27', 'S28', 'S29', 'S30', 'S31', 'S32', 'S33', 'S34', 'S35', 'S36', 'S38', 'S39', 'S40', 'S41', 'S43', 'S44', 'S45', 'S48', 'S50']"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "nightly", "priority3", "muse_info_tests" ]
+  },
+  "source" : "9696627a65694a03.json",
+  "parameterValues" : [ "['S6', 'S11', 'S13', 'S14', 'S16', 'S17', 'S18', 'S19', 'S20', 'S21', 'S22', 'S23', 'S24', 'S27', 'S28', 'S29', 'S30', 'S31', 'S32', 'S33', 'S34', 'S35', 'S36', 'S38', 'S39', 'S40', 'S41', 'S43', 'S44', 'S45', 'S48', 'S50']" ]
+}

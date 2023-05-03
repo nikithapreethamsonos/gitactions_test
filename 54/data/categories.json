@@ -1,0 +1,47 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "TimeoutError: Timeout: waited 190.8 seconds (181 iterations)",
+      "children" : [ {
+        "name" : "test_get_config[Default Mock Config]",
+        "uid" : "1d72bc21e546d001",
+        "parentUid" : "f255484122804d1480cfbeea83ad38fc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1683137585488,
+          "stop" : 1683137776259,
+          "duration" : 190771
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "None" ]
+      } ],
+      "uid" : "f255484122804d1480cfbeea83ad38fc"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: Fail this test for Allure reporting check\nassert 1 == 0",
+      "children" : [ {
+        "name" : "test_GroupCoordinatorChangedEvent_websocketUrl_v1",
+        "uid" : "4ad6f299847f97b4",
+        "parentUid" : "4554322b78262c482632e8ecd9958635",
+        "status" : "failed",
+        "time" : {
+          "start" : 1683139298077,
+          "stop" : 1683139298078,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4554322b78262c482632e8ecd9958635"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}

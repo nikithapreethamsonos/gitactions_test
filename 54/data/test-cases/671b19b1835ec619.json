@@ -1,0 +1,606 @@
+{
+  "uid" : "671b19b1835ec619",
+  "name" : "test_capability_from_response_on_supported_devices[device_filter2-unsupported_devices2-FIXED_VOLUME]",
+  "fullName" : "player.muse.test_groups_namespace#test_capability_from_response_on_supported_devices[device_filter2-unsupported_devices2-FIXED_VOLUME]",
+  "historyId" : "90a29498b193595f85d61ee2c7bf87fa",
+  "time" : {
+    "start" : 1683139075857,
+    "stop" : 1683139075857,
+    "duration" : 0
+  },
+  "description" : "\n    Test getGroups response from supported_device and verify it\n    - advertises CAPABILITY on supported_zp\n    - does not advertise CAPABILITY on unsupported_zp\n    :param dut_manager:\n    :param function_dut:\n    :param ws_client:\n    :param capability:\n    :param unsupported_devices:\n    :return:\n    ",
+  "descriptionHtml" : "<pre><code>Test getGroups response from supported_device and verify it\n- advertises CAPABILITY on supported_zp\n- does not advertise CAPABILITY on unsupported_zp\n:param dut_manager:\n:param function_dut:\n:param ws_client:\n:param capability:\n:param unsupported_devices:\n:return:\n</code></pre>\n",
+  "status" : "skipped",
+  "statusMessage" : "Skipped: Sonos devices filtered by <['ZP80', 'ZP90', 'ZP100', 'S15', 'S23']> not found in available devices: \nSonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=0003861036BD, architecture=fury, hardware_version=1.36.1.0-1.0)\nSonosZoneComponent(ip=172.18.255.252, modelNumber=S39, serialNumber=0003861038C7, architecture=optimo, hardware_version=1.38.1.0-1.0)\nSonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103880, architecture=optimo, hardware_version=1.38.1.0-1.0)\nSonosZoneComponent(ip=172.18.255.250, modelNumber=S26, serialNumber=00038610329B, architecture=vertigo, hardware_version=1.32.1.0-1.0)",
+  "statusTrace" : "('/test/python/.venv/local/lib/python2.7/site-packages/sonos/museclient/device_manager.py', 125, u\"Skipped: Sonos devices filtered by <['ZP80', 'ZP90', 'ZP100', 'S15', 'S23']> not found in available devices: \\nSonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=0003861036BD, architecture=fury, hardware_version=1.36.1.0-1.0)\\nSonosZoneComponent(ip=172.18.255.252, modelNumber=S39, serialNumber=0003861038C7, architecture=optimo, hardware_version=1.38.1.0-1.0)\\nSonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103880, architecture=optimo, hardware_version=1.38.1.0-1.0)\\nSonosZoneComponent(ip=172.18.255.250, modelNumber=S26, serialNumber=00038610329B, architecture=vertigo, hardware_version=1.32.1.0-1.0)\")",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "print_muse_logs",
+    "time" : {
+      "start" : 1683139075858,
+      "stop" : 1683139075858,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "ws_client",
+    "time" : {
+      "start" : 1683139077429,
+      "stop" : 1683139079082,
+      "duration" : 1653
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "reset_dut_and_ws_managers",
+    "time" : {
+      "start" : 1683139075858,
+      "stop" : 1683139075859,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "function_dut",
+    "time" : {
+      "start" : 1683139075859,
+      "stop" : 1683139076000,
+      "duration" : 141
+    },
+    "status" : "skipped",
+    "statusMessage" : "Skipped: Sonos devices filtered by <['ZP80', 'ZP90', 'ZP100', 'S15', 'S23']> not found in available devices: \nSonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=0003861036BD, architecture=fury, hardware_version=1.36.1.0-1.0)\nSonosZoneComponent(ip=172.18.255.252, modelNumber=S39, serialNumber=0003861038C7, architecture=optimo, hardware_version=1.38.1.0-1.0)\nSonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103880, architecture=optimo, hardware_version=1.38.1.0-1.0)\nSonosZoneComponent(ip=172.18.255.250, modelNumber=S26, serialNumber=00038610329B, architecture=vertigo, hardware_version=1.32.1.0-1.0)\n",
+    "statusTrace" : "  File \"/test/python/.venv/local/lib/python2.7/site-packages/pluggy/callers.py\", line 187, in _multicall\n    res = hook_impl.function(*args)\n  File \"/test/python/.venv/local/lib/python2.7/site-packages/_pytest/fixtures.py\", line 969, in pytest_fixture_setup\n    result = call_fixture_func(fixturefunc, request, kwargs)\n  File \"/test/python/.venv/local/lib/python2.7/site-packages/_pytest/fixtures.py\", line 828, in call_fixture_func\n    res = fixturefunc(**kwargs)\n  File \"/test/python/tests/src/pytest_automation/plugins/muse_plugin.py\", line 300, in function_dut\n    return dut_manager.get_primary_dut(device_filter=device_filter, fail_on_none=fail_on_none)\n  File \"/test/python/.venv/local/lib/python2.7/site-packages/sonos/museclient/device_manager.py\", line 150, in get_primary_dut\n    self.zp = self.get_another_device(device_filter, fail_on_none, tracked_logs)\n  File \"/test/python/.venv/local/lib/python2.7/site-packages/sonos/museclient/device_manager.py\", line 163, in get_another_device\n    zp = self.get_test_device(device_filter, fail_on_none, tracked_logs)\n  File \"/test/python/.venv/local/lib/python2.7/site-packages/sonos/museclient/device_manager.py\", line 125, in get_test_device\n    filterStr, \"\\n\".join(map(str, unused_zps))))\n  File \"/test/python/.venv/local/lib/python2.7/site-packages/_pytest/outcomes.py\", line 98, in skip\n    raise Skipped(msg=msg, allow_module_level=allow_module_level)\n",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  }, {
+    "name" : "operation_devices",
+    "time" : {
+      "start" : 1683139079082,
+      "stop" : 1683139079083,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "cleanup_websocket_connections",
+    "time" : {
+      "start" : 1683139077429,
+      "stop" : 1683139077429,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "environment",
+    "time" : {
+      "start" : 1683138986941,
+      "stop" : 1683138986942,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "muse_disable_speaker_audio",
+    "time" : {
+      "start" : 1683138990902,
+      "stop" : 1683138990902,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "pytestconfig",
+    "time" : {
+      "start" : 1683138986942,
+      "stop" : 1683138986942,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "operation_kwargs",
+    "time" : {
+      "start" : 1683139079082,
+      "stop" : 1683139079082,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "all_device_which_can_override_amps_interface",
+    "time" : {
+      "start" : 1683138988832,
+      "stop" : 1683138990902,
+      "duration" : 2070
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "default_operation_devices",
+    "time" : {
+      "start" : 1683139079083,
+      "stop" : 1683139079083,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "override_diag_levels",
+    "time" : {
+      "start" : 1683139079083,
+      "stop" : 1683139079759,
+      "duration" : 676
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "player_diag_levels",
+    "time" : {
+      "start" : 1683138986942,
+      "stop" : 1683138986942,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "print_player_logs",
+    "time" : {
+      "start" : 1683139075858,
+      "stop" : 1683139075858,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "cleanup_player_overrides",
+    "time" : {
+      "start" : 1683138988753,
+      "stop" : 1683138988832,
+      "duration" : 79
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "all_playback_devices",
+    "time" : {
+      "start" : 1683138988752,
+      "stop" : 1683138988752,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "websocket_manager",
+    "time" : {
+      "start" : 1683139049002,
+      "stop" : 1683139049002,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "diag_levels",
+    "time" : {
+      "start" : 1683139079083,
+      "stop" : 1683139079083,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "diag_level_devices",
+    "time" : {
+      "start" : 1683139079083,
+      "stop" : 1683139079083,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "dut_manager",
+    "time" : {
+      "start" : 1683139049002,
+      "stop" : 1683139049002,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "all_devices",
+    "time" : {
+      "start" : 1683138986942,
+      "stop" : 1683138988752,
+      "duration" : 1810
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "disable_speaker_audio",
+    "time" : {
+      "start" : 1683138990902,
+      "stop" : 1683138990902,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "a_playback_device",
+    "time" : {
+      "start" : 1683138988753,
+      "stop" : 1683138988753,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "\n    Test getGroups response from supported_device and verify it\n    - advertises CAPABILITY on supported_zp\n    - does not advertise CAPABILITY on unsupported_zp\n    :param dut_manager:\n    :param function_dut:\n    :param ws_client:\n    :param capability:\n    :param unsupported_devices:\n    :return:\n    ",
+    "status" : "skipped",
+    "statusMessage" : "Skipped: Sonos devices filtered by <['ZP80', 'ZP90', 'ZP100', 'S15', 'S23']> not found in available devices: \nSonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=0003861036BD, architecture=fury, hardware_version=1.36.1.0-1.0)\nSonosZoneComponent(ip=172.18.255.252, modelNumber=S39, serialNumber=0003861038C7, architecture=optimo, hardware_version=1.38.1.0-1.0)\nSonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103880, architecture=optimo, hardware_version=1.38.1.0-1.0)\nSonosZoneComponent(ip=172.18.255.250, modelNumber=S26, serialNumber=00038610329B, architecture=vertigo, hardware_version=1.32.1.0-1.0)",
+    "statusTrace" : "('/test/python/.venv/local/lib/python2.7/site-packages/sonos/museclient/device_manager.py', 125, u\"Skipped: Sonos devices filtered by <['ZP80', 'ZP90', 'ZP100', 'S15', 'S23']> not found in available devices: \\nSonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=0003861036BD, architecture=fury, hardware_version=1.36.1.0-1.0)\\nSonosZoneComponent(ip=172.18.255.252, modelNumber=S39, serialNumber=0003861038C7, architecture=optimo, hardware_version=1.38.1.0-1.0)\\nSonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103880, architecture=optimo, hardware_version=1.38.1.0-1.0)\\nSonosZoneComponent(ip=172.18.255.250, modelNumber=S26, serialNumber=00038610329B, architecture=vertigo, hardware_version=1.32.1.0-1.0)\")",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "8b92c7df6f34ac37",
+      "name" : "stderr",
+      "source" : "8b92c7df6f34ac37.txt",
+      "type" : "text/plain",
+      "size" : 1678
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "print_muse_logs::0",
+    "time" : {
+      "start" : 1683139076008,
+      "stop" : 1683139076008,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "reset_dut_and_ws_managers::0",
+    "time" : {
+      "start" : 1683139076007,
+      "stop" : 1683139076007,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "cleanup_websocket_connections::0",
+    "time" : {
+      "start" : 1683139081768,
+      "stop" : 1683139081772,
+      "duration" : 4
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "override_diag_levels::0",
+    "time" : {
+      "start" : 1683139081710,
+      "stop" : 1683139081766,
+      "duration" : 56
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "player_diag_levels::0",
+    "time" : {
+      "start" : 1683139759395,
+      "stop" : 1683139759395,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "print_player_logs::0",
+    "time" : {
+      "start" : 1683139076009,
+      "stop" : 1683139076586,
+      "duration" : 577
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "cleanup_player_overrides::0",
+    "time" : {
+      "start" : 1683139759354,
+      "stop" : 1683139759390,
+      "duration" : 36
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "websocket_manager::0",
+    "time" : {
+      "start" : 1683139360064,
+      "stop" : 1683139360064,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "dut_manager::0",
+    "time" : {
+      "start" : 1683139360067,
+      "stop" : 1683139360067,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "disable_speaker_audio::0",
+    "time" : {
+      "start" : 1683139759352,
+      "stop" : 1683139759352,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "nightly"
+  }, {
+    "name" : "tag",
+    "value" : "priority3"
+  }, {
+    "name" : "tag",
+    "value" : "groups_namespaces"
+  }, {
+    "name" : "parentSuite",
+    "value" : "player.muse"
+  }, {
+    "name" : "suite",
+    "value" : "test_groups_namespace"
+  }, {
+    "name" : "host",
+    "value" : "9c74e29ebde6"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython2"
+  }, {
+    "name" : "package",
+    "value" : "player.muse.test_groups_namespace"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "capability",
+    "value" : "'FIXED_VOLUME'"
+  }, {
+    "name" : "device_filter",
+    "value" : "['ZP80', 'ZP90', 'ZP100', 'S15', 'S23']"
+  }, {
+    "name" : "unsupported_devices",
+    "value" : "['S9', 'S3', 'ZP120', 'S1', 'S25', 'S6', 'S5', 'S16', 'S50', 'S19', 'S18', 'S39', 'S38', 'S13', 'S12', 'S11', 'S36', 'S17', 'S30', 'S33', 'S14', 'S22', 'S45', 'S20', 'S21', 'S40', 'S27', 'S24', 'S43', 'S28', 'S29', 'S48', 'S44', 'S35', 'S34', 'S31', 'S41']"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "groups_namespaces", "nightly", "priority3" ]
+  },
+  "source" : "671b19b1835ec619.json",
+  "parameterValues" : [ "'FIXED_VOLUME'", "['ZP80', 'ZP90', 'ZP100', 'S15', 'S23']", "['S9', 'S3', 'ZP120', 'S1', 'S25', 'S6', 'S5', 'S16', 'S50', 'S19', 'S18', 'S39', 'S38', 'S13', 'S12', 'S11', 'S36', 'S17', 'S30', 'S33', 'S14', 'S22', 'S45', 'S20', 'S21', 'S40', 'S27', 'S24', 'S43', 'S28', 'S29', 'S48', 'S44', 'S35', 'S34', 'S31', 'S41']" ]
+}
