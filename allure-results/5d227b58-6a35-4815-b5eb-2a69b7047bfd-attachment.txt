@@ -1,0 +1,119 @@
+200 [05/04/23 7:56:40 pm] GET /request/api/logs/clear SWGen=-
+200 [05/04/23 7:56:40 pm] POST /auth/oauth/v3/clients?clientKey=e61bc77c-39cd-4ed0-a5e7-5ad316a0efc5&keyName=test SWGen=-
+200 [05/04/23 7:56:40 pm] GET /request/api/logs/clear SWGen=-
+200 [05/04/23 7:56:40 pm] POST /auth/oauth/v2/create-user-token SWGen=-
+200 [05/04/23 7:56:42 pm] GET /features/v1/config?swVersion=74.0-41030-dev-build-20230504-main&hwVersion=1.38.1.0-1.0 SWGen=2
+Client using [lechmere.6] protocol
+200 [05/04/23 7:56:52 pm] GET /entitlements/api/v1/users/998936323/entitlements SWGen=2
+[
+  {
+    namespace: 'topology:1',
+    householdId: 'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP',
+    name: 'cloudRegistration',
+    type: 'cloudRegistrationStatus'
+  },
+  {
+    sonosId: '998936323',
+    householdLocationId: 'qr5skqZMUhe1CZ6IHYAF4A==',
+    museHouseholdId: 'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.Xb-mL8GPx_1aSR7NeOi1',
+    playerId: 'RINCON_0003861038E201400',
+    groupId: 'RINCON_0003861038E201400:2472262037',
+    sessionId: null,
+    roomName: 'Emulator',
+    groupName: 'Emulator',
+    serial: '0003861038E2',
+    model: 'S39',
+    modelDisplayName: 'Era 100',
+    ipAddr: '172.18.255.252',
+    port: 1400,
+    isCoordinator: true,
+    isVisible: true,
+    isSatellite: false,
+    isSecure: true,
+    bootSequenceId: 17,
+    hwVersion: '1.38.1.0-1.0',
+    swVersion: '74.0-41030-dev-build-20230504-main',
+    swGen: 2,
+    dhcpMac: '0003861038E2',
+    networkIPAddress: '172.18.0.0',
+    networkMask: '255.255.0.0',
+    systemUptimeSeconds: 2125,
+    anacapaUptimeSeconds: 2,
+    apiVersion: '1.35.0-alpha.8+74.0-41030',
+    minApiVersion: '1.1.0',
+    capabilities: [
+      'CLOUD',
+      'PLAYBACK',
+      'AIRPLAY',
+      'LINE_IN',
+      'VOICE',
+      'AUDIO_CLIP',
+      'MICROPHONE_SWITCH'
+    ],
+    householdId: 'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP',
+    locationId: undefined
+  }
+]
+Received registration message from [0003861038E2]
+REGISTRATION ACK sent to [0003861038e2]: 06040000{}
+My client is: [object Object]
+SET CONFIG sent to [0003861038e2]: 06050000{"museHouseholdId":"Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.Xb-mL8GPx_1aSR7NeOi1"}
+200 [05/04/23 7:57:01 pm] GET /features/v1/config?swVersion=74.0-41030-dev-build-20230504-main&hwVersion=1.38.1.0-1.0 SWGen=2
+200 [05/04/23 7:57:09 pm] GET /auth/oauth/v2/set-auth-properties?code=200 SWGen=-
+200 [05/04/23 7:57:09 pm] GET /auth/oauth/v2/validate?access_token=984d7e0-eab5-11ed-999a-5f3e1dcb6132c984d7e0-eab5-11ed-999a-5f3e1dcb6132c984d7e0-eab5-11ed-999a-5f3e1dcb6132c984d7e0-eab5-11ed-999a-5f3e1dcb6132c984d7e0-eab5-11ed-999a-5f3e1dcb6132c984d7e0-eab5-11ed-999a-5f3e1dcb6132c984d7e0-eab5-11ed-999a-5f3e1dcb6132c984d7e0-eab5-11ed-999a-5f3e1dcb6132c984d7e0-eab5-11ed-999a-5f3e1dcb6132c984d7e0-eab5-11ed-999a-5f3e1dcb6132c984d7e0-eab5-11ed-999a-5f3e1dcb6132c984d7e0-eab5-11ed-999a-5f3e1dcb6132c984d7e0-eab5-11ed-999a-5f3e1dcb6132c984d7e0-eab5-11ed-999a-5f3e1dcb6132c984d7e0-eab5-11ed-999a-5f3e1dcb6132c984d7e0-eab5-11ed-999a-5f3e1dcb6132c984d7e0-eab5-11ed-999a-5f3e1dcb6132c984d7e0-eab5-11ed-999a-5f3e1dcb6132c984d7e0-eab5-11ed-999a-5f3e1dcb6132c984d7e0-eab5-11ed-999a-5f3e1dcb6132c984d7e0-eab5-11ed-999a-5f3e1dcb6132c984d7e0-eab5-11ed-999a-5f3e1dcb6132c984d7e0-eab5-11ed-999a-5f3e1dcb6132c984d7e0-eab5-11ed-999a-5f3e1dcb6132c984d7e0-eab5-11ed-999a-5f3e1dcb6132c984d7e0-eab5-11ed-999a-5f3e1dcb6132c984d7e0-eab5-11ed-999a-5f3e1dcb6132c984d7e0-eab5-11ed-999a-5f3e1dcb6132c984d7e0-eab5-11ed-999a-5f3e1dcb6132c984d7e0-eab5-11ed-999a-5f3e1dcb6132c984d7e0-eab5-11ed-999a-5f3e1dcb6132c984d7e0-eab5-11ed-999a-5f3e1dcb6132c984d7e0-eab5-11ed-999a-5f3e1dcb6132c984d7e0-eab5-11ed-999a-5f3e1dcb6132c984d7e0-eab5-11ed-999a-5f3e1dcb6132c984d7e0-eab5-11ed-999a-5f3e1dcb6132c984d7e0-eab5-11ed-999a-5f3e1dcb6132c984d7e0-eab5-11ed-999a-5f3e1dcb6132c984d7e0-eab5-11ed-999a-5f3e1dcb6132c984d7e0-eab5-11ed-999a-5f3e1dcb6132c984d7e0-eab5-11ed-999a-5f3e1dcb6132c984d7e0-eab5-11ed-999a-5f3e1dcb6132c984d7e0-eab5-11ed-999a-5f3e1dcb6132c984d7e0-eab5-11ed-999a-5f3e1dcb6132c984d7e0-eab5-11ed-999a-5f3e1dcb6132c984d7e0-eab5-11ed-999a-5f3e1dcb6132c984d7e0-eab5-11ed-999a-5f3e1dcb6132c984d7e0-eab5-11ed-999a-5f3e1dcb6132c984d7e0-eab5-11ed-999a-5f3e1dcb6132c984d7e0-eab5-11ed-999a-5f3e1dcb6132c984d7e0-eab5-11ed-999a-5f3e1dcb6132c984d7e0-eab5-11ed-999a-5f3e1dcb6132c984d7e0-eab5-11ed-999a-5f3e1dcb6132c984d7e0-eab5-11ed-999a-5f3e1dcb6132c984d7e0-eab5-11ed-9 SWGen=2
+Client using [lechmere.6] protocol
+200 [05/04/23 7:57:35 pm] GET /entitlements/api/v1/users/998936323/entitlements SWGen=2
+[
+  {
+    namespace: 'topology:1',
+    householdId: 'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP',
+    name: 'cloudRegistration',
+    type: 'cloudRegistrationStatus'
+  },
+  {
+    sonosId: '998936323',
+    householdLocationId: 'qr5skqZMUhe1CZ6IHYAF4A==',
+    museHouseholdId: 'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.Xb-mL8GPx_1aSR7NeOi1',
+    playerId: 'RINCON_0003861038E201400',
+    groupId: 'RINCON_0003861038E201400:2274576310',
+    sessionId: null,
+    roomName: 'Emulator',
+    groupName: 'Emulator',
+    serial: '0003861038E2',
+    model: 'S39',
+    modelDisplayName: 'Era 100',
+    ipAddr: '172.18.255.252',
+    port: 1400,
+    isCoordinator: true,
+    isVisible: true,
+    isSatellite: false,
+    isSecure: true,
+    bootSequenceId: 18,
+    hwVersion: '1.38.1.0-1.0',
+    swVersion: '74.0-41030-dev-build-20230504-main',
+    swGen: 2,
+    dhcpMac: '0003861038E2',
+    networkIPAddress: '172.18.0.0',
+    networkMask: '255.255.0.0',
+    systemUptimeSeconds: 2168,
+    anacapaUptimeSeconds: 2,
+    apiVersion: '1.35.0-alpha.8+74.0-41030',
+    minApiVersion: '1.1.0',
+    capabilities: [
+      'CLOUD',
+      'PLAYBACK',
+      'AIRPLAY',
+      'LINE_IN',
+      'VOICE',
+      'AUDIO_CLIP',
+      'MICROPHONE_SWITCH'
+    ],
+    householdId: 'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP',
+    locationId: undefined
+  }
+]
+Received registration message from [0003861038E2]
+REGISTRATION ACK sent to [0003861038e2]: 06040000{}
+My client is: [object Object]
+SET CONFIG sent to [0003861038e2]: 06050000{"museHouseholdId":"Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.Xb-mL8GPx_1aSR7NeOi1"}
+200 [05/04/23 7:57:37 pm] GET /auth/oauth/v3/clients/flush SWGen=-
