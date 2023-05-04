@@ -1,0 +1,831 @@
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.ChannelMapSet> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=00038610387B, architecture=optimo, hardware_version=1.38.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.ChannelMapSet> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=00038610387B, architecture=optimo, hardware_version=1.38.1.0-1.0) = 
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.HTSatChanMapSet> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=00038610387B, architecture=optimo, hardware_version=1.38.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.HTSatChanMapSet> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=00038610387B, architecture=optimo, hardware_version=1.38.1.0-1.0) = 
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.HTSatChanMapSet> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=00038610387B, architecture=optimo, hardware_version=1.38.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.HTSatChanMapSet> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=00038610387B, architecture=optimo, hardware_version=1.38.1.0-1.0) = 
+DEBUG:SONOS.sonos.services.base:Getting state variable <GroupManagement.GroupCoordinatorIsLocal> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=00038610387B, architecture=optimo, hardware_version=1.38.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <GroupManagement.GroupCoordinatorIsLocal> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=00038610387B, architecture=optimo, hardware_version=1.38.1.0-1.0) = 1
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=00038610387B, architecture=optimo, hardware_version=1.38.1.0-1.0) invokes AVTransport.GetTransportInfo("InstanceID"="0", "headers"="{}")
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=00038610387B, architecture=optimo, hardware_version=1.38.1.0-1.0) AVTransport.GetTransportInfo returns '{'CurrentTransportState': u'STOPPED', 'CurrentTransportStatus': u'OK', 'CurrentSpeed': u'1'}'
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=00038610387B, architecture=optimo, hardware_version=1.38.1.0-1.0) invokes AVTransport.GetTransportInfo("InstanceID"="0", "headers"="{}")
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=00038610387B, architecture=optimo, hardware_version=1.38.1.0-1.0) AVTransport.GetTransportInfo returns '{'CurrentTransportState': u'STOPPED', 'CurrentTransportStatus': u'OK', 'CurrentSpeed': u'1'}'
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=00038610387B, architecture=optimo, hardware_version=1.38.1.0-1.0) invokes RenderingControl.SetVolume("InstanceID"="0", "DesiredVolume"="10", "Channel"="Master", "headers"="{}")
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=00038610387B, architecture=optimo, hardware_version=1.38.1.0-1.0) RenderingControl.SetVolume returns '{}'
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=00038610387B, architecture=optimo, hardware_version=1.38.1.0-1.0) invokes ContentDirectory.Browse("ObjectID"="Q:0", "BrowseFlag"="BrowseDirectChildren", "Filter"="0", "headers"="{}", "RequestedCount"="0", "StartingIndex"="0", "SortCriteria"="")
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=00038610387B, architecture=optimo, hardware_version=1.38.1.0-1.0) ContentDirectory.Browse returns '{'NumberReturned': u'0', 'UpdateID': u'0', 'Result': u'<DIDL-Lite xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:upnp="urn:schemas-upnp-org:metadata-1-0/upnp/" xmlns:r="urn:schemas-rinconnetworks-com:metadata-1-0/" xmlns="urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/"></DIDL-Lite>', 'TotalMatches': u'0'}'
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=00038610387B, architecture=optimo, hardware_version=1.38.1.0-1.0) invokes SystemProperties.GetString("headers"="{}", "VariableName"="O_SONOS_CLOUD_API_TEST_ENV")
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=00038610387B, architecture=optimo, hardware_version=1.38.1.0-1.0) SystemProperties.GetString returns '{'StringValue': u'test'}'
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.SecureRegState> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=00038610387B, architecture=optimo, hardware_version=1.38.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.SecureRegState> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=00038610387B, architecture=optimo, hardware_version=1.38.1.0-1.0) = 3
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=00038610387B, architecture=optimo, hardware_version=1.38.1.0-1.0) invokes SystemProperties.GetString("headers"="{}", "VariableName"="O_AUTOMATION_CLOUD_DOMAIN_MUTUAL_SSL")
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=00038610387B, architecture=optimo, hardware_version=1.38.1.0-1.0) SystemProperties.GetString returns '{'StringValue': u'dev.ws.sonos.com:43211'}'
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=00038610387B, architecture=optimo, hardware_version=1.38.1.0-1.0) invokes SystemProperties.GetString("headers"="{}", "VariableName"="O_AUTOMATION_CLOUD_DOMAIN")
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=00038610387B, architecture=optimo, hardware_version=1.38.1.0-1.0) SystemProperties.GetString returns '{'StringValue': u'dev.ws.sonos.com:59515'}'
+DEBUG:Muse-REST:<Thu May  4 19:30:09 2023> REST Request:
+	POST https://172.18.255.251:1443/api/v1/households/Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.3x05eTrzCcErhMo1mkf7/platformInternal/invalidateCache
+	Headers: {'Content-Length': '30', 'X-Sonos-Api-Key': 'e61bc77c-39cd-4ed0-a5e7-5ad316a0efc5', 'Content-Type': 'application/json'}
+	Body: {"cacheNamespace": "settings"}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): 172.18.255.251:1443
+DEBUG:urllib3.connectionpool:https://172.18.255.251:1443 "POST /api/v1/households/Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.3x05eTrzCcErhMo1mkf7/platformInternal/invalidateCache HTTP/1.1" 200 None
+INFO:Muse-REST:<Thu May  4 19:30:09 2023> REST Response:
+	Response status: 200
+	Response content: 
+{}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /jobs HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /jobs?job=FetchCloudCfg HTTP/1.1" 200 None
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /status/cloud HTTP/1.1" 200 None
+DEBUG:SONOS.sonos.services.common:XMLAccessor '.value' lookup was 'None'.
+ELEMENT: <Element 'LastPingTime' at 0x7fe2c780d950>
+INDEXERS: ["<CloudStatusValues.ROOT: 'Cloud'>", '*']
+DOCUMENT:
+<?xml version="1.0" ?>
+<ZPSupportInfo>
+	<Cloud>
+		<ProtocolVersion>06</ProtocolVersion>
+		<LoadBalancerHost>lechmere-v1.dev.ws.sonos.com:43211(172.18.0.6)</LoadBalancerHost>
+		<WebsocketServerHost>lechmere-v1.dev.ws.sonos.com(172.18.0.6)</WebsocketServerHost>
+		<State>Open</State>
+		<MillisecondsOpen>3790</MillisecondsOpen>
+		<PerMsgDeflate>off</PerMsgDeflate>
+		<TotalUncompressedKBytesSent>1.053 KB</TotalUncompressedKBytesSent>
+		<TotalCompressedKBytesSent>0.000 KB</TotalCompressedKBytesSent>
+		<TotalKBytesSent>1.053 KB</TotalKBytesSent>
+		<TotalUncompressedKBytesReceived>0.095 KB</TotalUncompressedKBytesReceived>
+		<TotalCompressedKBytesDecompressed>0.000 KB</TotalCompressedKBytesDecompressed>
+		<TotalKBytesReceived>0.095 KB</TotalKBytesReceived>
+		<OpenCount>4</OpenCount>
+		<CloseCount>3</CloseCount>
+		<ConsecutiveFailures>0</ConsecutiveFailures>
+		<UnackedPings>0</UnackedPings>
+		<LastPingTime/>
+		<PingTimeWeightedAverage/>
+		<Messages>2</Messages>
+		<LastHttpStatus>101</LastHttpStatus>
+		<LastWebSocketCode/>
+		<LastRetryAfter/>
+		<MillisecondsToNextConnect/>
+		<WebsocketRegistration>Current (OK)</WebsocketRegistration>
+	</Cloud>
+</ZPSupportInfo>
+
+
+DEBUG:SONOS.sonos.services.common:XMLAccessor '.value' lookup was 'None'.
+ELEMENT: <Element 'PingTimeWeightedAverage' at 0x7fe2c780d890>
+INDEXERS: ["<CloudStatusValues.ROOT: 'Cloud'>", '*']
+DOCUMENT:
+<?xml version="1.0" ?>
+<ZPSupportInfo>
+	<Cloud>
+		<ProtocolVersion>06</ProtocolVersion>
+		<LoadBalancerHost>lechmere-v1.dev.ws.sonos.com:43211(172.18.0.6)</LoadBalancerHost>
+		<WebsocketServerHost>lechmere-v1.dev.ws.sonos.com(172.18.0.6)</WebsocketServerHost>
+		<State>Open</State>
+		<MillisecondsOpen>3790</MillisecondsOpen>
+		<PerMsgDeflate>off</PerMsgDeflate>
+		<TotalUncompressedKBytesSent>1.053 KB</TotalUncompressedKBytesSent>
+		<TotalCompressedKBytesSent>0.000 KB</TotalCompressedKBytesSent>
+		<TotalKBytesSent>1.053 KB</TotalKBytesSent>
+		<TotalUncompressedKBytesReceived>0.095 KB</TotalUncompressedKBytesReceived>
+		<TotalCompressedKBytesDecompressed>0.000 KB</TotalCompressedKBytesDecompressed>
+		<TotalKBytesReceived>0.095 KB</TotalKBytesReceived>
+		<OpenCount>4</OpenCount>
+		<CloseCount>3</CloseCount>
+		<ConsecutiveFailures>0</ConsecutiveFailures>
+		<UnackedPings>0</UnackedPings>
+		<LastPingTime/>
+		<PingTimeWeightedAverage/>
+		<Messages>2</Messages>
+		<LastHttpStatus>101</LastHttpStatus>
+		<LastWebSocketCode/>
+		<LastRetryAfter/>
+		<MillisecondsToNextConnect/>
+		<WebsocketRegistration>Current (OK)</WebsocketRegistration>
+	</Cloud>
+</ZPSupportInfo>
+
+
+DEBUG:SONOS.sonos.services.common:XMLAccessor '.value' lookup was 'None'.
+ELEMENT: <Element 'LastWebSocketCode' at 0x7fe2c780d650>
+INDEXERS: ["<CloudStatusValues.ROOT: 'Cloud'>", '*']
+DOCUMENT:
+<?xml version="1.0" ?>
+<ZPSupportInfo>
+	<Cloud>
+		<ProtocolVersion>06</ProtocolVersion>
+		<LoadBalancerHost>lechmere-v1.dev.ws.sonos.com:43211(172.18.0.6)</LoadBalancerHost>
+		<WebsocketServerHost>lechmere-v1.dev.ws.sonos.com(172.18.0.6)</WebsocketServerHost>
+		<State>Open</State>
+		<MillisecondsOpen>3790</MillisecondsOpen>
+		<PerMsgDeflate>off</PerMsgDeflate>
+		<TotalUncompressedKBytesSent>1.053 KB</TotalUncompressedKBytesSent>
+		<TotalCompressedKBytesSent>0.000 KB</TotalCompressedKBytesSent>
+		<TotalKBytesSent>1.053 KB</TotalKBytesSent>
+		<TotalUncompressedKBytesReceived>0.095 KB</TotalUncompressedKBytesReceived>
+		<TotalCompressedKBytesDecompressed>0.000 KB</TotalCompressedKBytesDecompressed>
+		<TotalKBytesReceived>0.095 KB</TotalKBytesReceived>
+		<OpenCount>4</OpenCount>
+		<CloseCount>3</CloseCount>
+		<ConsecutiveFailures>0</ConsecutiveFailures>
+		<UnackedPings>0</UnackedPings>
+		<LastPingTime/>
+		<PingTimeWeightedAverage/>
+		<Messages>2</Messages>
+		<LastHttpStatus>101</LastHttpStatus>
+		<LastWebSocketCode/>
+		<LastRetryAfter/>
+		<MillisecondsToNextConnect/>
+		<WebsocketRegistration>Current (OK)</WebsocketRegistration>
+	</Cloud>
+</ZPSupportInfo>
+
+
+DEBUG:SONOS.sonos.services.common:XMLAccessor '.value' lookup was 'None'.
+ELEMENT: <Element 'LastRetryAfter' at 0x7fe2c780dc10>
+INDEXERS: ["<CloudStatusValues.ROOT: 'Cloud'>", '*']
+DOCUMENT:
+<?xml version="1.0" ?>
+<ZPSupportInfo>
+	<Cloud>
+		<ProtocolVersion>06</ProtocolVersion>
+		<LoadBalancerHost>lechmere-v1.dev.ws.sonos.com:43211(172.18.0.6)</LoadBalancerHost>
+		<WebsocketServerHost>lechmere-v1.dev.ws.sonos.com(172.18.0.6)</WebsocketServerHost>
+		<State>Open</State>
+		<MillisecondsOpen>3790</MillisecondsOpen>
+		<PerMsgDeflate>off</PerMsgDeflate>
+		<TotalUncompressedKBytesSent>1.053 KB</TotalUncompressedKBytesSent>
+		<TotalCompressedKBytesSent>0.000 KB</TotalCompressedKBytesSent>
+		<TotalKBytesSent>1.053 KB</TotalKBytesSent>
+		<TotalUncompressedKBytesReceived>0.095 KB</TotalUncompressedKBytesReceived>
+		<TotalCompressedKBytesDecompressed>0.000 KB</TotalCompressedKBytesDecompressed>
+		<TotalKBytesReceived>0.095 KB</TotalKBytesReceived>
+		<OpenCount>4</OpenCount>
+		<CloseCount>3</CloseCount>
+		<ConsecutiveFailures>0</ConsecutiveFailures>
+		<UnackedPings>0</UnackedPings>
+		<LastPingTime/>
+		<PingTimeWeightedAverage/>
+		<Messages>2</Messages>
+		<LastHttpStatus>101</LastHttpStatus>
+		<LastWebSocketCode/>
+		<LastRetryAfter/>
+		<MillisecondsToNextConnect/>
+		<WebsocketRegistration>Current (OK)</WebsocketRegistration>
+	</Cloud>
+</ZPSupportInfo>
+
+
+DEBUG:SONOS.sonos.services.common:XMLAccessor '.value' lookup was 'None'.
+ELEMENT: <Element 'MillisecondsToNextConnect' at 0x7fe2c780dcd0>
+INDEXERS: ["<CloudStatusValues.ROOT: 'Cloud'>", '*']
+DOCUMENT:
+<?xml version="1.0" ?>
+<ZPSupportInfo>
+	<Cloud>
+		<ProtocolVersion>06</ProtocolVersion>
+		<LoadBalancerHost>lechmere-v1.dev.ws.sonos.com:43211(172.18.0.6)</LoadBalancerHost>
+		<WebsocketServerHost>lechmere-v1.dev.ws.sonos.com(172.18.0.6)</WebsocketServerHost>
+		<State>Open</State>
+		<MillisecondsOpen>3790</MillisecondsOpen>
+		<PerMsgDeflate>off</PerMsgDeflate>
+		<TotalUncompressedKBytesSent>1.053 KB</TotalUncompressedKBytesSent>
+		<TotalCompressedKBytesSent>0.000 KB</TotalCompressedKBytesSent>
+		<TotalKBytesSent>1.053 KB</TotalKBytesSent>
+		<TotalUncompressedKBytesReceived>0.095 KB</TotalUncompressedKBytesReceived>
+		<TotalCompressedKBytesDecompressed>0.000 KB</TotalCompressedKBytesDecompressed>
+		<TotalKBytesReceived>0.095 KB</TotalKBytesReceived>
+		<OpenCount>4</OpenCount>
+		<CloseCount>3</CloseCount>
+		<ConsecutiveFailures>0</ConsecutiveFailures>
+		<UnackedPings>0</UnackedPings>
+		<LastPingTime/>
+		<PingTimeWeightedAverage/>
+		<Messages>2</Messages>
+		<LastHttpStatus>101</LastHttpStatus>
+		<LastWebSocketCode/>
+		<LastRetryAfter/>
+		<MillisecondsToNextConnect/>
+		<WebsocketRegistration>Current (OK)</WebsocketRegistration>
+	</Cloud>
+</ZPSupportInfo>
+
+
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:47187
+DEBUG:urllib3.connectionpool:http://172.18.0.6:47187 "POST /auth/oauth/v3/clients?clientKey=e61bc77c-39cd-4ed0-a5e7-5ad316a0efc5&keyName=test HTTP/1.1" 200 181
+DEBUG:SONOS.pytest_automation.conftest:Found devices for testbed operations: ['diag_level']
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /diaglevel?module=httpauth&level=3 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "POST /diaglevel?module=httpauth&level=3 HTTP/1.1" 200 108
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 100
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /diaglevel?module=topology&level=3 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "POST /diaglevel?module=topology&level=3 HTTP/1.1" 200 108
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 100
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /diaglevel?module=zpsa&level=3 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "POST /diaglevel?module=zpsa&level=3 HTTP/1.1" 200 108
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 100
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /diaglevel?module=httpauth&level=3 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "POST /diaglevel?module=httpauth&level=3 HTTP/1.1" 200 108
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 100
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /diaglevel?module=topology&level=3 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "POST /diaglevel?module=topology&level=3 HTTP/1.1" 200 108
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 100
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /diaglevel?module=zpsa&level=3 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "POST /diaglevel?module=zpsa&level=3 HTTP/1.1" 200 108
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 100
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /diaglevel?module=httpauth&level=3 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "POST /diaglevel?module=httpauth&level=3 HTTP/1.1" 200 123
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 115
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /diaglevel?module=topology&level=3 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "POST /diaglevel?module=topology&level=3 HTTP/1.1" 200 123
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 115
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /diaglevel?module=zpsa&level=3 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "POST /diaglevel?module=zpsa&level=3 HTTP/1.1" 200 123
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 115
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:47187
+DEBUG:urllib3.connectionpool:http://172.18.0.6:47187 "POST /features/v1/set-config-properties HTTP/1.1" 200 392
+DEBUG:Muse-REST:<Thu May  4 19:30:10 2023> REST Request:
+	POST https://172.18.255.251:1443/api/v1/households/Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.3x05eTrzCcErhMo1mkf7/platformInternal/invalidateCache
+	Headers: {'Content-Length': '30', 'X-Sonos-Api-Key': 'e61bc77c-39cd-4ed0-a5e7-5ad316a0efc5', 'Content-Type': 'application/json'}
+	Body: {"cacheNamespace": "settings"}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): 172.18.255.251:1443
+DEBUG:urllib3.connectionpool:https://172.18.255.251:1443 "POST /api/v1/households/Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.3x05eTrzCcErhMo1mkf7/platformInternal/invalidateCache HTTP/1.1" 200 None
+INFO:Muse-REST:<Thu May  4 19:30:10 2023> REST Response:
+	Response status: 200
+	Response content: 
+{}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /jobs HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /jobs?job=FetchCloudCfg HTTP/1.1" 200 None
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.251] command: <test -e /jffs/settings/cloudconfig.json && echo $?>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.251] response: <0>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.251] command: <cat /jffs/settings/cloudconfig.json>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.251] response: <{"metricsService":{"submissionIntervalSeconds":300,"wifiTxRateThreshold":0,"wifiLatencyThresholdMillis":0},"spotifyAdaptiveBitrate":{"enable":false,"timeoutMinutes":120,"thresholdDC":5},"accessPolicyControl":{"enableCloudSetting":false,"defaultValue":"INSECURE"},"enableUPnPOverTLS":{"commandControl":false,"subscriptionControl":false,"eventControl":false},"enableLechmereV7":true}>
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:47187
+DEBUG:urllib3.connectionpool:http://172.18.0.6:47187 "GET /websockets/api/v0/00038610387b/protocol HTTP/1.1" 200 10
+INFO:SONOS.sonos.services.common:Set museHouseholdId: Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.3x05eTrzCcErhMo1mkf7, set locationId: lc_d2084b81d99741cca5d633f3ee261a96
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:47187
+DEBUG:urllib3.connectionpool:http://172.18.0.6:47187 "POST /websockets/api/v0/00038610387b/setConfig HTTP/1.1" 200 0
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+INFO:SONOS.MockPlayerCloudServicesControl:Mock player cloud services server getlog request http://172.18.0.6:47187/request/api/logs
+INFO:SONOS.MockPlayerCloudServicesControl:Mock player cloud services server getlog request http://172.18.0.6:47187/request/api/logs
+INFO:SONOS.sonos.services.common:wait_until_true: Waited 4.00591397285 seconds
+INFO:SONOS.MockPlayerCloudServicesControl:Mock player cloud services server getlog request http://172.18.0.6:47187/request/api/logs
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /status/jffs/localsettings.txt HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /status/jffs/localsettings.txt HTTP/1.1" 200 None
+INFO:SONOS.sonos.client.internal:bouncing (stopping and restarting) the anacapad process on zpdevice 172.18.255.251 - Sonos Era 100
+DEBUG:SONOS.sonos.client.internal:172.18.255.251 - Sonos Era 100 unsubscribing from all services
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /status/netsettings.txt HTTP/1.1" 200 None
+DEBUG:SONOS.sonos.services.diag:http://172.18.255.251:1400/status/netsettings.txt returned <?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="/xml/review.xsl"?><ZPSupportInfo><NetSettings>Version: [1.0]
+BootSeq: [*****]
+HouseholdID: [Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.G6ModKccIdiM7VS2sehE]
+</NetSettings><!-- SDT: 1 ms --></ZPSupportInfo>
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /status/netsettings.txt HTTP/1.1" 200 None
+DEBUG:SONOS.sonos.services.diag:http://172.18.255.251:1400/status/netsettings.txt returned <?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="/xml/review.xsl"?><ZPSupportInfo><NetSettings>Version: [1.0]
+BootSeq: [*****]
+HouseholdID: [Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.G6ModKccIdiM7VS2sehE]
+</NetSettings><!-- SDT: 0 ms --></ZPSupportInfo>
+DEBUG:SONOS.Coherence.upnp.core.service:172.18.255.251 - Sonos Era 100 unsubscribing: uuid:RINCON_00038610387B01400_sub0000000007
+DEBUG:SONOS.Coherence.upnp.core.service:172.18.255.251 - Sonos Era 100 unsubscribing: uuid:RINCON_00038610387B01400_sub0000000004
+DEBUG:SONOS.Coherence.upnp.core.service:172.18.255.251 - Sonos Era 100 unsubscribing: uuid:RINCON_00038610387B01400_sub0000000008
+DEBUG:SONOS.upnp.core.event.EventProtocol:urn:upnp-org:serviceId:AlarmClock.unsubscribe - errcode 400
+DEBUG:SONOS.Coherence.upnp.core.service:ignoring event {} for Service urn:schemas-upnp-org:service:AlarmClock:1 urn:upnp-org:serviceId:AlarmClock - not subscribed
+DEBUG:SONOS.upnp.core.event.EventProtocol:urn:upnp-org:serviceId:MusicServices.unsubscribe - errcode 400
+DEBUG:SONOS.Coherence.upnp.core.service:ignoring event {} for Service urn:schemas-upnp-org:service:MusicServices:1 urn:upnp-org:serviceId:MusicServices - not subscribed
+DEBUG:SONOS.upnp.core.event.EventProtocol:urn:upnp-org:serviceId:AudioIn.unsubscribe - errcode 400
+DEBUG:SONOS.Coherence.upnp.core.service:ignoring event {} for Service urn:schemas-upnp-org:service:AudioIn:1 urn:upnp-org:serviceId:AudioIn - not subscribed
+DEBUG:SONOS.upnp.core.event.EventProtocol:urn:upnp-org:serviceId:SystemProperties.unsubscribe - errcode 400
+DEBUG:SONOS.Coherence.upnp.core.service:ignoring event {} for Service urn:schemas-upnp-org:service:SystemProperties:1 urn:upnp-org:serviceId:SystemProperties - not subscribed
+DEBUG:SONOS.upnp.core.event.EventProtocol:urn:upnp-org:serviceId:ContentDirectory.unsubscribe - errcode 400
+DEBUG:SONOS.Coherence.upnp.core.service:ignoring event {} for Service urn:schemas-upnp-org:service:ContentDirectory:1 urn:upnp-org:serviceId:ContentDirectory - not subscribed
+DEBUG:SONOS.upnp.core.event.EventProtocol:urn:upnp-org:serviceId:RenderingControl.unsubscribe - errcode 400
+DEBUG:SONOS.Coherence.upnp.core.service:ignoring event {} for Service urn:schemas-upnp-org:service:RenderingControl:1 urn:upnp-org:serviceId:RenderingControl - not subscribed
+DEBUG:SONOS.upnp.core.event.EventProtocol:urn:sonos-com:serviceId:Queue.unsubscribe - errcode 400
+DEBUG:SONOS.Coherence.upnp.core.service:ignoring event {} for Service urn:schemas-sonos-com:service:Queue:1 urn:sonos-com:serviceId:Queue - not subscribed
+DEBUG:SONOS.upnp.core.event.EventProtocol:urn:upnp-org:serviceId:AVTransport.unsubscribe - errcode 400
+DEBUG:SONOS.Coherence.upnp.core.service:ignoring event {} for Service urn:schemas-upnp-org:service:AVTransport:1 urn:upnp-org:serviceId:AVTransport - not subscribed
+DEBUG:SONOS.upnp.core.event.EventProtocol:urn:upnp-org:serviceId:GroupRenderingControl.unsubscribe - errcode 400
+DEBUG:SONOS.Coherence.upnp.core.service:ignoring event {} for Service urn:schemas-upnp-org:service:GroupRenderingControl:1 urn:upnp-org:serviceId:GroupRenderingControl - not subscribed
+DEBUG:SONOS.upnp.core.event.EventProtocol:urn:upnp-org:serviceId:VirtualLineIn.unsubscribe - errcode 400
+DEBUG:SONOS.Coherence.upnp.core.service:ignoring event {} for Service urn:schemas-upnp-org:service:VirtualLineIn:1 urn:upnp-org:serviceId:VirtualLineIn - not subscribed
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /status/netsettings.txt HTTP/1.1" 200 None
+DEBUG:SONOS.sonos.services.diag:http://172.18.255.251:1400/status/netsettings.txt returned <?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="/xml/review.xsl"?><ZPSupportInfo><NetSettings>Version: [1.0]
+BootSeq: [*****]
+HouseholdID: [Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.G6ModKccIdiM7VS2sehE]
+</NetSettings><!-- SDT: 0 ms --></ZPSupportInfo>
+INFO:SONOS.sonos.services.common:wait_until_true: Waited 1.06090712547 seconds
+DEBUG:SONOS.sonos.client.internal:172.18.255.251 - Sonos Era 100 unsubscribing from all services
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /status/netsettings.txt HTTP/1.1" 200 None
+DEBUG:SONOS.sonos.services.diag:http://172.18.255.251:1400/status/netsettings.txt returned <?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="/xml/review.xsl"?><ZPSupportInfo><NetSettings>Version: [1.0]
+BootSeq: [*****]
+HouseholdID: [Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.G6ModKccIdiM7VS2sehE]
+</NetSettings><!-- SDT: 0 ms --></ZPSupportInfo>
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /status/netsettings.txt HTTP/1.1" 200 None
+DEBUG:SONOS.sonos.services.diag:http://172.18.255.251:1400/status/netsettings.txt returned <?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="/xml/review.xsl"?><ZPSupportInfo><NetSettings>Version: [1.0]
+BootSeq: [*****]
+HouseholdID: [Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.G6ModKccIdiM7VS2sehE]
+</NetSettings><!-- SDT: 0 ms --></ZPSupportInfo>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.251] command: <kill  `cat /opt/log/*anacapa.pid`>
+DEBUG:SONOS.upnp.core.event.EventProtocol:urn:upnp-org:serviceId:AlarmClock.unsubscribe - errcode 400
+DEBUG:SONOS.Coherence.upnp.core.service:ignoring event {} for Service urn:schemas-upnp-org:service:AlarmClock:1 urn:upnp-org:serviceId:AlarmClock - not subscribed
+DEBUG:SONOS.upnp.core.event.EventProtocol:urn:upnp-org:serviceId:MusicServices.unsubscribe - errcode 400
+DEBUG:SONOS.Coherence.upnp.core.service:ignoring event {} for Service urn:schemas-upnp-org:service:MusicServices:1 urn:upnp-org:serviceId:MusicServices - not subscribed
+DEBUG:SONOS.upnp.core.event.EventProtocol:urn:upnp-org:serviceId:AudioIn.unsubscribe - errcode 400
+DEBUG:SONOS.Coherence.upnp.core.service:ignoring event {} for Service urn:schemas-upnp-org:service:AudioIn:1 urn:upnp-org:serviceId:AudioIn - not subscribed
+DEBUG:SONOS.upnp.core.event.EventProtocol:urn:upnp-org:serviceId:DeviceProperties.unsubscribe - errcode 400
+DEBUG:SONOS.Coherence.upnp.core.service:ignoring event {} for Service urn:schemas-upnp-org:service:DeviceProperties:1 urn:upnp-org:serviceId:DeviceProperties - not subscribed
+DEBUG:SONOS.upnp.core.event.EventProtocol:urn:upnp-org:serviceId:SystemProperties.unsubscribe - errcode 400
+DEBUG:SONOS.Coherence.upnp.core.service:ignoring event {} for Service urn:schemas-upnp-org:service:SystemProperties:1 urn:upnp-org:serviceId:SystemProperties - not subscribed
+DEBUG:SONOS.upnp.core.event.EventProtocol:urn:upnp-org:serviceId:ZoneGroupTopology.unsubscribe - errcode 400
+DEBUG:SONOS.Coherence.upnp.core.service:ignoring event {} for Service urn:schemas-upnp-org:service:ZoneGroupTopology:1 urn:upnp-org:serviceId:ZoneGroupTopology - not subscribed
+DEBUG:SONOS.upnp.core.event.EventProtocol:urn:upnp-org:serviceId:GroupManagement.unsubscribe - errcode 400
+DEBUG:SONOS.Coherence.upnp.core.service:ignoring event {} for Service urn:schemas-upnp-org:service:GroupManagement:1 urn:upnp-org:serviceId:GroupManagement - not subscribed
+DEBUG:SONOS.upnp.core.event.EventProtocol:urn:upnp-org:serviceId:ContentDirectory.unsubscribe - errcode 400
+DEBUG:SONOS.Coherence.upnp.core.service:ignoring event {} for Service urn:schemas-upnp-org:service:ContentDirectory:1 urn:upnp-org:serviceId:ContentDirectory - not subscribed
+DEBUG:SONOS.upnp.core.event.EventProtocol:urn:upnp-org:serviceId:RenderingControl.unsubscribe - errcode 400
+DEBUG:SONOS.Coherence.upnp.core.service:ignoring event {} for Service urn:schemas-upnp-org:service:RenderingControl:1 urn:upnp-org:serviceId:RenderingControl - not subscribed
+DEBUG:SONOS.upnp.core.event.EventProtocol:urn:upnp-org:serviceId:AVTransport.unsubscribe - errcode 400
+DEBUG:SONOS.Coherence.upnp.core.service:ignoring event {} for Service urn:schemas-upnp-org:service:AVTransport:1 urn:upnp-org:serviceId:AVTransport - not subscribed
+DEBUG:SONOS.upnp.core.event.EventProtocol:urn:sonos-com:serviceId:Queue.unsubscribe - errcode 400
+DEBUG:SONOS.Coherence.upnp.core.service:ignoring event {} for Service urn:schemas-sonos-com:service:Queue:1 urn:sonos-com:serviceId:Queue - not subscribed
+DEBUG:SONOS.upnp.core.event.EventProtocol:urn:upnp-org:serviceId:GroupRenderingControl.unsubscribe - errcode 400
+DEBUG:SONOS.Coherence.upnp.core.service:ignoring event {} for Service urn:schemas-upnp-org:service:GroupRenderingControl:1 urn:upnp-org:serviceId:GroupRenderingControl - not subscribed
+DEBUG:SONOS.upnp.core.event.EventProtocol:urn:upnp-org:serviceId:VirtualLineIn.unsubscribe - errcode 400
+DEBUG:SONOS.Coherence.upnp.core.service:ignoring event {} for Service urn:schemas-upnp-org:service:VirtualLineIn:1 urn:upnp-org:serviceId:VirtualLineIn - not subscribed
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.251] response: <>
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:SONOS.coherence.upnp.core.ssdp:processing 'byebye': {'x-rincon-reason': 'unknown', 'usn': 'uuid:RINCON_00038610387B01400', 'nts': 'ssdp:byebye', 'location.smartspeaker.audio': 'lc_d2084b81d99741cca5d633f3ee261a96', 'x-rincon-household': 'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP', 'server': 'Linux UPnP/1.0 Sonos/74.0-41030-dev-build-20230504-main (ZPS39)', 'host': '239.255.255.250:1900', 'household.smartspeaker.audio': 'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.3x05eTrzCcErhMo1mkf7', 'bootid.upnp.org': '3', 'nt': 'uuid:RINCON_00038610387B01400'}
+DEBUG:SONOS.coherence.upnp.core.ssdp:processing 'byebye': {'x-rincon-reason': 'unknown', 'usn': 'uuid:RINCON_00038610387B01400::urn:schemas-upnp-org:device:ZonePlayer:1', 'nts': 'ssdp:byebye', 'location.smartspeaker.audio': 'lc_d2084b81d99741cca5d633f3ee261a96', 'x-rincon-household': 'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP', 'server': 'Linux UPnP/1.0 Sonos/74.0-41030-dev-build-20230504-main (ZPS39)', 'host': '239.255.255.250:1900', 'household.smartspeaker.audio': 'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.3x05eTrzCcErhMo1mkf7', 'bootid.upnp.org': '3', 'nt': 'urn:schemas-upnp-org:device:ZonePlayer:1'}
+DEBUG:SONOS.coherence.upnp.core.ssdp:processing 'byebye': {'x-rincon-reason': 'unknown', 'usn': 'uuid:RINCON_00038610387B01400::upnp:rootdevice', 'nts': 'ssdp:byebye', 'location.smartspeaker.audio': 'lc_d2084b81d99741cca5d633f3ee261a96', 'x-rincon-household': 'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP', 'server': 'Linux UPnP/1.0 Sonos/74.0-41030-dev-build-20230504-main (ZPS39)', 'host': '239.255.255.250:1900', 'household.smartspeaker.audio': 'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.3x05eTrzCcErhMo1mkf7', 'bootid.upnp.org': '3', 'nt': 'upnp:rootdevice'}
+WARNING:SONOS.coherence.upnp.core.ssdp:sending 'removed_device' signal after receiving byebye msg from uuid:RINCON_00038610387B01400::upnp:rootdevice
+DEBUG:SONOS.coherence.upnp.core.ssdp:processing 'byebye': {'x-rincon-reason': 'unknown', 'usn': 'uuid:RINCON_00038610387B01400_MS', 'nts': 'ssdp:byebye', 'location.smartspeaker.audio': 'lc_d2084b81d99741cca5d633f3ee261a96', 'x-rincon-household': 'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP', 'server': 'Linux UPnP/1.0 Sonos/74.0-41030-dev-build-20230504-main (ZPS39)', 'host': '239.255.255.250:1900', 'household.smartspeaker.audio': 'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.3x05eTrzCcErhMo1mkf7', 'bootid.upnp.org': '3', 'nt': 'uuid:RINCON_00038610387B01400_MS'}
+DEBUG:SONOS.coherence.upnp.core.ssdp:processing 'byebye': {'x-rincon-reason': 'unknown', 'usn': 'uuid:RINCON_00038610387B01400_MS::urn:schemas-upnp-org:device:MediaServer:1', 'nts': 'ssdp:byebye', 'location.smartspeaker.audio': 'lc_d2084b81d99741cca5d633f3ee261a96', 'x-rincon-household': 'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP', 'server': 'Linux UPnP/1.0 Sonos/74.0-41030-dev-build-20230504-main (ZPS39)', 'host': '239.255.255.250:1900', 'household.smartspeaker.audio': 'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.3x05eTrzCcErhMo1mkf7', 'bootid.upnp.org': '3', 'nt': 'urn:schemas-upnp-org:device:MediaServer:1'}
+DEBUG:SONOS.coherence.upnp.core.ssdp:processing 'byebye': {'x-rincon-reason': 'unknown', 'usn': 'uuid:RINCON_00038610387B01400_MR', 'nts': 'ssdp:byebye', 'location.smartspeaker.audio': 'lc_d2084b81d99741cca5d633f3ee261a96', 'x-rincon-household': 'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP', 'server': 'Linux UPnP/1.0 Sonos/74.0-41030-dev-build-20230504-main (ZPS39)', 'host': '239.255.255.250:1900', 'household.smartspeaker.audio': 'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.3x05eTrzCcErhMo1mkf7', 'bootid.upnp.org': '3', 'nt': 'uuid:RINCON_00038610387B01400_MR'}
+DEBUG:SONOS.coherence.upnp.core.ssdp:processing 'byebye': {'x-rincon-reason': 'unknown', 'usn': 'uuid:RINCON_00038610387B01400_MR::urn:schemas-upnp-org:device:MediaRenderer:1', 'nts': 'ssdp:byebye', 'location.smartspeaker.audio': 'lc_d2084b81d99741cca5d633f3ee261a96', 'x-rincon-household': 'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP', 'server': 'Linux UPnP/1.0 Sonos/74.0-41030-dev-build-20230504-main (ZPS39)', 'host': '239.255.255.250:1900', 'household.smartspeaker.audio': 'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.3x05eTrzCcErhMo1mkf7', 'bootid.upnp.org': '3', 'nt': 'urn:schemas-upnp-org:device:MediaRenderer:1'}
+DEBUG:SONOS.coherence.upnp.core.ssdp:processing 'byebye': {'x-rincon-reason': 'unknown', 'usn': 'uuid:RINCON_00038610387B01400::urn:schemas-upnp-org:service:AlarmClock:1', 'nts': 'ssdp:byebye', 'location.smartspeaker.audio': 'lc_d2084b81d99741cca5d633f3ee261a96', 'x-rincon-household': 'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP', 'server': 'Linux UPnP/1.0 Sonos/74.0-41030-dev-build-20230504-main (ZPS39)', 'host': '239.255.255.250:1900', 'household.smartspeaker.audio': 'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.3x05eTrzCcErhMo1mkf7', 'bootid.upnp.org': '3', 'nt': 'urn:schemas-upnp-org:service:AlarmClock:1'}
+DEBUG:SONOS.coherence.upnp.core.ssdp:processing 'byebye': {'x-rincon-reason': 'unknown', 'usn': 'uuid:RINCON_00038610387B01400::urn:schemas-upnp-org:service:MusicServices:1', 'nts': 'ssdp:byebye', 'location.smartspeaker.audio': 'lc_d2084b81d99741cca5d633f3ee261a96', 'x-rincon-household': 'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP', 'server': 'Linux UPnP/1.0 Sonos/74.0-41030-dev-build-20230504-main (ZPS39)', 'host': '239.255.255.250:1900', 'household.smartspeaker.audio': 'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.3x05eTrzCcErhMo1mkf7', 'bootid.upnp.org': '3', 'nt': 'urn:schemas-upnp-org:service:MusicServices:1'}
+DEBUG:SONOS.coherence.upnp.core.ssdp:processing 'byebye': {'x-rincon-reason': 'unknown', 'usn': 'uuid:RINCON_00038610387B01400::urn:schemas-upnp-org:service:AudioIn:1', 'nts': 'ssdp:byebye', 'location.smartspeaker.audio': 'lc_d2084b81d99741cca5d633f3ee261a96', 'x-rincon-household': 'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP', 'server': 'Linux UPnP/1.0 Sonos/74.0-41030-dev-build-20230504-main (ZPS39)', 'host': '239.255.255.250:1900', 'household.smartspeaker.audio': 'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.3x05eTrzCcErhMo1mkf7', 'bootid.upnp.org': '3', 'nt': 'urn:schemas-upnp-org:service:AudioIn:1'}
+DEBUG:SONOS.coherence.upnp.core.ssdp:processing 'byebye': {'x-rincon-reason': 'unknown', 'usn': 'uuid:RINCON_00038610387B01400::urn:schemas-upnp-org:service:DeviceProperties:1', 'nts': 'ssdp:byebye', 'location.smartspeaker.audio': 'lc_d2084b81d99741cca5d633f3ee261a96', 'x-rincon-household': 'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP', 'server': 'Linux UPnP/1.0 Sonos/74.0-41030-dev-build-20230504-main (ZPS39)', 'host': '239.255.255.250:1900', 'household.smartspeaker.audio': 'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.3x05eTrzCcErhMo1mkf7', 'bootid.upnp.org': '3', 'nt': 'urn:schemas-upnp-org:service:DeviceProperties:1'}
+DEBUG:SONOS.coherence.upnp.core.ssdp:processing 'byebye': {'x-rincon-reason': 'unknown', 'usn': 'uuid:RINCON_00038610387B01400::urn:schemas-upnp-org:service:SystemProperties:1', 'nts': 'ssdp:byebye', 'location.smartspeaker.audio': 'lc_d2084b81d99741cca5d633f3ee261a96', 'x-rincon-household': 'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP', 'server': 'Linux UPnP/1.0 Sonos/74.0-41030-dev-build-20230504-main (ZPS39)', 'host': '239.255.255.250:1900', 'household.smartspeaker.audio': 'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.3x05eTrzCcErhMo1mkf7', 'bootid.upnp.org': '3', 'nt': 'urn:schemas-upnp-org:service:SystemProperties:1'}
+DEBUG:SONOS.coherence.upnp.core.ssdp:processing 'byebye': {'x-rincon-reason': 'unknown', 'usn': 'uuid:RINCON_00038610387B01400::urn:schemas-upnp-org:service:ZoneGroupTopology:1', 'nts': 'ssdp:byebye', 'location.smartspeaker.audio': 'lc_d2084b81d99741cca5d633f3ee261a96', 'x-rincon-household': 'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP', 'server': 'Linux UPnP/1.0 Sonos/74.0-41030-dev-build-20230504-main (ZPS39)', 'host': '239.255.255.250:1900', 'household.smartspeaker.audio': 'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.3x05eTrzCcErhMo1mkf7', 'bootid.upnp.org': '3', 'nt': 'urn:schemas-upnp-org:service:ZoneGroupTopology:1'}
+DEBUG:SONOS.coherence.upnp.core.ssdp:processing 'byebye': {'x-rincon-reason': 'unknown', 'usn': 'uuid:RINCON_00038610387B01400::urn:schemas-upnp-org:service:GroupManagement:1', 'nts': 'ssdp:byebye', 'location.smartspeaker.audio': 'lc_d2084b81d99741cca5d633f3ee261a96', 'x-rincon-household': 'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP', 'server': 'Linux UPnP/1.0 Sonos/74.0-41030-dev-build-20230504-main (ZPS39)', 'host': '239.255.255.250:1900', 'household.smartspeaker.audio': 'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.3x05eTrzCcErhMo1mkf7', 'bootid.upnp.org': '3', 'nt': 'urn:schemas-upnp-org:service:GroupManagement:1'}
+DEBUG:SONOS.coherence.upnp.core.ssdp:processing 'byebye': {'x-rincon-reason': 'unknown', 'usn': 'uuid:RINCON_00038610387B01400::urn:schemas-tencent-com:service:QPlay:1', 'nts': 'ssdp:byebye', 'location.smartspeaker.audio': 'lc_d2084b81d99741cca5d633f3ee261a96', 'x-rincon-household': 'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP', 'server': 'Linux UPnP/1.0 Sonos/74.0-41030-dev-build-20230504-main (ZPS39)', 'host': '239.255.255.250:1900', 'household.smartspeaker.audio': 'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.3x05eTrzCcErhMo1mkf7', 'bootid.upnp.org': '3', 'nt': 'urn:schemas-tencent-com:service:QPlay:1'}
+DEBUG:SONOS.coherence.upnp.core.ssdp:processing 'byebye': {'x-rincon-reason': 'unknown', 'usn': 'uuid:RINCON_00038610387B01400_MS::urn:schemas-upnp-org:service:ContentDirectory:1', 'nts': 'ssdp:byebye', 'location.smartspeaker.audio': 'lc_d2084b81d99741cca5d633f3ee261a96', 'x-rincon-household': 'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP', 'server': 'Linux UPnP/1.0 Sonos/74.0-41030-dev-build-20230504-main (ZPS39)', 'host': '239.255.255.250:1900', 'household.smartspeaker.audio': 'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.3x05eTrzCcErhMo1mkf7', 'bootid.upnp.org': '3', 'nt': 'urn:schemas-upnp-org:service:ContentDirectory:1'}
+DEBUG:SONOS.coherence.upnp.core.ssdp:processing 'byebye': {'x-rincon-reason': 'unknown', 'usn': 'uuid:RINCON_00038610387B01400_MS::urn:schemas-upnp-org:service:ConnectionManager:1', 'nts': 'ssdp:byebye', 'location.smartspeaker.audio': 'lc_d2084b81d99741cca5d633f3ee261a96', 'x-rincon-household': 'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP', 'server': 'Linux UPnP/1.0 Sonos/74.0-41030-dev-build-20230504-main (ZPS39)', 'host': '239.255.255.250:1900', 'household.smartspeaker.audio': 'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.3x05eTrzCcErhMo1mkf7', 'bootid.upnp.org': '3', 'nt': 'urn:schemas-upnp-org:service:ConnectionManager:1'}
+DEBUG:SONOS.coherence.upnp.core.ssdp:processing 'byebye': {'x-rincon-reason': 'unknown', 'usn': 'uuid:RINCON_00038610387B01400_MR::urn:schemas-upnp-org:service:RenderingControl:1', 'nts': 'ssdp:byebye', 'location.smartspeaker.audio': 'lc_d2084b81d99741cca5d633f3ee261a96', 'x-rincon-household': 'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP', 'server': 'Linux UPnP/1.0 Sonos/74.0-41030-dev-build-20230504-main (ZPS39)', 'host': '239.255.255.250:1900', 'household.smartspeaker.audio': 'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.3x05eTrzCcErhMo1mkf7', 'bootid.upnp.org': '3', 'nt': 'urn:schemas-upnp-org:service:RenderingControl:1'}
+DEBUG:SONOS.coherence.upnp.core.ssdp:processing 'byebye': {'x-rincon-reason': 'unknown', 'usn': 'uuid:RINCON_00038610387B01400_MR::urn:schemas-upnp-org:service:ConnectionManager:1', 'nts': 'ssdp:byebye', 'location.smartspeaker.audio': 'lc_d2084b81d99741cca5d633f3ee261a96', 'x-rincon-household': 'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP', 'server': 'Linux UPnP/1.0 Sonos/74.0-41030-dev-build-20230504-main (ZPS39)', 'host': '239.255.255.250:1900', 'household.smartspeaker.audio': 'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.3x05eTrzCcErhMo1mkf7', 'bootid.upnp.org': '3', 'nt': 'urn:schemas-upnp-org:service:ConnectionManager:1'}
+DEBUG:SONOS.coherence.upnp.core.ssdp:processing 'byebye': {'x-rincon-reason': 'unknown', 'usn': 'uuid:RINCON_00038610387B01400_MR::urn:schemas-upnp-org:service:AVTransport:1', 'nts': 'ssdp:byebye', 'location.smartspeaker.audio': 'lc_d2084b81d99741cca5d633f3ee261a96', 'x-rincon-household': 'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP', 'server': 'Linux UPnP/1.0 Sonos/74.0-41030-dev-build-20230504-main (ZPS39)', 'host': '239.255.255.250:1900', 'household.smartspeaker.audio': 'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.3x05eTrzCcErhMo1mkf7', 'bootid.upnp.org': '3', 'nt': 'urn:schemas-upnp-org:service:AVTransport:1'}
+DEBUG:SONOS.coherence.upnp.core.ssdp:processing 'byebye': {'x-rincon-reason': 'unknown', 'usn': 'uuid:RINCON_00038610387B01400_MR::urn:schemas-sonos-com:service:Queue:1', 'nts': 'ssdp:byebye', 'location.smartspeaker.audio': 'lc_d2084b81d99741cca5d633f3ee261a96', 'x-rincon-household': 'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP', 'server': 'Linux UPnP/1.0 Sonos/74.0-41030-dev-build-20230504-main (ZPS39)', 'host': '239.255.255.250:1900', 'household.smartspeaker.audio': 'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.3x05eTrzCcErhMo1mkf7', 'bootid.upnp.org': '3', 'nt': 'urn:schemas-sonos-com:service:Queue:1'}
+DEBUG:SONOS.coherence.upnp.core.ssdp:processing 'byebye': {'x-rincon-reason': 'unknown', 'usn': 'uuid:RINCON_00038610387B01400_MR::urn:schemas-upnp-org:service:GroupRenderingControl:1', 'nts': 'ssdp:byebye', 'location.smartspeaker.audio': 'lc_d2084b81d99741cca5d633f3ee261a96', 'x-rincon-household': 'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP', 'server': 'Linux UPnP/1.0 Sonos/74.0-41030-dev-build-20230504-main (ZPS39)', 'host': '239.255.255.250:1900', 'household.smartspeaker.audio': 'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.3x05eTrzCcErhMo1mkf7', 'bootid.upnp.org': '3', 'nt': 'urn:schemas-upnp-org:service:GroupRenderingControl:1'}
+DEBUG:SONOS.coherence.upnp.core.ssdp:processing 'byebye': {'x-rincon-reason': 'unknown', 'usn': 'uuid:RINCON_00038610387B01400_MR::urn:schemas-upnp-org:service:VirtualLineIn:1', 'nts': 'ssdp:byebye', 'location.smartspeaker.audio': 'lc_d2084b81d99741cca5d633f3ee261a96', 'x-rincon-household': 'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP', 'server': 'Linux UPnP/1.0 Sonos/74.0-41030-dev-build-20230504-main (ZPS39)', 'host': '239.255.255.250:1900', 'household.smartspeaker.audio': 'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.3x05eTrzCcErhMo1mkf7', 'bootid.upnp.org': '3', 'nt': 'urn:schemas-upnp-org:service:VirtualLineIn:1'}
+DEBUG:SONOS.coherence.upnp.core.ssdp:processing 'byebye': {'usn': 'uuid:RINCON_00038610387B01400::urn:smartspeaker-audio:service:SpeakerGroup:1', 'nts': 'ssdp:byebye', 'location.smartspeaker.audio': 'lc_d2084b81d99741cca5d633f3ee261a96', 'server': 'Linux UPnP/1.0 Sonos/74.0-41030-dev-build-20230504-main (ZPS39)', 'host': '239.255.255.250:1900', 'household.smartspeaker.audio': 'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.3x05eTrzCcErhMo1mkf7', 'bootid.upnp.org': '3', 'nt': 'urn:smartspeaker-audio:service:SpeakerGroup:1', 'configid.upnp.org': '6'}
+DEBUG:SONOS.sonos.client.internal:setting upnp byebye event on SonosZoneComponent(id=140612581409360, ip=172.18.255.251, modelNumber=S39, serialNumber=00038610387B, architecture=optimo, hardware_version=1.38.1.0-1.0)
+DEBUG:SONOS.sonos.client.internal:resetting saved properties (SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=00038610387B, architecture=optimo, hardware_version=1.38.1.0-1.0))
+DEBUG:SONOS.sonos.client.internal:setting upnp byebye event on SonosZoneComponent(id=140612238294416, ip=172.18.255.251, modelNumber=S39, serialNumber=00038610387B, architecture=optimo, hardware_version=1.38.1.0-1.0)
+DEBUG:SONOS.sonos.client.internal:resetting saved properties (SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=00038610387B, architecture=optimo, hardware_version=1.38.1.0-1.0))
+INFO:SONOS.sonos.upnp.UPNP:remove_device: uuid:RINCON_00038610387B01400 (172.18.255.251 - Sonos Era 100) was found in UPNP.sonos_devices, removing it
+DEBUG:sonos.test.util.eventing_list:Removed object SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=00038610387B, architecture=optimo, hardware_version=1.38.1.0-1.0) from list, 3 remaining
+INFO:SONOS.sonos.upnp.UPNP:Removed device uuid:RINCON_00038610387B01400 from devices list, 3 total
+DEBUG:SONOS.sonos.upnp.UPNP:remove_devices: removed 1 device - 3 remain
+INFO:SONOS.sonos.services.common:wait_until_true: Waited 4.21544909477 seconds
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+WARNING:SONOS.sonos.client.internal:coherence device is not valid for SonosZoneComponent(id=140612581409360, ip=172.18.255.251, modelNumber=S39, serialNumber=00038610387B, architecture=optimo, hardware_version=1.38.1.0-1.0)
+WARNING:SONOS.sonos.client.internal:expected vs actual num 15 != 0
+WARNING:SONOS.sonos.client.internal:missing services set(['urn:upnp-org:serviceId:RenderingControl', 'urn:tencent-com:serviceId:QPlay', 'urn:upnp-org:serviceId:GroupManagement', 'urn:upnp-org:serviceId:MusicServices', 'urn:upnp-org:serviceId:AlarmClock', 'urn:upnp-org:serviceId:AVTransport', 'urn:upnp-org:serviceId:DeviceProperties', 'urn:upnp-org:serviceId:SystemProperties', 'urn:sonos-com:serviceId:Queue', 'urn:upnp-org:serviceId:VirtualLineIn', 'urn:upnp-org:serviceId:ConnectionManager', 'urn:upnp-org:serviceId:ZoneGroupTopology', 'urn:upnp-org:serviceId:GroupRenderingControl', 'urn:upnp-org:serviceId:ContentDirectory', 'urn:upnp-org:serviceId:AudioIn'])
+WARNING:SONOS.sonos.client.internal:coherence device is not valid for SonosZoneComponent(id=140612238294416, ip=172.18.255.251, modelNumber=S39, serialNumber=00038610387B, architecture=optimo, hardware_version=1.38.1.0-1.0)
+WARNING:SONOS.sonos.client.internal:expected vs actual num 15 != 0
+WARNING:SONOS.sonos.client.internal:missing services set(['urn:upnp-org:serviceId:RenderingControl', 'urn:tencent-com:serviceId:QPlay', 'urn:upnp-org:serviceId:GroupManagement', 'urn:upnp-org:serviceId:MusicServices', 'urn:upnp-org:serviceId:AlarmClock', 'urn:upnp-org:serviceId:AVTransport', 'urn:upnp-org:serviceId:DeviceProperties', 'urn:upnp-org:serviceId:SystemProperties', 'urn:sonos-com:serviceId:Queue', 'urn:upnp-org:serviceId:VirtualLineIn', 'urn:upnp-org:serviceId:ConnectionManager', 'urn:upnp-org:serviceId:ZoneGroupTopology', 'urn:upnp-org:serviceId:GroupRenderingControl', 'urn:upnp-org:serviceId:ContentDirectory', 'urn:upnp-org:serviceId:AudioIn'])
+DEBUG:SONOS.sonos.client.internal:Refreshing Coherence device object on <SonosZoneComponent(id=140612581409360, ip=172.18.255.251, modelNumber=S39, serialNumber=00038610387B, architecture=optimo, hardware_version=1.38.1.0-1.0)>
+DEBUG:SONOS.sonos.client.internal:resetting saved properties (SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=00038610387B, architecture=optimo, hardware_version=1.38.1.0-1.0))
+DEBUG:SONOS.sonos.client.internal:Refreshing Coherence device object on <SonosZoneComponent(id=140612238294416, ip=172.18.255.251, modelNumber=S39, serialNumber=00038610387B, architecture=optimo, hardware_version=1.38.1.0-1.0)>
+DEBUG:SONOS.sonos.client.internal:resetting saved properties (SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=00038610387B, architecture=optimo, hardware_version=1.38.1.0-1.0))
+DEBUG:SONOS.sonos.client.internal:resetting saved properties (SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=00038610387B, architecture=optimo, hardware_version=1.38.1.0-1.0))
+INFO:SONOS.sonos.client.internal:Creating SonosZoneComponent RINCON_00038610387B01400 172.18.255.251 - Sonos Era 100 (version=74.0-41030-dev-build-20230504-main), 87.1711890697 sec after UPNP start
+DEBUG:SONOS.sonos.client.internal:MITC_ENVIRONMENT already set to test
+DEBUG:SONOS.sonos.client.internal:SONOS_ID already set to 998936323
+DEBUG:sonos.test.util.eventing_list:Inserted SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=00038610387B, architecture=optimo, hardware_version=1.38.1.0-1.0) into list, total 4
+INFO:SONOS.sonos.upnp.UPNP:Registered new device uuid:RINCON_00038610387B01400, 4 total
+DEBUG:SONOS.sonos.client.internal:setting upnp alive event on SonosZoneComponent(id=140611986352976, ip=172.18.255.251, modelNumber=S39, serialNumber=00038610387B, architecture=optimo, hardware_version=1.38.1.0-1.0)
+DEBUG:SONOS.sonos.client.internal:setting upnp alive event on SonosZoneComponent(id=140612581409360, ip=172.18.255.251, modelNumber=S39, serialNumber=00038610387B, architecture=optimo, hardware_version=1.38.1.0-1.0)
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /status/zp HTTP/1.1" 200 None
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=00038610387B, architecture=optimo, hardware_version=1.38.1.0-1.0) invokes DeviceProperties.GetZoneInfo("headers"="{}")
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=00038610387B, architecture=optimo, hardware_version=1.38.1.0-1.0) DeviceProperties.GetZoneInfo returns '{'MACAddress': u'00:03:86:10:38:7B', 'CopyrightInfo': u'\xa9 2003-2023, Sonos, Inc. All rights reserved.', 'HardwareVersion': u'1.38.1.0-1.0', 'HTAudioIn': u'0', 'SerialNumber': u'00-03-86-10-38-7B:6', 'DisplaySoftwareVersion': u'15.6', 'ExtraInfo': u'', 'SoftwareVersion': u'74.0-41030-dev-build-20230504-main', 'Flags': u'0', 'IPAddress': u'172.18.255.251'}'
+INFO:SONOS.sonos.client.internal:Anacapa restart completed successfully. device=SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=00038610387B, architecture=optimo, hardware_version=1.38.1.0-1.0) before_pid=3001 after_pid=3174 alive_seen=True
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /status/zp HTTP/1.1" 200 None
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+INFO:SONOS.sonos.services.base:Waiting for state variable: ZoneGroupState
+DEBUG:SONOS.sonos.services.base:<sonos.services.zonegrouptopology.ZoneGroupTopologyService object at 0x7fe2ca08e250> requests state variable: Service urn:schemas-upnp-org:service:ZoneGroupTopology:1 urn:upnp-org:serviceId:ZoneGroupTopology.ZoneGroupState
+DEBUG:SONOS.Coherence.upnp.core.service:subscribing: uuid:RINCON_00038610387B01400_sub0000000006 Service urn:schemas-upnp-org:service:ZoneGroupTopology:1 urn:upnp-org:serviceId:ZoneGroupTopology
+DEBUG:SONOS.Coherence.upnp.core.service:creating subscription renewal for uuid:RINCON_00038610387B01400_sub0000000006
+DEBUG:SONOS.sonos.services.base:Getting state variable <ZoneGroupTopology.ZoneGroupState> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=00038610387B, architecture=optimo, hardware_version=1.38.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <ZoneGroupTopology.ZoneGroupState> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=00038610387B, architecture=optimo, hardware_version=1.38.1.0-1.0) = <ZoneGroupState><ZoneGroups><ZoneGroup Coordinator="RINCON_00038610387B01400" ID="RINCON_00038610387B01400:1455697114"><ZoneGroupMember UUID="RINCON_00038610387B01400" Location="http://172.18.255.251:1400/xml/device_description.xml" ZoneName="Emulator" Icon="" Configuration="1" SoftwareVersion="74.0-41030-dev-build-20230504-main" SWGen="2" MinCompatibleVersion="73.0-00000" LegacyCompatibleVersion="58.0-00000" BootSeq="4" TVConfigurationError="0" HdmiCecAvailable="0" WirelessMode="0" WirelessLeafOnly="0" ChannelFreq="623191333" BehindWifiExtender="0" WifiEnabled="1" EthLink="1" Orientation="0" RoomCalibrationState="4" SecureRegState="3" VoiceConfigState="0" MicEnabled="0" AirPlayEnabled="1" IdleState="1" MoreInfo="" SSLPort="1443" HHSSLPort="1843"/></ZoneGroup><ZoneGroup Coordinator="RINCON_00038610360401400" ID="RINCON_00038610360401400:3367532633"><ZoneGroupMember UUID="RINCON_00038610360401400" Location="http://172.18.255.253:1400/xml/device_description.xml" ZoneName="Emulator" Icon="" Configuration="1" SoftwareVersion="74.0-41030-dev-build-20230504-main" SWGen="2" MinCompatibleVersion="73.0-00000" LegacyCompatibleVersion="58.0-00000" BootSeq="2" TVConfigurationError="0" HdmiCecAvailable="0" WirelessMode="0" WirelessLeafOnly="0" ChannelFreq="0" BehindWifiExtender="0" WifiEnabled="0" EthLink="1" Orientation="0" RoomCalibrationState="4" SecureRegState="3" VoiceConfigState="0" MicEnabled="0" AirPlayEnabled="1" IdleState="1" MoreInfo="" SSLPort="1443" HHSSLPort="1843"/></ZoneGroup><ZoneGroup Coordinator="RINCON_00038610322401400" ID="RINCON_00038610322401400:1612295743"><ZoneGroupMember UUID="RINCON_00038610322401400" Location="http://172.18.255.250:1400/xml/device_description.xml" ZoneName="Emulator" Icon="" Configuration="1" Invisible="1" SoftwareVersion="74.0-41030-dev-build-20230504-main" SWGen="2" MinCompatibleVersion="73.0-00000" LegacyCompatibleVersion="58.0-00000" BootSeq="2" TVConfigurationError="0" HdmiCecAvailable="0" WirelessMode="0" WirelessLeafOnly="0" ChannelFreq="0" BehindWifiExtender="0" WifiEnabled="0" EthLink="1" Orientation="0" RoomCalibrationState="4" SecureRegState="3" VoiceConfigState="0" MicEnabled="0" AirPlayEnabled="0" IdleState="1" MoreInfo="" SSLPort="1443" HHSSLPort="1843"/></ZoneGroup></ZoneGroups><VanishedDevices></VanishedDevices></ZoneGroupState>
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /status/jffs/localsettings.txt HTTP/1.1" 200 None
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /status/cloud HTTP/1.1" 200 None
+DEBUG:SONOS.sonos.services.common:XMLAccessor '.value' lookup was 'None'.
+ELEMENT: <Element 'LastPingTime' at 0x7fe2d68215d0>
+INDEXERS: ["<CloudStatusValues.ROOT: 'Cloud'>", '*']
+DOCUMENT:
+<?xml version="1.0" ?>
+<ZPSupportInfo>
+	<Cloud>
+		<ProtocolVersion>07</ProtocolVersion>
+		<LoadBalancerHost>lechmere-v1.dev.ws.sonos.com:43211(172.18.0.6)</LoadBalancerHost>
+		<WebsocketServerHost>lechmere-v1.dev.ws.sonos.com(172.18.0.6)</WebsocketServerHost>
+		<State>Open</State>
+		<MillisecondsOpen>3566</MillisecondsOpen>
+		<PerMsgDeflate>off</PerMsgDeflate>
+		<TotalUncompressedKBytesSent>1.059 KB</TotalUncompressedKBytesSent>
+		<TotalCompressedKBytesSent>0.000 KB</TotalCompressedKBytesSent>
+		<TotalKBytesSent>1.059 KB</TotalKBytesSent>
+		<TotalUncompressedKBytesReceived>0.146 KB</TotalUncompressedKBytesReceived>
+		<TotalCompressedKBytesDecompressed>0.000 KB</TotalCompressedKBytesDecompressed>
+		<TotalKBytesReceived>0.146 KB</TotalKBytesReceived>
+		<OpenCount>1</OpenCount>
+		<CloseCount>0</CloseCount>
+		<ConsecutiveFailures>0</ConsecutiveFailures>
+		<UnackedPings>0</UnackedPings>
+		<LastPingTime/>
+		<PingTimeWeightedAverage/>
+		<Messages>2</Messages>
+		<LastHttpStatus>101</LastHttpStatus>
+		<LastWebSocketCode/>
+		<LastRetryAfter/>
+		<MillisecondsToNextConnect/>
+		<WebsocketRegistration>Current (OK)</WebsocketRegistration>
+	</Cloud>
+</ZPSupportInfo>
+
+
+DEBUG:SONOS.sonos.services.common:XMLAccessor '.value' lookup was 'None'.
+ELEMENT: <Element 'PingTimeWeightedAverage' at 0x7fe2d6821950>
+INDEXERS: ["<CloudStatusValues.ROOT: 'Cloud'>", '*']
+DOCUMENT:
+<?xml version="1.0" ?>
+<ZPSupportInfo>
+	<Cloud>
+		<ProtocolVersion>07</ProtocolVersion>
+		<LoadBalancerHost>lechmere-v1.dev.ws.sonos.com:43211(172.18.0.6)</LoadBalancerHost>
+		<WebsocketServerHost>lechmere-v1.dev.ws.sonos.com(172.18.0.6)</WebsocketServerHost>
+		<State>Open</State>
+		<MillisecondsOpen>3566</MillisecondsOpen>
+		<PerMsgDeflate>off</PerMsgDeflate>
+		<TotalUncompressedKBytesSent>1.059 KB</TotalUncompressedKBytesSent>
+		<TotalCompressedKBytesSent>0.000 KB</TotalCompressedKBytesSent>
+		<TotalKBytesSent>1.059 KB</TotalKBytesSent>
+		<TotalUncompressedKBytesReceived>0.146 KB</TotalUncompressedKBytesReceived>
+		<TotalCompressedKBytesDecompressed>0.000 KB</TotalCompressedKBytesDecompressed>
+		<TotalKBytesReceived>0.146 KB</TotalKBytesReceived>
+		<OpenCount>1</OpenCount>
+		<CloseCount>0</CloseCount>
+		<ConsecutiveFailures>0</ConsecutiveFailures>
+		<UnackedPings>0</UnackedPings>
+		<LastPingTime/>
+		<PingTimeWeightedAverage/>
+		<Messages>2</Messages>
+		<LastHttpStatus>101</LastHttpStatus>
+		<LastWebSocketCode/>
+		<LastRetryAfter/>
+		<MillisecondsToNextConnect/>
+		<WebsocketRegistration>Current (OK)</WebsocketRegistration>
+	</Cloud>
+</ZPSupportInfo>
+
+
+DEBUG:SONOS.sonos.services.common:XMLAccessor '.value' lookup was 'None'.
+ELEMENT: <Element 'LastWebSocketCode' at 0x7fe2d6821e90>
+INDEXERS: ["<CloudStatusValues.ROOT: 'Cloud'>", '*']
+DOCUMENT:
+<?xml version="1.0" ?>
+<ZPSupportInfo>
+	<Cloud>
+		<ProtocolVersion>07</ProtocolVersion>
+		<LoadBalancerHost>lechmere-v1.dev.ws.sonos.com:43211(172.18.0.6)</LoadBalancerHost>
+		<WebsocketServerHost>lechmere-v1.dev.ws.sonos.com(172.18.0.6)</WebsocketServerHost>
+		<State>Open</State>
+		<MillisecondsOpen>3566</MillisecondsOpen>
+		<PerMsgDeflate>off</PerMsgDeflate>
+		<TotalUncompressedKBytesSent>1.059 KB</TotalUncompressedKBytesSent>
+		<TotalCompressedKBytesSent>0.000 KB</TotalCompressedKBytesSent>
+		<TotalKBytesSent>1.059 KB</TotalKBytesSent>
+		<TotalUncompressedKBytesReceived>0.146 KB</TotalUncompressedKBytesReceived>
+		<TotalCompressedKBytesDecompressed>0.000 KB</TotalCompressedKBytesDecompressed>
+		<TotalKBytesReceived>0.146 KB</TotalKBytesReceived>
+		<OpenCount>1</OpenCount>
+		<CloseCount>0</CloseCount>
+		<ConsecutiveFailures>0</ConsecutiveFailures>
+		<UnackedPings>0</UnackedPings>
+		<LastPingTime/>
+		<PingTimeWeightedAverage/>
+		<Messages>2</Messages>
+		<LastHttpStatus>101</LastHttpStatus>
+		<LastWebSocketCode/>
+		<LastRetryAfter/>
+		<MillisecondsToNextConnect/>
+		<WebsocketRegistration>Current (OK)</WebsocketRegistration>
+	</Cloud>
+</ZPSupportInfo>
+
+
+DEBUG:SONOS.sonos.services.common:XMLAccessor '.value' lookup was 'None'.
+ELEMENT: <Element 'LastRetryAfter' at 0x7fe2d68212d0>
+INDEXERS: ["<CloudStatusValues.ROOT: 'Cloud'>", '*']
+DOCUMENT:
+<?xml version="1.0" ?>
+<ZPSupportInfo>
+	<Cloud>
+		<ProtocolVersion>07</ProtocolVersion>
+		<LoadBalancerHost>lechmere-v1.dev.ws.sonos.com:43211(172.18.0.6)</LoadBalancerHost>
+		<WebsocketServerHost>lechmere-v1.dev.ws.sonos.com(172.18.0.6)</WebsocketServerHost>
+		<State>Open</State>
+		<MillisecondsOpen>3566</MillisecondsOpen>
+		<PerMsgDeflate>off</PerMsgDeflate>
+		<TotalUncompressedKBytesSent>1.059 KB</TotalUncompressedKBytesSent>
+		<TotalCompressedKBytesSent>0.000 KB</TotalCompressedKBytesSent>
+		<TotalKBytesSent>1.059 KB</TotalKBytesSent>
+		<TotalUncompressedKBytesReceived>0.146 KB</TotalUncompressedKBytesReceived>
+		<TotalCompressedKBytesDecompressed>0.000 KB</TotalCompressedKBytesDecompressed>
+		<TotalKBytesReceived>0.146 KB</TotalKBytesReceived>
+		<OpenCount>1</OpenCount>
+		<CloseCount>0</CloseCount>
+		<ConsecutiveFailures>0</ConsecutiveFailures>
+		<UnackedPings>0</UnackedPings>
+		<LastPingTime/>
+		<PingTimeWeightedAverage/>
+		<Messages>2</Messages>
+		<LastHttpStatus>101</LastHttpStatus>
+		<LastWebSocketCode/>
+		<LastRetryAfter/>
+		<MillisecondsToNextConnect/>
+		<WebsocketRegistration>Current (OK)</WebsocketRegistration>
+	</Cloud>
+</ZPSupportInfo>
+
+
+DEBUG:SONOS.sonos.services.common:XMLAccessor '.value' lookup was 'None'.
+ELEMENT: <Element 'MillisecondsToNextConnect' at 0x7fe2d6821e50>
+INDEXERS: ["<CloudStatusValues.ROOT: 'Cloud'>", '*']
+DOCUMENT:
+<?xml version="1.0" ?>
+<ZPSupportInfo>
+	<Cloud>
+		<ProtocolVersion>07</ProtocolVersion>
+		<LoadBalancerHost>lechmere-v1.dev.ws.sonos.com:43211(172.18.0.6)</LoadBalancerHost>
+		<WebsocketServerHost>lechmere-v1.dev.ws.sonos.com(172.18.0.6)</WebsocketServerHost>
+		<State>Open</State>
+		<MillisecondsOpen>3566</MillisecondsOpen>
+		<PerMsgDeflate>off</PerMsgDeflate>
+		<TotalUncompressedKBytesSent>1.059 KB</TotalUncompressedKBytesSent>
+		<TotalCompressedKBytesSent>0.000 KB</TotalCompressedKBytesSent>
+		<TotalKBytesSent>1.059 KB</TotalKBytesSent>
+		<TotalUncompressedKBytesReceived>0.146 KB</TotalUncompressedKBytesReceived>
+		<TotalCompressedKBytesDecompressed>0.000 KB</TotalCompressedKBytesDecompressed>
+		<TotalKBytesReceived>0.146 KB</TotalKBytesReceived>
+		<OpenCount>1</OpenCount>
+		<CloseCount>0</CloseCount>
+		<ConsecutiveFailures>0</ConsecutiveFailures>
+		<UnackedPings>0</UnackedPings>
+		<LastPingTime/>
+		<PingTimeWeightedAverage/>
+		<Messages>2</Messages>
+		<LastHttpStatus>101</LastHttpStatus>
+		<LastWebSocketCode/>
+		<LastRetryAfter/>
+		<MillisecondsToNextConnect/>
+		<WebsocketRegistration>Current (OK)</WebsocketRegistration>
+	</Cloud>
+</ZPSupportInfo>
+
+
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:47187
+DEBUG:urllib3.connectionpool:http://172.18.0.6:47187 "GET /websockets/api/v0/00038610387b HTTP/1.1" 200 979
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:47187
+DEBUG:urllib3.connectionpool:http://172.18.0.6:47187 "GET /websockets/api/v0/00038610387b HTTP/1.1" 200 979
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:47187
+DEBUG:urllib3.connectionpool:http://172.18.0.6:47187 "GET /websockets/api/v0/00038610387b/protocol HTTP/1.1" 200 10
+INFO:root:Registration message received: [
+    {
+        "playerId": "RINCON_00038610387B01400", 
+        "anacapaUptimeSeconds": 2, 
+        "minApiVersion": "1.1.0", 
+        "networkMask": "255.255.0.0", 
+        "serial": "00038610387B", 
+        "port": 1400, 
+        "bootSequenceId": 4, 
+        "capabilities": [
+            "CLOUD", 
+            "PLAYBACK", 
+            "AIRPLAY", 
+            "LINE_IN", 
+            "VOICE", 
+            "AUDIO_CLIP", 
+            "MICROPHONE_SWITCH"
+        ], 
+        "groupId": "RINCON_00038610387B01400:1455697114", 
+        "groupName": "Emulator", 
+        "sonosId": "998936323", 
+        "hwVersion": "1.38.1.0-1.0", 
+        "systemUptimeSeconds": 1413, 
+        "dhcpMac": "00038610387B", 
+        "swVersion": "74.0-41030-dev-build-20230504-main", 
+        "ipAddr": "172.18.255.251", 
+        "isCoordinator": true, 
+        "locationId": "lc_d2084b81d99741cca5d633f3ee261a96", 
+        "modelDisplayName": "Era 100", 
+        "isSecure": true, 
+        "networkIPAddress": "172.18.0.0", 
+        "swGen": 2, 
+        "apiVersion": "1.35.0-alpha.8+74.0-41030", 
+        "householdId": "Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP", 
+        "roomName": "Emulator", 
+        "sessionId": null, 
+        "householdLocationId": "WIhzPKP8ATvehJgY8CRklw==", 
+        "isVisible": true, 
+        "isSatellite": false, 
+        "museHouseholdId": "Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.3x05eTrzCcErhMo1mkf7", 
+        "model": "S39"
+    }
+]
+INFO:SONOS.MockPlayerCloudServicesControl:Mock player cloud services server getlog request http://172.18.0.6:47187/request/api/logs
+INFO:SONOS.sonos.services.common:Set museHouseholdId: Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.3x05eTrzCcErhMo1mkf7, set locationId: None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:47187
+DEBUG:urllib3.connectionpool:http://172.18.0.6:47187 "POST /websockets/api/v0/00038610387b/setConfig HTTP/1.1" 200 0
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+INFO:SONOS.MockPlayerCloudServicesControl:Mock player cloud services server getlog request http://172.18.0.6:47187/request/api/logs
+INFO:SONOS.MockPlayerCloudServicesControl:Mock player cloud services server getlog request http://172.18.0.6:47187/request/api/logs
+INFO:SONOS.sonos.services.common:wait_until_true: Waited 4.00528407097 seconds
+INFO:SONOS.MockPlayerCloudServicesControl:Mock player cloud services server getlog request http://172.18.0.6:47187/request/api/logs
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /status/jffs/localsettings.txt HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /status/jffs/localsettings.txt HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:47187
+DEBUG:urllib3.connectionpool:http://172.18.0.6:47187 "POST /features/v1/set-config-properties HTTP/1.1" 200 393
+DEBUG:Muse-REST:<Thu May  4 19:30:29 2023> REST Request:
+	POST https://172.18.255.251:1443/api/v1/households/Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.3x05eTrzCcErhMo1mkf7/platformInternal/invalidateCache
+	Headers: {'Content-Length': '30', 'X-Sonos-Api-Key': 'e61bc77c-39cd-4ed0-a5e7-5ad316a0efc5', 'Content-Type': 'application/json'}
+	Body: {"cacheNamespace": "settings"}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): 172.18.255.251:1443
+DEBUG:urllib3.connectionpool:https://172.18.255.251:1443 "POST /api/v1/households/Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.3x05eTrzCcErhMo1mkf7/platformInternal/invalidateCache HTTP/1.1" 200 None
+INFO:Muse-REST:<Thu May  4 19:30:29 2023> REST Response:
+	Response status: 200
+	Response content: 
+{}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /jobs HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /jobs?job=FetchCloudCfg HTTP/1.1" 200 None
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.251] command: <test -e /jffs/settings/cloudconfig.json && echo $?>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.251] response: <0>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.251] command: <cat /jffs/settings/cloudconfig.json>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.251] response: <{"metricsService":{"submissionIntervalSeconds":300,"wifiTxRateThreshold":0,"wifiLatencyThresholdMillis":0},"spotifyAdaptiveBitrate":{"enable":false,"timeoutMinutes":120,"thresholdDC":5},"accessPolicyControl":{"enableCloudSetting":false,"defaultValue":"INSECURE"},"enableUPnPOverTLS":{"commandControl":false,"subscriptionControl":false,"eventControl":false},"enableLechmereV7":true}>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.251] command: <test -e /jffs/settings/cloudconfig.json && echo $?>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.251] response: <0>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.251] command: <cat /jffs/settings/cloudconfig.json>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.251] response: <{"metricsService":{"submissionIntervalSeconds":300,"wifiTxRateThreshold":0,"wifiLatencyThresholdMillis":0},"spotifyAdaptiveBitrate":{"enable":false,"timeoutMinutes":120,"thresholdDC":5},"accessPolicyControl":{"enableCloudSetting":false,"defaultValue":"INSECURE"},"enableUPnPOverTLS":{"commandControl":false,"subscriptionControl":false,"eventControl":false},"enableLechmereV7":true}>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.251] command: <test -e /jffs/settings/cloudconfig.json && echo $?>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.251] response: <0>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.251] command: <cat /jffs/settings/cloudconfig.json>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.251] response: <{"metricsService":{"submissionIntervalSeconds":300,"wifiTxRateThreshold":0,"wifiLatencyThresholdMillis":0},"spotifyAdaptiveBitrate":{"enable":false,"timeoutMinutes":120,"thresholdDC":5},"accessPolicyControl":{"enableCloudSetting":false,"defaultValue":"INSECURE"},"enableUPnPOverTLS":{"commandControl":false,"subscriptionControl":false,"eventControl":false},"enableLechmereV7":false}>
+INFO:SONOS.sonos.services.common:wait_until_true: Waited 8.66396403313 seconds
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:47187
+DEBUG:urllib3.connectionpool:http://172.18.0.6:47187 "GET /websockets/api/v0/00038610387b/protocol HTTP/1.1" 200 10
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /diaglevel?module=default&level=1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "POST /diaglevel?module=default&level=1 HTTP/1.1" 200 108
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 100
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /diaglevel?module=default&level=1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "POST /diaglevel?module=default&level=1 HTTP/1.1" 200 108
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 100
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /diaglevel?module=default&level=1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "POST /diaglevel?module=default&level=1 HTTP/1.1" 200 79
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 71
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:47187
+DEBUG:urllib3.connectionpool:http://172.18.0.6:47187 "GET /auth/oauth/v3/clients/flush HTTP/1.1" 200 2
+INFO:SONOS.sonos.services.base:Waiting for state variable: ChannelMapSet
+DEBUG:SONOS.sonos.services.base:<sonos.services.deviceproperties.DevicePropertiesService object at 0x7fe2d907bd90> requests state variable: Service urn:schemas-upnp-org:service:DeviceProperties:1 urn:upnp-org:serviceId:DeviceProperties.ChannelMapSet
+DEBUG:SONOS.Coherence.upnp.core.service:subscribing: uuid:RINCON_00038610387B01400_sub0000000007 Service urn:schemas-upnp-org:service:DeviceProperties:1 urn:upnp-org:serviceId:DeviceProperties
+DEBUG:SONOS.Coherence.upnp.core.service:creating subscription renewal for uuid:RINCON_00038610387B01400_sub0000000007
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.ChannelMapSet> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=00038610387B, architecture=optimo, hardware_version=1.38.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.ChannelMapSet> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=00038610387B, architecture=optimo, hardware_version=1.38.1.0-1.0) = 
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.HTSatChanMapSet> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=00038610387B, architecture=optimo, hardware_version=1.38.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.HTSatChanMapSet> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=00038610387B, architecture=optimo, hardware_version=1.38.1.0-1.0) = 
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.HTSatChanMapSet> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=00038610387B, architecture=optimo, hardware_version=1.38.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.HTSatChanMapSet> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=00038610387B, architecture=optimo, hardware_version=1.38.1.0-1.0) = 
+INFO:SONOS.sonos.services.base:Waiting for state variable: GroupCoordinatorIsLocal
+DEBUG:SONOS.sonos.services.base:<sonos.services.groupmanagement.GroupManagementService object at 0x7fe2d1869610> requests state variable: Service urn:schemas-upnp-org:service:GroupManagement:1 urn:upnp-org:serviceId:GroupManagement.GroupCoordinatorIsLocal
+DEBUG:SONOS.Coherence.upnp.core.service:subscribing: uuid:RINCON_00038610387B01400_sub0000000008 Service urn:schemas-upnp-org:service:GroupManagement:1 urn:upnp-org:serviceId:GroupManagement
+DEBUG:SONOS.Coherence.upnp.core.service:creating subscription renewal for uuid:RINCON_00038610387B01400_sub0000000008
+DEBUG:SONOS.sonos.services.base:Getting state variable <GroupManagement.GroupCoordinatorIsLocal> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=00038610387B, architecture=optimo, hardware_version=1.38.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <GroupManagement.GroupCoordinatorIsLocal> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=00038610387B, architecture=optimo, hardware_version=1.38.1.0-1.0) = 1
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=00038610387B, architecture=optimo, hardware_version=1.38.1.0-1.0) invokes AVTransport.GetTransportInfo("InstanceID"="0", "headers"="{}")
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=00038610387B, architecture=optimo, hardware_version=1.38.1.0-1.0) AVTransport.GetTransportInfo returns '{'CurrentTransportState': u'STOPPED', 'CurrentTransportStatus': u'OK', 'CurrentSpeed': u'1'}'
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=00038610387B, architecture=optimo, hardware_version=1.38.1.0-1.0) invokes AVTransport.GetTransportInfo("InstanceID"="0", "headers"="{}")
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=00038610387B, architecture=optimo, hardware_version=1.38.1.0-1.0) AVTransport.GetTransportInfo returns '{'CurrentTransportState': u'STOPPED', 'CurrentTransportStatus': u'OK', 'CurrentSpeed': u'1'}'
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=00038610387B, architecture=optimo, hardware_version=1.38.1.0-1.0) invokes RenderingControl.SetVolume("InstanceID"="0", "DesiredVolume"="10", "Channel"="Master", "headers"="{}")
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=00038610387B, architecture=optimo, hardware_version=1.38.1.0-1.0) RenderingControl.SetVolume returns '{}'
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=00038610387B, architecture=optimo, hardware_version=1.38.1.0-1.0) invokes ContentDirectory.Browse("ObjectID"="Q:0", "BrowseFlag"="BrowseDirectChildren", "Filter"="0", "headers"="{}", "RequestedCount"="0", "StartingIndex"="0", "SortCriteria"="")
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=00038610387B, architecture=optimo, hardware_version=1.38.1.0-1.0) ContentDirectory.Browse returns '{'NumberReturned': u'0', 'UpdateID': u'0', 'Result': u'<DIDL-Lite xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:upnp="urn:schemas-upnp-org:metadata-1-0/upnp/" xmlns:r="urn:schemas-rinconnetworks-com:metadata-1-0/" xmlns="urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/"></DIDL-Lite>', 'TotalMatches': u'0'}'

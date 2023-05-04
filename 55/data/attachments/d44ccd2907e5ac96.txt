@@ -1,0 +1,751 @@
+WARNING:SONOS.sonos.test.util.network:Interface 'tunl0' does not have an IPv4 address configured
+INFO:SONOS.MockPlayerCloudServicesControl:Starting mock player cloud services with args: ['//test/javascript/mock-player-cloud-services/mockPlayerServices.js', '-p', '55551', '-t', '10', '-s', '48843', '-m', '52999', '-v']
+INFO:SONOS.MockPlayerCloudServicesControl:Mock player cloud services server started on ports 55551, 48843 (ssl), 52999 (mutual ssl)
+INFO:SONOS.MockPlayerCloudServicesControl:Mock player cloud services server getlog request http://172.18.0.6:55551/request/api/logs
+WARNING:SONOS.utilities.decorators:'get_log' raised an exception <URLError(error(111, 'Connection refused'),)>, attempting 5 retries
+Traceback (most recent call last):
+  File "/test/python/.venv/local/lib/python2.7/site-packages/sonos/test/util/decorators.py", line 67, in do_retries
+    return func(*args, **kwargs)
+  File "/test/python/tests/src/webserver/helpers/mock_player_cloud_services_control.py", line 859, in get_log
+    data = urllib2.urlopen(req).read()
+  File "/usr/lib/python2.7/urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python2.7/urllib2.py", line 429, in open
+    response = self._open(req, data)
+  File "/usr/lib/python2.7/urllib2.py", line 447, in _open
+    '_open', req)
+  File "/usr/lib/python2.7/urllib2.py", line 407, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python2.7/urllib2.py", line 1228, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "/usr/lib/python2.7/urllib2.py", line 1198, in do_open
+    raise URLError(err)
+URLError: <urlopen error [Errno 111] Connection refused>
+INFO:SONOS.MockPlayerCloudServicesControl:Mock player cloud services server getlog request http://172.18.0.6:55551/request/api/logs
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:55551
+DEBUG:urllib3.connectionpool:http://172.18.0.6:55551 "POST /auth/oauth/v3/clients?clientKey=e61bc77c-39cd-4ed0-a5e7-5ad316a0efc5&keyName=test HTTP/1.1" 200 181
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /udplog HTTP/1.1" 200 None
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.251] command: <grep -v "LogToExternal" /jffs/localsettings.txt > /tmp/nokeyword.txt ; mv /tmp/nokeyword.txt /jffs/localsettings.txt>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.251] response: <>
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /udplog HTTP/1.1" 200 None
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.251] command: <grep -v "LogToExternal" /jffs/localsettings.txt > /tmp/nokeyword.txt ; mv /tmp/nokeyword.txt /jffs/localsettings.txt>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.251] response: <>
+WARNING:SONOS.ZP.Logger:Log file cleanup failed, already gone?
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /udplog HTTP/1.1" 200 None
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.251] command: <grep -v "LogToExternal" /jffs/localsettings.txt > /tmp/nokeyword.txt ; mv /tmp/nokeyword.txt /jffs/localsettings.txt>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.251] response: <>
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /udplog?host=172.18.0.6&port=3333 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /status/perf HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /status/tmp/AirPlay.log HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /status/opt/log/anacapa.vi.trace HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /status/opt/log/libassistant.log.2 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /status/opt/log/libassistant.log.1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /status/opt/log/libassistant.log HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /status/opt/log/anacapa.dc.trace HTTP/1.1" 200 None
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.ChannelMapSet> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103861, architecture=optimo, hardware_version=1.38.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.ChannelMapSet> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103861, architecture=optimo, hardware_version=1.38.1.0-1.0) = 
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.HTSatChanMapSet> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103861, architecture=optimo, hardware_version=1.38.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.HTSatChanMapSet> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103861, architecture=optimo, hardware_version=1.38.1.0-1.0) = 
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.HTSatChanMapSet> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103861, architecture=optimo, hardware_version=1.38.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.HTSatChanMapSet> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103861, architecture=optimo, hardware_version=1.38.1.0-1.0) = 
+DEBUG:SONOS.sonos.services.base:Getting state variable <GroupManagement.GroupCoordinatorIsLocal> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103861, architecture=optimo, hardware_version=1.38.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <GroupManagement.GroupCoordinatorIsLocal> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103861, architecture=optimo, hardware_version=1.38.1.0-1.0) = 1
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103861, architecture=optimo, hardware_version=1.38.1.0-1.0) invokes AVTransport.GetTransportInfo("InstanceID"="0", "headers"="{}")
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103861, architecture=optimo, hardware_version=1.38.1.0-1.0) AVTransport.GetTransportInfo returns '{'CurrentTransportState': u'STOPPED', 'CurrentTransportStatus': u'OK', 'CurrentSpeed': u'1'}'
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103861, architecture=optimo, hardware_version=1.38.1.0-1.0) invokes AVTransport.GetTransportInfo("InstanceID"="0", "headers"="{}")
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103861, architecture=optimo, hardware_version=1.38.1.0-1.0) AVTransport.GetTransportInfo returns '{'CurrentTransportState': u'STOPPED', 'CurrentTransportStatus': u'OK', 'CurrentSpeed': u'1'}'
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103861, architecture=optimo, hardware_version=1.38.1.0-1.0) invokes RenderingControl.SetVolume("InstanceID"="0", "DesiredVolume"="10", "Channel"="Master", "headers"="{}")
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103861, architecture=optimo, hardware_version=1.38.1.0-1.0) RenderingControl.SetVolume returns '{}'
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103861, architecture=optimo, hardware_version=1.38.1.0-1.0) invokes ContentDirectory.Browse("ObjectID"="Q:0", "BrowseFlag"="BrowseDirectChildren", "Filter"="0", "headers"="{}", "RequestedCount"="0", "StartingIndex"="0", "SortCriteria"="")
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103861, architecture=optimo, hardware_version=1.38.1.0-1.0) ContentDirectory.Browse returns '{'NumberReturned': u'0', 'UpdateID': u'0', 'Result': u'<DIDL-Lite xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:upnp="urn:schemas-upnp-org:metadata-1-0/upnp/" xmlns:r="urn:schemas-rinconnetworks-com:metadata-1-0/" xmlns="urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/"></DIDL-Lite>', 'TotalMatches': u'0'}'
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103861, architecture=optimo, hardware_version=1.38.1.0-1.0) invokes SystemProperties.GetString("headers"="{}", "VariableName"="O_SONOS_CLOUD_API_TEST_ENV")
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103861, architecture=optimo, hardware_version=1.38.1.0-1.0) SystemProperties.GetString returns '{'StringValue': u'test'}'
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.SecureRegState> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103861, architecture=optimo, hardware_version=1.38.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.SecureRegState> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103861, architecture=optimo, hardware_version=1.38.1.0-1.0) = 3
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103861, architecture=optimo, hardware_version=1.38.1.0-1.0) invokes SystemProperties.GetString("headers"="{}", "VariableName"="O_AUTOMATION_CLOUD_DOMAIN_MUTUAL_SSL")
+WARNING:SONOS.sonos.test.util.network:Interface 'tunl0' does not have an IPv4 address configured
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.251] command: <echo '127.0.0.1       localhost.localdomain   localhost
+255.255.255.255 all-ones                all-ones
+172.18.0.6 feature-config.dev.ws.sonos.com feature-config.dev.ws.sonos.com
+172.18.0.6 lechmere-v1.dev.ws.sonos.com lechmere-v1.dev.ws.sonos.com
+172.18.0.6 music-accounts.dev.ws.sonos.com music-accounts.dev.ws.sonos.com
+172.18.0.6 oauth.dev.ws.sonos.com oauth.dev.ws.sonos.com
+172.18.0.6 registration.dev.ws.sonos.com registration.dev.ws.sonos.com
+172.18.0.6 sca-login.dev.ws.sonos.com sca-login.dev.ws.sonos.com
+172.18.0.6 clientdata.dev.ws.sonos.com clientdata.dev.ws.sonos.com
+172.18.0.6 music-history.dev.ws.sonos.com music-history.dev.ws.sonos.com
+172.18.0.6 recommendation.dev.ws.sonos.com recommendation.dev.ws.sonos.com
+172.18.0.6 thor.dev.ws.sonos.com thor.dev.ws.sonos.com
+' > /etc/hosts>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.251] response: <>
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103861, architecture=optimo, hardware_version=1.38.1.0-1.0) invokes SystemProperties.Remove("headers"="{}", "VariableName"="O_CLOUD_API_BASE_URL")
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103861, architecture=optimo, hardware_version=1.38.1.0-1.0) SystemProperties.Remove returns '{}'
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.252, modelNumber=S39, serialNumber=0003861038FA, architecture=optimo, hardware_version=1.38.1.0-1.0) invokes DeviceProperties.GetHouseholdID("headers"="{}")
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.252, modelNumber=S39, serialNumber=0003861038FA, architecture=optimo, hardware_version=1.38.1.0-1.0) DeviceProperties.GetHouseholdID returns '{'CurrentHouseholdID': u'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP'}'
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103861, architecture=optimo, hardware_version=1.38.1.0-1.0) invokes DeviceProperties.GetHouseholdID("headers"="{}")
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103861, architecture=optimo, hardware_version=1.38.1.0-1.0) DeviceProperties.GetHouseholdID returns '{'CurrentHouseholdID': u'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP'}'
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.250, modelNumber=S26, serialNumber=0003861032A5, architecture=vertigo, hardware_version=1.32.1.0-1.0) invokes DeviceProperties.GetHouseholdID("headers"="{}")
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.250, modelNumber=S26, serialNumber=0003861032A5, architecture=vertigo, hardware_version=1.32.1.0-1.0) DeviceProperties.GetHouseholdID returns '{'CurrentHouseholdID': u'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP'}'
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=000386103685, architecture=fury, hardware_version=1.36.1.0-1.0) invokes DeviceProperties.GetHouseholdID("headers"="{}")
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=000386103685, architecture=fury, hardware_version=1.36.1.0-1.0) DeviceProperties.GetHouseholdID returns '{'CurrentHouseholdID': u'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP'}'
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.SecureRegState> for SonosZoneComponent(ip=172.18.255.252, modelNumber=S39, serialNumber=0003861038FA, architecture=optimo, hardware_version=1.38.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.SecureRegState> for SonosZoneComponent(ip=172.18.255.252, modelNumber=S39, serialNumber=0003861038FA, architecture=optimo, hardware_version=1.38.1.0-1.0) = 3
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.SecureRegState> for SonosZoneComponent(ip=172.18.255.250, modelNumber=S26, serialNumber=0003861032A5, architecture=vertigo, hardware_version=1.32.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.SecureRegState> for SonosZoneComponent(ip=172.18.255.250, modelNumber=S26, serialNumber=0003861032A5, architecture=vertigo, hardware_version=1.32.1.0-1.0) = 3
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.SecureRegState> for SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=000386103685, architecture=fury, hardware_version=1.36.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.SecureRegState> for SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=000386103685, architecture=fury, hardware_version=1.36.1.0-1.0) = 3
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.SecureRegState> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103861, architecture=optimo, hardware_version=1.38.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.SecureRegState> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103861, architecture=optimo, hardware_version=1.38.1.0-1.0) = 3
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.SettingsReplicationState> for SonosZoneComponent(ip=172.18.255.252, modelNumber=S39, serialNumber=0003861038FA, architecture=optimo, hardware_version=1.38.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.SettingsReplicationState> for SonosZoneComponent(ip=172.18.255.252, modelNumber=S39, serialNumber=0003861038FA, architecture=optimo, hardware_version=1.38.1.0-1.0) = RINCON_0003861032A501400,1,RINCON_FFFFFFFFFFFF99999,0,RINCON_0003861032A501400,0,RINCON_0003861032A501400,0,RINCON_00038610386101400,7,RINCON_0003861032A501400,0,RINCON_0003861038FA01400,5,RINCON_FFFFFFFFFFFF99999,0,RINCON_0003861032A501400,8,RINCON_0003861038FA01400,0,RINCON_0003861032A501400,0,RINCON_0003861032A501400,1,RINCON_0003861032A501400,1,RINCON_0003861038FA01400,2,RINCON_0003861032A501400,0,RINCON_00038610368501400,101,RINCON_00038610368501400,9,RINCON_0003861032A501400,0
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.SettingsReplicationState> for SonosZoneComponent(ip=172.18.255.250, modelNumber=S26, serialNumber=0003861032A5, architecture=vertigo, hardware_version=1.32.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.SettingsReplicationState> for SonosZoneComponent(ip=172.18.255.250, modelNumber=S26, serialNumber=0003861032A5, architecture=vertigo, hardware_version=1.32.1.0-1.0) = RINCON_0003861032A501400,1,RINCON_FFFFFFFFFFFF99999,0,RINCON_0003861032A501400,0,RINCON_0003861032A501400,0,RINCON_00038610368501400,6,RINCON_0003861032A501400,0,RINCON_0003861038FA01400,5,RINCON_FFFFFFFFFFFF99999,0,RINCON_0003861032A501400,8,RINCON_0003861032A501400,0,RINCON_0003861032A501400,0,RINCON_0003861032A501400,1,RINCON_0003861032A501400,1,RINCON_0003861038FA01400,2,RINCON_0003861032A501400,0,RINCON_00038610368501400,101,RINCON_00038610368501400,9,RINCON_0003861032A501400,0
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.SettingsReplicationState> for SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=000386103685, architecture=fury, hardware_version=1.36.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.SettingsReplicationState> for SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=000386103685, architecture=fury, hardware_version=1.36.1.0-1.0) = RINCON_0003861032A501400,1,RINCON_FFFFFFFFFFFF99999,0,RINCON_0003861032A501400,0,RINCON_0003861032A501400,0,RINCON_00038610368501400,6,RINCON_0003861032A501400,0,RINCON_0003861038FA01400,5,RINCON_FFFFFFFFFFFF99999,0,RINCON_0003861032A501400,8,RINCON_00038610368501400,0,RINCON_0003861032A501400,0,RINCON_0003861032A501400,1,RINCON_0003861032A501400,1,RINCON_0003861038FA01400,2,RINCON_0003861032A501400,0,RINCON_00038610368501400,101,RINCON_00038610368501400,9,RINCON_0003861032A501400,0
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.SettingsReplicationState> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103861, architecture=optimo, hardware_version=1.38.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.SettingsReplicationState> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103861, architecture=optimo, hardware_version=1.38.1.0-1.0) = RINCON_0003861032A501400,1,RINCON_FFFFFFFFFFFF99999,0,RINCON_0003861032A501400,0,RINCON_0003861032A501400,0,RINCON_00038610386101400,7,RINCON_0003861032A501400,0,RINCON_0003861038FA01400,5,RINCON_FFFFFFFFFFFF99999,0,RINCON_0003861032A501400,8,RINCON_00038610386101400,0,RINCON_0003861032A501400,0,RINCON_0003861032A501400,1,RINCON_0003861032A501400,1,RINCON_0003861038FA01400,2,RINCON_0003861032A501400,0,RINCON_00038610368501400,101,RINCON_00038610368501400,9,RINCON_0003861032A501400,0
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.SettingsReplicationState> for SonosZoneComponent(ip=172.18.255.252, modelNumber=S39, serialNumber=0003861038FA, architecture=optimo, hardware_version=1.38.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.SettingsReplicationState> for SonosZoneComponent(ip=172.18.255.252, modelNumber=S39, serialNumber=0003861038FA, architecture=optimo, hardware_version=1.38.1.0-1.0) = RINCON_0003861032A501400,1,RINCON_FFFFFFFFFFFF99999,0,RINCON_0003861032A501400,0,RINCON_0003861032A501400,0,RINCON_00038610386101400,7,RINCON_0003861032A501400,0,RINCON_0003861038FA01400,5,RINCON_FFFFFFFFFFFF99999,0,RINCON_0003861032A501400,8,RINCON_0003861038FA01400,0,RINCON_0003861032A501400,0,RINCON_0003861032A501400,1,RINCON_0003861032A501400,1,RINCON_0003861038FA01400,2,RINCON_0003861032A501400,0,RINCON_00038610368501400,101,RINCON_00038610368501400,9,RINCON_0003861032A501400,0
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.SettingsReplicationState> for SonosZoneComponent(ip=172.18.255.250, modelNumber=S26, serialNumber=0003861032A5, architecture=vertigo, hardware_version=1.32.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.SettingsReplicationState> for SonosZoneComponent(ip=172.18.255.250, modelNumber=S26, serialNumber=0003861032A5, architecture=vertigo, hardware_version=1.32.1.0-1.0) = RINCON_0003861032A501400,1,RINCON_FFFFFFFFFFFF99999,0,RINCON_0003861032A501400,0,RINCON_0003861032A501400,0,RINCON_00038610386101400,7,RINCON_0003861032A501400,0,RINCON_0003861038FA01400,5,RINCON_FFFFFFFFFFFF99999,0,RINCON_0003861032A501400,8,RINCON_0003861032A501400,0,RINCON_0003861032A501400,0,RINCON_0003861032A501400,1,RINCON_0003861032A501400,1,RINCON_0003861038FA01400,2,RINCON_0003861032A501400,0,RINCON_00038610368501400,101,RINCON_00038610368501400,9,RINCON_0003861032A501400,0
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.SettingsReplicationState> for SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=000386103685, architecture=fury, hardware_version=1.36.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.SettingsReplicationState> for SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=000386103685, architecture=fury, hardware_version=1.36.1.0-1.0) = RINCON_0003861032A501400,1,RINCON_FFFFFFFFFFFF99999,0,RINCON_0003861032A501400,0,RINCON_0003861032A501400,0,RINCON_00038610386101400,7,RINCON_0003861032A501400,0,RINCON_0003861038FA01400,5,RINCON_FFFFFFFFFFFF99999,0,RINCON_0003861032A501400,8,RINCON_00038610368501400,0,RINCON_0003861032A501400,0,RINCON_0003861032A501400,1,RINCON_0003861032A501400,1,RINCON_0003861038FA01400,2,RINCON_0003861032A501400,0,RINCON_00038610368501400,101,RINCON_00038610368501400,9,RINCON_0003861032A501400,0
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.SettingsReplicationState> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103861, architecture=optimo, hardware_version=1.38.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.SettingsReplicationState> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103861, architecture=optimo, hardware_version=1.38.1.0-1.0) = RINCON_0003861032A501400,1,RINCON_FFFFFFFFFFFF99999,0,RINCON_0003861032A501400,0,RINCON_0003861032A501400,0,RINCON_00038610386101400,7,RINCON_0003861032A501400,0,RINCON_0003861038FA01400,5,RINCON_FFFFFFFFFFFF99999,0,RINCON_0003861032A501400,8,RINCON_00038610386101400,0,RINCON_0003861032A501400,0,RINCON_0003861032A501400,1,RINCON_0003861032A501400,1,RINCON_0003861038FA01400,2,RINCON_0003861032A501400,0,RINCON_00038610368501400,101,RINCON_00038610368501400,9,RINCON_0003861032A501400,0
+INFO:SONOS.sonos.services.common:wait_until_true: Waited 2.08823013306 seconds
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103861, architecture=optimo, hardware_version=1.38.1.0-1.0) invokes SystemProperties.GetString("headers"="{}", "VariableName"="O_AUTOMATION_CLOUD_DOMAIN")
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.SecureRegState> for SonosZoneComponent(ip=172.18.255.252, modelNumber=S39, serialNumber=0003861038FA, architecture=optimo, hardware_version=1.38.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.SecureRegState> for SonosZoneComponent(ip=172.18.255.252, modelNumber=S39, serialNumber=0003861038FA, architecture=optimo, hardware_version=1.38.1.0-1.0) = 3
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.SecureRegState> for SonosZoneComponent(ip=172.18.255.250, modelNumber=S26, serialNumber=0003861032A5, architecture=vertigo, hardware_version=1.32.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.SecureRegState> for SonosZoneComponent(ip=172.18.255.250, modelNumber=S26, serialNumber=0003861032A5, architecture=vertigo, hardware_version=1.32.1.0-1.0) = 3
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.SecureRegState> for SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=000386103685, architecture=fury, hardware_version=1.36.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.SecureRegState> for SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=000386103685, architecture=fury, hardware_version=1.36.1.0-1.0) = 3
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.SecureRegState> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103861, architecture=optimo, hardware_version=1.38.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.SecureRegState> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103861, architecture=optimo, hardware_version=1.38.1.0-1.0) = 3
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.SettingsReplicationState> for SonosZoneComponent(ip=172.18.255.252, modelNumber=S39, serialNumber=0003861038FA, architecture=optimo, hardware_version=1.38.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.SettingsReplicationState> for SonosZoneComponent(ip=172.18.255.252, modelNumber=S39, serialNumber=0003861038FA, architecture=optimo, hardware_version=1.38.1.0-1.0) = RINCON_0003861032A501400,1,RINCON_FFFFFFFFFFFF99999,0,RINCON_0003861032A501400,0,RINCON_0003861032A501400,0,RINCON_00038610386101400,7,RINCON_0003861032A501400,0,RINCON_0003861038FA01400,5,RINCON_FFFFFFFFFFFF99999,0,RINCON_0003861032A501400,8,RINCON_0003861038FA01400,0,RINCON_0003861032A501400,0,RINCON_0003861032A501400,1,RINCON_0003861032A501400,1,RINCON_0003861038FA01400,2,RINCON_0003861032A501400,0,RINCON_00038610368501400,101,RINCON_00038610368501400,9,RINCON_0003861032A501400,0
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.SettingsReplicationState> for SonosZoneComponent(ip=172.18.255.250, modelNumber=S26, serialNumber=0003861032A5, architecture=vertigo, hardware_version=1.32.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.SettingsReplicationState> for SonosZoneComponent(ip=172.18.255.250, modelNumber=S26, serialNumber=0003861032A5, architecture=vertigo, hardware_version=1.32.1.0-1.0) = RINCON_0003861032A501400,1,RINCON_FFFFFFFFFFFF99999,0,RINCON_0003861032A501400,0,RINCON_0003861032A501400,0,RINCON_00038610386101400,7,RINCON_0003861032A501400,0,RINCON_0003861038FA01400,5,RINCON_FFFFFFFFFFFF99999,0,RINCON_0003861032A501400,8,RINCON_0003861032A501400,0,RINCON_0003861032A501400,0,RINCON_0003861032A501400,1,RINCON_0003861032A501400,1,RINCON_0003861038FA01400,2,RINCON_0003861032A501400,0,RINCON_00038610368501400,101,RINCON_00038610368501400,9,RINCON_0003861032A501400,0
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.SettingsReplicationState> for SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=000386103685, architecture=fury, hardware_version=1.36.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.SettingsReplicationState> for SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=000386103685, architecture=fury, hardware_version=1.36.1.0-1.0) = RINCON_0003861032A501400,1,RINCON_FFFFFFFFFFFF99999,0,RINCON_0003861032A501400,0,RINCON_0003861032A501400,0,RINCON_00038610386101400,7,RINCON_0003861032A501400,0,RINCON_0003861038FA01400,5,RINCON_FFFFFFFFFFFF99999,0,RINCON_0003861032A501400,8,RINCON_00038610368501400,0,RINCON_0003861032A501400,0,RINCON_0003861032A501400,1,RINCON_0003861032A501400,1,RINCON_0003861038FA01400,2,RINCON_0003861032A501400,0,RINCON_00038610368501400,101,RINCON_00038610368501400,9,RINCON_0003861032A501400,0
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.SettingsReplicationState> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103861, architecture=optimo, hardware_version=1.38.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.SettingsReplicationState> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103861, architecture=optimo, hardware_version=1.38.1.0-1.0) = RINCON_0003861032A501400,1,RINCON_FFFFFFFFFFFF99999,0,RINCON_0003861032A501400,0,RINCON_0003861032A501400,0,RINCON_00038610386101400,7,RINCON_0003861032A501400,0,RINCON_0003861038FA01400,5,RINCON_FFFFFFFFFFFF99999,0,RINCON_0003861032A501400,8,RINCON_00038610386101400,0,RINCON_0003861032A501400,0,RINCON_0003861032A501400,1,RINCON_0003861032A501400,1,RINCON_0003861038FA01400,2,RINCON_0003861032A501400,0,RINCON_00038610368501400,101,RINCON_00038610368501400,9,RINCON_0003861032A501400,0
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103861, architecture=optimo, hardware_version=1.38.1.0-1.0) invokes SystemProperties.SetString("StringValue"="dev.ws.sonos.com:48843", "VariableName"="O_AUTOMATION_CLOUD_DOMAIN", "headers"="{}")
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103861, architecture=optimo, hardware_version=1.38.1.0-1.0) SystemProperties.SetString returns '{}'
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.SecureRegState> for SonosZoneComponent(ip=172.18.255.252, modelNumber=S39, serialNumber=0003861038FA, architecture=optimo, hardware_version=1.38.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.SecureRegState> for SonosZoneComponent(ip=172.18.255.252, modelNumber=S39, serialNumber=0003861038FA, architecture=optimo, hardware_version=1.38.1.0-1.0) = 3
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.SecureRegState> for SonosZoneComponent(ip=172.18.255.250, modelNumber=S26, serialNumber=0003861032A5, architecture=vertigo, hardware_version=1.32.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.SecureRegState> for SonosZoneComponent(ip=172.18.255.250, modelNumber=S26, serialNumber=0003861032A5, architecture=vertigo, hardware_version=1.32.1.0-1.0) = 3
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.SecureRegState> for SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=000386103685, architecture=fury, hardware_version=1.36.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.SecureRegState> for SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=000386103685, architecture=fury, hardware_version=1.36.1.0-1.0) = 3
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.SecureRegState> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103861, architecture=optimo, hardware_version=1.38.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.SecureRegState> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103861, architecture=optimo, hardware_version=1.38.1.0-1.0) = 3
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.SettingsReplicationState> for SonosZoneComponent(ip=172.18.255.252, modelNumber=S39, serialNumber=0003861038FA, architecture=optimo, hardware_version=1.38.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.SettingsReplicationState> for SonosZoneComponent(ip=172.18.255.252, modelNumber=S39, serialNumber=0003861038FA, architecture=optimo, hardware_version=1.38.1.0-1.0) = RINCON_0003861032A501400,1,RINCON_FFFFFFFFFFFF99999,0,RINCON_0003861032A501400,0,RINCON_0003861032A501400,0,RINCON_00038610386101400,8,RINCON_0003861032A501400,0,RINCON_0003861038FA01400,5,RINCON_FFFFFFFFFFFF99999,0,RINCON_0003861032A501400,8,RINCON_0003861038FA01400,0,RINCON_0003861032A501400,0,RINCON_0003861032A501400,1,RINCON_0003861032A501400,1,RINCON_0003861038FA01400,2,RINCON_0003861032A501400,0,RINCON_00038610368501400,101,RINCON_00038610368501400,9,RINCON_0003861032A501400,0
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.SettingsReplicationState> for SonosZoneComponent(ip=172.18.255.250, modelNumber=S26, serialNumber=0003861032A5, architecture=vertigo, hardware_version=1.32.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.SettingsReplicationState> for SonosZoneComponent(ip=172.18.255.250, modelNumber=S26, serialNumber=0003861032A5, architecture=vertigo, hardware_version=1.32.1.0-1.0) = RINCON_0003861032A501400,1,RINCON_FFFFFFFFFFFF99999,0,RINCON_0003861032A501400,0,RINCON_0003861032A501400,0,RINCON_00038610386101400,8,RINCON_0003861032A501400,0,RINCON_0003861038FA01400,5,RINCON_FFFFFFFFFFFF99999,0,RINCON_0003861032A501400,8,RINCON_0003861032A501400,0,RINCON_0003861032A501400,0,RINCON_0003861032A501400,1,RINCON_0003861032A501400,1,RINCON_0003861038FA01400,2,RINCON_0003861032A501400,0,RINCON_00038610368501400,101,RINCON_00038610368501400,9,RINCON_0003861032A501400,0
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.SettingsReplicationState> for SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=000386103685, architecture=fury, hardware_version=1.36.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.SettingsReplicationState> for SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=000386103685, architecture=fury, hardware_version=1.36.1.0-1.0) = RINCON_0003861032A501400,1,RINCON_FFFFFFFFFFFF99999,0,RINCON_0003861032A501400,0,RINCON_0003861032A501400,0,RINCON_00038610386101400,8,RINCON_0003861032A501400,0,RINCON_0003861038FA01400,5,RINCON_FFFFFFFFFFFF99999,0,RINCON_0003861032A501400,8,RINCON_00038610368501400,0,RINCON_0003861032A501400,0,RINCON_0003861032A501400,1,RINCON_0003861032A501400,1,RINCON_0003861038FA01400,2,RINCON_0003861032A501400,0,RINCON_00038610368501400,101,RINCON_00038610368501400,9,RINCON_0003861032A501400,0
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.SettingsReplicationState> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103861, architecture=optimo, hardware_version=1.38.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.SettingsReplicationState> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103861, architecture=optimo, hardware_version=1.38.1.0-1.0) = RINCON_0003861032A501400,1,RINCON_FFFFFFFFFFFF99999,0,RINCON_0003861032A501400,0,RINCON_0003861032A501400,0,RINCON_00038610386101400,8,RINCON_0003861032A501400,0,RINCON_0003861038FA01400,5,RINCON_FFFFFFFFFFFF99999,0,RINCON_0003861032A501400,8,RINCON_00038610386101400,0,RINCON_0003861032A501400,0,RINCON_0003861032A501400,1,RINCON_0003861032A501400,1,RINCON_0003861038FA01400,2,RINCON_0003861032A501400,0,RINCON_00038610368501400,101,RINCON_00038610368501400,9,RINCON_0003861032A501400,0
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103861, architecture=optimo, hardware_version=1.38.1.0-1.0) invokes SystemProperties.GetString("headers"="{}", "VariableName"="O_AUTOMATION_CLOUD_DOMAIN_MUTUAL_SSL")
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.SecureRegState> for SonosZoneComponent(ip=172.18.255.252, modelNumber=S39, serialNumber=0003861038FA, architecture=optimo, hardware_version=1.38.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.SecureRegState> for SonosZoneComponent(ip=172.18.255.252, modelNumber=S39, serialNumber=0003861038FA, architecture=optimo, hardware_version=1.38.1.0-1.0) = 3
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.SecureRegState> for SonosZoneComponent(ip=172.18.255.250, modelNumber=S26, serialNumber=0003861032A5, architecture=vertigo, hardware_version=1.32.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.SecureRegState> for SonosZoneComponent(ip=172.18.255.250, modelNumber=S26, serialNumber=0003861032A5, architecture=vertigo, hardware_version=1.32.1.0-1.0) = 3
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.SecureRegState> for SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=000386103685, architecture=fury, hardware_version=1.36.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.SecureRegState> for SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=000386103685, architecture=fury, hardware_version=1.36.1.0-1.0) = 3
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.SecureRegState> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103861, architecture=optimo, hardware_version=1.38.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.SecureRegState> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103861, architecture=optimo, hardware_version=1.38.1.0-1.0) = 3
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.SettingsReplicationState> for SonosZoneComponent(ip=172.18.255.252, modelNumber=S39, serialNumber=0003861038FA, architecture=optimo, hardware_version=1.38.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.SettingsReplicationState> for SonosZoneComponent(ip=172.18.255.252, modelNumber=S39, serialNumber=0003861038FA, architecture=optimo, hardware_version=1.38.1.0-1.0) = RINCON_0003861032A501400,1,RINCON_FFFFFFFFFFFF99999,0,RINCON_0003861032A501400,0,RINCON_0003861032A501400,0,RINCON_00038610386101400,8,RINCON_0003861032A501400,0,RINCON_0003861038FA01400,5,RINCON_FFFFFFFFFFFF99999,0,RINCON_0003861032A501400,8,RINCON_0003861038FA01400,0,RINCON_0003861032A501400,0,RINCON_0003861032A501400,1,RINCON_0003861032A501400,1,RINCON_0003861038FA01400,2,RINCON_0003861032A501400,0,RINCON_00038610368501400,101,RINCON_00038610368501400,9,RINCON_0003861032A501400,0
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.SettingsReplicationState> for SonosZoneComponent(ip=172.18.255.250, modelNumber=S26, serialNumber=0003861032A5, architecture=vertigo, hardware_version=1.32.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.SettingsReplicationState> for SonosZoneComponent(ip=172.18.255.250, modelNumber=S26, serialNumber=0003861032A5, architecture=vertigo, hardware_version=1.32.1.0-1.0) = RINCON_0003861032A501400,1,RINCON_FFFFFFFFFFFF99999,0,RINCON_0003861032A501400,0,RINCON_0003861032A501400,0,RINCON_00038610386101400,8,RINCON_0003861032A501400,0,RINCON_0003861038FA01400,5,RINCON_FFFFFFFFFFFF99999,0,RINCON_0003861032A501400,8,RINCON_0003861032A501400,0,RINCON_0003861032A501400,0,RINCON_0003861032A501400,1,RINCON_0003861032A501400,1,RINCON_0003861038FA01400,2,RINCON_0003861032A501400,0,RINCON_00038610368501400,101,RINCON_00038610368501400,9,RINCON_0003861032A501400,0
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.SettingsReplicationState> for SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=000386103685, architecture=fury, hardware_version=1.36.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.SettingsReplicationState> for SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=000386103685, architecture=fury, hardware_version=1.36.1.0-1.0) = RINCON_0003861032A501400,1,RINCON_FFFFFFFFFFFF99999,0,RINCON_0003861032A501400,0,RINCON_0003861032A501400,0,RINCON_00038610386101400,8,RINCON_0003861032A501400,0,RINCON_0003861038FA01400,5,RINCON_FFFFFFFFFFFF99999,0,RINCON_0003861032A501400,8,RINCON_00038610368501400,0,RINCON_0003861032A501400,0,RINCON_0003861032A501400,1,RINCON_0003861032A501400,1,RINCON_0003861038FA01400,2,RINCON_0003861032A501400,0,RINCON_00038610368501400,101,RINCON_00038610368501400,9,RINCON_0003861032A501400,0
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.SettingsReplicationState> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103861, architecture=optimo, hardware_version=1.38.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.SettingsReplicationState> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103861, architecture=optimo, hardware_version=1.38.1.0-1.0) = RINCON_0003861032A501400,1,RINCON_FFFFFFFFFFFF99999,0,RINCON_0003861032A501400,0,RINCON_0003861032A501400,0,RINCON_00038610386101400,8,RINCON_0003861032A501400,0,RINCON_0003861038FA01400,5,RINCON_FFFFFFFFFFFF99999,0,RINCON_0003861032A501400,8,RINCON_00038610386101400,0,RINCON_0003861032A501400,0,RINCON_0003861032A501400,1,RINCON_0003861032A501400,1,RINCON_0003861038FA01400,2,RINCON_0003861032A501400,0,RINCON_00038610368501400,101,RINCON_00038610368501400,9,RINCON_0003861032A501400,0
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103861, architecture=optimo, hardware_version=1.38.1.0-1.0) invokes SystemProperties.SetString("StringValue"="dev.ws.sonos.com:52999", "VariableName"="O_AUTOMATION_CLOUD_DOMAIN_MUTUAL_SSL", "headers"="{}")
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103861, architecture=optimo, hardware_version=1.38.1.0-1.0) SystemProperties.SetString returns '{}'
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.SecureRegState> for SonosZoneComponent(ip=172.18.255.252, modelNumber=S39, serialNumber=0003861038FA, architecture=optimo, hardware_version=1.38.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.SecureRegState> for SonosZoneComponent(ip=172.18.255.252, modelNumber=S39, serialNumber=0003861038FA, architecture=optimo, hardware_version=1.38.1.0-1.0) = 3
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.SecureRegState> for SonosZoneComponent(ip=172.18.255.250, modelNumber=S26, serialNumber=0003861032A5, architecture=vertigo, hardware_version=1.32.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.SecureRegState> for SonosZoneComponent(ip=172.18.255.250, modelNumber=S26, serialNumber=0003861032A5, architecture=vertigo, hardware_version=1.32.1.0-1.0) = 3
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.SecureRegState> for SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=000386103685, architecture=fury, hardware_version=1.36.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.SecureRegState> for SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=000386103685, architecture=fury, hardware_version=1.36.1.0-1.0) = 3
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.SecureRegState> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103861, architecture=optimo, hardware_version=1.38.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.SecureRegState> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103861, architecture=optimo, hardware_version=1.38.1.0-1.0) = 3
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.SettingsReplicationState> for SonosZoneComponent(ip=172.18.255.252, modelNumber=S39, serialNumber=0003861038FA, architecture=optimo, hardware_version=1.38.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.SettingsReplicationState> for SonosZoneComponent(ip=172.18.255.252, modelNumber=S39, serialNumber=0003861038FA, architecture=optimo, hardware_version=1.38.1.0-1.0) = RINCON_0003861032A501400,1,RINCON_FFFFFFFFFFFF99999,0,RINCON_0003861032A501400,0,RINCON_0003861032A501400,0,RINCON_00038610386101400,8,RINCON_0003861032A501400,0,RINCON_0003861038FA01400,5,RINCON_FFFFFFFFFFFF99999,0,RINCON_0003861032A501400,8,RINCON_0003861038FA01400,0,RINCON_0003861032A501400,0,RINCON_0003861032A501400,1,RINCON_0003861032A501400,1,RINCON_0003861038FA01400,2,RINCON_0003861032A501400,0,RINCON_00038610368501400,101,RINCON_00038610368501400,9,RINCON_0003861032A501400,0
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.SettingsReplicationState> for SonosZoneComponent(ip=172.18.255.250, modelNumber=S26, serialNumber=0003861032A5, architecture=vertigo, hardware_version=1.32.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.SettingsReplicationState> for SonosZoneComponent(ip=172.18.255.250, modelNumber=S26, serialNumber=0003861032A5, architecture=vertigo, hardware_version=1.32.1.0-1.0) = RINCON_0003861032A501400,1,RINCON_FFFFFFFFFFFF99999,0,RINCON_0003861032A501400,0,RINCON_0003861032A501400,0,RINCON_00038610386101400,8,RINCON_0003861032A501400,0,RINCON_0003861038FA01400,5,RINCON_FFFFFFFFFFFF99999,0,RINCON_0003861032A501400,8,RINCON_0003861032A501400,0,RINCON_0003861032A501400,0,RINCON_0003861032A501400,1,RINCON_0003861032A501400,1,RINCON_0003861038FA01400,2,RINCON_0003861032A501400,0,RINCON_00038610368501400,101,RINCON_00038610368501400,9,RINCON_0003861032A501400,0
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.SettingsReplicationState> for SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=000386103685, architecture=fury, hardware_version=1.36.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.SettingsReplicationState> for SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=000386103685, architecture=fury, hardware_version=1.36.1.0-1.0) = RINCON_0003861032A501400,1,RINCON_FFFFFFFFFFFF99999,0,RINCON_0003861032A501400,0,RINCON_0003861032A501400,0,RINCON_00038610386101400,8,RINCON_0003861032A501400,0,RINCON_0003861038FA01400,5,RINCON_FFFFFFFFFFFF99999,0,RINCON_0003861032A501400,8,RINCON_00038610368501400,0,RINCON_0003861032A501400,0,RINCON_0003861032A501400,1,RINCON_0003861032A501400,1,RINCON_0003861038FA01400,2,RINCON_0003861032A501400,0,RINCON_00038610368501400,101,RINCON_00038610368501400,9,RINCON_0003861032A501400,0
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.SettingsReplicationState> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103861, architecture=optimo, hardware_version=1.38.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.SettingsReplicationState> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103861, architecture=optimo, hardware_version=1.38.1.0-1.0) = RINCON_0003861032A501400,1,RINCON_FFFFFFFFFFFF99999,0,RINCON_0003861032A501400,0,RINCON_0003861032A501400,0,RINCON_00038610386101400,9,RINCON_0003861032A501400,0,RINCON_0003861038FA01400,5,RINCON_FFFFFFFFFFFF99999,0,RINCON_0003861032A501400,8,RINCON_00038610386101400,0,RINCON_0003861032A501400,0,RINCON_0003861032A501400,1,RINCON_0003861032A501400,1,RINCON_0003861038FA01400,2,RINCON_0003861032A501400,0,RINCON_00038610368501400,101,RINCON_00038610368501400,9,RINCON_0003861032A501400,0
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.SettingsReplicationState> for SonosZoneComponent(ip=172.18.255.252, modelNumber=S39, serialNumber=0003861038FA, architecture=optimo, hardware_version=1.38.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.SettingsReplicationState> for SonosZoneComponent(ip=172.18.255.252, modelNumber=S39, serialNumber=0003861038FA, architecture=optimo, hardware_version=1.38.1.0-1.0) = RINCON_0003861032A501400,1,RINCON_FFFFFFFFFFFF99999,0,RINCON_0003861032A501400,0,RINCON_0003861032A501400,0,RINCON_00038610386101400,9,RINCON_0003861032A501400,0,RINCON_0003861038FA01400,5,RINCON_FFFFFFFFFFFF99999,0,RINCON_0003861032A501400,8,RINCON_0003861038FA01400,0,RINCON_0003861032A501400,0,RINCON_0003861032A501400,1,RINCON_0003861032A501400,1,RINCON_0003861038FA01400,2,RINCON_0003861032A501400,0,RINCON_00038610368501400,101,RINCON_00038610368501400,9,RINCON_0003861032A501400,0
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.SettingsReplicationState> for SonosZoneComponent(ip=172.18.255.250, modelNumber=S26, serialNumber=0003861032A5, architecture=vertigo, hardware_version=1.32.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.SettingsReplicationState> for SonosZoneComponent(ip=172.18.255.250, modelNumber=S26, serialNumber=0003861032A5, architecture=vertigo, hardware_version=1.32.1.0-1.0) = RINCON_0003861032A501400,1,RINCON_FFFFFFFFFFFF99999,0,RINCON_0003861032A501400,0,RINCON_0003861032A501400,0,RINCON_00038610386101400,9,RINCON_0003861032A501400,0,RINCON_0003861038FA01400,5,RINCON_FFFFFFFFFFFF99999,0,RINCON_0003861032A501400,8,RINCON_0003861032A501400,0,RINCON_0003861032A501400,0,RINCON_0003861032A501400,1,RINCON_0003861032A501400,1,RINCON_0003861038FA01400,2,RINCON_0003861032A501400,0,RINCON_00038610368501400,101,RINCON_00038610368501400,9,RINCON_0003861032A501400,0
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.SettingsReplicationState> for SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=000386103685, architecture=fury, hardware_version=1.36.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.SettingsReplicationState> for SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=000386103685, architecture=fury, hardware_version=1.36.1.0-1.0) = RINCON_0003861032A501400,1,RINCON_FFFFFFFFFFFF99999,0,RINCON_0003861032A501400,0,RINCON_0003861032A501400,0,RINCON_00038610386101400,9,RINCON_0003861032A501400,0,RINCON_0003861038FA01400,5,RINCON_FFFFFFFFFFFF99999,0,RINCON_0003861032A501400,8,RINCON_00038610368501400,0,RINCON_0003861032A501400,0,RINCON_0003861032A501400,1,RINCON_0003861032A501400,1,RINCON_0003861038FA01400,2,RINCON_0003861032A501400,0,RINCON_00038610368501400,101,RINCON_00038610368501400,9,RINCON_0003861032A501400,0
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.SettingsReplicationState> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103861, architecture=optimo, hardware_version=1.38.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.SettingsReplicationState> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103861, architecture=optimo, hardware_version=1.38.1.0-1.0) = RINCON_0003861032A501400,1,RINCON_FFFFFFFFFFFF99999,0,RINCON_0003861032A501400,0,RINCON_0003861032A501400,0,RINCON_00038610386101400,9,RINCON_0003861032A501400,0,RINCON_0003861038FA01400,5,RINCON_FFFFFFFFFFFF99999,0,RINCON_0003861032A501400,8,RINCON_00038610386101400,0,RINCON_0003861032A501400,0,RINCON_0003861032A501400,1,RINCON_0003861032A501400,1,RINCON_0003861038FA01400,2,RINCON_0003861032A501400,0,RINCON_00038610368501400,101,RINCON_00038610368501400,9,RINCON_0003861032A501400,0
+INFO:SONOS.sonos.services.common:wait_until_true: Waited 2.07942295074 seconds
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103861, architecture=optimo, hardware_version=1.38.1.0-1.0) invokes SystemProperties.GetString("headers"="{}", "VariableName"="O_SONOS_CLOUD_API_TEST_ENV")
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103861, architecture=optimo, hardware_version=1.38.1.0-1.0) SystemProperties.GetString returns '{'StringValue': u'test'}'
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103861, architecture=optimo, hardware_version=1.38.1.0-1.0) invokes SystemProperties.SetString("StringValue"="test", "VariableName"="O_SONOS_CLOUD_API_TEST_ENV", "headers"="{}")
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103861, architecture=optimo, hardware_version=1.38.1.0-1.0) SystemProperties.SetString returns '{}'
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.SecureRegState> for SonosZoneComponent(ip=172.18.255.252, modelNumber=S39, serialNumber=0003861038FA, architecture=optimo, hardware_version=1.38.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.SecureRegState> for SonosZoneComponent(ip=172.18.255.252, modelNumber=S39, serialNumber=0003861038FA, architecture=optimo, hardware_version=1.38.1.0-1.0) = 3
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.SecureRegState> for SonosZoneComponent(ip=172.18.255.250, modelNumber=S26, serialNumber=0003861032A5, architecture=vertigo, hardware_version=1.32.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.SecureRegState> for SonosZoneComponent(ip=172.18.255.250, modelNumber=S26, serialNumber=0003861032A5, architecture=vertigo, hardware_version=1.32.1.0-1.0) = 3
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.SecureRegState> for SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=000386103685, architecture=fury, hardware_version=1.36.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.SecureRegState> for SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=000386103685, architecture=fury, hardware_version=1.36.1.0-1.0) = 3
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.SecureRegState> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103861, architecture=optimo, hardware_version=1.38.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.SecureRegState> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103861, architecture=optimo, hardware_version=1.38.1.0-1.0) = 3
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.SettingsReplicationState> for SonosZoneComponent(ip=172.18.255.252, modelNumber=S39, serialNumber=0003861038FA, architecture=optimo, hardware_version=1.38.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.SettingsReplicationState> for SonosZoneComponent(ip=172.18.255.252, modelNumber=S39, serialNumber=0003861038FA, architecture=optimo, hardware_version=1.38.1.0-1.0) = RINCON_0003861032A501400,1,RINCON_FFFFFFFFFFFF99999,0,RINCON_0003861032A501400,0,RINCON_0003861032A501400,0,RINCON_00038610386101400,10,RINCON_0003861032A501400,0,RINCON_0003861038FA01400,5,RINCON_FFFFFFFFFFFF99999,0,RINCON_0003861032A501400,8,RINCON_0003861038FA01400,0,RINCON_0003861032A501400,0,RINCON_0003861032A501400,1,RINCON_0003861032A501400,1,RINCON_0003861038FA01400,2,RINCON_0003861032A501400,0,RINCON_00038610368501400,101,RINCON_00038610368501400,9,RINCON_0003861032A501400,0
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.SettingsReplicationState> for SonosZoneComponent(ip=172.18.255.250, modelNumber=S26, serialNumber=0003861032A5, architecture=vertigo, hardware_version=1.32.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.SettingsReplicationState> for SonosZoneComponent(ip=172.18.255.250, modelNumber=S26, serialNumber=0003861032A5, architecture=vertigo, hardware_version=1.32.1.0-1.0) = RINCON_0003861032A501400,1,RINCON_FFFFFFFFFFFF99999,0,RINCON_0003861032A501400,0,RINCON_0003861032A501400,0,RINCON_00038610386101400,10,RINCON_0003861032A501400,0,RINCON_0003861038FA01400,5,RINCON_FFFFFFFFFFFF99999,0,RINCON_0003861032A501400,8,RINCON_0003861032A501400,0,RINCON_0003861032A501400,0,RINCON_0003861032A501400,1,RINCON_0003861032A501400,1,RINCON_0003861038FA01400,2,RINCON_0003861032A501400,0,RINCON_00038610368501400,101,RINCON_00038610368501400,9,RINCON_0003861032A501400,0
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.SettingsReplicationState> for SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=000386103685, architecture=fury, hardware_version=1.36.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.SettingsReplicationState> for SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=000386103685, architecture=fury, hardware_version=1.36.1.0-1.0) = RINCON_0003861032A501400,1,RINCON_FFFFFFFFFFFF99999,0,RINCON_0003861032A501400,0,RINCON_0003861032A501400,0,RINCON_00038610386101400,9,RINCON_0003861032A501400,0,RINCON_0003861038FA01400,5,RINCON_FFFFFFFFFFFF99999,0,RINCON_0003861032A501400,8,RINCON_00038610368501400,0,RINCON_0003861032A501400,0,RINCON_0003861032A501400,1,RINCON_0003861032A501400,1,RINCON_0003861038FA01400,2,RINCON_0003861032A501400,0,RINCON_00038610368501400,101,RINCON_00038610368501400,9,RINCON_0003861032A501400,0
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.SettingsReplicationState> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103861, architecture=optimo, hardware_version=1.38.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.SettingsReplicationState> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103861, architecture=optimo, hardware_version=1.38.1.0-1.0) = RINCON_0003861032A501400,1,RINCON_FFFFFFFFFFFF99999,0,RINCON_0003861032A501400,0,RINCON_0003861032A501400,0,RINCON_00038610386101400,10,RINCON_0003861032A501400,0,RINCON_0003861038FA01400,5,RINCON_FFFFFFFFFFFF99999,0,RINCON_0003861032A501400,8,RINCON_00038610386101400,0,RINCON_0003861032A501400,0,RINCON_0003861032A501400,1,RINCON_0003861032A501400,1,RINCON_0003861038FA01400,2,RINCON_0003861032A501400,0,RINCON_00038610368501400,101,RINCON_00038610368501400,9,RINCON_0003861032A501400,0
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.SettingsReplicationState> for SonosZoneComponent(ip=172.18.255.252, modelNumber=S39, serialNumber=0003861038FA, architecture=optimo, hardware_version=1.38.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.SettingsReplicationState> for SonosZoneComponent(ip=172.18.255.252, modelNumber=S39, serialNumber=0003861038FA, architecture=optimo, hardware_version=1.38.1.0-1.0) = RINCON_0003861032A501400,1,RINCON_FFFFFFFFFFFF99999,0,RINCON_0003861032A501400,0,RINCON_0003861032A501400,0,RINCON_00038610386101400,10,RINCON_0003861032A501400,0,RINCON_0003861038FA01400,5,RINCON_FFFFFFFFFFFF99999,0,RINCON_0003861032A501400,8,RINCON_0003861038FA01400,0,RINCON_0003861032A501400,0,RINCON_0003861032A501400,1,RINCON_0003861032A501400,1,RINCON_0003861038FA01400,2,RINCON_0003861032A501400,0,RINCON_00038610368501400,101,RINCON_00038610368501400,9,RINCON_0003861032A501400,0
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.SettingsReplicationState> for SonosZoneComponent(ip=172.18.255.250, modelNumber=S26, serialNumber=0003861032A5, architecture=vertigo, hardware_version=1.32.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.SettingsReplicationState> for SonosZoneComponent(ip=172.18.255.250, modelNumber=S26, serialNumber=0003861032A5, architecture=vertigo, hardware_version=1.32.1.0-1.0) = RINCON_0003861032A501400,1,RINCON_FFFFFFFFFFFF99999,0,RINCON_0003861032A501400,0,RINCON_0003861032A501400,0,RINCON_00038610386101400,10,RINCON_0003861032A501400,0,RINCON_0003861038FA01400,5,RINCON_FFFFFFFFFFFF99999,0,RINCON_0003861032A501400,8,RINCON_0003861032A501400,0,RINCON_0003861032A501400,0,RINCON_0003861032A501400,1,RINCON_0003861032A501400,1,RINCON_0003861038FA01400,2,RINCON_0003861032A501400,0,RINCON_00038610368501400,101,RINCON_00038610368501400,9,RINCON_0003861032A501400,0
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.SettingsReplicationState> for SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=000386103685, architecture=fury, hardware_version=1.36.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.SettingsReplicationState> for SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=000386103685, architecture=fury, hardware_version=1.36.1.0-1.0) = RINCON_0003861032A501400,1,RINCON_FFFFFFFFFFFF99999,0,RINCON_0003861032A501400,0,RINCON_0003861032A501400,0,RINCON_00038610386101400,10,RINCON_0003861032A501400,0,RINCON_0003861038FA01400,5,RINCON_FFFFFFFFFFFF99999,0,RINCON_0003861032A501400,8,RINCON_00038610368501400,0,RINCON_0003861032A501400,0,RINCON_0003861032A501400,1,RINCON_0003861032A501400,1,RINCON_0003861038FA01400,2,RINCON_0003861032A501400,0,RINCON_00038610368501400,101,RINCON_00038610368501400,9,RINCON_0003861032A501400,0
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.SettingsReplicationState> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103861, architecture=optimo, hardware_version=1.38.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.SettingsReplicationState> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103861, architecture=optimo, hardware_version=1.38.1.0-1.0) = RINCON_0003861032A501400,1,RINCON_FFFFFFFFFFFF99999,0,RINCON_0003861032A501400,0,RINCON_0003861032A501400,0,RINCON_00038610386101400,10,RINCON_0003861032A501400,0,RINCON_0003861038FA01400,5,RINCON_FFFFFFFFFFFF99999,0,RINCON_0003861032A501400,8,RINCON_00038610386101400,0,RINCON_0003861032A501400,0,RINCON_0003861032A501400,1,RINCON_0003861032A501400,1,RINCON_0003861038FA01400,2,RINCON_0003861032A501400,0,RINCON_00038610368501400,101,RINCON_00038610368501400,9,RINCON_0003861032A501400,0
+INFO:SONOS.sonos.services.common:wait_until_true: Waited 2.08183002472 seconds
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103861, architecture=optimo, hardware_version=1.38.1.0-1.0) invokes SystemProperties.GetString("headers"="{}", "VariableName"="R_CustomerID")
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103861, architecture=optimo, hardware_version=1.38.1.0-1.0) SystemProperties.GetString returns '{'StringValue': u'998936323'}'
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:55551
+DEBUG:urllib3.connectionpool:http://172.18.0.6:55551 "POST /auth/oauth/v2/create-user-token HTTP/1.1" 200 4054
+DEBUG:Muse-REST:<Thu May  4 19:31:27 2023> REST Request:
+	POST https://172.18.255.251:1443/api/v1/households/Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.IABDGJiN0VVH0Rfcz8OS/settings/restricted-admin/userMetricsTracking
+	Headers: {'Content-Length': '4', 'X-Sonos-Api-Key': 'e61bc77c-39cd-4ed0-a5e7-5ad316a0efc5', 'Authorization': 'Bearer 38dacf0-eab2-11ed-8ef3-a1c5732dbfa6438dacf0-eab2-11ed-8ef3-a1c5732dbfa6438dacf0-eab2-11ed-8ef3-a1c5732dbfa6438dacf0-eab2-11ed-8ef3-a1c5732dbfa6438dacf0-eab2-11ed-8ef3-a1c5732dbfa6438dacf0-eab2-11ed-8ef3-a1c5732dbfa6438dacf0-eab2-11ed-8ef3-a1c5732dbfa6438dacf0-eab2-11ed-8ef3-a1c5732dbfa6438dacf0-eab2-11ed-8ef3-a1c5732dbfa6438dacf0-eab2-11ed-8ef3-a1c5732dbfa6438dacf0-eab2-11ed-8ef3-a1c5732dbfa6438dacf0-eab2-11ed-8ef3-a1c5732dbfa6438dacf0-eab2-11ed-8ef3-a1c5732dbfa6438dacf0-eab2-11ed-8ef3-a1c5732dbfa6438dacf0-eab2-11ed-8ef3-a1c5732dbfa6438dacf0-eab2-11ed-8ef3-a1c5732dbfa6438dacf0-eab2-11ed-8ef3-a1c5732dbfa6438dacf0-eab2-11ed-8ef3-a1c5732dbfa6438dacf0-eab2-11ed-8ef3-a1c5732dbfa6438dacf0-eab2-11ed-8ef3-a1c5732dbfa6438dacf0-eab2-11ed-8ef3-a1c5732dbfa6438dacf0-eab2-11ed-8ef3-a1c5732dbfa6438dacf0-eab2-11ed-8ef3-a1c5732dbfa6438dacf0-eab2-11ed-8ef3-a1c5732dbfa6438dacf0-eab2-11ed-8ef3-a1c5732dbfa6438dacf0-eab2-11ed-8ef3-a1c5732dbfa6438dacf0-eab2-11ed-8ef3-a1c5732dbfa6438dacf0-eab2-11ed-8ef3-a1c5732dbfa6438dacf0-eab2-11ed-8ef3-a1c5732dbfa6438dacf0-eab2-11ed-8ef3-a1c5732dbfa6438dacf0-eab2-11ed-8ef3-a1c5732dbfa6438dacf0-eab2-11ed-8ef3-a1c5732dbfa6438dacf0-eab2-11ed-8ef3-a1c5732dbfa6438dacf0-eab2-11ed-8ef3-a1c5732dbfa6438dacf0-eab2-11ed-8ef3-a1c5732dbfa6438dacf0-eab2-11ed-8ef3-a1c5732dbfa6438dacf0-eab2-11ed-8ef3-a1c5732dbfa6438dacf0-eab2-11ed-8ef3-a1c5732dbfa6438dacf0-eab2-11ed-8ef3-a1c5732dbfa6438dacf0-eab2-11ed-8ef3-a1c5732dbfa6438dacf0-eab2-11ed-8ef3-a1c5732dbfa6438dacf0-eab2-11ed-8ef3-a1c5732dbfa6438dacf0-eab2-11ed-8ef3-a1c5732dbfa6438dacf0-eab2-11ed-8ef3-a1c5732dbfa6438dacf0-eab2-11ed-8ef3-a1c5732dbfa6438dacf0-eab2-11ed-8ef3-a1c5732dbfa6438dacf0-eab2-11ed-8ef3-a1c5732dbfa6438dacf0-eab2-11ed-8ef3-a1c5732dbfa6438dacf0-eab2-11ed-8ef3-a1c5732dbfa6438dacf0-eab2-11ed-8ef3-a1c5732dbfa6438dacf0-eab2-11ed-8ef3-a1c5732dbfa6438dacf0-eab2-11ed-8ef3-a1c5732dbfa6438dacf0-eab2-11ed-8ef3-a1c5732dbfa6438dacf0-eab2-11ed-8ef3-a1c5732dbfa6438dacf0-eab2-11ed-8'}
+	Body: true
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): 172.18.255.251:1443
+DEBUG:urllib3.connectionpool:https://172.18.255.251:1443 "POST /api/v1/households/Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.IABDGJiN0VVH0Rfcz8OS/settings/restricted-admin/userMetricsTracking HTTP/1.1" 200 0
+INFO:Muse-REST:<Thu May  4 19:31:27 2023> REST Response:
+	Response status: 200
+	Response content: 
+
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /status/jffs/localsettings.txt HTTP/1.1" 200 None
+INFO:SONOS.sonos.client.internal:bouncing (stopping and restarting) the anacapad process on zpdevice 172.18.255.251 - Sonos Era 100
+DEBUG:SONOS.sonos.client.internal:172.18.255.251 - Sonos Era 100 unsubscribing from all services
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /status/netsettings.txt HTTP/1.1" 200 None
+DEBUG:SONOS.sonos.services.diag:http://172.18.255.251:1400/status/netsettings.txt returned <?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="/xml/review.xsl"?><ZPSupportInfo><NetSettings>Version: [1.0]
+BootSeq: [*****]
+HouseholdID: [Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.G6ModKccIdiM7VS2sehE]
+</NetSettings><!-- SDT: 2 ms --></ZPSupportInfo>
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:SONOS.Coherence.upnp.core.service:172.18.255.251 - Sonos Era 100 unsubscribing: uuid:RINCON_00038610386101400_sub0000000012
+DEBUG:SONOS.Coherence.upnp.core.service:172.18.255.251 - Sonos Era 100 unsubscribing: uuid:RINCON_00038610386101400_sub0000000016
+DEBUG:SONOS.Coherence.upnp.core.service:172.18.255.251 - Sonos Era 100 unsubscribing: uuid:RINCON_00038610386101400_sub0000000013
+DEBUG:SONOS.Coherence.upnp.core.service:Emulator - Sonos Era 100 Media Renderer unsubscribing: uuid:RINCON_00038610386101400_sub0000000015
+DEBUG:SONOS.upnp.core.event.EventProtocol:urn:upnp-org:serviceId:MusicServices.unsubscribe - errcode 400
+DEBUG:SONOS.Coherence.upnp.core.service:ignoring event {} for Service urn:schemas-upnp-org:service:MusicServices:1 urn:upnp-org:serviceId:MusicServices - not subscribed
+DEBUG:SONOS.upnp.core.event.EventProtocol:urn:upnp-org:serviceId:AudioIn.unsubscribe - errcode 400
+DEBUG:SONOS.Coherence.upnp.core.service:ignoring event {} for Service urn:schemas-upnp-org:service:AudioIn:1 urn:upnp-org:serviceId:AudioIn - not subscribed
+DEBUG:SONOS.upnp.core.event.EventProtocol:urn:upnp-org:serviceId:SystemProperties.unsubscribe - errcode 400
+DEBUG:SONOS.Coherence.upnp.core.service:ignoring event {} for Service urn:schemas-upnp-org:service:SystemProperties:1 urn:upnp-org:serviceId:SystemProperties - not subscribed
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /status/netsettings.txt HTTP/1.1" 200 None
+DEBUG:SONOS.sonos.services.diag:http://172.18.255.251:1400/status/netsettings.txt returned <?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="/xml/review.xsl"?><ZPSupportInfo><NetSettings>Version: [1.0]
+BootSeq: [*****]
+HouseholdID: [Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.G6ModKccIdiM7VS2sehE]
+</NetSettings><!-- SDT: 0 ms --></ZPSupportInfo>
+DEBUG:SONOS.upnp.core.event.EventProtocol:urn:upnp-org:serviceId:ContentDirectory.unsubscribe - errcode 400
+DEBUG:SONOS.Coherence.upnp.core.service:ignoring event {} for Service urn:schemas-upnp-org:service:ContentDirectory:1 urn:upnp-org:serviceId:ContentDirectory - not subscribed
+DEBUG:SONOS.upnp.core.event.EventProtocol:urn:upnp-org:serviceId:AlarmClock.unsubscribe - errcode 400
+DEBUG:SONOS.Coherence.upnp.core.service:ignoring event {} for Service urn:schemas-upnp-org:service:AlarmClock:1 urn:upnp-org:serviceId:AlarmClock - not subscribed
+DEBUG:SONOS.upnp.core.event.EventProtocol:urn:upnp-org:serviceId:RenderingControl.unsubscribe - errcode 400
+DEBUG:SONOS.Coherence.upnp.core.service:ignoring event {} for Service urn:schemas-upnp-org:service:RenderingControl:1 urn:upnp-org:serviceId:RenderingControl - not subscribed
+DEBUG:SONOS.upnp.core.event.EventProtocol:urn:sonos-com:serviceId:Queue.unsubscribe - errcode 400
+DEBUG:SONOS.Coherence.upnp.core.service:ignoring event {} for Service urn:schemas-sonos-com:service:Queue:1 urn:sonos-com:serviceId:Queue - not subscribed
+DEBUG:SONOS.upnp.core.event.EventProtocol:urn:upnp-org:serviceId:GroupRenderingControl.unsubscribe - errcode 400
+DEBUG:SONOS.Coherence.upnp.core.service:ignoring event {} for Service urn:schemas-upnp-org:service:GroupRenderingControl:1 urn:upnp-org:serviceId:GroupRenderingControl - not subscribed
+DEBUG:SONOS.upnp.core.event.EventProtocol:urn:upnp-org:serviceId:VirtualLineIn.unsubscribe - errcode 400
+DEBUG:SONOS.Coherence.upnp.core.service:ignoring event {} for Service urn:schemas-upnp-org:service:VirtualLineIn:1 urn:upnp-org:serviceId:VirtualLineIn - not subscribed
+DEBUG:SONOS.sonos.client.internal:172.18.255.251 - Sonos Era 100 unsubscribing from all services
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /status/netsettings.txt HTTP/1.1" 200 None
+DEBUG:SONOS.sonos.services.diag:http://172.18.255.251:1400/status/netsettings.txt returned <?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="/xml/review.xsl"?><ZPSupportInfo><NetSettings>Version: [1.0]
+BootSeq: [*****]
+HouseholdID: [Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.G6ModKccIdiM7VS2sehE]
+</NetSettings><!-- SDT: 0 ms --></ZPSupportInfo>
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:SONOS.upnp.core.event.EventProtocol:urn:upnp-org:serviceId:AlarmClock.unsubscribe - errcode 400
+DEBUG:SONOS.Coherence.upnp.core.service:ignoring event {} for Service urn:schemas-upnp-org:service:AlarmClock:1 urn:upnp-org:serviceId:AlarmClock - not subscribed
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /status/netsettings.txt HTTP/1.1" 200 None
+DEBUG:SONOS.upnp.core.event.EventProtocol:urn:upnp-org:serviceId:MusicServices.unsubscribe - errcode 400
+DEBUG:SONOS.sonos.services.diag:http://172.18.255.251:1400/status/netsettings.txt returned <?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="/xml/review.xsl"?><ZPSupportInfo><NetSettings>Version: [1.0]
+BootSeq: [*****]
+HouseholdID: [Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.G6ModKccIdiM7VS2sehE]
+</NetSettings><!-- SDT: 1 ms --></ZPSupportInfo>
+DEBUG:SONOS.Coherence.upnp.core.service:ignoring event {} for Service urn:schemas-upnp-org:service:MusicServices:1 urn:upnp-org:serviceId:MusicServices - not subscribed
+DEBUG:SONOS.upnp.core.event.EventProtocol:urn:upnp-org:serviceId:AudioIn.unsubscribe - errcode 400
+DEBUG:SONOS.Coherence.upnp.core.service:ignoring event {} for Service urn:schemas-upnp-org:service:AudioIn:1 urn:upnp-org:serviceId:AudioIn - not subscribed
+DEBUG:SONOS.upnp.core.event.EventProtocol:urn:upnp-org:serviceId:DeviceProperties.unsubscribe - errcode 400
+DEBUG:SONOS.Coherence.upnp.core.service:ignoring event {} for Service urn:schemas-upnp-org:service:DeviceProperties:1 urn:upnp-org:serviceId:DeviceProperties - not subscribed
+DEBUG:SONOS.upnp.core.event.EventProtocol:urn:upnp-org:serviceId:SystemProperties.unsubscribe - errcode 400
+DEBUG:SONOS.Coherence.upnp.core.service:ignoring event {} for Service urn:schemas-upnp-org:service:SystemProperties:1 urn:upnp-org:serviceId:SystemProperties - not subscribed
+DEBUG:SONOS.upnp.core.event.EventProtocol:urn:upnp-org:serviceId:ZoneGroupTopology.unsubscribe - errcode 400
+DEBUG:SONOS.Coherence.upnp.core.service:ignoring event {} for Service urn:schemas-upnp-org:service:ZoneGroupTopology:1 urn:upnp-org:serviceId:ZoneGroupTopology - not subscribed
+DEBUG:SONOS.upnp.core.event.EventProtocol:urn:upnp-org:serviceId:GroupManagement.unsubscribe - errcode 400
+DEBUG:SONOS.Coherence.upnp.core.service:ignoring event {} for Service urn:schemas-upnp-org:service:GroupManagement:1 urn:upnp-org:serviceId:GroupManagement - not subscribed
+DEBUG:SONOS.upnp.core.event.EventProtocol:urn:upnp-org:serviceId:ContentDirectory.unsubscribe - errcode 400
+DEBUG:SONOS.Coherence.upnp.core.service:ignoring event {} for Service urn:schemas-upnp-org:service:ContentDirectory:1 urn:upnp-org:serviceId:ContentDirectory - not subscribed
+DEBUG:SONOS.upnp.core.event.EventProtocol:urn:upnp-org:serviceId:RenderingControl.unsubscribe - errcode 400
+DEBUG:SONOS.Coherence.upnp.core.service:ignoring event {} for Service urn:schemas-upnp-org:service:RenderingControl:1 urn:upnp-org:serviceId:RenderingControl - not subscribed
+DEBUG:SONOS.upnp.core.event.EventProtocol:urn:sonos-com:serviceId:Queue.unsubscribe - errcode 400
+DEBUG:SONOS.Coherence.upnp.core.service:ignoring event {} for Service urn:schemas-sonos-com:service:Queue:1 urn:sonos-com:serviceId:Queue - not subscribed
+DEBUG:SONOS.upnp.core.event.EventProtocol:urn:upnp-org:serviceId:GroupRenderingControl.unsubscribe - errcode 400
+DEBUG:SONOS.Coherence.upnp.core.service:ignoring event {} for Service urn:schemas-upnp-org:service:GroupRenderingControl:1 urn:upnp-org:serviceId:GroupRenderingControl - not subscribed
+DEBUG:SONOS.upnp.core.event.EventProtocol:urn:upnp-org:serviceId:VirtualLineIn.unsubscribe - errcode 400
+DEBUG:SONOS.Coherence.upnp.core.service:ignoring event {} for Service urn:schemas-upnp-org:service:VirtualLineIn:1 urn:upnp-org:serviceId:VirtualLineIn - not subscribed
+DEBUG:SONOS.upnp.core.event.EventProtocol:urn:upnp-org:serviceId:AVTransport.unsubscribe - errcode 400
+DEBUG:SONOS.Coherence.upnp.core.service:ignoring event {} for Service urn:schemas-upnp-org:service:AVTransport:1 urn:upnp-org:serviceId:AVTransport - not subscribed
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.251] command: <kill  `cat /opt/log/*anacapa.pid`>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.251] response: <>
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:SONOS.coherence.upnp.core.ssdp:processing 'byebye': {'x-rincon-reason': 'unknown', 'usn': 'uuid:RINCON_00038610386101400', 'nts': 'ssdp:byebye', 'location.smartspeaker.audio': 'lc_0d76db81c66c45d686e44e368265a595', 'x-rincon-household': 'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP', 'server': 'Linux UPnP/1.0 Sonos/74.0-41030-dev-build-20230504-main (ZPS39)', 'host': '239.255.255.250:1900', 'household.smartspeaker.audio': 'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.IABDGJiN0VVH0Rfcz8OS', 'bootid.upnp.org': '2', 'nt': 'uuid:RINCON_00038610386101400'}
+DEBUG:SONOS.coherence.upnp.core.ssdp:processing 'byebye': {'x-rincon-reason': 'unknown', 'usn': 'uuid:RINCON_00038610386101400::upnp:rootdevice', 'nts': 'ssdp:byebye', 'location.smartspeaker.audio': 'lc_0d76db81c66c45d686e44e368265a595', 'x-rincon-household': 'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP', 'server': 'Linux UPnP/1.0 Sonos/74.0-41030-dev-build-20230504-main (ZPS39)', 'host': '239.255.255.250:1900', 'household.smartspeaker.audio': 'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.IABDGJiN0VVH0Rfcz8OS', 'bootid.upnp.org': '2', 'nt': 'upnp:rootdevice'}
+WARNING:SONOS.coherence.upnp.core.ssdp:sending 'removed_device' signal after receiving byebye msg from uuid:RINCON_00038610386101400::upnp:rootdevice
+DEBUG:SONOS.sonos.client.internal:setting upnp byebye event on SonosZoneComponent(id=140197282622416, ip=172.18.255.251, modelNumber=S39, serialNumber=000386103861, architecture=optimo, hardware_version=1.38.1.0-1.0)
+DEBUG:SONOS.sonos.client.internal:resetting saved properties (SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103861, architecture=optimo, hardware_version=1.38.1.0-1.0))
+INFO:SONOS.sonos.upnp.UPNP:remove_device: uuid:RINCON_00038610386101400 (172.18.255.251 - Sonos Era 100) was found in UPNP.sonos_devices, removing it
+DEBUG:sonos.test.util.eventing_list:Removed object SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103861, architecture=optimo, hardware_version=1.38.1.0-1.0) from list, 3 remaining
+INFO:SONOS.sonos.upnp.UPNP:Removed device uuid:RINCON_00038610386101400 from devices list, 3 total
+DEBUG:SONOS.sonos.upnp.UPNP:remove_devices: removed 1 device - 3 remain
+INFO:SONOS.sonos.services.common:wait_until_true: Waited 4.38421607018 seconds
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+WARNING:SONOS.sonos.client.internal:coherence device is not valid for SonosZoneComponent(id=140197282622416, ip=172.18.255.251, modelNumber=S39, serialNumber=000386103861, architecture=optimo, hardware_version=1.38.1.0-1.0)
+WARNING:SONOS.sonos.client.internal:expected vs actual num 15 != 0
+WARNING:SONOS.sonos.client.internal:missing services set(['urn:upnp-org:serviceId:RenderingControl', 'urn:tencent-com:serviceId:QPlay', 'urn:upnp-org:serviceId:GroupManagement', 'urn:upnp-org:serviceId:MusicServices', 'urn:upnp-org:serviceId:AlarmClock', 'urn:upnp-org:serviceId:AVTransport', 'urn:upnp-org:serviceId:DeviceProperties', 'urn:upnp-org:serviceId:SystemProperties', 'urn:sonos-com:serviceId:Queue', 'urn:upnp-org:serviceId:VirtualLineIn', 'urn:upnp-org:serviceId:ConnectionManager', 'urn:upnp-org:serviceId:ZoneGroupTopology', 'urn:upnp-org:serviceId:GroupRenderingControl', 'urn:upnp-org:serviceId:ContentDirectory', 'urn:upnp-org:serviceId:AudioIn'])
+DEBUG:SONOS.sonos.client.internal:Refreshing Coherence device object on <SonosZoneComponent(id=140197282622416, ip=172.18.255.251, modelNumber=S39, serialNumber=000386103861, architecture=optimo, hardware_version=1.38.1.0-1.0)>
+DEBUG:SONOS.sonos.client.internal:resetting saved properties (SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103861, architecture=optimo, hardware_version=1.38.1.0-1.0))
+DEBUG:SONOS.sonos.client.internal:resetting saved properties (SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103861, architecture=optimo, hardware_version=1.38.1.0-1.0))
+INFO:SONOS.sonos.client.internal:Creating SonosZoneComponent RINCON_00038610386101400 172.18.255.251 - Sonos Era 100 (version=74.0-41030-dev-build-20230504-main), 93.2601218224 sec after UPNP start
+DEBUG:SONOS.sonos.client.internal:MITC_ENVIRONMENT already set to test
+DEBUG:SONOS.sonos.client.internal:SONOS_ID already set to 998936323
+DEBUG:sonos.test.util.eventing_list:Inserted SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103861, architecture=optimo, hardware_version=1.38.1.0-1.0) into list, total 4
+INFO:SONOS.sonos.upnp.UPNP:Registered new device uuid:RINCON_00038610386101400, 4 total
+DEBUG:SONOS.sonos.client.internal:setting upnp alive event on SonosZoneComponent(id=140197282622416, ip=172.18.255.251, modelNumber=S39, serialNumber=000386103861, architecture=optimo, hardware_version=1.38.1.0-1.0)
+DEBUG:SONOS.sonos.client.internal:setting upnp alive event on SonosZoneComponent(id=140197282623184, ip=172.18.255.251, modelNumber=S39, serialNumber=000386103861, architecture=optimo, hardware_version=1.38.1.0-1.0)
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /status/zp HTTP/1.1" 200 None
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103861, architecture=optimo, hardware_version=1.38.1.0-1.0) invokes DeviceProperties.GetZoneInfo("headers"="{}")
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103861, architecture=optimo, hardware_version=1.38.1.0-1.0) DeviceProperties.GetZoneInfo returns '{'MACAddress': u'00:03:86:10:38:61', 'CopyrightInfo': u'\xa9 2003-2023, Sonos, Inc. All rights reserved.', 'HardwareVersion': u'1.38.1.0-1.0', 'HTAudioIn': u'0', 'SerialNumber': u'00-03-86-10-38-61:E', 'DisplaySoftwareVersion': u'15.6', 'ExtraInfo': u'', 'SoftwareVersion': u'74.0-41030-dev-build-20230504-main', 'Flags': u'0', 'IPAddress': u'172.18.255.251'}'
+INFO:SONOS.sonos.client.internal:Anacapa restart completed successfully. device=SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103861, architecture=optimo, hardware_version=1.38.1.0-1.0) before_pid=1738 after_pid=3166 alive_seen=True
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /status/zp HTTP/1.1" 200 None
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+INFO:SONOS.sonos.services.base:Waiting for state variable: ZoneGroupState
+DEBUG:SONOS.sonos.services.base:<sonos.services.zonegrouptopology.ZoneGroupTopologyService object at 0x7f82296ab210> requests state variable: Service urn:schemas-upnp-org:service:ZoneGroupTopology:1 urn:upnp-org:serviceId:ZoneGroupTopology.ZoneGroupState
+DEBUG:SONOS.Coherence.upnp.core.service:subscribing: uuid:RINCON_00038610386101400_sub0000000006 Service urn:schemas-upnp-org:service:ZoneGroupTopology:1 urn:upnp-org:serviceId:ZoneGroupTopology
+DEBUG:SONOS.Coherence.upnp.core.service:creating subscription renewal for uuid:RINCON_00038610386101400_sub0000000006
+DEBUG:SONOS.sonos.services.base:Getting state variable <ZoneGroupTopology.ZoneGroupState> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103861, architecture=optimo, hardware_version=1.38.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <ZoneGroupTopology.ZoneGroupState> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103861, architecture=optimo, hardware_version=1.38.1.0-1.0) = <ZoneGroupState><ZoneGroups><ZoneGroup Coordinator="RINCON_00038610386101400" ID="RINCON_00038610386101400:3022654860"><ZoneGroupMember UUID="RINCON_00038610386101400" Location="http://172.18.255.251:1400/xml/device_description.xml" ZoneName="Emulator" Icon="" Configuration="1" SoftwareVersion="74.0-41030-dev-build-20230504-main" SWGen="2" MinCompatibleVersion="73.0-00000" LegacyCompatibleVersion="58.0-00000" BootSeq="3" TVConfigurationError="0" HdmiCecAvailable="0" WirelessMode="0" WirelessLeafOnly="0" ChannelFreq="0" BehindWifiExtender="0" WifiEnabled="1" EthLink="1" Orientation="0" RoomCalibrationState="4" SecureRegState="3" VoiceConfigState="0" MicEnabled="0" AirPlayEnabled="1" IdleState="1" MoreInfo="" SSLPort="1443" HHSSLPort="1843"/></ZoneGroup><ZoneGroup Coordinator="RINCON_0003861038FA01400" ID="RINCON_0003861038FA01400:277470503"><ZoneGroupMember UUID="RINCON_0003861038FA01400" Location="http://172.18.255.252:1400/xml/device_description.xml" ZoneName="Emulator" Icon="" Configuration="1" SoftwareVersion="74.0-41030-dev-build-20230504-main" SWGen="2" MinCompatibleVersion="73.0-00000" LegacyCompatibleVersion="58.0-00000" BootSeq="2" TVConfigurationError="0" HdmiCecAvailable="0" WirelessMode="0" WirelessLeafOnly="0" ChannelFreq="1065353216" BehindWifiExtender="0" WifiEnabled="1" EthLink="1" Orientation="0" RoomCalibrationState="4" SecureRegState="3" VoiceConfigState="0" MicEnabled="0" AirPlayEnabled="1" IdleState="1" MoreInfo="" SSLPort="1443" HHSSLPort="1843"/></ZoneGroup><ZoneGroup Coordinator="RINCON_00038610368501400" ID="RINCON_00038610368501400:3535698859"><ZoneGroupMember UUID="RINCON_00038610368501400" Location="http://172.18.255.253:1400/xml/device_description.xml" ZoneName="Emulator" Icon="" Configuration="1" SoftwareVersion="74.0-41030-dev-build-20230504-main" SWGen="2" MinCompatibleVersion="73.0-00000" LegacyCompatibleVersion="58.0-00000" BootSeq="2" TVConfigurationError="0" HdmiCecAvailable="0" WirelessMode="0" WirelessLeafOnly="0" ChannelFreq="0" BehindWifiExtender="0" WifiEnabled="0" EthLink="1" Orientation="0" RoomCalibrationState="4" SecureRegState="3" VoiceConfigState="0" MicEnabled="0" AirPlayEnabled="1" IdleState="1" MoreInfo="" SSLPort="1443" HHSSLPort="1843"/></ZoneGroup><ZoneGroup Coordinator="RINCON_0003861032A501400" ID="RINCON_0003861032A501400:840493132"><ZoneGroupMember UUID="RINCON_0003861032A501400" Location="http://172.18.255.250:1400/xml/device_description.xml" ZoneName="Emulator" Icon="" Configuration="1" Invisible="1" SoftwareVersion="74.0-41030-dev-build-20230504-main" SWGen="2" MinCompatibleVersion="73.0-00000" LegacyCompatibleVersion="58.0-00000" BootSeq="2" TVConfigurationError="0" HdmiCecAvailable="0" WirelessMode="0" WirelessLeafOnly="0" ChannelFreq="0" BehindWifiExtender="0" WifiEnabled="0" EthLink="1" Orientation="0" RoomCalibrationState="4" SecureRegState="3" VoiceConfigState="0" MicEnabled="0" AirPlayEnabled="0" IdleState="1" MoreInfo="" SSLPort="1443" HHSSLPort="1843"/></ZoneGroup></ZoneGroups><VanishedDevices></VanishedDevices></ZoneGroupState>
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /status/jffs/localsettings.txt HTTP/1.1" 200 None
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:Muse-REST:<Thu May  4 19:31:37 2023> REST Request:
+	GET https://172.18.255.251:1443/api/v1/players/local/info
+	Headers: {'X-Sonos-Api-Key': 'e61bc77c-39cd-4ed0-a5e7-5ad316a0efc5'}
+	Body: None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): 172.18.255.251:1443
+DEBUG:urllib3.connectionpool:https://172.18.255.251:1443 "GET /api/v1/players/local/info HTTP/1.1" 200 None
+INFO:Muse-REST:<Thu May  4 19:31:37 2023> REST Response:
+	Response status: 200
+	Response content: 
+{
+    "playerId": "RINCON_00038610386101400", 
+    "websocketUrl": "wss://172.18.255.251:1443/websocket/api", 
+    "householdId": "Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.IABDGJiN0VVH0Rfcz8OS", 
+    "restUrl": "https://172.18.255.251:1443/api", 
+    "locationId": "lc_0d76db81c66c45d686e44e368265a595", 
+    "device": {
+        "name": "Emulator", 
+        "serialNumber": "00-03-86-10-38-61:E", 
+        "websocketUrl": "wss://172.18.255.251:1443/websocket/api", 
+        "swGen": 2, 
+        "apiVersion": "1.35.0-alpha.8+74.0-41030", 
+        "id": "RINCON_00038610386101400", 
+        "softwareVersion": "74.0-41030-dev-build-20230504-main", 
+        "capabilities": [
+            "CLOUD", 
+            "PLAYBACK", 
+            "AIRPLAY", 
+            "LINE_IN", 
+            "VOICE", 
+            "AUDIO_CLIP", 
+            "MICROPHONE_SWITCH"
+        ], 
+        "modelDisplayName": "Era 100", 
+        "hwVersion": "1.38.1.0-1.0", 
+        "model": "S39", 
+        "minApiVersion": "1.1.0"
+    }, 
+    "groupId": "RINCON_00038610386101400:3022654860"
+}
+DEBUG:Muse-REST:<Thu May  4 19:31:37 2023> REST Request:
+	POST https://172.18.255.251:1443/api/v1/households/Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.IABDGJiN0VVH0Rfcz8OS/platformInternal/invalidateCache
+	Headers: {'Content-Length': '30', 'X-Sonos-Api-Key': 'e61bc77c-39cd-4ed0-a5e7-5ad316a0efc5', 'Content-Type': 'application/json'}
+	Body: {"cacheNamespace": "settings"}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): 172.18.255.251:1443
+DEBUG:urllib3.connectionpool:https://172.18.255.251:1443 "POST /api/v1/households/Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.IABDGJiN0VVH0Rfcz8OS/platformInternal/invalidateCache HTTP/1.1" 200 None
+INFO:Muse-REST:<Thu May  4 19:31:37 2023> REST Response:
+	Response status: 200
+	Response content: 
+{}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /jobs HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /jobs?job=FetchCloudCfg HTTP/1.1" 200 None
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /status/cloud HTTP/1.1" 200 None
+DEBUG:SONOS.sonos.services.common:XMLAccessor '.value' lookup was 'None'.
+ELEMENT: <Element 'LastPingTime' at 0x7f82294a7590>
+INDEXERS: ["<CloudStatusValues.ROOT: 'Cloud'>", '*']
+DOCUMENT:
+<?xml version="1.0" ?>
+<ZPSupportInfo>
+	<Cloud>
+		<ProtocolVersion>07</ProtocolVersion>
+		<LoadBalancerHost>lechmere-v1.dev.ws.sonos.com:52999(172.18.0.6)</LoadBalancerHost>
+		<WebsocketServerHost>lechmere-v1.dev.ws.sonos.com(172.18.0.6)</WebsocketServerHost>
+		<State>Open</State>
+		<MillisecondsOpen>2821</MillisecondsOpen>
+		<PerMsgDeflate>off</PerMsgDeflate>
+		<TotalUncompressedKBytesSent>2.109 KB</TotalUncompressedKBytesSent>
+		<TotalCompressedKBytesSent>0.000 KB</TotalCompressedKBytesSent>
+		<TotalKBytesSent>2.109 KB</TotalKBytesSent>
+		<TotalUncompressedKBytesReceived>0.146 KB</TotalUncompressedKBytesReceived>
+		<TotalCompressedKBytesDecompressed>0.000 KB</TotalCompressedKBytesDecompressed>
+		<TotalKBytesReceived>0.146 KB</TotalKBytesReceived>
+		<OpenCount>1</OpenCount>
+		<CloseCount>0</CloseCount>
+		<ConsecutiveFailures>0</ConsecutiveFailures>
+		<UnackedPings>0</UnackedPings>
+		<LastPingTime/>
+		<PingTimeWeightedAverage/>
+		<Messages>2</Messages>
+		<LastHttpStatus>101</LastHttpStatus>
+		<LastWebSocketCode/>
+		<LastRetryAfter/>
+		<MillisecondsToNextConnect/>
+		<WebsocketRegistration>Current (OK)</WebsocketRegistration>
+	</Cloud>
+</ZPSupportInfo>
+
+
+DEBUG:SONOS.sonos.services.common:XMLAccessor '.value' lookup was 'None'.
+ELEMENT: <Element 'PingTimeWeightedAverage' at 0x7f82294a7610>
+INDEXERS: ["<CloudStatusValues.ROOT: 'Cloud'>", '*']
+DOCUMENT:
+<?xml version="1.0" ?>
+<ZPSupportInfo>
+	<Cloud>
+		<ProtocolVersion>07</ProtocolVersion>
+		<LoadBalancerHost>lechmere-v1.dev.ws.sonos.com:52999(172.18.0.6)</LoadBalancerHost>
+		<WebsocketServerHost>lechmere-v1.dev.ws.sonos.com(172.18.0.6)</WebsocketServerHost>
+		<State>Open</State>
+		<MillisecondsOpen>2821</MillisecondsOpen>
+		<PerMsgDeflate>off</PerMsgDeflate>
+		<TotalUncompressedKBytesSent>2.109 KB</TotalUncompressedKBytesSent>
+		<TotalCompressedKBytesSent>0.000 KB</TotalCompressedKBytesSent>
+		<TotalKBytesSent>2.109 KB</TotalKBytesSent>
+		<TotalUncompressedKBytesReceived>0.146 KB</TotalUncompressedKBytesReceived>
+		<TotalCompressedKBytesDecompressed>0.000 KB</TotalCompressedKBytesDecompressed>
+		<TotalKBytesReceived>0.146 KB</TotalKBytesReceived>
+		<OpenCount>1</OpenCount>
+		<CloseCount>0</CloseCount>
+		<ConsecutiveFailures>0</ConsecutiveFailures>
+		<UnackedPings>0</UnackedPings>
+		<LastPingTime/>
+		<PingTimeWeightedAverage/>
+		<Messages>2</Messages>
+		<LastHttpStatus>101</LastHttpStatus>
+		<LastWebSocketCode/>
+		<LastRetryAfter/>
+		<MillisecondsToNextConnect/>
+		<WebsocketRegistration>Current (OK)</WebsocketRegistration>
+	</Cloud>
+</ZPSupportInfo>
+
+
+DEBUG:SONOS.sonos.services.common:XMLAccessor '.value' lookup was 'None'.
+ELEMENT: <Element 'LastWebSocketCode' at 0x7f82294a7710>
+INDEXERS: ["<CloudStatusValues.ROOT: 'Cloud'>", '*']
+DOCUMENT:
+<?xml version="1.0" ?>
+<ZPSupportInfo>
+	<Cloud>
+		<ProtocolVersion>07</ProtocolVersion>
+		<LoadBalancerHost>lechmere-v1.dev.ws.sonos.com:52999(172.18.0.6)</LoadBalancerHost>
+		<WebsocketServerHost>lechmere-v1.dev.ws.sonos.com(172.18.0.6)</WebsocketServerHost>
+		<State>Open</State>
+		<MillisecondsOpen>2821</MillisecondsOpen>
+		<PerMsgDeflate>off</PerMsgDeflate>
+		<TotalUncompressedKBytesSent>2.109 KB</TotalUncompressedKBytesSent>
+		<TotalCompressedKBytesSent>0.000 KB</TotalCompressedKBytesSent>
+		<TotalKBytesSent>2.109 KB</TotalKBytesSent>
+		<TotalUncompressedKBytesReceived>0.146 KB</TotalUncompressedKBytesReceived>
+		<TotalCompressedKBytesDecompressed>0.000 KB</TotalCompressedKBytesDecompressed>
+		<TotalKBytesReceived>0.146 KB</TotalKBytesReceived>
+		<OpenCount>1</OpenCount>
+		<CloseCount>0</CloseCount>
+		<ConsecutiveFailures>0</ConsecutiveFailures>
+		<UnackedPings>0</UnackedPings>
+		<LastPingTime/>
+		<PingTimeWeightedAverage/>
+		<Messages>2</Messages>
+		<LastHttpStatus>101</LastHttpStatus>
+		<LastWebSocketCode/>
+		<LastRetryAfter/>
+		<MillisecondsToNextConnect/>
+		<WebsocketRegistration>Current (OK)</WebsocketRegistration>
+	</Cloud>
+</ZPSupportInfo>
+
+
+DEBUG:SONOS.sonos.services.common:XMLAccessor '.value' lookup was 'None'.
+ELEMENT: <Element 'LastRetryAfter' at 0x7f82294a7790>
+INDEXERS: ["<CloudStatusValues.ROOT: 'Cloud'>", '*']
+DOCUMENT:
+<?xml version="1.0" ?>
+<ZPSupportInfo>
+	<Cloud>
+		<ProtocolVersion>07</ProtocolVersion>
+		<LoadBalancerHost>lechmere-v1.dev.ws.sonos.com:52999(172.18.0.6)</LoadBalancerHost>
+		<WebsocketServerHost>lechmere-v1.dev.ws.sonos.com(172.18.0.6)</WebsocketServerHost>
+		<State>Open</State>
+		<MillisecondsOpen>2821</MillisecondsOpen>
+		<PerMsgDeflate>off</PerMsgDeflate>
+		<TotalUncompressedKBytesSent>2.109 KB</TotalUncompressedKBytesSent>
+		<TotalCompressedKBytesSent>0.000 KB</TotalCompressedKBytesSent>
+		<TotalKBytesSent>2.109 KB</TotalKBytesSent>
+		<TotalUncompressedKBytesReceived>0.146 KB</TotalUncompressedKBytesReceived>
+		<TotalCompressedKBytesDecompressed>0.000 KB</TotalCompressedKBytesDecompressed>
+		<TotalKBytesReceived>0.146 KB</TotalKBytesReceived>
+		<OpenCount>1</OpenCount>
+		<CloseCount>0</CloseCount>
+		<ConsecutiveFailures>0</ConsecutiveFailures>
+		<UnackedPings>0</UnackedPings>
+		<LastPingTime/>
+		<PingTimeWeightedAverage/>
+		<Messages>2</Messages>
+		<LastHttpStatus>101</LastHttpStatus>
+		<LastWebSocketCode/>
+		<LastRetryAfter/>
+		<MillisecondsToNextConnect/>
+		<WebsocketRegistration>Current (OK)</WebsocketRegistration>
+	</Cloud>
+</ZPSupportInfo>
+
+
+DEBUG:SONOS.sonos.services.common:XMLAccessor '.value' lookup was 'None'.
+ELEMENT: <Element 'MillisecondsToNextConnect' at 0x7f82294a7810>
+INDEXERS: ["<CloudStatusValues.ROOT: 'Cloud'>", '*']
+DOCUMENT:
+<?xml version="1.0" ?>
+<ZPSupportInfo>
+	<Cloud>
+		<ProtocolVersion>07</ProtocolVersion>
+		<LoadBalancerHost>lechmere-v1.dev.ws.sonos.com:52999(172.18.0.6)</LoadBalancerHost>
+		<WebsocketServerHost>lechmere-v1.dev.ws.sonos.com(172.18.0.6)</WebsocketServerHost>
+		<State>Open</State>
+		<MillisecondsOpen>2821</MillisecondsOpen>
+		<PerMsgDeflate>off</PerMsgDeflate>
+		<TotalUncompressedKBytesSent>2.109 KB</TotalUncompressedKBytesSent>
+		<TotalCompressedKBytesSent>0.000 KB</TotalCompressedKBytesSent>
+		<TotalKBytesSent>2.109 KB</TotalKBytesSent>
+		<TotalUncompressedKBytesReceived>0.146 KB</TotalUncompressedKBytesReceived>
+		<TotalCompressedKBytesDecompressed>0.000 KB</TotalCompressedKBytesDecompressed>
+		<TotalKBytesReceived>0.146 KB</TotalKBytesReceived>
+		<OpenCount>1</OpenCount>
+		<CloseCount>0</CloseCount>
+		<ConsecutiveFailures>0</ConsecutiveFailures>
+		<UnackedPings>0</UnackedPings>
+		<LastPingTime/>
+		<PingTimeWeightedAverage/>
+		<Messages>2</Messages>
+		<LastHttpStatus>101</LastHttpStatus>
+		<LastWebSocketCode/>
+		<LastRetryAfter/>
+		<MillisecondsToNextConnect/>
+		<WebsocketRegistration>Current (OK)</WebsocketRegistration>
+	</Cloud>
+</ZPSupportInfo>
+
+
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:55551
+DEBUG:urllib3.connectionpool:http://172.18.0.6:55551 "POST /auth/oauth/v3/clients?clientKey=e61bc77c-39cd-4ed0-a5e7-5ad316a0efc5&keyName=test HTTP/1.1" 200 181
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:55551
+DEBUG:urllib3.connectionpool:http://172.18.0.6:55551 "POST /features/v1/set-config-properties HTTP/1.1" 200 392
+DEBUG:Muse-REST:<Thu May  4 19:31:37 2023> REST Request:
+	POST https://172.18.255.251:1443/api/v1/households/Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.IABDGJiN0VVH0Rfcz8OS/platformInternal/invalidateCache
+	Headers: {'Content-Length': '30', 'X-Sonos-Api-Key': 'e61bc77c-39cd-4ed0-a5e7-5ad316a0efc5', 'Content-Type': 'application/json'}
+	Body: {"cacheNamespace": "settings"}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): 172.18.255.251:1443
+DEBUG:urllib3.connectionpool:https://172.18.255.251:1443 "POST /api/v1/households/Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.IABDGJiN0VVH0Rfcz8OS/platformInternal/invalidateCache HTTP/1.1" 200 None
+INFO:Muse-REST:<Thu May  4 19:31:38 2023> REST Response:
+	Response status: 200
+	Response content: 
+{}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /jobs HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /jobs?job=FetchCloudCfg HTTP/1.1" 200 None
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.251] command: <test -e /jffs/settings/cloudconfig.json && echo $?>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.251] response: <0>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.251] command: <cat /jffs/settings/cloudconfig.json>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.251] response: <{"enableApiKeyValidation":false,"getUserTypeIdModTest":true,"enableAmazonMusicDASH":true,"enableTuneInReplacement":true,"enableAppleMusicHlsv7":true,"enableLechmereV7":true,"disableWebSocketPerMessageDeflate":false,"enableVoiceDataCollection":false,"getUserTypeIdEqualsTest":false,"getUserIdModTest":true,"enableTrueplayDataCollection":true,"enablePlayerToPlayerWSS":false,"getUserIdEqualsTest":false,"accessPolicyControl":{"enableCloudSetting":false,"defaultValue":"INSECURE"},"householdIdDenyListTest":false,"enableAccessPolicyControl":true,"enableSameSubnetRestrictions":true,"reporting":{"level":2},"swVersionNumberMinorTest":true,"semiSleepConfig":{"enabledSTP":true,"enabledHT":true},"enableMusicAccountReplication":true,"householdIdEqualsTest":false,"spotifyAdaptiveBitrate":{"enable":true,"timeoutMinutes":120,"thresholdDC":5},"householdIdLengthTest":true,"householdIdSameSubnetTest":false,"getUserTypeNameTest":false,"enableThorForMuseV1":false,"swVersionNumberMajorTest":true,"enableExternalPartnerMode":false}>
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:55551
+DEBUG:urllib3.connectionpool:http://172.18.0.6:55551 "GET /websockets/api/v0/000386103861/protocol HTTP/1.1" 200 10
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.251] command: <test -e /jffs/simulator && echo $?>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.251] response: <0>
+INFO:SONOS.sonos.services.common:Set museHouseholdId: Sonos_86wJYeaW67X978R2hlOwR08S6t.UN4AvxaUprhtGbIdHxsy, set locationId: lc_344f585c49a74f499b8659ce90d6b905
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:55551
+DEBUG:urllib3.connectionpool:http://172.18.0.6:55551 "POST /websockets/api/v0/000386103861/setConfig HTTP/1.1" 200 0
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+INFO:SONOS.MockPlayerCloudServicesControl:Mock player cloud services server getlog request http://172.18.0.6:55551/request/api/logs
+INFO:SONOS.MockPlayerCloudServicesControl:Mock player cloud services server getlog request http://172.18.0.6:55551/request/api/logs
+INFO:SONOS.sonos.services.common:wait_until_true: Waited 4.00894498825 seconds
+INFO:SONOS.MockPlayerCloudServicesControl:Mock player cloud services server getlog request http://172.18.0.6:55551/request/api/logs
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /status/jffs/localsettings.txt HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /status/jffs/localsettings.txt HTTP/1.1" 200 None
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103861, architecture=optimo, hardware_version=1.38.1.0-1.0) invokes DeviceProperties.GetHouseholdID("headers"="{}")
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103861, architecture=optimo, hardware_version=1.38.1.0-1.0) DeviceProperties.GetHouseholdID returns '{'CurrentHouseholdID': u'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP'}'
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+INFO:SONOS.sonos.services.common:wait_until_true: Waited 2.00189900398 seconds
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+INFO:SONOS.sonos.services.common:wait_until_true: Waited 1.05116200447 seconds
+INFO:SONOS.sonos.services.common:Set museHouseholdId: Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.IABDGJiN0VVH0Rfcz8OS, set locationId: None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:55551
+DEBUG:urllib3.connectionpool:http://172.18.0.6:55551 "POST /websockets/api/v0/000386103861/setConfig HTTP/1.1" 200 0
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+INFO:SONOS.MockPlayerCloudServicesControl:Mock player cloud services server getlog request http://172.18.0.6:55551/request/api/logs
+INFO:SONOS.MockPlayerCloudServicesControl:Mock player cloud services server getlog request http://172.18.0.6:55551/request/api/logs
+INFO:SONOS.sonos.services.common:wait_until_true: Waited 4.00619912148 seconds
+INFO:SONOS.MockPlayerCloudServicesControl:Mock player cloud services server getlog request http://172.18.0.6:55551/request/api/logs
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /status/jffs/localsettings.txt HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /status/jffs/localsettings.txt HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:55551
+DEBUG:urllib3.connectionpool:http://172.18.0.6:55551 "POST /features/v1/set-config-properties HTTP/1.1" 200 393
+DEBUG:Muse-REST:<Thu May  4 19:31:49 2023> REST Request:
+	POST https://172.18.255.251:1443/api/v1/households/Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.IABDGJiN0VVH0Rfcz8OS/platformInternal/invalidateCache
+	Headers: {'Content-Length': '30', 'X-Sonos-Api-Key': 'e61bc77c-39cd-4ed0-a5e7-5ad316a0efc5', 'Content-Type': 'application/json'}
+	Body: {"cacheNamespace": "settings"}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): 172.18.255.251:1443
+DEBUG:urllib3.connectionpool:https://172.18.255.251:1443 "POST /api/v1/households/Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.IABDGJiN0VVH0Rfcz8OS/platformInternal/invalidateCache HTTP/1.1" 200 None
+INFO:Muse-REST:<Thu May  4 19:31:49 2023> REST Response:
+	Response status: 200
+	Response content: 
+{}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /jobs HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /jobs?job=FetchCloudCfg HTTP/1.1" 200 None
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.251] command: <test -e /jffs/settings/cloudconfig.json && echo $?>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.251] response: <0>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.251] command: <cat /jffs/settings/cloudconfig.json>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.251] response: <{"metricsService":{"submissionIntervalSeconds":300,"wifiTxRateThreshold":0,"wifiLatencyThresholdMillis":0},"spotifyAdaptiveBitrate":{"enable":false,"timeoutMinutes":120,"thresholdDC":5},"accessPolicyControl":{"enableCloudSetting":false,"defaultValue":"INSECURE"},"enableUPnPOverTLS":{"commandControl":false,"subscriptionControl":false,"eventControl":false},"enableLechmereV7":true}>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.251] command: <test -e /jffs/settings/cloudconfig.json && echo $?>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.251] response: <0>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.251] command: <cat /jffs/settings/cloudconfig.json>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.251] response: <{"metricsService":{"submissionIntervalSeconds":300,"wifiTxRateThreshold":0,"wifiLatencyThresholdMillis":0},"spotifyAdaptiveBitrate":{"enable":false,"timeoutMinutes":120,"thresholdDC":5},"accessPolicyControl":{"enableCloudSetting":false,"defaultValue":"INSECURE"},"enableUPnPOverTLS":{"commandControl":false,"subscriptionControl":false,"eventControl":false},"enableLechmereV7":false}>
+INFO:SONOS.sonos.services.common:wait_until_true: Waited 4.48762607574 seconds
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:55551
+DEBUG:urllib3.connectionpool:http://172.18.0.6:55551 "GET /websockets/api/v0/000386103861/protocol HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:55551
+DEBUG:urllib3.connectionpool:http://172.18.0.6:55551 "GET /websockets/api/v0/000386103861/protocol HTTP/1.1" 200 10
+INFO:SONOS.sonos.services.common:wait_until_true: Waited 2.00843214989 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.0.6:55551
+DEBUG:urllib3.connectionpool:http://172.18.0.6:55551 "GET /auth/oauth/v3/clients/flush HTTP/1.1" 200 2
+INFO:SONOS.sonos.services.base:Waiting for state variable: ChannelMapSet
+DEBUG:SONOS.sonos.services.base:<sonos.services.deviceproperties.DevicePropertiesService object at 0x7f82296c2e10> requests state variable: Service urn:schemas-upnp-org:service:DeviceProperties:1 urn:upnp-org:serviceId:DeviceProperties.ChannelMapSet
+DEBUG:SONOS.Coherence.upnp.core.service:subscribing: uuid:RINCON_00038610386101400_sub0000000007 Service urn:schemas-upnp-org:service:DeviceProperties:1 urn:upnp-org:serviceId:DeviceProperties
+DEBUG:SONOS.Coherence.upnp.core.service:creating subscription renewal for uuid:RINCON_00038610386101400_sub0000000007
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.ChannelMapSet> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103861, architecture=optimo, hardware_version=1.38.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.ChannelMapSet> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103861, architecture=optimo, hardware_version=1.38.1.0-1.0) = 
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.HTSatChanMapSet> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103861, architecture=optimo, hardware_version=1.38.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.HTSatChanMapSet> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103861, architecture=optimo, hardware_version=1.38.1.0-1.0) = 
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.HTSatChanMapSet> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103861, architecture=optimo, hardware_version=1.38.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.HTSatChanMapSet> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103861, architecture=optimo, hardware_version=1.38.1.0-1.0) = 
+INFO:SONOS.sonos.services.base:Waiting for state variable: GroupCoordinatorIsLocal
+DEBUG:SONOS.sonos.services.base:<sonos.services.groupmanagement.GroupManagementService object at 0x7f82296abdd0> requests state variable: Service urn:schemas-upnp-org:service:GroupManagement:1 urn:upnp-org:serviceId:GroupManagement.GroupCoordinatorIsLocal
+DEBUG:SONOS.Coherence.upnp.core.service:subscribing: uuid:RINCON_00038610386101400_sub0000000008 Service urn:schemas-upnp-org:service:GroupManagement:1 urn:upnp-org:serviceId:GroupManagement
+DEBUG:SONOS.Coherence.upnp.core.service:creating subscription renewal for uuid:RINCON_00038610386101400_sub0000000008
+DEBUG:SONOS.sonos.services.base:Getting state variable <GroupManagement.GroupCoordinatorIsLocal> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103861, architecture=optimo, hardware_version=1.38.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <GroupManagement.GroupCoordinatorIsLocal> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103861, architecture=optimo, hardware_version=1.38.1.0-1.0) = 1
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103861, architecture=optimo, hardware_version=1.38.1.0-1.0) invokes AVTransport.GetTransportInfo("InstanceID"="0", "headers"="{}")
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103861, architecture=optimo, hardware_version=1.38.1.0-1.0) AVTransport.GetTransportInfo returns '{'CurrentTransportState': u'STOPPED', 'CurrentTransportStatus': u'OK', 'CurrentSpeed': u'1'}'
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103861, architecture=optimo, hardware_version=1.38.1.0-1.0) invokes AVTransport.GetTransportInfo("InstanceID"="0", "headers"="{}")
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103861, architecture=optimo, hardware_version=1.38.1.0-1.0) AVTransport.GetTransportInfo returns '{'CurrentTransportState': u'STOPPED', 'CurrentTransportStatus': u'OK', 'CurrentSpeed': u'1'}'
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103861, architecture=optimo, hardware_version=1.38.1.0-1.0) invokes RenderingControl.SetVolume("InstanceID"="0", "DesiredVolume"="10", "Channel"="Master", "headers"="{}")
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103861, architecture=optimo, hardware_version=1.38.1.0-1.0) RenderingControl.SetVolume returns '{}'
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103861, architecture=optimo, hardware_version=1.38.1.0-1.0) invokes ContentDirectory.Browse("ObjectID"="Q:0", "BrowseFlag"="BrowseDirectChildren", "Filter"="0", "headers"="{}", "RequestedCount"="0", "StartingIndex"="0", "SortCriteria"="")
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103861, architecture=optimo, hardware_version=1.38.1.0-1.0) ContentDirectory.Browse returns '{'NumberReturned': u'0', 'UpdateID': u'0', 'Result': u'<DIDL-Lite xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:upnp="urn:schemas-upnp-org:metadata-1-0/upnp/" xmlns:r="urn:schemas-rinconnetworks-com:metadata-1-0/" xmlns="urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/"></DIDL-Lite>', 'TotalMatches': u'0'}'
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.253] command: <test -e /jffs/backtrace && echo $?>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.253] response: <>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.252] command: <test -e /jffs/backtrace && echo $?>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.252] response: <>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.251] command: <test -e /jffs/backtrace && echo $?>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.251] response: <>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.250] command: <test -e /jffs/backtrace && echo $?>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.250] response: <>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.253] command: <test -e /jffs/watchdog.log && echo $?>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.253] response: <>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.252] command: <test -e /jffs/watchdog.log && echo $?>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.252] response: <>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.251] command: <test -e /jffs/watchdog.log && echo $?>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.251] response: <>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.250] command: <test -e /jffs/watchdog.log && echo $?>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.250] response: <>
