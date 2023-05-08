@@ -1,0 +1,729 @@
+{
+  "uid" : "2ee040667790c19e",
+  "name" : "test_loadHomeTheaterPlayback_on_ht_master_TVautoplay_already_on",
+  "fullName" : "player.muse.test_homeTheater_namespace#test_loadHomeTheaterPlayback_on_ht_master_TVautoplay_already_on",
+  "historyId" : "ec2c91f0abad4e54cd02e94002b01235",
+  "time" : {
+    "start" : 1683577720454,
+    "stop" : 1683577722576,
+    "duration" : 2122
+  },
+  "description" : "\n    Verify that the player enters TV playback mode if autoplay is already enabled on the player\n    :param module_dut:\n    :param ws_client:\n    :return:\n    ",
+  "descriptionHtml" : "<pre><code>Verify that the player enters TV playback mode if autoplay is already enabled on the player\n:param module_dut:\n:param ws_client:\n:return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "diag_levels",
+    "time" : {
+      "start" : 1683577719958,
+      "stop" : 1683577719958,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "get_module_dut",
+    "time" : {
+      "start" : 1683577701184,
+      "stop" : 1683577701236,
+      "duration" : 52
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "default_operation_devices",
+    "time" : {
+      "start" : 1683577719957,
+      "stop" : 1683577719957,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "pytestconfig",
+    "time" : {
+      "start" : 1683577693874,
+      "stop" : 1683577693874,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "websocket_manager",
+    "time" : {
+      "start" : 1683577701236,
+      "stop" : 1683577701236,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "reset_dut_and_ws_managers",
+    "time" : {
+      "start" : 1683577718800,
+      "stop" : 1683577718853,
+      "duration" : 53
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "muse_disable_speaker_audio",
+    "time" : {
+      "start" : 1683577696521,
+      "stop" : 1683577696521,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "override_diag_levels",
+    "time" : {
+      "start" : 1683577719958,
+      "stop" : 1683577720425,
+      "duration" : 467
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "a_playback_device",
+    "time" : {
+      "start" : 1683577694944,
+      "stop" : 1683577694944,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "dut_manager",
+    "time" : {
+      "start" : 1683577701184,
+      "stop" : 1683577701184,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "ws_client",
+    "time" : {
+      "start" : 1683577718854,
+      "stop" : 1683577719956,
+      "duration" : 1102
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "all_devices",
+    "time" : {
+      "start" : 1683577693874,
+      "stop" : 1683577694943,
+      "duration" : 1069
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "cleanup_player_overrides",
+    "time" : {
+      "start" : 1683577694944,
+      "stop" : 1683577694977,
+      "duration" : 33
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "operation_kwargs",
+    "time" : {
+      "start" : 1683577719957,
+      "stop" : 1683577719957,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "print_muse_logs",
+    "time" : {
+      "start" : 1683577718800,
+      "stop" : 1683577718800,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "player_diag_levels",
+    "time" : {
+      "start" : 1683577693874,
+      "stop" : 1683577693874,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "all_device_which_can_override_amps_interface",
+    "time" : {
+      "start" : 1683577694978,
+      "stop" : 1683577696521,
+      "duration" : 1543
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "operation_devices",
+    "time" : {
+      "start" : 1683577719957,
+      "stop" : 1683577719957,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "print_player_logs",
+    "time" : {
+      "start" : 1683577718323,
+      "stop" : 1683577718799,
+      "duration" : 476
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "environment",
+    "time" : {
+      "start" : 1683577693873,
+      "stop" : 1683577693873,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "module_dut",
+    "time" : {
+      "start" : 1683577718854,
+      "stop" : 1683577718854,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "diag_level_devices",
+    "time" : {
+      "start" : 1683577719957,
+      "stop" : 1683577719957,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "cleanup_websocket_connections",
+    "time" : {
+      "start" : 1683577718854,
+      "stop" : 1683577718854,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "disable_speaker_audio",
+    "time" : {
+      "start" : 1683577696521,
+      "stop" : 1683577696521,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "all_playback_devices",
+    "time" : {
+      "start" : 1683577694944,
+      "stop" : 1683577694944,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "\n    Verify that the player enters TV playback mode if autoplay is already enabled on the player\n    :param module_dut:\n    :param ws_client:\n    :return:\n    ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Set autoplay room value on a player",
+      "time" : {
+        "start" : 1683577720458,
+        "stop" : 1683577720496,
+        "duration" : 38
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Get autoplay room calue from a player",
+        "time" : {
+          "start" : 1683577720483,
+          "stop" : 1683577720496,
+          "duration" : 13
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "zp",
+          "value" : "SonosZoneComponent(id=139656150623184, ip=172.19.255.253, modelNumber=S36, serialNumber=0003861036E4, architecture=fury, hardware_version=1.36.1.0-1.0)"
+        }, {
+          "name" : "value",
+          "value" : "''"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "zp",
+        "value" : "SonosZoneComponent(id=139656150623184, ip=172.19.255.253, modelNumber=S36, serialNumber=0003861036E4, architecture=fury, hardware_version=1.36.1.0-1.0)"
+      }, {
+        "name" : "value",
+        "value" : "''"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Set autoplay room value on a player",
+      "time" : {
+        "start" : 1683577720499,
+        "stop" : 1683577720533,
+        "duration" : 34
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Get autoplay room calue from a player",
+        "time" : {
+          "start" : 1683577720520,
+          "stop" : 1683577720533,
+          "duration" : 13
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "zp",
+          "value" : "SonosZoneComponent(id=139656150623184, ip=172.19.255.253, modelNumber=S36, serialNumber=0003861036E4, architecture=fury, hardware_version=1.36.1.0-1.0)"
+        }, {
+          "name" : "value",
+          "value" : "'RINCON_0003861036E401400'"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "zp",
+        "value" : "SonosZoneComponent(id=139656150623184, ip=172.19.255.253, modelNumber=S36, serialNumber=0003861036E4, architecture=fury, hardware_version=1.36.1.0-1.0)"
+      }, {
+        "name" : "value",
+        "value" : "'RINCON_0003861036E401400'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verify spdif autoplay in current uri of a player",
+      "time" : {
+        "start" : 1683577720537,
+        "stop" : 1683577722560,
+        "duration" : 2023
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "zp",
+        "value" : "SonosZoneComponent(id=139656150623184, ip=172.19.255.253, modelNumber=S36, serialNumber=0003861036E4, architecture=fury, hardware_version=1.36.1.0-1.0)"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Get autoplay room calue from a player",
+      "time" : {
+        "start" : 1683577722564,
+        "stop" : 1683577722576,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "zp",
+        "value" : "SonosZoneComponent(id=139656150623184, ip=172.19.255.253, modelNumber=S36, serialNumber=0003861036E4, architecture=fury, hardware_version=1.36.1.0-1.0)"
+      }, {
+        "name" : "value",
+        "value" : "'RINCON_0003861036E401400'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "5791f7ccbab7cce0",
+      "name" : "stderr",
+      "source" : "5791f7ccbab7cce0.txt",
+      "type" : "text/plain",
+      "size" : 63642
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "websocket_manager::0",
+    "time" : {
+      "start" : 1683577756441,
+      "stop" : 1683577756442,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "reset_dut_and_ws_managers::0",
+    "time" : {
+      "start" : 1683577722647,
+      "stop" : 1683577723788,
+      "duration" : 1141
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "override_diag_levels::0",
+    "time" : {
+      "start" : 1683577722606,
+      "stop" : 1683577722643,
+      "duration" : 37
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "dut_manager::0",
+    "time" : {
+      "start" : 1683577756443,
+      "stop" : 1683577756499,
+      "duration" : 56
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "cleanup_player_overrides::0",
+    "time" : {
+      "start" : 1683577764857,
+      "stop" : 1683577764884,
+      "duration" : 27
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "print_muse_logs::0",
+    "time" : {
+      "start" : 1683577723788,
+      "stop" : 1683577723788,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "player_diag_levels::0",
+    "time" : {
+      "start" : 1683577764886,
+      "stop" : 1683577764886,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "print_player_logs::0",
+    "time" : {
+      "start" : 1683577723789,
+      "stop" : 1683577724190,
+      "duration" : 401
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "cleanup_websocket_connections::0",
+    "time" : {
+      "start" : 1683577722644,
+      "stop" : 1683577722646,
+      "duration" : 2
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "disable_speaker_audio::0",
+    "time" : {
+      "start" : 1683577764857,
+      "stop" : 1683577764857,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "nightly"
+  }, {
+    "name" : "tag",
+    "value" : "homeTheater_namespace"
+  }, {
+    "name" : "tag",
+    "value" : "priority3"
+  }, {
+    "name" : "parentSuite",
+    "value" : "player.muse"
+  }, {
+    "name" : "suite",
+    "value" : "test_homeTheater_namespace"
+  }, {
+    "name" : "host",
+    "value" : "fd90a8ccddef"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython2"
+  }, {
+    "name" : "package",
+    "value" : "player.muse.test_homeTheater_namespace"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "nightly", "priority3", "homeTheater_namespace" ]
+  },
+  "source" : "2ee040667790c19e.json",
+  "parameterValues" : [ ]
+}

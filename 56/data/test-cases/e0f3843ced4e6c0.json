@@ -1,0 +1,569 @@
+{
+  "uid" : "e0f3843ced4e6c0",
+  "name" : "test_loadContainer_local_share[Play entire samba share]",
+  "fullName" : "player.muse.test_playback_namespace#test_loadContainer_local_share[Play entire samba share]",
+  "historyId" : "9e97da6bed042d8f59e0bcdbcf743f77",
+  "time" : {
+    "start" : 1683576197936,
+    "stop" : 1683576197936,
+    "duration" : 0
+  },
+  "description" : "\n    SWPBL-145583\n    Verify loadContainer works with local library files via the following methods:\n    1. an entire samba share\n    2. a specific artist\n    3. a specific playlist\n    :param module_dut:\n    :param md_type:\n    :return:\n    ",
+  "descriptionHtml" : "<pre><code>SWPBL-145583\nVerify loadContainer works with local library files via the following methods:\n1. an entire samba share\n2. a specific artist\n3. a specific playlist\n:param module_dut:\n:param md_type:\n:return:\n</code></pre>\n",
+  "status" : "skipped",
+  "statusMessage" : "Skipped: SIMULATOR_SKIP: Skipped because simulators rely on the media container, not the camb-nas share.",
+  "statusTrace" : "('/test/python/tests/src/pytest_automation/plugins/muse_plugin.py', 769, u'Skipped: SIMULATOR_SKIP: Skipped because simulators rely on the media container, not the camb-nas share.')",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "operation_devices",
+    "time" : {
+      "start" : 1683576199286,
+      "stop" : 1683576201477,
+      "duration" : 2191
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "disable_speaker_audio",
+    "time" : {
+      "start" : 1683575973329,
+      "stop" : 1683575973329,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "reset_dut_and_ws_managers",
+    "time" : {
+      "start" : 1683576199286,
+      "stop" : 1683576199671,
+      "duration" : 385
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "override_diag_levels",
+    "time" : {
+      "start" : 1683576201528,
+      "stop" : 1683576203472,
+      "duration" : 1944
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "a_playback_device",
+    "time" : {
+      "start" : 1683575969667,
+      "stop" : 1683575969667,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "muse_disable_speaker_audio",
+    "time" : {
+      "start" : 1683575973330,
+      "stop" : 1683575973330,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "module_dut",
+    "time" : {
+      "start" : 1683576401453,
+      "stop" : 1683576401453,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "environment",
+    "time" : {
+      "start" : 1683575965917,
+      "stop" : 1683575965917,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "pytestconfig",
+    "time" : {
+      "start" : 1683575965917,
+      "stop" : 1683575965917,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "all_device_which_can_override_amps_interface",
+    "time" : {
+      "start" : 1683575969704,
+      "stop" : 1683575973329,
+      "duration" : 3625
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "get_module_dut",
+    "time" : {
+      "start" : 1683576164567,
+      "stop" : 1683576165166,
+      "duration" : 599
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "all_playback_devices",
+    "time" : {
+      "start" : 1683575969667,
+      "stop" : 1683575969667,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "add_smb_share",
+    "time" : {
+      "start" : 1683576197939,
+      "stop" : 1683576197939,
+      "duration" : 0
+    },
+    "status" : "skipped",
+    "statusMessage" : "Skipped: SIMULATOR_SKIP: Skipped because simulators rely on the media container, not the camb-nas share.\n",
+    "statusTrace" : "  File \"/test/python/.venv/local/lib/python2.7/site-packages/pluggy/callers.py\", line 187, in _multicall\n    res = hook_impl.function(*args)\n  File \"/test/python/.venv/local/lib/python2.7/site-packages/_pytest/fixtures.py\", line 969, in pytest_fixture_setup\n    result = call_fixture_func(fixturefunc, request, kwargs)\n  File \"/test/python/.venv/local/lib/python2.7/site-packages/_pytest/fixtures.py\", line 824, in call_fixture_func\n    res = next(it)\n  File \"/test/python/tests/src/pytest_automation/plugins/muse_plugin.py\", line 769, in add_smb_share\n    pytest.skip(\"SIMULATOR_SKIP: Skipped because simulators rely on the media container, not the camb-nas share.\")\n  File \"/test/python/.venv/local/lib/python2.7/site-packages/_pytest/outcomes.py\", line 98, in skip\n    raise Skipped(msg=msg, allow_module_level=allow_module_level)\n",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  }, {
+    "name" : "player_diag_levels",
+    "time" : {
+      "start" : 1683575965917,
+      "stop" : 1683575965917,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "websocket_manager",
+    "time" : {
+      "start" : 1683576144507,
+      "stop" : 1683576144507,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "all_devices",
+    "time" : {
+      "start" : 1683575965918,
+      "stop" : 1683575969667,
+      "duration" : 3749
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "print_player_logs",
+    "time" : {
+      "start" : 1683576197978,
+      "stop" : 1683576199285,
+      "duration" : 1307
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "dut_manager",
+    "time" : {
+      "start" : 1683576144506,
+      "stop" : 1683576144507,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "diag_levels",
+    "time" : {
+      "start" : 1683576201528,
+      "stop" : 1683576201528,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "default_operation_devices",
+    "time" : {
+      "start" : 1683576201477,
+      "stop" : 1683576201477,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "diag_level_devices",
+    "time" : {
+      "start" : 1683576201527,
+      "stop" : 1683576201527,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "print_muse_logs",
+    "time" : {
+      "start" : 1683576199285,
+      "stop" : 1683576199285,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "operation_kwargs",
+    "time" : {
+      "start" : 1683576199286,
+      "stop" : 1683576199286,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "cleanup_player_overrides",
+    "time" : {
+      "start" : 1683575969667,
+      "stop" : 1683575969704,
+      "duration" : 37
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "disable_speaker_audio::0",
+    "time" : {
+      "start" : 1683576523774,
+      "stop" : 1683576523774,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "reset_dut_and_ws_managers::0",
+    "time" : {
+      "start" : 1683576206700,
+      "stop" : 1683576206956,
+      "duration" : 256
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "override_diag_levels::0",
+    "time" : {
+      "start" : 1683576206322,
+      "stop" : 1683576206644,
+      "duration" : 322
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "player_diag_levels::0",
+    "time" : {
+      "start" : 1683576523808,
+      "stop" : 1683576523808,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "websocket_manager::0",
+    "time" : {
+      "start" : 1683576523559,
+      "stop" : 1683576523560,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "print_player_logs::0",
+    "time" : {
+      "start" : 1683576206958,
+      "stop" : 1683576208567,
+      "duration" : 1609
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "dut_manager::0",
+    "time" : {
+      "start" : 1683576523563,
+      "stop" : 1683576523771,
+      "duration" : 208
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "print_muse_logs::0",
+    "time" : {
+      "start" : 1683576206957,
+      "stop" : 1683576206958,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "cleanup_player_overrides::0",
+    "time" : {
+      "start" : 1683576523776,
+      "stop" : 1683576523803,
+      "duration" : 27
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "nightly"
+  }, {
+    "name" : "tag",
+    "value" : "playback_namespaces"
+  }, {
+    "name" : "tag",
+    "value" : "priority3"
+  }, {
+    "name" : "tag",
+    "value" : "business_settings"
+  }, {
+    "name" : "parentSuite",
+    "value" : "player.muse"
+  }, {
+    "name" : "suite",
+    "value" : "test_playback_namespace"
+  }, {
+    "name" : "host",
+    "value" : "ac53b1763494"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython2"
+  }, {
+    "name" : "package",
+    "value" : "player.muse.test_playback_namespace"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "md_type",
+    "value" : "'container.local'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "playback_namespaces", "nightly", "priority3", "business_settings" ]
+  },
+  "source" : "e0f3843ced4e6c0.json",
+  "parameterValues" : [ "'container.local'" ]
+}

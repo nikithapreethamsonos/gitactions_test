@@ -1,0 +1,717 @@
+{
+  "uid" : "f21c5a1dbc9d057b",
+  "name" : "test_cloudqueue_radio_alarm_default_to_buzzer[Default Mock Config-None-CONSUMER-CQ server 480 resp]",
+  "fullName" : "player.muse.test_cloudqueue_misc#test_cloudqueue_radio_alarm_default_to_buzzer[Default Mock Config-None-CONSUMER-CQ server 480 resp]",
+  "historyId" : "6ad36aa40182f78ecf789c1f1594773a",
+  "time" : {
+    "start" : 1683575445292,
+    "stop" : 1683575445292,
+    "duration" : 0
+  },
+  "description" : "\n    SWPBL-148628\n    SWPBL-102363\n    SWPBL-120776\n    In Consumer mode, if an alarm is setup to use cq/smapi radio and that radio\n    station is not available, the alarm should fall back to use the default\n    sonos chime.\n    In the positive case, the alarm should be set as the smapi radio station.\n\n    In Business mode, if an alarm is setup to use cq/smapi radio and that radio\n    station is not available, the alarm should NOT fall back to use the default\n    sonos chime.\n    :param module_dut:\n    :param mock_cq_server:\n    :param mock_smapi_server_manager:\n    :param default_alarm:\n    :param kill_cq:\n    :param request_response\n    :param system_type\n    :return:\n    ",
+  "descriptionHtml" : "<pre><code>SWPBL-148628\nSWPBL-102363\nSWPBL-120776\nIn Consumer mode, if an alarm is setup to use cq/smapi radio and that radio\nstation is not available, the alarm should fall back to use the default\nsonos chime.\nIn the positive case, the alarm should be set as the smapi radio station.\n\nIn Business mode, if an alarm is setup to use cq/smapi radio and that radio\nstation is not available, the alarm should NOT fall back to use the default\nsonos chime.\n:param module_dut:\n:param mock_cq_server:\n:param mock_smapi_server_manager:\n:param default_alarm:\n:param kill_cq:\n:param request_response\n:param system_type\n:return:\n</code></pre>\n",
+  "status" : "skipped",
+  "statusMessage" : "Skipped: Skipped due to extreme flakiness.",
+  "statusTrace" : "('player/muse/test_cloudqueue_misc.py', 30, u'Skipped: Skipped due to extreme flakiness.')",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "muse_disable_speaker_audio",
+    "time" : {
+      "start" : 1683575451098,
+      "stop" : 1683575451098,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "diag_levels",
+    "time" : {
+      "start" : 1683575468579,
+      "stop" : 1683575468579,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "operation_kwargs",
+    "time" : {
+      "start" : 1683575468579,
+      "stop" : 1683575468579,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "alarm_manager",
+    "time" : {
+      "start" : 1683575461472,
+      "stop" : 1683575461473,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "player_diag_levels",
+    "time" : {
+      "start" : 1683575445316,
+      "stop" : 1683575445316,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "override_diag_levels",
+    "time" : {
+      "start" : 1683575468580,
+      "stop" : 1683575469636,
+      "duration" : 1056
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "dut_manager",
+    "time" : {
+      "start" : 1683575461473,
+      "stop" : 1683575461473,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "diag_level_devices",
+    "time" : {
+      "start" : 1683575468579,
+      "stop" : 1683575468579,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "websocket_manager",
+    "time" : {
+      "start" : 1683575461521,
+      "stop" : 1683575461521,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "print_player_logs",
+    "time" : {
+      "start" : 1683575461521,
+      "stop" : 1683575462059,
+      "duration" : 538
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "get_module_dut",
+    "time" : {
+      "start" : 1683575461473,
+      "stop" : 1683575461521,
+      "duration" : 48
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "default_operation_devices",
+    "time" : {
+      "start" : 1683575468579,
+      "stop" : 1683575468579,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "operation_devices",
+    "time" : {
+      "start" : 1683575468579,
+      "stop" : 1683575468579,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "cleanup_player_overrides",
+    "time" : {
+      "start" : 1683575447937,
+      "stop" : 1683575447981,
+      "duration" : 44
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "disable_audio_output",
+    "time" : {
+      "start" : 1683575451110,
+      "stop" : 1683575461425,
+      "duration" : 10315
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "mock_cq_control",
+    "time" : {
+      "start" : 1683575451098,
+      "stop" : 1683575451109,
+      "duration" : 11
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "all_devices",
+    "time" : {
+      "start" : 1683575445316,
+      "stop" : 1683575447935,
+      "duration" : 2619
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "disable_speaker_audio",
+    "time" : {
+      "start" : 1683575451097,
+      "stop" : 1683575451097,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "hhid",
+    "time" : {
+      "start" : 1683575461426,
+      "stop" : 1683575461472,
+      "duration" : 46
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "all_device_which_can_override_amps_interface",
+    "time" : {
+      "start" : 1683575447981,
+      "stop" : 1683575451097,
+      "duration" : 3116
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "pytestconfig",
+    "time" : {
+      "start" : 1683575445315,
+      "stop" : 1683575445315,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "ws_client",
+    "time" : {
+      "start" : 1683575464060,
+      "stop" : 1683575466494,
+      "duration" : 2434
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "cleanup_websocket_connections",
+    "time" : {
+      "start" : 1683575464060,
+      "stop" : 1683575464060,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "environment",
+    "time" : {
+      "start" : 1683575445315,
+      "stop" : 1683575445315,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "print_muse_logs",
+    "time" : {
+      "start" : 1683575462059,
+      "stop" : 1683575462059,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "a_playback_device",
+    "time" : {
+      "start" : 1683575447936,
+      "stop" : 1683575447936,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "all_playback_devices",
+    "time" : {
+      "start" : 1683575447935,
+      "stop" : 1683575447935,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "module_dut",
+    "time" : {
+      "start" : 1683575462167,
+      "stop" : 1683575462167,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "remove_all_alarms",
+    "time" : {
+      "start" : 1683575468578,
+      "stop" : 1683575468578,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "reset_dut_and_ws_managers",
+    "time" : {
+      "start" : 1683575462059,
+      "stop" : 1683575462167,
+      "duration" : 108
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "player_diag_levels::0",
+    "time" : {
+      "start" : 1683575807805,
+      "stop" : 1683575807805,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "override_diag_levels::0",
+    "time" : {
+      "start" : 1683575470765,
+      "stop" : 1683575470863,
+      "duration" : 98
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "dut_manager::0",
+    "time" : {
+      "start" : 1683575614705,
+      "stop" : 1683575614781,
+      "duration" : 76
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "websocket_manager::0",
+    "time" : {
+      "start" : 1683575614704,
+      "stop" : 1683575614704,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "print_player_logs::0",
+    "time" : {
+      "start" : 1683575472538,
+      "stop" : 1683575473166,
+      "duration" : 628
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "cleanup_player_overrides::0",
+    "time" : {
+      "start" : 1683575807758,
+      "stop" : 1683575807803,
+      "duration" : 45
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "disable_audio_output::0",
+    "time" : {
+      "start" : 1683575614782,
+      "stop" : 1683575807755,
+      "duration" : 192973
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "disable_speaker_audio::0",
+    "time" : {
+      "start" : 1683575807757,
+      "stop" : 1683575807757,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "cleanup_websocket_connections::0",
+    "time" : {
+      "start" : 1683575471238,
+      "stop" : 1683575471240,
+      "duration" : 2
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "print_muse_logs::0",
+    "time" : {
+      "start" : 1683575472538,
+      "stop" : 1683575472538,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "remove_all_alarms::0",
+    "time" : {
+      "start" : 1683575470865,
+      "stop" : 1683575471237,
+      "duration" : 372
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "reset_dut_and_ws_managers::0",
+    "time" : {
+      "start" : 1683575471254,
+      "stop" : 1683575472537,
+      "duration" : 1283
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "nightly"
+  }, {
+    "name" : "tag",
+    "value" : "SFB_EM1_2020"
+  }, {
+    "name" : "tag",
+    "value" : "cloudqueue"
+  }, {
+    "name" : "tag",
+    "value" : "feature_ALARMS"
+  }, {
+    "name" : "tag",
+    "value" : "priority3"
+  }, {
+    "name" : "parentSuite",
+    "value" : "player.muse"
+  }, {
+    "name" : "suite",
+    "value" : "test_cloudqueue_misc"
+  }, {
+    "name" : "host",
+    "value" : "258a64477ad8"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython2"
+  }, {
+    "name" : "package",
+    "value" : "player.muse.test_cloudqueue_misc"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "config_properties",
+    "value" : "None"
+  }, {
+    "name" : "extra_path",
+    "value" : "None"
+  }, {
+    "name" : "kill_cq",
+    "value" : "False"
+  }, {
+    "name" : "request_response",
+    "value" : "480"
+  }, {
+    "name" : "system_type",
+    "value" : "'CONSUMER'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "feature_ALARMS", "nightly", "SFB_EM1_2020", "cloudqueue", "priority3" ]
+  },
+  "source" : "f21c5a1dbc9d057b.json",
+  "parameterValues" : [ "None", "None", "False", "480", "'CONSUMER'" ]
+}

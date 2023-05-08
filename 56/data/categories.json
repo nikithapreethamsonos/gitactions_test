@@ -1,0 +1,64 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "error: [Errno 104] Connection reset by peer",
+      "children" : [ {
+        "name" : "test_load_cloud_queue_auth_header[Secured CQ Server]",
+        "uid" : "830e66ebd176f692",
+        "parentUid" : "8e4bfaeef1c2fe7b32d8bc9469447039",
+        "status" : "broken",
+        "time" : {
+          "start" : 1683575492197,
+          "stop" : 1683575493206,
+          "duration" : 1009
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "''", "'https'", "'0'" ]
+      } ],
+      "uid" : "8e4bfaeef1c2fe7b32d8bc9469447039"
+    }, {
+      "name" : "TimeoutError: Timeout: waited 191.0 seconds (180 iterations)",
+      "children" : [ {
+        "name" : "test_get_config[Default Mock Config]",
+        "uid" : "cdb3deb9003a352f",
+        "parentUid" : "9d4127d4bf6f0d6ad631e5896b84ff18",
+        "status" : "broken",
+        "time" : {
+          "start" : 1683576604360,
+          "stop" : 1683576795411,
+          "duration" : 191051
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "None" ]
+      } ],
+      "uid" : "9d4127d4bf6f0d6ad631e5896b84ff18"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: Fail this test for Allure reporting check\nassert 1 == 0",
+      "children" : [ {
+        "name" : "test_GroupCoordinatorChangedEvent_websocketUrl_v1",
+        "uid" : "9321f28408f67726",
+        "parentUid" : "4554322b78262c482632e8ecd9958635",
+        "status" : "failed",
+        "time" : {
+          "start" : 1683575759285,
+          "stop" : 1683575759286,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4554322b78262c482632e8ecd9958635"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}
