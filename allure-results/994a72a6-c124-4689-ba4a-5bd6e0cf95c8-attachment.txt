@@ -1,0 +1,686 @@
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /udplog HTTP/1.1" 200 None
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.251] command: <grep -v "LogToExternal" /jffs/localsettings.txt > /tmp/nokeyword.txt ; mv /tmp/nokeyword.txt /jffs/localsettings.txt>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.251] response: <>
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /udplog HTTP/1.1" 200 None
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.251] command: <grep -v "LogToExternal" /jffs/localsettings.txt > /tmp/nokeyword.txt ; mv /tmp/nokeyword.txt /jffs/localsettings.txt>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.251] response: <>
+WARNING:SONOS.ZP.Logger:Log file cleanup failed, already gone?
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /udplog HTTP/1.1" 200 None
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.251] command: <grep -v "LogToExternal" /jffs/localsettings.txt > /tmp/nokeyword.txt ; mv /tmp/nokeyword.txt /jffs/localsettings.txt>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.251] response: <>
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /udplog?host=172.18.0.6&port=3333 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /status/perf HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /status/tmp/AirPlay.log HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /status/opt/log/anacapa.vi.trace HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /status/opt/log/libassistant.log.2 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /status/opt/log/libassistant.log.1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /status/opt/log/libassistant.log HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /status/opt/log/anacapa.dc.trace HTTP/1.1" 200 None
+DEBUG:SONOS.pytest_automation.conftest:Found devices for testbed operations: ['diag_level', 'cpu_metrics', 'capture_anacapa']
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /udplog?host=172.18.0.6&port=3333 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /udplog?host=172.18.0.6&port=3333 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /udplog?host=172.18.0.6&port=3333 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /diagmsg HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "POST /diagmsg HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /diagmsg HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "POST /diagmsg HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /diagmsg HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "POST /diagmsg HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /diaglevel?module=dropout_event_logging&level=1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "POST /diaglevel?module=dropout_event_logging&level=1 HTTP/1.1" 200 202
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 194
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /diaglevel?module=muse&level=8 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "POST /diaglevel?module=muse&level=8 HTTP/1.1" 200 202
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 194
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /diaglevel?module=cloudqueue&level=5 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "POST /diaglevel?module=cloudqueue&level=5 HTTP/1.1" 200 202
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 194
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /diaglevel?module=chsrc&level=3 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "POST /diaglevel?module=chsrc&level=3 HTTP/1.1" 200 202
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 194
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /diaglevel?module=cqfsm&level=3 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "POST /diaglevel?module=cqfsm&level=3 HTTP/1.1" 200 202
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 194
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /diaglevel?module=cssc&level=4 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "POST /diaglevel?module=cssc&level=4 HTTP/1.1" 200 202
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 194
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /diaglevel?module=avt_impl&level=3 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "POST /diaglevel?module=avt_impl&level=3 HTTP/1.1" 200 202
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 194
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /diaglevel?module=certval&level=3 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "POST /diaglevel?module=certval&level=3 HTTP/1.1" 200 202
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 194
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /diaglevel?module=httpauth&level=3 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "POST /diaglevel?module=httpauth&level=3 HTTP/1.1" 200 202
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 194
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /diaglevel?module=rest&level=5 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "POST /diaglevel?module=rest&level=5 HTTP/1.1" 200 202
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 194
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /diaglevel?module=museauth&level=5 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "POST /diaglevel?module=museauth&level=5 HTTP/1.1" 200 202
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 194
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /diaglevel?module=ssl&level=5 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "POST /diaglevel?module=ssl&level=5 HTTP/1.1" 200 202
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 194
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /diaglevel?module=dropout_event_logging&level=1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "POST /diaglevel?module=dropout_event_logging&level=1 HTTP/1.1" 200 202
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 194
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /diaglevel?module=muse&level=8 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "POST /diaglevel?module=muse&level=8 HTTP/1.1" 200 202
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 194
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /diaglevel?module=cloudqueue&level=5 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "POST /diaglevel?module=cloudqueue&level=5 HTTP/1.1" 200 202
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 194
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /diaglevel?module=chsrc&level=3 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "POST /diaglevel?module=chsrc&level=3 HTTP/1.1" 200 202
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 194
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /diaglevel?module=cqfsm&level=3 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "POST /diaglevel?module=cqfsm&level=3 HTTP/1.1" 200 202
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 194
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /diaglevel?module=cssc&level=4 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "POST /diaglevel?module=cssc&level=4 HTTP/1.1" 200 202
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 194
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /diaglevel?module=avt_impl&level=3 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "POST /diaglevel?module=avt_impl&level=3 HTTP/1.1" 200 202
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 194
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /diaglevel?module=certval&level=3 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "POST /diaglevel?module=certval&level=3 HTTP/1.1" 200 202
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 194
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /diaglevel?module=httpauth&level=3 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "POST /diaglevel?module=httpauth&level=3 HTTP/1.1" 200 202
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 194
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /diaglevel?module=rest&level=5 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "POST /diaglevel?module=rest&level=5 HTTP/1.1" 200 202
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 194
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /diaglevel?module=museauth&level=5 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "POST /diaglevel?module=museauth&level=5 HTTP/1.1" 200 202
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 194
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /diaglevel?module=ssl&level=5 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "POST /diaglevel?module=ssl&level=5 HTTP/1.1" 200 202
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 194
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /diaglevel?module=dropout_event_logging&level=1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "POST /diaglevel?module=dropout_event_logging&level=1 HTTP/1.1" 200 202
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 194
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /diaglevel?module=muse&level=8 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "POST /diaglevel?module=muse&level=8 HTTP/1.1" 200 202
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 194
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /diaglevel?module=cloudqueue&level=5 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "POST /diaglevel?module=cloudqueue&level=5 HTTP/1.1" 200 202
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 194
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /diaglevel?module=chsrc&level=3 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "POST /diaglevel?module=chsrc&level=3 HTTP/1.1" 200 202
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 194
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /diaglevel?module=cqfsm&level=3 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "POST /diaglevel?module=cqfsm&level=3 HTTP/1.1" 200 202
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 194
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /diaglevel?module=cssc&level=4 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "POST /diaglevel?module=cssc&level=4 HTTP/1.1" 200 202
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 194
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /diaglevel?module=avt_impl&level=3 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "POST /diaglevel?module=avt_impl&level=3 HTTP/1.1" 200 202
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 194
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /diaglevel?module=certval&level=3 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "POST /diaglevel?module=certval&level=3 HTTP/1.1" 200 202
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 194
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /diaglevel?module=httpauth&level=3 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "POST /diaglevel?module=httpauth&level=3 HTTP/1.1" 200 202
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 194
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /diaglevel?module=rest&level=5 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "POST /diaglevel?module=rest&level=5 HTTP/1.1" 200 202
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 194
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /diaglevel?module=museauth&level=5 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "POST /diaglevel?module=museauth&level=5 HTTP/1.1" 200 202
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 194
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /diaglevel?module=ssl&level=5 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "POST /diaglevel?module=ssl&level=5 HTTP/1.1" 200 202
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 194
+INFO:SONOS.CPU:Start CPU Monitor...
+DEBUG:sonos.perf.cpu.cpu_capture:Getting CPU frequency histogram
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.253] command: <cat /sys/devices/system/cpu/cpu0/cpufreq/stats/time_in_state>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.253] response: <>
+DEBUG:sonos.perf.cpu.cpu_capture:Start CPU capture on SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=000386103616, architecture=fury, hardware_version=1.36.1.0-1.0)
+DEBUG:sonos.perf.cpu.cpu_capture:Performing cleanup
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.253] command: <test -e /tmp/cpu_pid && echo $?>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.253] response: <0>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.253] command: <kill `cat /tmp/cpu_pid`>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.253] response: <>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.253] command: <rm -rf /tmp/pub/cpu_data>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.253] response: <>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.253] command: <test -e /tmp/pub/cpu_data && echo $?>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.253] response: <>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.253] command: <rm -rf /tmp/cpu_pid>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.253] response: <>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.253] command: <test -e /tmp/cpu_pid && echo $?>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.253] response: <>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.253] command: < >/tmp/pub/cpu_data;    while true; do    echo ' ' >> /tmp/pub/cpu_data;    cat /proc/stat >> /tmp/pub/cpu_data;    sleep 1;  done &>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.253] response: <>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.253] command: <ps | grep '[/]tmp/pub/cpu'>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.253] response: <2924 root      2408 S    sh -c PATH=$PATH:/usr/sbin:/sbin;  >/tmp/pub/cpu_dat>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.253] command: <echo 2924 > /tmp/cpu_pid>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.253] response: <>
+DEBUG:sonos.perf.cpu.cpu_capture:Getting CPU frequency histogram
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.252] command: <cat /sys/devices/system/cpu/cpu0/cpufreq/stats/time_in_state>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.252] response: <>
+DEBUG:sonos.perf.cpu.cpu_capture:Start CPU capture on SonosZoneComponent(ip=172.18.255.252, modelNumber=S39, serialNumber=0003861038D3, architecture=optimo, hardware_version=1.38.1.0-1.0)
+DEBUG:sonos.perf.cpu.cpu_capture:Performing cleanup
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.252] command: <test -e /tmp/cpu_pid && echo $?>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.252] response: <0>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.252] command: <kill `cat /tmp/cpu_pid`>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.252] response: <>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.252] command: <rm -rf /tmp/pub/cpu_data>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.252] response: <>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.252] command: <test -e /tmp/pub/cpu_data && echo $?>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.252] response: <>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.252] command: <rm -rf /tmp/cpu_pid>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.252] response: <>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.252] command: <test -e /tmp/cpu_pid && echo $?>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.252] response: <>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.252] command: < >/tmp/pub/cpu_data;    while true; do    echo ' ' >> /tmp/pub/cpu_data;    cat /proc/stat >> /tmp/pub/cpu_data;    sleep 1;  done &>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.252] response: <>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.252] command: <ps | grep '[/]tmp/pub/cpu'>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.252] response: <2413 root      2404 S    sh -c PATH=$PATH:/usr/sbin:/sbin;  >/tmp/pub/cpu_dat>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.252] command: <echo 2413 > /tmp/cpu_pid>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.252] response: <>
+DEBUG:sonos.perf.cpu.cpu_capture:Getting CPU frequency histogram
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.251] command: <cat /sys/devices/system/cpu/cpu0/cpufreq/stats/time_in_state>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.251] response: <>
+DEBUG:sonos.perf.cpu.cpu_capture:Start CPU capture on SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=00038610380F, architecture=optimo, hardware_version=1.38.1.0-1.0)
+DEBUG:sonos.perf.cpu.cpu_capture:Performing cleanup
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.251] command: <test -e /tmp/cpu_pid && echo $?>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.251] response: <0>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.251] command: <kill `cat /tmp/cpu_pid`>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.251] response: <>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.251] command: <rm -rf /tmp/pub/cpu_data>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.251] response: <>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.251] command: <test -e /tmp/pub/cpu_data && echo $?>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.251] response: <>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.251] command: <rm -rf /tmp/cpu_pid>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.251] response: <>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.251] command: <test -e /tmp/cpu_pid && echo $?>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.251] response: <>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.251] command: < >/tmp/pub/cpu_data;    while true; do    echo ' ' >> /tmp/pub/cpu_data;    cat /proc/stat >> /tmp/pub/cpu_data;    sleep 1;  done &>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.251] response: <>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.251] command: <ps | grep '[/]tmp/pub/cpu'>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.251] response: <2494 root      2404 S    sh -c PATH=$PATH:/usr/sbin:/sbin;  >/tmp/pub/cpu_dat>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.251] command: <echo 2494 > /tmp/cpu_pid>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.251] response: <>
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.ChannelMapSet> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=00038610380F, architecture=optimo, hardware_version=1.38.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.ChannelMapSet> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=00038610380F, architecture=optimo, hardware_version=1.38.1.0-1.0) = 
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.HTSatChanMapSet> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=00038610380F, architecture=optimo, hardware_version=1.38.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.HTSatChanMapSet> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=00038610380F, architecture=optimo, hardware_version=1.38.1.0-1.0) = 
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.HTSatChanMapSet> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=00038610380F, architecture=optimo, hardware_version=1.38.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.HTSatChanMapSet> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=00038610380F, architecture=optimo, hardware_version=1.38.1.0-1.0) = 
+DEBUG:SONOS.sonos.services.base:Getting state variable <GroupManagement.GroupCoordinatorIsLocal> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=00038610380F, architecture=optimo, hardware_version=1.38.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <GroupManagement.GroupCoordinatorIsLocal> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=00038610380F, architecture=optimo, hardware_version=1.38.1.0-1.0) = 1
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=00038610380F, architecture=optimo, hardware_version=1.38.1.0-1.0) invokes AVTransport.GetTransportInfo("InstanceID"="0", "headers"="{}")
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=00038610380F, architecture=optimo, hardware_version=1.38.1.0-1.0) AVTransport.GetTransportInfo returns '{'CurrentTransportState': u'STOPPED', 'CurrentTransportStatus': u'OK', 'CurrentSpeed': u'1'}'
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=00038610380F, architecture=optimo, hardware_version=1.38.1.0-1.0) invokes AVTransport.GetTransportInfo("InstanceID"="0", "headers"="{}")
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=00038610380F, architecture=optimo, hardware_version=1.38.1.0-1.0) AVTransport.GetTransportInfo returns '{'CurrentTransportState': u'STOPPED', 'CurrentTransportStatus': u'OK', 'CurrentSpeed': u'1'}'
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=00038610380F, architecture=optimo, hardware_version=1.38.1.0-1.0) invokes RenderingControl.SetVolume("InstanceID"="0", "DesiredVolume"="10", "Channel"="Master", "headers"="{}")
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=00038610380F, architecture=optimo, hardware_version=1.38.1.0-1.0) RenderingControl.SetVolume returns '{}'
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=00038610380F, architecture=optimo, hardware_version=1.38.1.0-1.0) invokes ContentDirectory.Browse("ObjectID"="Q:0", "BrowseFlag"="BrowseDirectChildren", "Filter"="0", "headers"="{}", "RequestedCount"="0", "StartingIndex"="0", "SortCriteria"="")
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=00038610380F, architecture=optimo, hardware_version=1.38.1.0-1.0) ContentDirectory.Browse returns '{'NumberReturned': u'0', 'UpdateID': u'1', 'Result': u'<DIDL-Lite xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:upnp="urn:schemas-upnp-org:metadata-1-0/upnp/" xmlns:r="urn:schemas-rinconnetworks-com:metadata-1-0/" xmlns="urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/"></DIDL-Lite>', 'TotalMatches': u'0'}'
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /udplog HTTP/1.1" 200 None
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.252] command: <grep -v "LogToExternal" /jffs/localsettings.txt > /tmp/nokeyword.txt ; mv /tmp/nokeyword.txt /jffs/localsettings.txt>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.252] response: <>
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /udplog HTTP/1.1" 200 None
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.252] command: <grep -v "LogToExternal" /jffs/localsettings.txt > /tmp/nokeyword.txt ; mv /tmp/nokeyword.txt /jffs/localsettings.txt>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.252] response: <>
+WARNING:SONOS.ZP.Logger:Log file cleanup failed, already gone?
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /udplog HTTP/1.1" 200 None
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.252] command: <grep -v "LogToExternal" /jffs/localsettings.txt > /tmp/nokeyword.txt ; mv /tmp/nokeyword.txt /jffs/localsettings.txt>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.252] response: <>
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /udplog?host=172.18.0.6&port=3333 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /status/perf HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /status/tmp/AirPlay.log HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /status/opt/log/anacapa.vi.trace HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /status/opt/log/libassistant.log.2 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /status/opt/log/libassistant.log.1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /status/opt/log/libassistant.log HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /status/opt/log/anacapa.dc.trace HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /udplog HTTP/1.1" 200 None
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.253] command: <grep -v "LogToExternal" /jffs/localsettings.txt > /tmp/nokeyword.txt ; mv /tmp/nokeyword.txt /jffs/localsettings.txt>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.253] response: <>
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /udplog HTTP/1.1" 200 None
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.253] command: <grep -v "LogToExternal" /jffs/localsettings.txt > /tmp/nokeyword.txt ; mv /tmp/nokeyword.txt /jffs/localsettings.txt>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.253] response: <>
+WARNING:SONOS.ZP.Logger:Log file cleanup failed, already gone?
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /udplog HTTP/1.1" 200 None
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.253] command: <grep -v "LogToExternal" /jffs/localsettings.txt > /tmp/nokeyword.txt ; mv /tmp/nokeyword.txt /jffs/localsettings.txt>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.253] response: <>
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /udplog?host=172.18.0.6&port=3333 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /status/perf HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /status/tmp/AirPlay.log HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /status/opt/log/anacapa.vi.trace HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /status/opt/log/libassistant.log.2 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /status/opt/log/libassistant.log.1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /status/opt/log/libassistant.log HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /status/opt/log/anacapa.dc.trace HTTP/1.1" 200 None
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.ChannelMapSet> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=00038610380F, architecture=optimo, hardware_version=1.38.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.ChannelMapSet> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=00038610380F, architecture=optimo, hardware_version=1.38.1.0-1.0) = 
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.HTSatChanMapSet> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=00038610380F, architecture=optimo, hardware_version=1.38.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.HTSatChanMapSet> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=00038610380F, architecture=optimo, hardware_version=1.38.1.0-1.0) = 
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.HTSatChanMapSet> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=00038610380F, architecture=optimo, hardware_version=1.38.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.HTSatChanMapSet> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=00038610380F, architecture=optimo, hardware_version=1.38.1.0-1.0) = 
+DEBUG:SONOS.sonos.services.base:Getting state variable <GroupManagement.GroupCoordinatorIsLocal> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=00038610380F, architecture=optimo, hardware_version=1.38.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <GroupManagement.GroupCoordinatorIsLocal> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=00038610380F, architecture=optimo, hardware_version=1.38.1.0-1.0) = 1
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=00038610380F, architecture=optimo, hardware_version=1.38.1.0-1.0) invokes AVTransport.GetTransportInfo("InstanceID"="0", "headers"="{}")
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=00038610380F, architecture=optimo, hardware_version=1.38.1.0-1.0) AVTransport.GetTransportInfo returns '{'CurrentTransportState': u'STOPPED', 'CurrentTransportStatus': u'OK', 'CurrentSpeed': u'1'}'
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=00038610380F, architecture=optimo, hardware_version=1.38.1.0-1.0) invokes AVTransport.GetTransportInfo("InstanceID"="0", "headers"="{}")
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=00038610380F, architecture=optimo, hardware_version=1.38.1.0-1.0) AVTransport.GetTransportInfo returns '{'CurrentTransportState': u'STOPPED', 'CurrentTransportStatus': u'OK', 'CurrentSpeed': u'1'}'
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=00038610380F, architecture=optimo, hardware_version=1.38.1.0-1.0) invokes RenderingControl.SetVolume("InstanceID"="0", "DesiredVolume"="10", "Channel"="Master", "headers"="{}")
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=00038610380F, architecture=optimo, hardware_version=1.38.1.0-1.0) RenderingControl.SetVolume returns '{}'
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=00038610380F, architecture=optimo, hardware_version=1.38.1.0-1.0) invokes ContentDirectory.Browse("ObjectID"="Q:0", "BrowseFlag"="BrowseDirectChildren", "Filter"="0", "headers"="{}", "RequestedCount"="0", "StartingIndex"="0", "SortCriteria"="")
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=00038610380F, architecture=optimo, hardware_version=1.38.1.0-1.0) ContentDirectory.Browse returns '{'NumberReturned': u'0', 'UpdateID': u'1', 'Result': u'<DIDL-Lite xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:upnp="urn:schemas-upnp-org:metadata-1-0/upnp/" xmlns:r="urn:schemas-rinconnetworks-com:metadata-1-0/" xmlns="urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/"></DIDL-Lite>', 'TotalMatches': u'0'}'
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.ChannelMapSet> for SonosZoneComponent(ip=172.18.255.252, modelNumber=S39, serialNumber=0003861038D3, architecture=optimo, hardware_version=1.38.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.ChannelMapSet> for SonosZoneComponent(ip=172.18.255.252, modelNumber=S39, serialNumber=0003861038D3, architecture=optimo, hardware_version=1.38.1.0-1.0) = 
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.HTSatChanMapSet> for SonosZoneComponent(ip=172.18.255.252, modelNumber=S39, serialNumber=0003861038D3, architecture=optimo, hardware_version=1.38.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.HTSatChanMapSet> for SonosZoneComponent(ip=172.18.255.252, modelNumber=S39, serialNumber=0003861038D3, architecture=optimo, hardware_version=1.38.1.0-1.0) = 
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.HTSatChanMapSet> for SonosZoneComponent(ip=172.18.255.252, modelNumber=S39, serialNumber=0003861038D3, architecture=optimo, hardware_version=1.38.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.HTSatChanMapSet> for SonosZoneComponent(ip=172.18.255.252, modelNumber=S39, serialNumber=0003861038D3, architecture=optimo, hardware_version=1.38.1.0-1.0) = 
+DEBUG:SONOS.sonos.services.base:Getting state variable <GroupManagement.GroupCoordinatorIsLocal> for SonosZoneComponent(ip=172.18.255.252, modelNumber=S39, serialNumber=0003861038D3, architecture=optimo, hardware_version=1.38.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <GroupManagement.GroupCoordinatorIsLocal> for SonosZoneComponent(ip=172.18.255.252, modelNumber=S39, serialNumber=0003861038D3, architecture=optimo, hardware_version=1.38.1.0-1.0) = 1
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.252, modelNumber=S39, serialNumber=0003861038D3, architecture=optimo, hardware_version=1.38.1.0-1.0) invokes AVTransport.GetTransportInfo("InstanceID"="0", "headers"="{}")
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.252, modelNumber=S39, serialNumber=0003861038D3, architecture=optimo, hardware_version=1.38.1.0-1.0) AVTransport.GetTransportInfo returns '{'CurrentTransportState': u'STOPPED', 'CurrentTransportStatus': u'OK', 'CurrentSpeed': u'1'}'
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.252, modelNumber=S39, serialNumber=0003861038D3, architecture=optimo, hardware_version=1.38.1.0-1.0) invokes AVTransport.GetTransportInfo("InstanceID"="0", "headers"="{}")
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.252, modelNumber=S39, serialNumber=0003861038D3, architecture=optimo, hardware_version=1.38.1.0-1.0) AVTransport.GetTransportInfo returns '{'CurrentTransportState': u'STOPPED', 'CurrentTransportStatus': u'OK', 'CurrentSpeed': u'1'}'
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.252, modelNumber=S39, serialNumber=0003861038D3, architecture=optimo, hardware_version=1.38.1.0-1.0) invokes RenderingControl.SetVolume("InstanceID"="0", "DesiredVolume"="10", "Channel"="Master", "headers"="{}")
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.252, modelNumber=S39, serialNumber=0003861038D3, architecture=optimo, hardware_version=1.38.1.0-1.0) RenderingControl.SetVolume returns '{}'
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.252, modelNumber=S39, serialNumber=0003861038D3, architecture=optimo, hardware_version=1.38.1.0-1.0) invokes ContentDirectory.Browse("ObjectID"="Q:0", "BrowseFlag"="BrowseDirectChildren", "Filter"="0", "headers"="{}", "RequestedCount"="0", "StartingIndex"="0", "SortCriteria"="")
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.252, modelNumber=S39, serialNumber=0003861038D3, architecture=optimo, hardware_version=1.38.1.0-1.0) ContentDirectory.Browse returns '{'NumberReturned': u'0', 'UpdateID': u'0', 'Result': u'<DIDL-Lite xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:upnp="urn:schemas-upnp-org:metadata-1-0/upnp/" xmlns:r="urn:schemas-rinconnetworks-com:metadata-1-0/" xmlns="urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/"></DIDL-Lite>', 'TotalMatches': u'0'}'
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.ChannelMapSet> for SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=000386103616, architecture=fury, hardware_version=1.36.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.ChannelMapSet> for SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=000386103616, architecture=fury, hardware_version=1.36.1.0-1.0) = 
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.HTSatChanMapSet> for SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=000386103616, architecture=fury, hardware_version=1.36.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.HTSatChanMapSet> for SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=000386103616, architecture=fury, hardware_version=1.36.1.0-1.0) = 
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.HTSatChanMapSet> for SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=000386103616, architecture=fury, hardware_version=1.36.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.HTSatChanMapSet> for SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=000386103616, architecture=fury, hardware_version=1.36.1.0-1.0) = 
+DEBUG:SONOS.sonos.services.base:Getting state variable <GroupManagement.GroupCoordinatorIsLocal> for SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=000386103616, architecture=fury, hardware_version=1.36.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <GroupManagement.GroupCoordinatorIsLocal> for SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=000386103616, architecture=fury, hardware_version=1.36.1.0-1.0) = 1
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=000386103616, architecture=fury, hardware_version=1.36.1.0-1.0) invokes AVTransport.GetTransportInfo("InstanceID"="0", "headers"="{}")
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=000386103616, architecture=fury, hardware_version=1.36.1.0-1.0) AVTransport.GetTransportInfo returns '{'CurrentTransportState': u'STOPPED', 'CurrentTransportStatus': u'OK', 'CurrentSpeed': u'1'}'
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=000386103616, architecture=fury, hardware_version=1.36.1.0-1.0) invokes AVTransport.GetTransportInfo("InstanceID"="0", "headers"="{}")
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=000386103616, architecture=fury, hardware_version=1.36.1.0-1.0) AVTransport.GetTransportInfo returns '{'CurrentTransportState': u'STOPPED', 'CurrentTransportStatus': u'OK', 'CurrentSpeed': u'1'}'
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=000386103616, architecture=fury, hardware_version=1.36.1.0-1.0) invokes RenderingControl.SetVolume("InstanceID"="0", "DesiredVolume"="10", "Channel"="Master", "headers"="{}")
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=000386103616, architecture=fury, hardware_version=1.36.1.0-1.0) RenderingControl.SetVolume returns '{}'
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=000386103616, architecture=fury, hardware_version=1.36.1.0-1.0) invokes ContentDirectory.Browse("ObjectID"="Q:0", "BrowseFlag"="BrowseDirectChildren", "Filter"="0", "headers"="{}", "RequestedCount"="0", "StartingIndex"="0", "SortCriteria"="")
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=000386103616, architecture=fury, hardware_version=1.36.1.0-1.0) ContentDirectory.Browse returns '{'NumberReturned': u'0', 'UpdateID': u'0', 'Result': u'<DIDL-Lite xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:upnp="urn:schemas-upnp-org:metadata-1-0/upnp/" xmlns:r="urn:schemas-rinconnetworks-com:metadata-1-0/" xmlns="urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/"></DIDL-Lite>', 'TotalMatches': u'0'}'
+INFO:SONOS.CPU:Stop CPU Monitor...
+DEBUG:sonos.perf.cpu.cpu_capture:Stop CPU capture on SonosZoneComponent(ip=172.18.255.253, modelNumber=S36, serialNumber=000386103616, architecture=fury, hardware_version=1.36.1.0-1.0)
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.253] command: <kill `cat /tmp/cpu_pid`>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.253] response: <>
+DEBUG:sonos.perf.cpu.cpu_capture:Stop CPU capture on SonosZoneComponent(ip=172.18.255.252, modelNumber=S39, serialNumber=0003861038D3, architecture=optimo, hardware_version=1.38.1.0-1.0)
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.252] command: <kill `cat /tmp/cpu_pid`>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.252] response: <>
+DEBUG:sonos.perf.cpu.cpu_capture:Stop CPU capture on SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=00038610380F, architecture=optimo, hardware_version=1.38.1.0-1.0)
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.251] command: <kill `cat /tmp/cpu_pid`>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.251] response: <>
+INFO:SONOS.utilities.cli_command.CliCommand:Executing CliCommand(command=<['wget', 'http://172.18.255.253:1400/pub/cpu_data', '-O', '/tmp/cpu_data.txt']>)
+DEBUG:SONOS.utilities.cli_command.CliCommand:CliCommand(command=<['wget', 'http://172.18.255.253:1400/pub/cpu_data', '-O', '/tmp/cpu_data.txt']>) stdout: 
+DEBUG:SONOS.utilities.cli_command.CliCommand:CliCommand(command=<['wget', 'http://172.18.255.253:1400/pub/cpu_data', '-O', '/tmp/cpu_data.txt']>) stderr: --2023-05-08 19:53:18--  http://172.18.255.253:1400/pub/cpu_data
+Connecting to 172.18.255.253:1400... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 2400 (2.3K) [text/plain]
+Saving to: /tmp/cpu_data.txt
+
+     0K ..                                                    100% 3.83M=0.001s
+
+2023-05-08 19:53:18 (3.83 MB/s) - /tmp/cpu_data.txt saved [2400/2400]
+
+
+DEBUG:sonos.perf.cpu.cpu_capture:Getting CPU frequency histogram
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.253] command: <cat /sys/devices/system/cpu/cpu0/cpufreq/stats/time_in_state>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.253] response: <>
+DEBUG:sonos.perf.cpu.cpu_capture:/proc/stat output length: 2400
+INFO:SONOS.utilities.cli_command.CliCommand:Executing CliCommand(command=<['wget', 'http://172.18.255.252:1400/pub/cpu_data', '-O', '/tmp/cpu_data.txt']>)
+DEBUG:SONOS.utilities.cli_command.CliCommand:CliCommand(command=<['wget', 'http://172.18.255.252:1400/pub/cpu_data', '-O', '/tmp/cpu_data.txt']>) stdout: 
+DEBUG:SONOS.utilities.cli_command.CliCommand:CliCommand(command=<['wget', 'http://172.18.255.252:1400/pub/cpu_data', '-O', '/tmp/cpu_data.txt']>) stderr: --2023-05-08 19:53:18--  http://172.18.255.252:1400/pub/cpu_data
+Connecting to 172.18.255.252:1400... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1872 (1.8K) [text/plain]
+Saving to: /tmp/cpu_data.txt
+
+     0K .                                                     100% 2.43M=0.001s
+
+2023-05-08 19:53:18 (2.43 MB/s) - /tmp/cpu_data.txt saved [1872/1872]
+
+
+DEBUG:sonos.perf.cpu.cpu_capture:Getting CPU frequency histogram
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.252] command: <cat /sys/devices/system/cpu/cpu0/cpufreq/stats/time_in_state>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.252] response: <>
+DEBUG:sonos.perf.cpu.cpu_capture:/proc/stat output length: 1872
+INFO:SONOS.utilities.cli_command.CliCommand:Executing CliCommand(command=<['wget', 'http://172.18.255.251:1400/pub/cpu_data', '-O', '/tmp/cpu_data.txt']>)
+DEBUG:SONOS.utilities.cli_command.CliCommand:CliCommand(command=<['wget', 'http://172.18.255.251:1400/pub/cpu_data', '-O', '/tmp/cpu_data.txt']>) stdout: 
+DEBUG:SONOS.utilities.cli_command.CliCommand:CliCommand(command=<['wget', 'http://172.18.255.251:1400/pub/cpu_data', '-O', '/tmp/cpu_data.txt']>) stderr: --2023-05-08 19:53:18--  http://172.18.255.251:1400/pub/cpu_data
+Connecting to 172.18.255.251:1400... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1410 (1.4K) [text/plain]
+Saving to: /tmp/cpu_data.txt
+
+     0K .                                                     100% 3.12M=0s
+
+2023-05-08 19:53:18 (3.12 MB/s) - /tmp/cpu_data.txt saved [1410/1410]
+
+
+DEBUG:sonos.perf.cpu.cpu_capture:Getting CPU frequency histogram
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.251] command: <cat /sys/devices/system/cpu/cpu0/cpufreq/stats/time_in_state>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.251] response: <>
+DEBUG:sonos.perf.cpu.cpu_capture:/proc/stat output length: 1410
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /diaglevel?module=default&level=1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "POST /diaglevel?module=default&level=1 HTTP/1.1" 200 202
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 194
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /diaglevel?module=default&level=1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "POST /diaglevel?module=default&level=1 HTTP/1.1" 200 202
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 194
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /diaglevel?module=default&level=1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "POST /diaglevel?module=default&level=1 HTTP/1.1" 200 202
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 194
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /diagmsg HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "POST /diagmsg HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /diagmsg HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "POST /diagmsg HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /diagmsg HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "POST /diagmsg HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /udplog HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /udplog HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /udplog HTTP/1.1" 200 None
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.253] command: <test -e /jffs/backtrace && echo $?>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.253] response: <>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.252] command: <test -e /jffs/backtrace && echo $?>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.252] response: <>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.251] command: <test -e /jffs/backtrace && echo $?>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.251] response: <>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.250] command: <test -e /jffs/backtrace && echo $?>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.250] response: <>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.253] command: <test -e /jffs/watchdog.log && echo $?>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.253] response: <>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.252] command: <test -e /jffs/watchdog.log && echo $?>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.252] response: <>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.251] command: <test -e /jffs/watchdog.log && echo $?>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.251] response: <>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.250] command: <test -e /jffs/watchdog.log && echo $?>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.250] response: <>
