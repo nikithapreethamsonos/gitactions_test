@@ -1,0 +1,1184 @@
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /udplog HTTP/1.1" 200 None
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.251] command: <grep -v "LogToExternal" /jffs/localsettings.txt > /tmp/nokeyword.txt ; mv /tmp/nokeyword.txt /jffs/localsettings.txt>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.251] response: <>
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /udplog HTTP/1.1" 200 None
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.251] command: <grep -v "LogToExternal" /jffs/localsettings.txt > /tmp/nokeyword.txt ; mv /tmp/nokeyword.txt /jffs/localsettings.txt>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.251] response: <>
+WARNING:SONOS.ZP.Logger:Log file cleanup failed, already gone?
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /udplog HTTP/1.1" 200 None
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.251] command: <grep -v "LogToExternal" /jffs/localsettings.txt > /tmp/nokeyword.txt ; mv /tmp/nokeyword.txt /jffs/localsettings.txt>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.251] response: <>
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /udplog?host=172.18.0.7&port=3333 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /status/perf HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /status/tmp/AirPlay.log HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /status/opt/log/anacapa.vi.trace HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /status/opt/log/libassistant.log.2 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /status/opt/log/libassistant.log.1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /status/opt/log/libassistant.log HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /status/opt/log/anacapa.dc.trace HTTP/1.1" 200 None
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.ChannelMapSet> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103864, architecture=optimo, hardware_version=1.38.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.ChannelMapSet> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103864, architecture=optimo, hardware_version=1.38.1.0-1.0) = 
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.HTSatChanMapSet> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103864, architecture=optimo, hardware_version=1.38.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.HTSatChanMapSet> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103864, architecture=optimo, hardware_version=1.38.1.0-1.0) = 
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.HTSatChanMapSet> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103864, architecture=optimo, hardware_version=1.38.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.HTSatChanMapSet> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103864, architecture=optimo, hardware_version=1.38.1.0-1.0) = 
+DEBUG:SONOS.sonos.services.base:Getting state variable <GroupManagement.GroupCoordinatorIsLocal> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103864, architecture=optimo, hardware_version=1.38.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <GroupManagement.GroupCoordinatorIsLocal> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103864, architecture=optimo, hardware_version=1.38.1.0-1.0) = 1
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103864, architecture=optimo, hardware_version=1.38.1.0-1.0) invokes AVTransport.GetTransportInfo("InstanceID"="0", "headers"="{}")
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103864, architecture=optimo, hardware_version=1.38.1.0-1.0) AVTransport.GetTransportInfo returns '{'CurrentTransportState': u'STOPPED', 'CurrentTransportStatus': u'OK', 'CurrentSpeed': u'1'}'
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103864, architecture=optimo, hardware_version=1.38.1.0-1.0) invokes AVTransport.GetTransportInfo("InstanceID"="0", "headers"="{}")
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103864, architecture=optimo, hardware_version=1.38.1.0-1.0) AVTransport.GetTransportInfo returns '{'CurrentTransportState': u'STOPPED', 'CurrentTransportStatus': u'OK', 'CurrentSpeed': u'1'}'
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103864, architecture=optimo, hardware_version=1.38.1.0-1.0) invokes RenderingControl.SetVolume("InstanceID"="0", "DesiredVolume"="10", "Channel"="Master", "headers"="{}")
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103864, architecture=optimo, hardware_version=1.38.1.0-1.0) RenderingControl.SetVolume returns '{}'
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103864, architecture=optimo, hardware_version=1.38.1.0-1.0) invokes ContentDirectory.Browse("ObjectID"="Q:0", "BrowseFlag"="BrowseDirectChildren", "Filter"="0", "headers"="{}", "RequestedCount"="0", "StartingIndex"="0", "SortCriteria"="")
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103864, architecture=optimo, hardware_version=1.38.1.0-1.0) ContentDirectory.Browse returns '{'NumberReturned': u'0', 'UpdateID': u'4', 'Result': u'<DIDL-Lite xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:upnp="urn:schemas-upnp-org:metadata-1-0/upnp/" xmlns:r="urn:schemas-rinconnetworks-com:metadata-1-0/" xmlns="urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/"></DIDL-Lite>', 'TotalMatches': u'0'}'
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): oauth.test.ws.sonos.com:443
+DEBUG:urllib3.connectionpool:https://oauth.test.ws.sonos.com:443 "POST /auth/oauth/v2/token HTTP/1.1" 200 212
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): oauth.test.ws.sonos.com:443
+DEBUG:urllib3.connectionpool:https://oauth.test.ws.sonos.com:443 "POST /auth/oauth/v2/token HTTP/1.1" 200 218
+DEBUG:Muse-REST:<Mon May  8 22:02:17 2023> REST Request:
+	GET https://172.18.255.251:1443/api/v1/players/local/info
+	Headers: {'X-Sonos-Api-Key': 'e61bc77c-39cd-4ed0-a5e7-5ad316a0efc5'}
+	Body: None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): 172.18.255.251:1443
+DEBUG:urllib3.connectionpool:https://172.18.255.251:1443 "GET /api/v1/players/local/info HTTP/1.1" 200 None
+INFO:Muse-REST:<Mon May  8 22:02:17 2023> REST Response:
+	Response status: 200
+	Response content: 
+{
+    "playerId": "RINCON_00038610386401400", 
+    "websocketUrl": "wss://172.18.255.251:1443/websocket/api", 
+    "householdId": "Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.r0rRMbL9Wh0D_qF2UeNY", 
+    "restUrl": "https://172.18.255.251:1443/api", 
+    "locationId": "lc_189dd24fab54439b81e6affa07288e9f", 
+    "device": {
+        "name": "Emulator", 
+        "serialNumber": "00-03-86-10-38-64:0", 
+        "websocketUrl": "wss://172.18.255.251:1443/websocket/api", 
+        "swGen": 2, 
+        "apiVersion": "1.35.0-alpha.9+74.0-41060", 
+        "id": "RINCON_00038610386401400", 
+        "softwareVersion": "74.0-41060-dev-build-20230508-main", 
+        "capabilities": [
+            "CLOUD", 
+            "PLAYBACK", 
+            "AIRPLAY", 
+            "LINE_IN", 
+            "VOICE", 
+            "AUDIO_CLIP", 
+            "MICROPHONE_SWITCH"
+        ], 
+        "modelDisplayName": "Era 100", 
+        "hwVersion": "1.38.1.0-1.0", 
+        "model": "S39", 
+        "minApiVersion": "1.1.0"
+    }, 
+    "groupId": "RINCON_00038610386401400:2651910768"
+}
+DEBUG:Muse-Websocket:<Mon May  8 22:02:17 2023> Opened ws connection to: wss://172.18.255.251:1443/websocket/api?key=e61bc77c-39cd-4ed0-a5e7-5ad316a0efc5
+
+DEBUG:Muse-Websocket:<Mon May  8 22:02:17 2023> Sent to 172.18.255.251: 
+[
+    {
+        "playerId": "RINCON_00038610386401400", 
+        "command": "subscribe", 
+        "cmdId": "1", 
+        "namespace": "playerVolume"
+    }, 
+    {}
+]
+DEBUG:Muse-Websocket:<Mon May  8 22:02:17 2023> Sent to 172.18.255.251: 
+[
+    {
+        "playerId": "RINCON_00038610386401400", 
+        "command": "setVolume", 
+        "cmdId": "2", 
+        "namespace": "playerVolume"
+    }, 
+    {
+        "volume": 0, 
+        "muted": true
+    }
+]
+DEBUG:Muse-Websocket:No matched event found, waiting <1> seconds for more events
+INFO:Muse-Websocket:<Mon May  8 22:02:17 2023> Received from 172.18.255.251: 
+[
+    {
+        "success": true, 
+        "playerId": "RINCON_00038610386401400", 
+        "namespace": "playerVolume", 
+        "householdId": "Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.r0rRMbL9Wh0D_qF2UeNY", 
+        "cmdId": "1", 
+        "locationId": "lc_189dd24fab54439b81e6affa07288e9f", 
+        "type": "none", 
+        "response": "subscribe"
+    }, 
+    {}
+]
+INFO:Muse-Websocket:<Mon May  8 22:02:17 2023> Received from 172.18.255.251: 
+[
+    {
+        "name": "playerVolume", 
+        "playerId": "RINCON_00038610386401400", 
+        "namespace": "playerVolume", 
+        "householdId": "Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.r0rRMbL9Wh0D_qF2UeNY", 
+        "locationId": "lc_189dd24fab54439b81e6affa07288e9f", 
+        "type": "playerVolume"
+    }, 
+    {
+        "volume": 10, 
+        "muted": true, 
+        "fixed": false
+    }
+]
+INFO:Muse-Websocket:<Mon May  8 22:02:17 2023> Received from 172.18.255.251: 
+[
+    {
+        "success": true, 
+        "playerId": "RINCON_00038610386401400", 
+        "namespace": "playerVolume", 
+        "householdId": "Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.r0rRMbL9Wh0D_qF2UeNY", 
+        "cmdId": "2", 
+        "locationId": "lc_189dd24fab54439b81e6affa07288e9f", 
+        "type": "none", 
+        "response": "setVolume"
+    }, 
+    {}
+]
+INFO:Muse-Websocket:<Mon May  8 22:02:17 2023> Received from 172.18.255.251: 
+[
+    {
+        "name": "playerVolume", 
+        "playerId": "RINCON_00038610386401400", 
+        "namespace": "playerVolume", 
+        "householdId": "Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.r0rRMbL9Wh0D_qF2UeNY", 
+        "locationId": "lc_189dd24fab54439b81e6affa07288e9f", 
+        "type": "playerVolume"
+    }, 
+    {
+        "volume": 0, 
+        "muted": true, 
+        "fixed": false
+    }
+]
+DEBUG:SONOS.pytest_automation.conftest:Found devices for testbed operations: ['diag_level']
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /diaglevel?module=extaudiosrc&level=4 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "POST /diaglevel?module=extaudiosrc&level=4 HTTP/1.1" 200 204
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 196
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /diaglevel?module=audioclip&level=3 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "POST /diaglevel?module=audioclip&level=3 HTTP/1.1" 200 204
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 196
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /diaglevel?module=muse&level=8 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "POST /diaglevel?module=muse&level=8 HTTP/1.1" 200 204
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 196
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /diaglevel?module=cloudqueue&level=5 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "POST /diaglevel?module=cloudqueue&level=5 HTTP/1.1" 200 204
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 196
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /diaglevel?module=chsrc&level=3 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "POST /diaglevel?module=chsrc&level=3 HTTP/1.1" 200 204
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 196
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /diaglevel?module=cqfsm&level=3 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "POST /diaglevel?module=cqfsm&level=3 HTTP/1.1" 200 204
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 196
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /diaglevel?module=cssc&level=4 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "POST /diaglevel?module=cssc&level=4 HTTP/1.1" 200 204
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 196
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /diaglevel?module=avt_impl&level=3 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "POST /diaglevel?module=avt_impl&level=3 HTTP/1.1" 200 204
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 196
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /diaglevel?module=certval&level=3 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "POST /diaglevel?module=certval&level=3 HTTP/1.1" 200 204
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 196
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /diaglevel?module=httpauth&level=3 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "POST /diaglevel?module=httpauth&level=3 HTTP/1.1" 200 204
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 196
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /diaglevel?module=rest&level=5 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "POST /diaglevel?module=rest&level=5 HTTP/1.1" 200 204
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 196
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /diaglevel?module=museauth&level=5 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "POST /diaglevel?module=museauth&level=5 HTTP/1.1" 200 204
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 196
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /diaglevel?module=ssl&level=5 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "POST /diaglevel?module=ssl&level=5 HTTP/1.1" 200 204
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 196
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /diaglevel?module=extaudiosrc&level=4 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "POST /diaglevel?module=extaudiosrc&level=4 HTTP/1.1" 200 204
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 196
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /diaglevel?module=audioclip&level=3 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "POST /diaglevel?module=audioclip&level=3 HTTP/1.1" 200 204
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 196
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /diaglevel?module=muse&level=8 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "POST /diaglevel?module=muse&level=8 HTTP/1.1" 200 204
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 196
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /diaglevel?module=cloudqueue&level=5 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "POST /diaglevel?module=cloudqueue&level=5 HTTP/1.1" 200 204
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 196
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /diaglevel?module=chsrc&level=3 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "POST /diaglevel?module=chsrc&level=3 HTTP/1.1" 200 204
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 196
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /diaglevel?module=cqfsm&level=3 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "POST /diaglevel?module=cqfsm&level=3 HTTP/1.1" 200 204
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 196
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /diaglevel?module=cssc&level=4 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "POST /diaglevel?module=cssc&level=4 HTTP/1.1" 200 204
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 196
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /diaglevel?module=avt_impl&level=3 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "POST /diaglevel?module=avt_impl&level=3 HTTP/1.1" 200 204
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 196
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /diaglevel?module=certval&level=3 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "POST /diaglevel?module=certval&level=3 HTTP/1.1" 200 204
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 196
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /diaglevel?module=httpauth&level=3 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "POST /diaglevel?module=httpauth&level=3 HTTP/1.1" 200 204
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 196
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /diaglevel?module=rest&level=5 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "POST /diaglevel?module=rest&level=5 HTTP/1.1" 200 204
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 196
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /diaglevel?module=museauth&level=5 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "POST /diaglevel?module=museauth&level=5 HTTP/1.1" 200 204
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 196
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /diaglevel?module=ssl&level=5 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "POST /diaglevel?module=ssl&level=5 HTTP/1.1" 200 204
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 196
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /diaglevel?module=extaudiosrc&level=4 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "POST /diaglevel?module=extaudiosrc&level=4 HTTP/1.1" 200 204
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 196
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /diaglevel?module=audioclip&level=3 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "POST /diaglevel?module=audioclip&level=3 HTTP/1.1" 200 204
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 196
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /diaglevel?module=muse&level=8 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "POST /diaglevel?module=muse&level=8 HTTP/1.1" 200 204
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 196
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /diaglevel?module=cloudqueue&level=5 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "POST /diaglevel?module=cloudqueue&level=5 HTTP/1.1" 200 204
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 196
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /diaglevel?module=chsrc&level=3 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "POST /diaglevel?module=chsrc&level=3 HTTP/1.1" 200 204
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 196
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /diaglevel?module=cqfsm&level=3 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "POST /diaglevel?module=cqfsm&level=3 HTTP/1.1" 200 204
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 196
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /diaglevel?module=cssc&level=4 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "POST /diaglevel?module=cssc&level=4 HTTP/1.1" 200 204
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 196
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /diaglevel?module=avt_impl&level=3 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "POST /diaglevel?module=avt_impl&level=3 HTTP/1.1" 200 204
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 196
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /diaglevel?module=certval&level=3 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "POST /diaglevel?module=certval&level=3 HTTP/1.1" 200 204
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 196
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /diaglevel?module=httpauth&level=3 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "POST /diaglevel?module=httpauth&level=3 HTTP/1.1" 200 204
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 196
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /diaglevel?module=rest&level=5 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "POST /diaglevel?module=rest&level=5 HTTP/1.1" 200 204
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 196
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /diaglevel?module=museauth&level=5 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "POST /diaglevel?module=museauth&level=5 HTTP/1.1" 200 204
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 196
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /diaglevel?module=ssl&level=5 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "POST /diaglevel?module=ssl&level=5 HTTP/1.1" 200 204
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 196
+DEBUG:Muse-Websocket:<Mon May  8 22:02:19 2023> REST Request:
+	GET https://172.18.255.251:1443/api/v1/players/local/info
+	Headers: {'X-Sonos-Api-Key': 'e61bc77c-39cd-4ed0-a5e7-5ad316a0efc5'}
+	Body: None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): 172.18.255.251:1443
+DEBUG:urllib3.connectionpool:https://172.18.255.251:1443 "GET /api/v1/players/local/info HTTP/1.1" 200 None
+INFO:Muse-Websocket:<Mon May  8 22:02:19 2023> REST Response:
+	Response status: 200
+	Response content: 
+{
+    "playerId": "RINCON_00038610386401400", 
+    "websocketUrl": "wss://172.18.255.251:1443/websocket/api", 
+    "householdId": "Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.r0rRMbL9Wh0D_qF2UeNY", 
+    "restUrl": "https://172.18.255.251:1443/api", 
+    "locationId": "lc_189dd24fab54439b81e6affa07288e9f", 
+    "device": {
+        "name": "Emulator", 
+        "serialNumber": "00-03-86-10-38-64:0", 
+        "websocketUrl": "wss://172.18.255.251:1443/websocket/api", 
+        "swGen": 2, 
+        "apiVersion": "1.35.0-alpha.9+74.0-41060", 
+        "id": "RINCON_00038610386401400", 
+        "softwareVersion": "74.0-41060-dev-build-20230508-main", 
+        "capabilities": [
+            "CLOUD", 
+            "PLAYBACK", 
+            "AIRPLAY", 
+            "LINE_IN", 
+            "VOICE", 
+            "AUDIO_CLIP", 
+            "MICROPHONE_SWITCH"
+        ], 
+        "modelDisplayName": "Era 100", 
+        "hwVersion": "1.38.1.0-1.0", 
+        "model": "S39", 
+        "minApiVersion": "1.1.0"
+    }, 
+    "groupId": "RINCON_00038610386401400:2651910768"
+}
+DEBUG:Muse-Websocket:<Mon May  8 22:02:19 2023> Sent to 172.18.255.251: 
+[
+    {
+        "command": "subscribe", 
+        "cmdId": "3", 
+        "namespace": "playback", 
+        "groupId": "RINCON_00038610386401400:2651910768"
+    }, 
+    {}
+]
+DEBUG:Muse-Websocket:<Mon May  8 22:02:19 2023> Sent to 172.18.255.251: 
+[
+    {
+        "playerId": "RINCON_00038610386401400", 
+        "command": "subscribe", 
+        "cmdId": "4", 
+        "namespace": "audioClip"
+    }, 
+    {}
+]
+DEBUG:Muse-Websocket:No matched event found, waiting <1> seconds for more events
+INFO:Muse-Websocket:<Mon May  8 22:02:19 2023> Received from 172.18.255.251: 
+[
+    {
+        "success": true, 
+        "namespace": "playback", 
+        "groupId": "RINCON_00038610386401400:2651910768", 
+        "cmdId": "3", 
+        "locationId": "lc_189dd24fab54439b81e6affa07288e9f", 
+        "householdId": "Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.r0rRMbL9Wh0D_qF2UeNY", 
+        "type": "none", 
+        "response": "subscribe"
+    }, 
+    {}
+]
+INFO:Muse-Websocket:<Mon May  8 22:02:19 2023> Received from 172.18.255.251: 
+[
+    {
+        "name": "playbackStatus", 
+        "namespace": "playback", 
+        "householdId": "Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.r0rRMbL9Wh0D_qF2UeNY", 
+        "locationId": "lc_189dd24fab54439b81e6affa07288e9f", 
+        "type": "playbackStatus", 
+        "groupId": "RINCON_00038610386401400:2651910768"
+    }, 
+    {
+        "playModes": {
+            "crossfade": false, 
+            "repeat": false, 
+            "shuffle": false, 
+            "repeatOne": false
+        }, 
+        "isDucking": false, 
+        "positionMillis": 0, 
+        "availablePlaybackActions": {
+            "canRepeatOne": true, 
+            "canSeek": false, 
+            "canPause": false, 
+            "canCrossfade": true, 
+            "canShuffle": true, 
+            "canSkip": false, 
+            "canRepeat": true, 
+            "canStop": false, 
+            "canSkipBack": false
+        }, 
+        "previousItemId": "Ye3C6xHCdqODsRev8EXyiUGuUX0=", 
+        "previousPositionMillis": 2185, 
+        "playbackState": "PLAYBACK_STATE_IDLE"
+    }
+]
+INFO:Muse-Websocket:<Mon May  8 22:02:19 2023> Received from 172.18.255.251: 
+[
+    {
+        "success": true, 
+        "playerId": "RINCON_00038610386401400", 
+        "namespace": "audioClip", 
+        "householdId": "Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.r0rRMbL9Wh0D_qF2UeNY", 
+        "cmdId": "4", 
+        "locationId": "lc_189dd24fab54439b81e6affa07288e9f", 
+        "type": "none", 
+        "response": "subscribe"
+    }, 
+    {}
+]
+INFO:Muse-Websocket:<Mon May  8 22:02:19 2023> Received from 172.18.255.251: 
+[
+    {
+        "name": "audioClipStatus", 
+        "playerId": "RINCON_00038610386401400", 
+        "namespace": "audioClip", 
+        "householdId": "Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.r0rRMbL9Wh0D_qF2UeNY", 
+        "locationId": "lc_189dd24fab54439b81e6affa07288e9f", 
+        "type": "audioClipStatus"
+    }, 
+    {
+        "audioClips": [
+            {
+                "status": "DONE", 
+                "name": "NAME", 
+                "priority": "LOW", 
+                "appId": "APP_ID", 
+                "clipType": "CHIME", 
+                "id": "0fe58f9e-4f68-4e6b-b9ab-24630998369e"
+            }
+        ]
+    }
+]
+DEBUG:Muse-Websocket:<Mon May  8 22:02:20 2023> Sent to 172.18.255.251: 
+[
+    {
+        "playerId": "RINCON_00038610386401400", 
+        "command": "loadAudioClip", 
+        "cmdId": "5", 
+        "namespace": "audioClip"
+    }, 
+    {
+        "priority": "LOW", 
+        "clipType": "CHIME", 
+        "clipBehavior": [
+            ""
+        ], 
+        "name": "NAME", 
+        "appId": "APP_ID"
+    }
+]
+DEBUG:Muse-Websocket:No matched event found, waiting <1> seconds for more events
+INFO:Muse-Websocket:<Mon May  8 22:02:20 2023> Received from 172.18.255.251: 
+[
+    {
+        "success": true, 
+        "playerId": "RINCON_00038610386401400", 
+        "namespace": "audioClip", 
+        "householdId": "Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.r0rRMbL9Wh0D_qF2UeNY", 
+        "cmdId": "5", 
+        "locationId": "lc_189dd24fab54439b81e6affa07288e9f", 
+        "type": "audioClip", 
+        "response": "loadAudioClip"
+    }, 
+    {
+        "status": "INACTIVE", 
+        "name": "NAME", 
+        "priority": "LOW", 
+        "appId": "APP_ID", 
+        "clipType": "CHIME", 
+        "id": "55c69987-0e08-40b8-ae1d-880890292d08"
+    }
+]
+INFO:Muse-Websocket:<Mon May  8 22:02:20 2023> Received from 172.18.255.251: 
+[
+    {
+        "name": "audioClipStatus", 
+        "playerId": "RINCON_00038610386401400", 
+        "namespace": "audioClip", 
+        "householdId": "Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.r0rRMbL9Wh0D_qF2UeNY", 
+        "locationId": "lc_189dd24fab54439b81e6affa07288e9f", 
+        "type": "audioClipStatus"
+    }, 
+    {
+        "audioClips": [
+            {
+                "status": "ACTIVE", 
+                "name": "NAME", 
+                "priority": "LOW", 
+                "appId": "APP_ID", 
+                "clipType": "CHIME", 
+                "id": "55c69987-0e08-40b8-ae1d-880890292d08"
+            }
+        ]
+    }
+]
+DEBUG:Muse-Websocket:<Mon May  8 22:02:21 2023> REST Request:
+	GET https://172.18.255.251:1443/api/v1/players/local/info
+	Headers: {'X-Sonos-Api-Key': 'e61bc77c-39cd-4ed0-a5e7-5ad316a0efc5'}
+	Body: None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): 172.18.255.251:1443
+DEBUG:urllib3.connectionpool:https://172.18.255.251:1443 "GET /api/v1/players/local/info HTTP/1.1" 200 None
+INFO:Muse-Websocket:<Mon May  8 22:02:21 2023> REST Response:
+	Response status: 200
+	Response content: 
+{
+    "playerId": "RINCON_00038610386401400", 
+    "websocketUrl": "wss://172.18.255.251:1443/websocket/api", 
+    "householdId": "Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.r0rRMbL9Wh0D_qF2UeNY", 
+    "restUrl": "https://172.18.255.251:1443/api", 
+    "locationId": "lc_189dd24fab54439b81e6affa07288e9f", 
+    "device": {
+        "name": "Emulator", 
+        "serialNumber": "00-03-86-10-38-64:0", 
+        "websocketUrl": "wss://172.18.255.251:1443/websocket/api", 
+        "swGen": 2, 
+        "apiVersion": "1.35.0-alpha.9+74.0-41060", 
+        "id": "RINCON_00038610386401400", 
+        "softwareVersion": "74.0-41060-dev-build-20230508-main", 
+        "capabilities": [
+            "CLOUD", 
+            "PLAYBACK", 
+            "AIRPLAY", 
+            "LINE_IN", 
+            "VOICE", 
+            "AUDIO_CLIP", 
+            "MICROPHONE_SWITCH"
+        ], 
+        "modelDisplayName": "Era 100", 
+        "hwVersion": "1.38.1.0-1.0", 
+        "model": "S39", 
+        "minApiVersion": "1.1.0"
+    }, 
+    "groupId": "RINCON_00038610386401400:2651910768"
+}
+DEBUG:Muse-Websocket:<Mon May  8 22:02:21 2023> Sent to 172.18.255.251: 
+[
+    {
+        "command": "getPlaybackStatus", 
+        "cmdId": "6", 
+        "namespace": "playback", 
+        "groupId": "RINCON_00038610386401400:2651910768"
+    }, 
+    {}
+]
+DEBUG:Muse-Websocket:No matched event found, waiting <1> seconds for more events
+INFO:Muse-Websocket:<Mon May  8 22:02:21 2023> Received from 172.18.255.251: 
+[
+    {
+        "success": true, 
+        "namespace": "playback", 
+        "groupId": "RINCON_00038610386401400:2651910768", 
+        "cmdId": "6", 
+        "locationId": "lc_189dd24fab54439b81e6affa07288e9f", 
+        "householdId": "Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.r0rRMbL9Wh0D_qF2UeNY", 
+        "type": "playbackStatus", 
+        "response": "getPlaybackStatus"
+    }, 
+    {
+        "playModes": {
+            "crossfade": false, 
+            "repeat": false, 
+            "shuffle": false, 
+            "repeatOne": false
+        }, 
+        "isDucking": true, 
+        "positionMillis": 0, 
+        "availablePlaybackActions": {
+            "canRepeatOne": true, 
+            "canSeek": false, 
+            "canPause": false, 
+            "canCrossfade": true, 
+            "canShuffle": true, 
+            "canSkip": false, 
+            "canRepeat": true, 
+            "canStop": false, 
+            "canSkipBack": false
+        }, 
+        "previousItemId": "Ye3C6xHCdqODsRev8EXyiUGuUX0=", 
+        "previousPositionMillis": 2185, 
+        "playbackState": "PLAYBACK_STATE_IDLE"
+    }
+]
+DEBUG:Muse-Websocket:Discarded events for eventType: <AudioClipStatusEvent>, eventFilter: <lambda ev: (_audio_clip_status_filter(ev>
+DEBUG:Muse-Websocket:DISCARDED EVENT: 
+<MuseSuccessEvent>
+<[{u'cmdId': u'1',
+  u'householdId': u'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.r0rRMbL9Wh0D_qF2UeNY',
+  u'locationId': u'lc_189dd24fab54439b81e6affa07288e9f',
+  u'namespace': u'playerVolume',
+  u'playerId': u'RINCON_00038610386401400',
+  u'response': u'subscribe',
+  u'success': True,
+  u'type': u'none'},
+ {}]>
+DEBUG:Muse-Websocket:DISCARDED EVENT: 
+<PlayerVolumeEvent>
+<[{u'householdId': u'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.r0rRMbL9Wh0D_qF2UeNY',
+  u'locationId': u'lc_189dd24fab54439b81e6affa07288e9f',
+  u'name': u'playerVolume',
+  u'namespace': u'playerVolume',
+  u'playerId': u'RINCON_00038610386401400',
+  u'type': u'playerVolume'},
+ {u'fixed': False, u'muted': True, u'volume': 10}]>
+DEBUG:Muse-Websocket:DISCARDED EVENT: 
+<MuseSuccessEvent>
+<[{u'cmdId': u'2',
+  u'householdId': u'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.r0rRMbL9Wh0D_qF2UeNY',
+  u'locationId': u'lc_189dd24fab54439b81e6affa07288e9f',
+  u'namespace': u'playerVolume',
+  u'playerId': u'RINCON_00038610386401400',
+  u'response': u'setVolume',
+  u'success': True,
+  u'type': u'none'},
+ {}]>
+DEBUG:Muse-Websocket:DISCARDED EVENT: 
+<PlayerVolumeEvent>
+<[{u'householdId': u'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.r0rRMbL9Wh0D_qF2UeNY',
+  u'locationId': u'lc_189dd24fab54439b81e6affa07288e9f',
+  u'name': u'playerVolume',
+  u'namespace': u'playerVolume',
+  u'playerId': u'RINCON_00038610386401400',
+  u'type': u'playerVolume'},
+ {u'fixed': False, u'muted': True, u'volume': 0}]>
+DEBUG:Muse-Websocket:DISCARDED EVENT: 
+<MuseSuccessEvent>
+<[{u'cmdId': u'3',
+  u'groupId': u'RINCON_00038610386401400:2651910768',
+  u'householdId': u'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.r0rRMbL9Wh0D_qF2UeNY',
+  u'locationId': u'lc_189dd24fab54439b81e6affa07288e9f',
+  u'namespace': u'playback',
+  u'response': u'subscribe',
+  u'success': True,
+  u'type': u'none'},
+ {}]>
+DEBUG:Muse-Websocket:DISCARDED EVENT: 
+<PlaybackStatusEvent>
+<[{u'groupId': u'RINCON_00038610386401400:2651910768',
+  u'householdId': u'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.r0rRMbL9Wh0D_qF2UeNY',
+  u'locationId': u'lc_189dd24fab54439b81e6affa07288e9f',
+  u'name': u'playbackStatus',
+  u'namespace': u'playback',
+  u'type': u'playbackStatus'},
+ {u'availablePlaybackActions': {u'canCrossfade': True,
+                                u'canPause': False,
+                                u'canRepeat': True,
+                                u'canRepeatOne': True,
+                                u'canSeek': False,
+                                u'canShuffle': True,
+                                u'canSkip': False,
+                                u'canSkipBack': False,
+                                u'canStop': False},
+  u'isDucking': False,
+  u'playModes': {u'crossfade': False,
+                 u'repeat': False,
+                 u'repeatOne': False,
+                 u'shuffle': False},
+  u'playbackState': u'PLAYBACK_STATE_IDLE',
+  u'positionMillis': 0,
+  u'previousItemId': u'Ye3C6xHCdqODsRev8EXyiUGuUX0=',
+  u'previousPositionMillis': 2185}]>
+DEBUG:Muse-Websocket:DISCARDED EVENT: 
+<MuseSuccessEvent>
+<[{u'cmdId': u'4',
+  u'householdId': u'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.r0rRMbL9Wh0D_qF2UeNY',
+  u'locationId': u'lc_189dd24fab54439b81e6affa07288e9f',
+  u'namespace': u'audioClip',
+  u'playerId': u'RINCON_00038610386401400',
+  u'response': u'subscribe',
+  u'success': True,
+  u'type': u'none'},
+ {}]>
+DEBUG:Muse-Websocket:DISCARDED EVENT: 
+<AudioClipStatusEvent>
+<[{u'householdId': u'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.r0rRMbL9Wh0D_qF2UeNY',
+  u'locationId': u'lc_189dd24fab54439b81e6affa07288e9f',
+  u'name': u'audioClipStatus',
+  u'namespace': u'audioClip',
+  u'playerId': u'RINCON_00038610386401400',
+  u'type': u'audioClipStatus'},
+ {u'audioClips': [{u'appId': u'APP_ID',
+                   u'clipType': u'CHIME',
+                   u'id': u'0fe58f9e-4f68-4e6b-b9ab-24630998369e',
+                   u'name': u'NAME',
+                   u'priority': u'LOW',
+                   u'status': u'DONE'}]}]>
+DEBUG:Muse-Websocket:DISCARDED EVENT: 
+<AudioClipEvent>
+<[{u'cmdId': u'5',
+  u'householdId': u'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.r0rRMbL9Wh0D_qF2UeNY',
+  u'locationId': u'lc_189dd24fab54439b81e6affa07288e9f',
+  u'namespace': u'audioClip',
+  u'playerId': u'RINCON_00038610386401400',
+  u'response': u'loadAudioClip',
+  u'success': True,
+  u'type': u'audioClip'},
+ {u'appId': u'APP_ID',
+  u'clipType': u'CHIME',
+  u'id': u'55c69987-0e08-40b8-ae1d-880890292d08',
+  u'name': u'NAME',
+  u'priority': u'LOW',
+  u'status': u'INACTIVE'}]>
+DEBUG:Muse-Websocket:DISCARDED EVENT: 
+<AudioClipStatusEvent>
+<[{u'householdId': u'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.r0rRMbL9Wh0D_qF2UeNY',
+  u'locationId': u'lc_189dd24fab54439b81e6affa07288e9f',
+  u'name': u'audioClipStatus',
+  u'namespace': u'audioClip',
+  u'playerId': u'RINCON_00038610386401400',
+  u'type': u'audioClipStatus'},
+ {u'audioClips': [{u'appId': u'APP_ID',
+                   u'clipType': u'CHIME',
+                   u'id': u'55c69987-0e08-40b8-ae1d-880890292d08',
+                   u'name': u'NAME',
+                   u'priority': u'LOW',
+                   u'status': u'ACTIVE'}]}]>
+DEBUG:Muse-Websocket:DISCARDED EVENT: 
+<PlaybackStatusEvent>
+<[{u'cmdId': u'6',
+  u'groupId': u'RINCON_00038610386401400:2651910768',
+  u'householdId': u'Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.r0rRMbL9Wh0D_qF2UeNY',
+  u'locationId': u'lc_189dd24fab54439b81e6affa07288e9f',
+  u'namespace': u'playback',
+  u'response': u'getPlaybackStatus',
+  u'success': True,
+  u'type': u'playbackStatus'},
+ {u'availablePlaybackActions': {u'canCrossfade': True,
+                                u'canPause': False,
+                                u'canRepeat': True,
+                                u'canRepeatOne': True,
+                                u'canSeek': False,
+                                u'canShuffle': True,
+                                u'canSkip': False,
+                                u'canSkipBack': False,
+                                u'canStop': False},
+  u'isDucking': True,
+  u'playModes': {u'crossfade': False,
+                 u'repeat': False,
+                 u'repeatOne': False,
+                 u'shuffle': False},
+  u'playbackState': u'PLAYBACK_STATE_IDLE',
+  u'positionMillis': 0,
+  u'previousItemId': u'Ye3C6xHCdqODsRev8EXyiUGuUX0=',
+  u'previousPositionMillis': 2185}]>
+DEBUG:Muse-Websocket:No matched event found, waiting <1> seconds for more events
+DEBUG:Muse-Websocket:No matched event found, waiting <1> seconds for more events
+INFO:Muse-Websocket:<Mon May  8 22:02:23 2023> Received from 172.18.255.251: 
+[
+    {
+        "name": "audioClipStatus", 
+        "playerId": "RINCON_00038610386401400", 
+        "namespace": "audioClip", 
+        "householdId": "Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.r0rRMbL9Wh0D_qF2UeNY", 
+        "locationId": "lc_189dd24fab54439b81e6affa07288e9f", 
+        "type": "audioClipStatus"
+    }, 
+    {
+        "audioClips": [
+            {
+                "status": "DONE", 
+                "name": "NAME", 
+                "priority": "LOW", 
+                "appId": "APP_ID", 
+                "clipType": "CHIME", 
+                "id": "55c69987-0e08-40b8-ae1d-880890292d08"
+            }
+        ]
+    }
+]
+DEBUG:Muse-Websocket:<Mon May  8 22:02:24 2023> REST Request:
+	GET https://172.18.255.251:1443/api/v1/players/local/info
+	Headers: {'X-Sonos-Api-Key': 'e61bc77c-39cd-4ed0-a5e7-5ad316a0efc5'}
+	Body: None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): 172.18.255.251:1443
+DEBUG:urllib3.connectionpool:https://172.18.255.251:1443 "GET /api/v1/players/local/info HTTP/1.1" 200 None
+INFO:Muse-Websocket:<Mon May  8 22:02:24 2023> REST Response:
+	Response status: 200
+	Response content: 
+{
+    "playerId": "RINCON_00038610386401400", 
+    "websocketUrl": "wss://172.18.255.251:1443/websocket/api", 
+    "householdId": "Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.r0rRMbL9Wh0D_qF2UeNY", 
+    "restUrl": "https://172.18.255.251:1443/api", 
+    "locationId": "lc_189dd24fab54439b81e6affa07288e9f", 
+    "device": {
+        "name": "Emulator", 
+        "serialNumber": "00-03-86-10-38-64:0", 
+        "websocketUrl": "wss://172.18.255.251:1443/websocket/api", 
+        "swGen": 2, 
+        "apiVersion": "1.35.0-alpha.9+74.0-41060", 
+        "id": "RINCON_00038610386401400", 
+        "softwareVersion": "74.0-41060-dev-build-20230508-main", 
+        "capabilities": [
+            "CLOUD", 
+            "PLAYBACK", 
+            "AIRPLAY", 
+            "LINE_IN", 
+            "VOICE", 
+            "AUDIO_CLIP", 
+            "MICROPHONE_SWITCH"
+        ], 
+        "modelDisplayName": "Era 100", 
+        "hwVersion": "1.38.1.0-1.0", 
+        "model": "S39", 
+        "minApiVersion": "1.1.0"
+    }, 
+    "groupId": "RINCON_00038610386401400:2651910768"
+}
+DEBUG:Muse-Websocket:<Mon May  8 22:02:24 2023> Sent to 172.18.255.251: 
+[
+    {
+        "command": "getPlaybackStatus", 
+        "cmdId": "7", 
+        "namespace": "playback", 
+        "groupId": "RINCON_00038610386401400:2651910768"
+    }, 
+    {}
+]
+DEBUG:Muse-Websocket:No matched event found, waiting <1> seconds for more events
+INFO:Muse-Websocket:<Mon May  8 22:02:24 2023> Received from 172.18.255.251: 
+[
+    {
+        "success": true, 
+        "namespace": "playback", 
+        "groupId": "RINCON_00038610386401400:2651910768", 
+        "cmdId": "7", 
+        "locationId": "lc_189dd24fab54439b81e6affa07288e9f", 
+        "householdId": "Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.r0rRMbL9Wh0D_qF2UeNY", 
+        "type": "playbackStatus", 
+        "response": "getPlaybackStatus"
+    }, 
+    {
+        "playModes": {
+            "crossfade": false, 
+            "repeat": false, 
+            "shuffle": false, 
+            "repeatOne": false
+        }, 
+        "isDucking": false, 
+        "positionMillis": 0, 
+        "availablePlaybackActions": {
+            "canRepeatOne": true, 
+            "canSeek": false, 
+            "canPause": false, 
+            "canCrossfade": true, 
+            "canShuffle": true, 
+            "canSkip": false, 
+            "canRepeat": true, 
+            "canStop": false, 
+            "canSkipBack": false
+        }, 
+        "previousItemId": "Ye3C6xHCdqODsRev8EXyiUGuUX0=", 
+        "previousPositionMillis": 2185, 
+        "playbackState": "PLAYBACK_STATE_IDLE"
+    }
+]
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /diaglevel?module=default&level=1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "POST /diaglevel?module=default&level=1 HTTP/1.1" 200 204
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.253:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.253:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 196
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /diaglevel?module=default&level=1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "POST /diaglevel?module=default&level=1 HTTP/1.1" 200 204
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.252:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.252:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 196
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /diaglevel?module=default&level=1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "POST /diaglevel?module=default&level=1 HTTP/1.1" 200 204
+DEBUG:SONOS.sonos.services.common:Incrementing wait_until_true values: timeout_seconds=180, iteration_delay=1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "GET /diaglevel?module=&level= HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 172.18.255.251:1400
+DEBUG:urllib3.connectionpool:http://172.18.255.251:1400 "POST /diaglevel?module=&level= HTTP/1.1" 400 196
+DEBUG:Muse-Websocket:<Mon May  8 22:02:25 2023> Sent to 172.18.255.251: 
+[
+    {
+        "playerId": "RINCON_00038610386401400", 
+        "command": "setVolume", 
+        "cmdId": "8", 
+        "namespace": "playerVolume"
+    }, 
+    {
+        "volume": 0, 
+        "muted": true
+    }
+]
+DEBUG:Muse-Websocket:No matched event found, waiting <1> seconds for more events
+INFO:Muse-Websocket:<Mon May  8 22:02:25 2023> Received from 172.18.255.251: 
+[
+    {
+        "success": true, 
+        "playerId": "RINCON_00038610386401400", 
+        "namespace": "playerVolume", 
+        "householdId": "Sonos_43zDqMMaCLPzrMUSEEJ8mz6UdP.r0rRMbL9Wh0D_qF2UeNY", 
+        "cmdId": "8", 
+        "locationId": "lc_189dd24fab54439b81e6affa07288e9f", 
+        "type": "none", 
+        "response": "setVolume"
+    }, 
+    {}
+]
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.ChannelMapSet> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103864, architecture=optimo, hardware_version=1.38.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.ChannelMapSet> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103864, architecture=optimo, hardware_version=1.38.1.0-1.0) = 
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.HTSatChanMapSet> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103864, architecture=optimo, hardware_version=1.38.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.HTSatChanMapSet> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103864, architecture=optimo, hardware_version=1.38.1.0-1.0) = 
+DEBUG:SONOS.sonos.services.base:Getting state variable <DeviceProperties.HTSatChanMapSet> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103864, architecture=optimo, hardware_version=1.38.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <DeviceProperties.HTSatChanMapSet> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103864, architecture=optimo, hardware_version=1.38.1.0-1.0) = 
+DEBUG:SONOS.sonos.services.base:Getting state variable <GroupManagement.GroupCoordinatorIsLocal> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103864, architecture=optimo, hardware_version=1.38.1.0-1.0)
+DEBUG:SONOS.sonos.services.base:State variable <GroupManagement.GroupCoordinatorIsLocal> for SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103864, architecture=optimo, hardware_version=1.38.1.0-1.0) = 1
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103864, architecture=optimo, hardware_version=1.38.1.0-1.0) invokes AVTransport.GetTransportInfo("InstanceID"="0", "headers"="{}")
+DEBUG:Muse-Websocket:<Mon May  8 22:02:26 2023> Closed ws connection to: wss://172.18.255.251:1443/websocket/api?key=e61bc77c-39cd-4ed0-a5e7-5ad316a0efc5
+
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103864, architecture=optimo, hardware_version=1.38.1.0-1.0) AVTransport.GetTransportInfo returns '{'CurrentTransportState': u'STOPPED', 'CurrentTransportStatus': u'OK', 'CurrentSpeed': u'1'}'
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103864, architecture=optimo, hardware_version=1.38.1.0-1.0) invokes AVTransport.GetTransportInfo("InstanceID"="0", "headers"="{}")
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103864, architecture=optimo, hardware_version=1.38.1.0-1.0) AVTransport.GetTransportInfo returns '{'CurrentTransportState': u'STOPPED', 'CurrentTransportStatus': u'OK', 'CurrentSpeed': u'1'}'
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103864, architecture=optimo, hardware_version=1.38.1.0-1.0) invokes RenderingControl.SetVolume("InstanceID"="0", "DesiredVolume"="10", "Channel"="Master", "headers"="{}")
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103864, architecture=optimo, hardware_version=1.38.1.0-1.0) RenderingControl.SetVolume returns '{}'
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103864, architecture=optimo, hardware_version=1.38.1.0-1.0) invokes ContentDirectory.Browse("ObjectID"="Q:0", "BrowseFlag"="BrowseDirectChildren", "Filter"="0", "headers"="{}", "RequestedCount"="0", "StartingIndex"="0", "SortCriteria"="")
+DEBUG:SONOS.sonos.client.internal:SonosZoneComponent(ip=172.18.255.251, modelNumber=S39, serialNumber=000386103864, architecture=optimo, hardware_version=1.38.1.0-1.0) ContentDirectory.Browse returns '{'NumberReturned': u'0', 'UpdateID': u'4', 'Result': u'<DIDL-Lite xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:upnp="urn:schemas-upnp-org:metadata-1-0/upnp/" xmlns:r="urn:schemas-rinconnetworks-com:metadata-1-0/" xmlns="urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/"></DIDL-Lite>', 'TotalMatches': u'0'}'
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.253] command: <test -e /jffs/backtrace && echo $?>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.253] response: <>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.252] command: <test -e /jffs/backtrace && echo $?>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.252] response: <>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.251] command: <test -e /jffs/backtrace && echo $?>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.251] response: <>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.250] command: <test -e /jffs/backtrace && echo $?>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.250] response: <>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.253] command: <test -e /jffs/watchdog.log && echo $?>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.253] response: <>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.252] command: <test -e /jffs/watchdog.log && echo $?>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.252] response: <>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.251] command: <test -e /jffs/watchdog.log && echo $?>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.251] response: <>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.250] command: <test -e /jffs/watchdog.log && echo $?>
+INFO:SONOS.ssh_client.SSHClient:[172.18.255.250] response: <>
