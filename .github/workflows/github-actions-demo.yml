@@ -29,15 +29,16 @@ jobs:
         PUBLISH_BRANCH: gh-pages
         PUBLISH_DIR: allure-history
     
-    - uses: jungwinter/split@v2
-      id: split
-      with:
-          msg: ${{ github.event.head_commit.message }}
+    #- uses: jungwinter/split@v2
+    #  id: split
+    #  with:
+    #      msg: ${{ github.event.head_commit.message }}
         
     - name: Post Comment
       uses: marocchino/sticky-pull-request-comment@v2
       with:
-        number:  ${{ steps.split.outputs._0 }}
+   #    number:  ${{ steps.split.outputs._0 }}
+        number: ${{ github.event.head_commit.message }}
         owner: Sonos-Inc
         repo: pdsw-sonos-controller-player-s2
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
