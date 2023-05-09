@@ -1,0 +1,849 @@
+{
+  "uid" : "967ad1b24b3a3ba1",
+  "name" : "test_playback_state_using_modifyGroup_and_remove_GM[device_filter0-False]",
+  "fullName" : "player.muse.test_groups_namespace#test_playback_state_using_modifyGroup_and_remove_GM[device_filter0-False]",
+  "historyId" : "57cf432a0d9b81ee56b27216079431e8",
+  "time" : {
+    "start" : 1683583159825,
+    "stop" : 1683583169771,
+    "duration" : 9946
+  },
+  "description" : "\n    Verify playback state from getGroups response when group is created using modifyGroup and group member is removed\n    :param dut_manager:\n    :param function_dut:\n    :param ws_client:\n    :param device_filter:\n    :param groups_in_hh:\n    :return:\n    ",
+  "descriptionHtml" : "<pre><code>Verify playback state from getGroups response when group is created using modifyGroup and group member is removed\n:param dut_manager:\n:param function_dut:\n:param ws_client:\n:param device_filter:\n:param groups_in_hh:\n:return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "all_device_which_can_override_amps_interface",
+    "time" : {
+      "start" : 1683583053049,
+      "stop" : 1683583055191,
+      "duration" : 2142
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "groups_in_hh",
+    "time" : {
+      "start" : 1683583157970,
+      "stop" : 1683583159244,
+      "duration" : 1274
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "muse_disable_speaker_audio",
+    "time" : {
+      "start" : 1683583055192,
+      "stop" : 1683583055192,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "pytestconfig",
+    "time" : {
+      "start" : 1683583051394,
+      "stop" : 1683583051394,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "a_playback_device",
+    "time" : {
+      "start" : 1683583053004,
+      "stop" : 1683583053004,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "diag_levels",
+    "time" : {
+      "start" : 1683583159245,
+      "stop" : 1683583159245,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "create_muse_session",
+    "time" : {
+      "start" : 1683583154880,
+      "stop" : 1683583156967,
+      "duration" : 2087
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "environment",
+    "time" : {
+      "start" : 1683583051393,
+      "stop" : 1683583051393,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "operation_devices",
+    "time" : {
+      "start" : 1683583159244,
+      "stop" : 1683583159245,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "cleanup_player_overrides",
+    "time" : {
+      "start" : 1683583053004,
+      "stop" : 1683583053049,
+      "duration" : 45
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "print_muse_logs",
+    "time" : {
+      "start" : 1683583150226,
+      "stop" : 1683583150226,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "mock_cq_server",
+    "time" : {
+      "start" : 1683583152968,
+      "stop" : 1683583154880,
+      "duration" : 1912
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "reset_dut_and_ws_managers",
+    "time" : {
+      "start" : 1683583150227,
+      "stop" : 1683583150227,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "ws_client",
+    "time" : {
+      "start" : 1683583150884,
+      "stop" : 1683583151964,
+      "duration" : 1080
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "operation_kwargs",
+    "time" : {
+      "start" : 1683583159244,
+      "stop" : 1683583159244,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "print_player_logs",
+    "time" : {
+      "start" : 1683583150226,
+      "stop" : 1683583150226,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "websocket_manager",
+    "time" : {
+      "start" : 1683583115488,
+      "stop" : 1683583115488,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "start_CQ_playback",
+    "time" : {
+      "start" : 1683583156967,
+      "stop" : 1683583157969,
+      "duration" : 1002
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "all_playback_devices",
+    "time" : {
+      "start" : 1683583053003,
+      "stop" : 1683583053003,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "subscribe_groups",
+    "time" : {
+      "start" : 1683583151964,
+      "stop" : 1683583152967,
+      "duration" : 1003
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "all_devices",
+    "time" : {
+      "start" : 1683583051394,
+      "stop" : 1683583053003,
+      "duration" : 1609
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "dut_manager",
+    "time" : {
+      "start" : 1683583115487,
+      "stop" : 1683583115488,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "default_operation_devices",
+    "time" : {
+      "start" : 1683583159245,
+      "stop" : 1683583159245,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "mock_cq_control",
+    "time" : {
+      "start" : 1683583150199,
+      "stop" : 1683583150225,
+      "duration" : 26
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "diag_level_devices",
+    "time" : {
+      "start" : 1683583159245,
+      "stop" : 1683583159245,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "function_dut",
+    "time" : {
+      "start" : 1683583150227,
+      "stop" : 1683583150884,
+      "duration" : 657
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "override_diag_levels",
+    "time" : {
+      "start" : 1683583159246,
+      "stop" : 1683583159786,
+      "duration" : 540
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "player_diag_levels",
+    "time" : {
+      "start" : 1683583051394,
+      "stop" : 1683583051394,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "cleanup_websocket_connections",
+    "time" : {
+      "start" : 1683583150884,
+      "stop" : 1683583150884,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "disable_speaker_audio",
+    "time" : {
+      "start" : 1683583055192,
+      "stop" : 1683583055192,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "\n    Verify playback state from getGroups response when group is created using modifyGroup and group member is removed\n    :param dut_manager:\n    :param function_dut:\n    :param ws_client:\n    :param device_filter:\n    :param groups_in_hh:\n    :return:\n    ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Return list of player serials from DUTs",
+      "time" : {
+        "start" : 1683583160490,
+        "stop" : 1683583160490,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "test_devices",
+        "value" : "[SonosZoneComponent(id=140001135542224, ip=172.18.255.252, modelNumber=S39, serialNumber=0003861038D3, architecture=optimo, hardware_version=1.38.1.0-1.0), SonosZoneComponent(id=140001093392464, ip=172.18.255.253, modelNumber=S36, serialNumber=0003861036FF, architecture=fury, hardware_version=1.36.1.0-1.0)]"
+      }, {
+        "name" : "reversed",
+        "value" : "None"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verify number of groups in household",
+      "time" : {
+        "start" : 1683583160531,
+        "stop" : 1683583162536,
+        "duration" : 2005
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "ws_client",
+        "value" : "<sonos.museclient.muse_websocket_client.MuseWebsocketClient object at 0x7f54644c7990>"
+      }, {
+        "name" : "num_groups_in_hh",
+        "value" : "3"
+      }, {
+        "name" : "new_group_count",
+        "value" : "1"
+      }, {
+        "name" : "timeout",
+        "value" : "10"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verify group coordinators' and group members' playerIds against a GroupsEvent response",
+      "time" : {
+        "start" : 1683583162551,
+        "stop" : 1683583163554,
+        "duration" : 1003
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "ws_client",
+        "value" : "<sonos.museclient.muse_websocket_client.MuseWebsocketClient object at 0x7f54644c7990>"
+      }, {
+        "name" : "gc",
+        "value" : "SonosZoneComponent(id=140001135542224, ip=172.18.255.252, modelNumber=S39, serialNumber=0003861038D3, architecture=optimo, hardware_version=1.38.1.0-1.0)"
+      }, {
+        "name" : "expected_players_in_group",
+        "value" : "[SonosZoneComponent(id=140001135542224, ip=172.18.255.252, modelNumber=S39, serialNumber=0003861038D3, architecture=optimo, hardware_version=1.38.1.0-1.0), SonosZoneComponent(id=140001093392464, ip=172.18.255.253, modelNumber=S36, serialNumber=0003861036FF, architecture=fury, hardware_version=1.36.1.0-1.0)]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verify a list of playerIds along with their playback state against a GroupsEvent response",
+      "time" : {
+        "start" : 1683583164607,
+        "stop" : 1683583165613,
+        "duration" : 1006
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "ws_client",
+        "value" : "<sonos.museclient.muse_websocket_client.MuseWebsocketClient object at 0x7f54644c7990>"
+      }, {
+        "name" : "zp_list",
+        "value" : "SonosZoneComponent(id=140001135542224, ip=172.18.255.252, modelNumber=S39, serialNumber=0003861038D3, architecture=optimo, hardware_version=1.38.1.0-1.0)"
+      }, {
+        "name" : "expected_playback_state_list",
+        "value" : "'PLAYBACK_STATE_PLAYING'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verify number of groups in household",
+      "time" : {
+        "start" : 1683583165731,
+        "stop" : 1683583168739,
+        "duration" : 3008
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "ws_client",
+        "value" : "<sonos.museclient.muse_websocket_client.MuseWebsocketClient object at 0x7f54644c7990>"
+      }, {
+        "name" : "num_groups_in_hh",
+        "value" : "3"
+      }, {
+        "name" : "new_group_count",
+        "value" : "0"
+      }, {
+        "name" : "timeout",
+        "value" : "10"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verify a list of playerIds along with their playback state against a GroupsEvent response",
+      "time" : {
+        "start" : 1683583168766,
+        "stop" : 1683583169770,
+        "duration" : 1004
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "ws_client",
+        "value" : "<sonos.museclient.muse_websocket_client.MuseWebsocketClient object at 0x7f54644c7990>"
+      }, {
+        "name" : "zp_list",
+        "value" : "[SonosZoneComponent(id=140001135542224, ip=172.18.255.252, modelNumber=S39, serialNumber=0003861038D3, architecture=optimo, hardware_version=1.38.1.0-1.0), SonosZoneComponent(id=140001093392464, ip=172.18.255.253, modelNumber=S36, serialNumber=0003861036FF, architecture=fury, hardware_version=1.36.1.0-1.0)]"
+      }, {
+        "name" : "expected_playback_state_list",
+        "value" : "['PLAYBACK_STATE_PLAYING', 'PLAYBACK_STATE_IDLE']"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "75ef259376ac303f",
+      "name" : "stderr",
+      "source" : "75ef259376ac303f.txt",
+      "type" : "text/plain",
+      "size" : 120809
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "cleanup_player_overrides::0",
+    "time" : {
+      "start" : 1683583826575,
+      "stop" : 1683583826608,
+      "duration" : 33
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "print_muse_logs::0",
+    "time" : {
+      "start" : 1683583170925,
+      "stop" : 1683583170926,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "mock_cq_server::0",
+    "time" : {
+      "start" : 1683583170207,
+      "stop" : 1683583170223,
+      "duration" : 16
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "reset_dut_and_ws_managers::0",
+    "time" : {
+      "start" : 1683583170238,
+      "stop" : 1683583170924,
+      "duration" : 686
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "print_player_logs::0",
+    "time" : {
+      "start" : 1683583170926,
+      "stop" : 1683583171883,
+      "duration" : 957
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "websocket_manager::0",
+    "time" : {
+      "start" : 1683583432398,
+      "stop" : 1683583432398,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "dut_manager::0",
+    "time" : {
+      "start" : 1683583432401,
+      "stop" : 1683583432401,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "override_diag_levels::0",
+    "time" : {
+      "start" : 1683583169891,
+      "stop" : 1683583170202,
+      "duration" : 311
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "player_diag_levels::0",
+    "time" : {
+      "start" : 1683583826613,
+      "stop" : 1683583826613,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "cleanup_websocket_connections::0",
+    "time" : {
+      "start" : 1683583170225,
+      "stop" : 1683583170236,
+      "duration" : 11
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "disable_speaker_audio::0",
+    "time" : {
+      "start" : 1683583826573,
+      "stop" : 1683583826573,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "groups_namespaces"
+  }, {
+    "name" : "tag",
+    "value" : "nightly"
+  }, {
+    "name" : "tag",
+    "value" : "priority3"
+  }, {
+    "name" : "parentSuite",
+    "value" : "player.muse"
+  }, {
+    "name" : "suite",
+    "value" : "test_groups_namespace"
+  }, {
+    "name" : "host",
+    "value" : "58800fe336ac"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython2"
+  }, {
+    "name" : "package",
+    "value" : "player.muse.test_groups_namespace"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "device_filter",
+    "value" : "frozenset(['S9', 'S3', 'S17', 'S1', 'S43', 'S6', 'S5', 'S30', 'S33', 'S50', 'ZP90', 'S19', 'S18', 'S39', 'S38', 'ZP100', 'S13', 'S12', 'S11', 'S36', 'ZP120', 'S16', 'S15', 'S14', 'S22', 'S23', 'S20', 'S21', 'S40', 'S27', 'S24', 'S25', 'S28', 'S29', 'S48', 'S44', 'S45', 'ZP80', 'S35', 'S34', 'S31', 'S41'])"
+  }, {
+    "name" : "play_on_completion",
+    "value" : "False"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "groups_namespaces", "nightly", "priority3" ]
+  },
+  "source" : "967ad1b24b3a3ba1.json",
+  "parameterValues" : [ "frozenset(['S9', 'S3', 'S17', 'S1', 'S43', 'S6', 'S5', 'S30', 'S33', 'S50', 'ZP90', 'S19', 'S18', 'S39', 'S38', 'ZP100', 'S13', 'S12', 'S11', 'S36', 'ZP120', 'S16', 'S15', 'S14', 'S22', 'S23', 'S20', 'S21', 'S40', 'S27', 'S24', 'S25', 'S28', 'S29', 'S48', 'S44', 'S45', 'ZP80', 'S35', 'S34', 'S31', 'S41'])", "False" ]
+}
