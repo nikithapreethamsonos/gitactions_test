@@ -29,10 +29,17 @@ jobs:
         PUBLISH_BRANCH: gh-pages
         PUBLISH_DIR: allure-history
     
+    - name: Get PR Number
+      id: get-pr-number
+      run: |
+        PR_NUMBER="$(echo -e "${{ github.event.head_commit.message }}" | tr -d '[:space:]')"
+        echo "PR number is $PR_NUMBER"
+        echo "pr_number=$PR_NUMBER" >> $GITHUB_OUTPUT
+        
     - name: Post Comment
       uses: marocchino/sticky-pull-request-comment@v2
       with:
-        number:  ${{ github.event.head_commit.message }}
+        number:  ${{ steps.get-pr-number.outputs.pr_number }}
         owner: Sonos-Inc
         repo: pdsw-sonos-controller-player-s2
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
