@@ -31,10 +31,12 @@ jobs:
     
     - name: Get PR Number
       id: get-pr-number
+      shell: bash
       run: |
-        PR_NUMBER="$(echo -e "${{ github.event.head_commit.message }}" | tr -d '[:space:]')"
-        echo "PR number is $PR_NUMBER"
-        echo "pr_number=$PR_NUMBER" >> $GITHUB_OUTPUT
+          PR_NUMBER=`curl --silent --fail --show-error -H 'Accept: application/vnd.github+json' -H 'Authorization: Bearer ${{ github.token }}' \
+            "https://api.github.com/search/issues?q=${{ github.event.commit.sha }}&type=pr&org=sonos-inc" | jq -r .items[0].number`
+          echo "PR number is $PR_NUMBER"
+          echo "pr_number=$PR_NUMBER" >> $GITHUB_OUTPUT
         
     - name: Post Comment
       uses: marocchino/sticky-pull-request-comment@v2
