@@ -1,0 +1,3446 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "cloud.lechmere.test_mock_lechmere_connections",
+    "children" : [ {
+      "name" : "test_player_resends_registration_message_on_reconnect[Default Mock Config]",
+      "uid" : "9f9c9988f3fb3640",
+      "parentUid" : "bd77df53ccc3aa6689a402879ceb247c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683582558720,
+        "stop" : 1683582561772,
+        "duration" : 3052
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "None" ]
+    }, {
+      "name" : "test_get_config[Default Mock Config]",
+      "uid" : "1fdb01b75ee186df",
+      "parentUid" : "bd77df53ccc3aa6689a402879ceb247c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683582562285,
+        "stop" : 1683582563351,
+        "duration" : 1066
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "None" ]
+    }, {
+      "name" : "test_send_muse_command_to_mock_lechmere[fragmented]",
+      "uid" : "d605c880ad9f9c0d",
+      "parentUid" : "bd77df53ccc3aa6689a402879ceb247c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683582563807,
+        "stop" : 1683582563920,
+        "duration" : 113
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "None", "'True'" ]
+    }, {
+      "name" : "test_send_muse_command_to_mock_lechmere[not fragmented]",
+      "uid" : "7fa1226a4480b703",
+      "parentUid" : "bd77df53ccc3aa6689a402879ceb247c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683582564374,
+        "stop" : 1683582564475,
+        "duration" : 101
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "None", "'False'" ]
+    }, {
+      "name" : "test_muse_hhid_and_locationid_clearing[Default Mock Config]",
+      "uid" : "67aa77bd039bc0dc",
+      "parentUid" : "bd77df53ccc3aa6689a402879ceb247c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683582564933,
+        "stop" : 1683582599994,
+        "duration" : 35061
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "None" ]
+    }, {
+      "name" : "test_locationID_persistence[Default Mock Config]",
+      "uid" : "f940802be80f2690",
+      "parentUid" : "bd77df53ccc3aa6689a402879ceb247c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683582600483,
+        "stop" : 1683582630036,
+        "duration" : 29553
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "None" ]
+    }, {
+      "name" : "test_locid_muse_headers[Default Mock Config-locationID Set-Muse HHID Set]",
+      "uid" : "bf4e27873b348e66",
+      "parentUid" : "bd77df53ccc3aa6689a402879ceb247c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683582631764,
+        "stop" : 1683582647082,
+        "duration" : 15318
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "None", "True", "True" ]
+    }, {
+      "name" : "test_locid_muse_headers[Default Mock Config-locationID Set-Muse HHID Clear]",
+      "uid" : "966e45d7d13e10a8",
+      "parentUid" : "bd77df53ccc3aa6689a402879ceb247c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683582650079,
+        "stop" : 1683582665057,
+        "duration" : 14978
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "None", "True", "False" ]
+    }, {
+      "name" : "test_locid_muse_headers[Default Mock Config-locationID Clear-Muse HHID Set]",
+      "uid" : "ef3dbb3f7f26cd64",
+      "parentUid" : "bd77df53ccc3aa6689a402879ceb247c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683582667364,
+        "stop" : 1683582686409,
+        "duration" : 19045
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "None", "False", "True" ]
+    }, {
+      "name" : "test_locid_muse_headers[Default Mock Config-locationID Clear-Muse HHID Clear]",
+      "uid" : "e5cd18186fb14a6d",
+      "parentUid" : "bd77df53ccc3aa6689a402879ceb247c",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1683582687875,
+        "stop" : 1683582687875,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "None", "False", "False" ]
+    }, {
+      "name" : "test_fcs_flag_lechmere_v7[Default Mock Config]",
+      "uid" : "870c71cba7e56fd0",
+      "parentUid" : "bd77df53ccc3aa6689a402879ceb247c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683582689320,
+        "stop" : 1683582698106,
+        "duration" : 8786
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "None" ]
+    } ],
+    "uid" : "cloud.lechmere.test_mock_lechmere_connections"
+  }, {
+    "name" : "player.muse",
+    "children" : [ {
+      "name" : "test_info_namespace",
+      "children" : [ {
+        "name" : "test_getInfo[VOICE Devices]",
+        "uid" : "d3a46e929a73f144",
+        "parentUid" : "ba33d61c0482cb1660ad76c569d3a32d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683582568175,
+          "stop" : 1683582571400,
+          "duration" : 3225
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "frozenset(['S19', 'S18', 'S39', 'S13', 'S31', 'S17', 'S14', 'S44', 'S45', 'S27', 'S25', 'S48', 'S41'])" ]
+      }, {
+        "name" : "test_getInfo[AUDIO_CLIP Devices]",
+        "uid" : "13889b3ed8530ee9",
+        "parentUid" : "ba33d61c0482cb1660ad76c569d3a32d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683582576658,
+          "stop" : 1683582578896,
+          "duration" : 2238
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['S9', 'S3', 'S17', 'S1', 'S43', 'S6', 'S30', 'S33', 'S50', 'S19', 'S18', 'S39', 'S38', 'S13', 'S12', 'S11', 'S36', 'S16', 'S15', 'S14', 'S22', 'S23', 'S20', 'S21', 'S40', 'S27', 'S24', 'S25', 'S28', 'S29', 'S48', 'S44', 'S45', 'S35', 'S34', 'S31', 'S41']" ]
+      }, {
+        "name" : "test_getInfo[AIRPLAY Devices]",
+        "uid" : "6b8b591a812bf860",
+        "parentUid" : "ba33d61c0482cb1660ad76c569d3a32d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683582583980,
+          "stop" : 1683582587047,
+          "duration" : 3067
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['S6', 'S11', 'S13', 'S14', 'S16', 'S17', 'S18', 'S19', 'S20', 'S21', 'S22', 'S23', 'S24', 'S27', 'S28', 'S29', 'S30', 'S31', 'S32', 'S33', 'S34', 'S35', 'S36', 'S38', 'S39', 'S40', 'S41', 'S43', 'S44', 'S45', 'S48', 'S50']" ]
+      }, {
+        "name" : "test_getInfo[FIXED_VOLUME Devices]",
+        "uid" : "9560953dab1e88a0",
+        "parentUid" : "ba33d61c0482cb1660ad76c569d3a32d",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1683582587831,
+          "stop" : 1683582587831,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['ZP80', 'ZP90', 'ZP100', 'S15', 'S23']" ]
+      }, {
+        "name" : "test_getInfo[SUB Devices]",
+        "uid" : "3bf3dda6eb1364e",
+        "parentUid" : "ba33d61c0482cb1660ad76c569d3a32d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683582591516,
+          "stop" : 1683582594669,
+          "duration" : 3153
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "frozenset(['S37', 'S26', 'Sub'])" ]
+      }, {
+        "name" : "test_getInfo[IR_CONTROL Devices]",
+        "uid" : "852257b420b37c60",
+        "parentUid" : "ba33d61c0482cb1660ad76c569d3a32d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683582599240,
+          "stop" : 1683582602432,
+          "duration" : 3192
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "frozenset(['S19', 'S34', 'S11', 'S36', 'S31', 'S9', 'S16', 'S45', 'S32', 'S14'])" ]
+      }, {
+        "name" : "test_getInfo[HDMI Devices]",
+        "uid" : "5a97fd326c6545f8",
+        "parentUid" : "ba33d61c0482cb1660ad76c569d3a32d",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1683582603211,
+          "stop" : 1683582603211,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['S19', 'S34', 'S31', 'S16', 'S32', 'S45', 'S14']" ]
+      }, {
+        "name" : "test_getInfo_with_group",
+        "uid" : "8b4c78e89c2dae7a",
+        "parentUid" : "ba33d61c0482cb1660ad76c569d3a32d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683582606059,
+          "stop" : 1683582612156,
+          "duration" : 6097
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_getInfo_rest[Use Muse API v1]",
+        "uid" : "15972c4e01c73398",
+        "parentUid" : "ba33d61c0482cb1660ad76c569d3a32d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683582617650,
+          "stop" : 1683582619091,
+          "duration" : 1441
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'1'" ]
+      }, {
+        "name" : "test_getInfo_rest[Use Muse API v2]",
+        "uid" : "9426f1d394b64c47",
+        "parentUid" : "ba33d61c0482cb1660ad76c569d3a32d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683582621455,
+          "stop" : 1683582623170,
+          "duration" : 1715
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'2'" ]
+      } ],
+      "uid" : "ba33d61c0482cb1660ad76c569d3a32d"
+    }, {
+      "name" : "test_muse_mdns",
+      "children" : [ {
+        "name" : "test_muse_mdns_enabled",
+        "uid" : "21ee98bafc971e93",
+        "parentUid" : "7529d62d6940de5110fe7a8428c23ee4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683582625414,
+          "stop" : 1683582625615,
+          "duration" : 201
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_muse_mdns_txt_info[Default Mock Config-lechmere.v7 Enabled-locationID Set-Muse HHID Set]",
+        "uid" : "e60be3c4593e42f",
+        "parentUid" : "7529d62d6940de5110fe7a8428c23ee4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683582649272,
+          "stop" : 1683582665738,
+          "duration" : 16466
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "None", "True", "True", "True" ]
+      }, {
+        "name" : "test_muse_mdns_txt_info[Default Mock Config-lechmere.v7 Enabled-locationID Set-Muse HHID Clear]",
+        "uid" : "2c5874bae0727794",
+        "parentUid" : "7529d62d6940de5110fe7a8428c23ee4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683582667518,
+          "stop" : 1683582687877,
+          "duration" : 20359
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "None", "True", "False", "True" ]
+      }, {
+        "name" : "test_muse_mdns_txt_info[Default Mock Config-lechmere.v7 Enabled-locationID Clear-Muse HHID Set]",
+        "uid" : "60287a0232a027a0",
+        "parentUid" : "7529d62d6940de5110fe7a8428c23ee4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683582689628,
+          "stop" : 1683582705697,
+          "duration" : 16069
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "None", "False", "True", "True" ]
+      }, {
+        "name" : "test_muse_mdns_txt_info[Default Mock Config-lechmere.v7 Enabled-locationID Clear-Muse HHID Clear]",
+        "uid" : "7671c475545bedf3",
+        "parentUid" : "7529d62d6940de5110fe7a8428c23ee4",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1683582708286,
+          "stop" : 1683582708287,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "None", "False", "False", "True" ]
+      }, {
+        "name" : "test_muse_mdns_txt_info[Default Mock Config-lechmere.v7 Disabled-locationID Set-Muse HHID Set]",
+        "uid" : "3dea3bfa9b20aa2f",
+        "parentUid" : "7529d62d6940de5110fe7a8428c23ee4",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1683582709982,
+          "stop" : 1683582709984,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "None", "True", "True", "False" ]
+      }, {
+        "name" : "test_muse_mdns_txt_info[Default Mock Config-lechmere.v7 Disabled-locationID Set-Muse HHID Clear]",
+        "uid" : "9f43047b13b34c22",
+        "parentUid" : "7529d62d6940de5110fe7a8428c23ee4",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1683582711807,
+          "stop" : 1683582711808,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "None", "True", "False", "False" ]
+      }, {
+        "name" : "test_muse_mdns_txt_info[Default Mock Config-lechmere.v7 Disabled-locationID Clear-Muse HHID Set]",
+        "uid" : "f433645d8b3b1a54",
+        "parentUid" : "7529d62d6940de5110fe7a8428c23ee4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683582713451,
+          "stop" : 1683582725321,
+          "duration" : 11870
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "None", "False", "True", "False" ]
+      }, {
+        "name" : "test_muse_mdns_txt_info[Default Mock Config-lechmere.v7 Disabled-locationID Clear-Muse HHID Clear]",
+        "uid" : "3fe35d939d81d9d1",
+        "parentUid" : "7529d62d6940de5110fe7a8428c23ee4",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1683582726954,
+          "stop" : 1683582726954,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "None", "False", "False", "False" ]
+      } ],
+      "uid" : "7529d62d6940de5110fe7a8428c23ee4"
+    }, {
+      "name" : "test_upnp_namespace",
+      "children" : [ {
+        "name" : "test_upnp_namespace_subscribe_unsubscribe_success[upnpAVTransport]",
+        "uid" : "a55d84089a09bb6a",
+        "parentUid" : "b92fd18ee4bb914217746d1462857c97",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683582933088,
+          "stop" : 1683582935237,
+          "duration" : 2149
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'upnpAVTransport'" ]
+      }, {
+        "name" : "test_upnp_namespace_subscribe_unsubscribe_success[upnpAlarmClock]",
+        "uid" : "83eac9417be12686",
+        "parentUid" : "b92fd18ee4bb914217746d1462857c97",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683582939984,
+          "stop" : 1683582942202,
+          "duration" : 2218
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'upnpAlarmClock'" ]
+      }, {
+        "name" : "test_upnp_namespace_subscribe_unsubscribe_success[upnpConnectionManager]",
+        "uid" : "fb5970d923fe2f2a",
+        "parentUid" : "b92fd18ee4bb914217746d1462857c97",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683582946466,
+          "stop" : 1683582948664,
+          "duration" : 2198
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'upnpConnectionManager'" ]
+      }, {
+        "name" : "test_upnp_namespace_subscribe_unsubscribe_success[upnpContentDirectory]",
+        "uid" : "fa366306fc5f1f0c",
+        "parentUid" : "b92fd18ee4bb914217746d1462857c97",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683582953184,
+          "stop" : 1683582955530,
+          "duration" : 2346
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'upnpContentDirectory'" ]
+      }, {
+        "name" : "test_upnp_namespace_subscribe_unsubscribe_success[upnpDeviceProperties]",
+        "uid" : "4b327f8114a19d9c",
+        "parentUid" : "b92fd18ee4bb914217746d1462857c97",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683582959696,
+          "stop" : 1683582962106,
+          "duration" : 2410
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'upnpDeviceProperties'" ]
+      }, {
+        "name" : "test_upnp_namespace_subscribe_unsubscribe_success[upnpGroupManagement]",
+        "uid" : "efac7935d12bc0a8",
+        "parentUid" : "b92fd18ee4bb914217746d1462857c97",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683582966476,
+          "stop" : 1683582968589,
+          "duration" : 2113
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'upnpGroupManagement'" ]
+      }, {
+        "name" : "test_upnp_namespace_subscribe_unsubscribe_success[upnpGroupRenderingControl]",
+        "uid" : "7fe4e4a887b0324b",
+        "parentUid" : "b92fd18ee4bb914217746d1462857c97",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683582971433,
+          "stop" : 1683582973565,
+          "duration" : 2132
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'upnpGroupRenderingControl'" ]
+      }, {
+        "name" : "test_upnp_namespace_subscribe_unsubscribe_success[upnpMusicServices]",
+        "uid" : "e89a692041bed95d",
+        "parentUid" : "b92fd18ee4bb914217746d1462857c97",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683582976486,
+          "stop" : 1683582978616,
+          "duration" : 2130
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'upnpMusicServices'" ]
+      }, {
+        "name" : "test_upnp_namespace_subscribe_unsubscribe_success[upnpQueue]",
+        "uid" : "e580727ccb7a20a3",
+        "parentUid" : "b92fd18ee4bb914217746d1462857c97",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683582982217,
+          "stop" : 1683582984417,
+          "duration" : 2200
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'upnpQueue'" ]
+      }, {
+        "name" : "test_upnp_namespace_subscribe_unsubscribe_success[upnpRenderingControl]",
+        "uid" : "dbf7baf0bfea70a8",
+        "parentUid" : "b92fd18ee4bb914217746d1462857c97",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683582988890,
+          "stop" : 1683582991048,
+          "duration" : 2158
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'upnpRenderingControl'" ]
+      }, {
+        "name" : "test_upnp_namespace_subscribe_unsubscribe_success[upnpSystemProperties]",
+        "uid" : "e526d06a1a4efdf5",
+        "parentUid" : "b92fd18ee4bb914217746d1462857c97",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683582995170,
+          "stop" : 1683582997456,
+          "duration" : 2286
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'upnpSystemProperties'" ]
+      }, {
+        "name" : "test_upnp_namespace_subscribe_unsubscribe_success[upnpZoneGroupTopology]",
+        "uid" : "4098356ee03c7bc6",
+        "parentUid" : "b92fd18ee4bb914217746d1462857c97",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583001392,
+          "stop" : 1683583003569,
+          "duration" : 2177
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'upnpZoneGroupTopology'" ]
+      }, {
+        "name" : "test_subscribe_renew_async_events",
+        "uid" : "fac7666f46d7e3e7",
+        "parentUid" : "b92fd18ee4bb914217746d1462857c97",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583008814,
+          "stop" : 1683583019085,
+          "duration" : 10271
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_upnpAVTransport_call_success_and_valid_event_body",
+        "uid" : "e53aff4174001fe",
+        "parentUid" : "b92fd18ee4bb914217746d1462857c97",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583023501,
+          "stop" : 1683583024505,
+          "duration" : 1004
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_upnpAlarmClock_call_success",
+        "uid" : "c1994f0e467fbc00",
+        "parentUid" : "b92fd18ee4bb914217746d1462857c97",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583035258,
+          "stop" : 1683583036277,
+          "duration" : 1019
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_upnpAudioIn_call_success_REST[LINE_IN_CAPABLE DUT]",
+        "uid" : "1edaca4756b59cf4",
+        "parentUid" : "b92fd18ee4bb914217746d1462857c97",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583038478,
+          "stop" : 1683583039317,
+          "duration" : 839
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['S39', 'S40', 'S41', 'S44', 'S48', 'S50', 'ZP80', 'ZP90', 'ZP100', 'ZP120', 'S5', 'S6', 'S15', 'S16', 'S23', 'S24']" ]
+      }, {
+        "name" : "test_upnpHTControl_call_success_REST[HT_MASTER DUT]",
+        "uid" : "568eb02bc088a2ec",
+        "parentUid" : "b92fd18ee4bb914217746d1462857c97",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583041329,
+          "stop" : 1683583042549,
+          "duration" : 1220
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "frozenset(['S19', 'S34', 'S11', 'S36', 'S31', 'S9', 'S16', 'S45', 'S32', 'S14'])" ]
+      }, {
+        "name" : "test_upnpQueue_removeAllTracks_REST",
+        "uid" : "a163465095c4f09c",
+        "parentUid" : "b92fd18ee4bb914217746d1462857c97",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583044295,
+          "stop" : 1683583044334,
+          "duration" : 39
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_upnp_not_broadcast",
+        "uid" : "4582d1b7068f6fa3",
+        "parentUid" : "b92fd18ee4bb914217746d1462857c97",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583047255,
+          "stop" : 1683583081754,
+          "duration" : 34499
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_upnp_subscribe_load[TLS Flushed]",
+        "uid" : "dd4a72c51b213b7d",
+        "parentUid" : "b92fd18ee4bb914217746d1462857c97",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1683583088700,
+          "stop" : 1683583088740,
+          "duration" : 40
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "True" ]
+      }, {
+        "name" : "test_upnp_subscribe_load[TLS Cached]",
+        "uid" : "84d2f50e9a99bb34",
+        "parentUid" : "b92fd18ee4bb914217746d1462857c97",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1683583096304,
+          "stop" : 1683583096304,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "False" ]
+      }, {
+        "name" : "test_upnp_eventing_load[TLS Flushed]",
+        "uid" : "d36ee6e7704aef23",
+        "parentUid" : "b92fd18ee4bb914217746d1462857c97",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1683583103423,
+          "stop" : 1683583103424,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "True" ]
+      }, {
+        "name" : "test_upnp_eventing_load[TLS Cached]",
+        "uid" : "3d7429a3d7f4388d",
+        "parentUid" : "b92fd18ee4bb914217746d1462857c97",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1683583111772,
+          "stop" : 1683583111774,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "False" ]
+      } ],
+      "uid" : "b92fd18ee4bb914217746d1462857c97"
+    }, {
+      "name" : "test_cloudqueue_misc",
+      "children" : [ {
+        "name" : "test_cloudqueue_radio_alarm_default_to_buzzer[Default Mock Config-None-CONSUMER-CQ Radio alarm source]",
+        "uid" : "7c4196865ffd94ef",
+        "parentUid" : "b5dc4e2b1daa0e0d29bfcb1c4e264e57",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1683583021662,
+          "stop" : 1683583021662,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "None", "None", "False", "None", "'CONSUMER'" ]
+      }, {
+        "name" : "test_cloudqueue_radio_alarm_default_to_buzzer[Default Mock Config-None-CONSUMER-CQ Server off]",
+        "uid" : "453a4317947f15ea",
+        "parentUid" : "b5dc4e2b1daa0e0d29bfcb1c4e264e57",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1683583021667,
+          "stop" : 1683583021667,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "None", "None", "True", "None", "'CONSUMER'" ]
+      }, {
+        "name" : "test_cloudqueue_radio_alarm_default_to_buzzer[Default Mock Config-None-CONSUMER-CQ server 202 resp]",
+        "uid" : "cca9a233a31389a3",
+        "parentUid" : "b5dc4e2b1daa0e0d29bfcb1c4e264e57",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1683583021670,
+          "stop" : 1683583021670,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "None", "None", "False", "202", "'CONSUMER'" ]
+      }, {
+        "name" : "test_cloudqueue_radio_alarm_default_to_buzzer[Default Mock Config-None-CONSUMER-CQ server 401 resp]",
+        "uid" : "cd7945c789a60882",
+        "parentUid" : "b5dc4e2b1daa0e0d29bfcb1c4e264e57",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1683583021673,
+          "stop" : 1683583021673,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "None", "None", "False", "401", "'CONSUMER'" ]
+      }, {
+        "name" : "test_cloudqueue_radio_alarm_default_to_buzzer[Default Mock Config-None-CONSUMER-CQ server 480 resp]",
+        "uid" : "f49d21635d609758",
+        "parentUid" : "b5dc4e2b1daa0e0d29bfcb1c4e264e57",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1683583021676,
+          "stop" : 1683583021676,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "None", "None", "False", "480", "'CONSUMER'" ]
+      }, {
+        "name" : "test_cloudqueue_radio_alarm_default_to_buzzer[Default Mock Config-None-BUSINESS-CQ Radio alarm source]",
+        "uid" : "1f9d85f943f270aa",
+        "parentUid" : "b5dc4e2b1daa0e0d29bfcb1c4e264e57",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1683583021679,
+          "stop" : 1683583021679,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "None", "None", "False", "None", "'BUSINESS'" ]
+      }, {
+        "name" : "test_cloudqueue_radio_alarm_default_to_buzzer[Default Mock Config-None-BUSINESS-CQ Server off]",
+        "uid" : "c818f227c9b5d7f0",
+        "parentUid" : "b5dc4e2b1daa0e0d29bfcb1c4e264e57",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1683583021683,
+          "stop" : 1683583021683,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "None", "None", "True", "None", "'BUSINESS'" ]
+      }, {
+        "name" : "test_cloudqueue_radio_alarm_default_to_buzzer[Default Mock Config-None-BUSINESS-CQ server 202 resp]",
+        "uid" : "554d9e18ec98818f",
+        "parentUid" : "b5dc4e2b1daa0e0d29bfcb1c4e264e57",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1683583021686,
+          "stop" : 1683583021686,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "None", "None", "False", "202", "'BUSINESS'" ]
+      }, {
+        "name" : "test_cloudqueue_radio_alarm_default_to_buzzer[Default Mock Config-None-BUSINESS-CQ server 401 resp]",
+        "uid" : "a792125b4e1db204",
+        "parentUid" : "b5dc4e2b1daa0e0d29bfcb1c4e264e57",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1683583021689,
+          "stop" : 1683583021689,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "None", "None", "False", "401", "'BUSINESS'" ]
+      }, {
+        "name" : "test_cloudqueue_radio_alarm_default_to_buzzer[Default Mock Config-None-BUSINESS-CQ server 480 resp]",
+        "uid" : "4e9ae6df5846abee",
+        "parentUid" : "b5dc4e2b1daa0e0d29bfcb1c4e264e57",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1683583021692,
+          "stop" : 1683583021692,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "None", "None", "False", "480", "'BUSINESS'" ]
+      }, {
+        "name" : "test_load_cloud_queue_auth_header[Non-secured CQ Server]",
+        "uid" : "845db7f30cee1781",
+        "parentUid" : "b5dc4e2b1daa0e0d29bfcb1c4e264e57",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583044761,
+          "stop" : 1683583045770,
+          "duration" : 1009
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "''", "'http'", "'0'" ]
+      }, {
+        "name" : "test_load_cloud_queue_auth_header[Secured CQ Server]",
+        "uid" : "52860de914560663",
+        "parentUid" : "b5dc4e2b1daa0e0d29bfcb1c4e264e57",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583065428,
+          "stop" : 1683583066439,
+          "duration" : 1011
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "''", "'https'", "'0'" ]
+      } ],
+      "uid" : "b5dc4e2b1daa0e0d29bfcb1c4e264e57"
+    }, {
+      "name" : "test_audioClip_namespace",
+      "children" : [ {
+        "name" : "test_audio_clip_success_with_track_and_no_CQ_playback[Short tracks clip source-default audioclip setting]",
+        "uid" : "93af7692ad360f27",
+        "parentUid" : "48550d98217bcde2b452082326680ea9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583043891,
+          "stop" : 1683583045900,
+          "duration" : 2009
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'CUSTOM'", "'/smapi/short_length/'", "True", "'HIGH'", "'http'", "'0'", "0" ]
+      }, {
+        "name" : "test_audio_clip_success_with_track_and_no_CQ_playback[ogg track clip source-default audioclip setting]",
+        "uid" : "99f6e39a83cf71cb",
+        "parentUid" : "48550d98217bcde2b452082326680ea9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583053386,
+          "stop" : 1683583057035,
+          "duration" : 3649
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'CUSTOM'", "'/ogg/'", "True", "'HIGH'", "'http'", "'0'", "0" ]
+      }, {
+        "name" : "test_audio_clip_error_missing_streamUrl_with_CUSTOM_clipType[streamUrl = \"\"]",
+        "uid" : "c1466536a37d97d1",
+        "parentUid" : "48550d98217bcde2b452082326680ea9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583062380,
+          "stop" : 1683583063412,
+          "duration" : 1032
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'CUSTOM'", "'/smapi/short_length/'", "'LOW'", "'http'", "None" ]
+      }, {
+        "name" : "test_audio_clip_error_invalid_clipType[clipType = INVALID]",
+        "uid" : "dbaa365561df5564",
+        "parentUid" : "48550d98217bcde2b452082326680ea9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583068396,
+          "stop" : 1683583069398,
+          "duration" : 1002
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'INVALID'", "'/smapi/short_length/'", "'HIGH'", "'http'", "None" ]
+      }, {
+        "name" : "test_cancelAudioClip_with_invalid_id",
+        "uid" : "99ade64e243abba5",
+        "parentUid" : "48550d98217bcde2b452082326680ea9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583073771,
+          "stop" : 1683583074773,
+          "duration" : 1002
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_audio_clip_success_with_track_and_CQ_playback[default audioclip setting]",
+        "uid" : "5168627bdbac736f",
+        "parentUid" : "48550d98217bcde2b452082326680ea9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583085625,
+          "stop" : 1683583087635,
+          "duration" : 2010
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'CUSTOM'", "'/smapi/short_length/'", "'HIGH'", "'http'", "'0'" ]
+      }, {
+        "name" : "test_overlapping_loadAudioClip_cmd_succeeds_and_cancelAudioClip_on_prior_id_fails[default audioclip setting]",
+        "uid" : "6ebf189fcf98e492",
+        "parentUid" : "48550d98217bcde2b452082326680ea9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583096053,
+          "stop" : 1683583101080,
+          "duration" : 5027
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'CHIME'", "'/smapi/short_length/'", "True", "'HIGH'", "'http'", "None", "0" ]
+      }, {
+        "name" : "test_audio_clip_HTTPS_streamUrl_auth[httpAuth = DEFAULT_HTTP_AUTHORIZATION-default audioclip setting]",
+        "uid" : "3a597539ce09089e",
+        "parentUid" : "48550d98217bcde2b452082326680ea9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583119576,
+          "stop" : 1683583121584,
+          "duration" : 2008
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'CUSTOM'", "'DEFAULT_HTTP_AUTHORIZATION'", "'/smapi/short_length/'", "True", "'LOW'", "'https'", "'0'", "0" ]
+      }, {
+        "name" : "test_audio_clip_HTTPS_streamUrl_auth[httpAuth = None-default audioclip setting]",
+        "uid" : "4aaec89df92c717b",
+        "parentUid" : "48550d98217bcde2b452082326680ea9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583152067,
+          "stop" : 1683583154076,
+          "duration" : 2009
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'CUSTOM'", "None", "'/smapi/short_length/'", "True", "'LOW'", "'https'", "'0'", "0" ]
+      }, {
+        "name" : "test_audio_clip_error_invalid_param_with_HTTP_streamUrl_with_httpAuthorization[httpAuth = DEFAULT_HTTP_AUTHORIZATION]",
+        "uid" : "a03852a7502e3e0",
+        "parentUid" : "48550d98217bcde2b452082326680ea9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583169594,
+          "stop" : 1683583170597,
+          "duration" : 1003
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'CUSTOM'", "'DEFAULT_HTTP_AUTHORIZATION'", "'/smapi/short_length/'", "'LOW'", "'http'", "'0'" ]
+      }, {
+        "name" : "test_audio_clip_status_ERROR[streamUrl = INVLAID.mp3]",
+        "uid" : "399dd21f3c194a8a",
+        "parentUid" : "48550d98217bcde2b452082326680ea9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583174448,
+          "stop" : 1683583175451,
+          "duration" : 1003
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'CUSTOM'", "True", "'HIGH'", "0" ]
+      }, {
+        "name" : "test_audio_clip_status_ACTIVE_DONE[default audioclip setting]",
+        "uid" : "f1adad53626bbdc7",
+        "parentUid" : "48550d98217bcde2b452082326680ea9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583182003,
+          "stop" : 1683583184010,
+          "duration" : 2007
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'CUSTOM'", "'/smapi/short_length/'", "True", "'HIGH'", "'http'", "'1'", "0" ]
+      }, {
+        "name" : "test_audio_clip_ACTIVE_change_volume_success[default audioclip setting]",
+        "uid" : "d9c9b088496d29f",
+        "parentUid" : "48550d98217bcde2b452082326680ea9",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1683583192262,
+          "stop" : 1683583192334,
+          "duration" : 72
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'CHIME'", "'/smapi/short_length/'", "'LOW'", "'http'", "None" ]
+      }, {
+        "name" : "test_audio_clip_status_on_concurrent_ws_connections[default audioclip setting]",
+        "uid" : "b1135bfde2510983",
+        "parentUid" : "48550d98217bcde2b452082326680ea9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583198933,
+          "stop" : 1683583219587,
+          "duration" : 20654
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'CUSTOM'", "'/smapi/short_length/'", "True", "'HIGH'", "'http'", "'1'", "0" ]
+      }, {
+        "name" : "test_audioClip_rest[default audioclip setting]",
+        "uid" : "eed9bf51f8d3bc2",
+        "parentUid" : "48550d98217bcde2b452082326680ea9",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1683583225067,
+          "stop" : 1683583225068,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'/smapi/short_length/'", "'http'", "'0'" ]
+      }, {
+        "name" : "test_loadAudioClip_httpAuthorization_truncated_to_512_bytes[511_BYTES-default audioclip setting]",
+        "uid" : "8b6efd08bac22113",
+        "parentUid" : "48550d98217bcde2b452082326680ea9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583237770,
+          "stop" : 1683583240781,
+          "duration" : 3011
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'CUSTOM'", "'LG2BFHFIAIUCSRQVIBLBHVPORRWOQ2RJQF60KOCT0O8UU1ZA4YETNFFGX1HSKN0MGE5T8EEXL8V5YFCTCDMKO55GG1P10KA73NLCPPGJ0LT6277QWRCBVCNC8SOIUGI0VNZS2G59VTB5T49WBWROBD4NERB6L8RSF3VKPGLDLDGLQK20SYP3KGCL79QJJU6Y9HZI8ZEF4EBS3W3UXNPUL4EF0JLQB2OHEBLHTR7QXH9CHSVEE5PL55G8WBFWYXTEY936J9B8ANQ8NGU7U4ZWFKAHQACGJOIVPBFDBBKC5H5SZX0OLR96SYIK2YX0BYWOVTY7D98WJRL1L6OJG91387QZJSNWP7VQG78U6JYVX882MQ0PUJPCJVDBY4HS8FFBW1V6ZTO0IUDUMWD3NDP57NQEGYNONA4XG9I55JWLTOH0NKJJIMO3TTEAGM5S55KCSKHX6X5NSYMHP63VLXKBQAJT3M44W0NRO0YWMTMKOICT7H198D0PQCGBT95XWEM'", "'/smapi/short_length/'", "True", "'LOW'", "'https'", "'0'", "0" ]
+      }, {
+        "name" : "test_loadAudioClip_httpAuthorization_truncated_to_512_bytes[512_BYTES-default audioclip setting]",
+        "uid" : "30c525d8df5e646e",
+        "parentUid" : "48550d98217bcde2b452082326680ea9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583263852,
+          "stop" : 1683583266863,
+          "duration" : 3011
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'CUSTOM'", "'SMH8XYZW3O4A5JVLC4U0GG63X6CPH8VTMO4F2O7PXMCLGGQW3HDUZ6LYQ9EPWUDG4L71I71BKTN2IIL931N8W2M4DT510WOY8DMQTY6OIBLQICA7IYU5UT908ZRKQM19A14OTAR2ZS5PKYB4VQ86IORXH5CVUDUAUT6P3L8NLX5FWY9BJ4TMO8BRZBPTDF8C0UWSPQ931R2IOJ97S9C0HLZ6RKXLRI0STR9I3CHYISZY1B6AURWBYBEI38D9ZPZIC1MVBENDQVYHXXT4IE6PV6UME4A46C464XGEDE8LWDO1X7H1HFT4MM87QQ43F8B379QW86UFLMNE8KRAG9D73FXTHLIJ9WHKZK3ROQHJMSL1CF0ZRNJH8N74EJLKEWU0FQBYTXVW55ELB23NNX2ZWH5IPP7O0O3KJ8QJ4PMU373TJQBX2Z7MXF55VOSL2ZSQACFT8KOZWHZBIZ233TDNY8ILD12CX1NYZP3HDN0QMQP1QJICYTWG0V9MHR2E7A4I'", "'/smapi/short_length/'", "True", "'LOW'", "'https'", "'0'", "0" ]
+      }, {
+        "name" : "test_loadAudioClip_httpAuthorization_truncated_to_512_bytes[520_BYTES-default audioclip setting]",
+        "uid" : "304252ae16e4347d",
+        "parentUid" : "48550d98217bcde2b452082326680ea9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583288442,
+          "stop" : 1683583291453,
+          "duration" : 3011
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'CUSTOM'", "'LL3C5524IGWQCG0T26MJCX15Z8DF01BV3IEQIS4A2BZHPC9V3SWBZ1M4O0P5BU2UBTJBWSG72VUBMJRL3MWV44Z48MPBLQYSM07BVAQMS5BNGCGRLCS88PTXRI8UCC3EMVNBZVSHN7DJJS4IOIVPDTDP15CUZXDO3QD74N3FGC4ZGFLHTZ6T8S1SWR3418KAQHD9FJ26N29LHU0SVAOK2AQEGYFYCDEMCVGW6FKVZSN2VO2V9WD1G14F8OAOH4OSUIFI6JEMEGMG9J2HNOOHS5MCFQXOILQV3UD9CB3NVKO29A25A24ROXZUPYD6TNODSTB3WHITGR1TH0D09MH6O4A48LS4MY5FNNG1JRDPS1M3EC253TV920BMPFD8C5Z5O5QYWRMLII98ACCUW5QZHEQG2AJWIG1KDVLPBJU9CRBU79PF1RWXG5P1ALJH8JNU6O0JBK3EZM9X9WGA5OS6GIUD1ITVW2VWKA3K6MIFM394MOERO34HE0ZLAWNB7ZBTKZ11264H'", "'/smapi/short_length/'", "True", "'LOW'", "'https'", "'0'", "0" ]
+      }, {
+        "name" : "test_loadAudioClip_with_pause_content_over_spdif_playback[SPDIF Capable DUT]",
+        "uid" : "a06fe2eb486be0a",
+        "parentUid" : "48550d98217bcde2b452082326680ea9",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1683583302386,
+          "stop" : 1683583302386,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['S9', 'S11', 'S36']" ]
+      } ],
+      "uid" : "48550d98217bcde2b452082326680ea9"
+    }, {
+      "name" : "test_groupVolume_namespace",
+      "children" : [ {
+        "name" : "test_verify_groupVolume_reports_correct_volume_level_after_reboot",
+        "uid" : "aed4983ceb0aed74",
+        "parentUid" : "da522811c33c2c5e4e878c24adbe231a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583058853,
+          "stop" : 1683583072804,
+          "duration" : 13951
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_set_volume",
+        "uid" : "24510b70e4c09828",
+        "parentUid" : "da522811c33c2c5e4e878c24adbe231a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583078568,
+          "stop" : 1683583080667,
+          "duration" : 2099
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_set_relative_volume",
+        "uid" : "195333323e5df2ff",
+        "parentUid" : "da522811c33c2c5e4e878c24adbe231a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583084911,
+          "stop" : 1683583087014,
+          "duration" : 2103
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_set_relative_volume_clamp_max",
+        "uid" : "664a4bea83497940",
+        "parentUid" : "da522811c33c2c5e4e878c24adbe231a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583091523,
+          "stop" : 1683583093623,
+          "duration" : 2100
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_set_relative_volume_clamp_min",
+        "uid" : "cc26832b88c7767",
+        "parentUid" : "da522811c33c2c5e4e878c24adbe231a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583097989,
+          "stop" : 1683583100087,
+          "duration" : 2098
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_set_mute",
+        "uid" : "d40d7809e96c90d",
+        "parentUid" : "da522811c33c2c5e4e878c24adbe231a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583104225,
+          "stop" : 1683583105273,
+          "duration" : 1048
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_get_volume",
+        "uid" : "b18131eec01670fb",
+        "parentUid" : "da522811c33c2c5e4e878c24adbe231a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583113513,
+          "stop" : 1683583114562,
+          "duration" : 1049
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "da522811c33c2c5e4e878c24adbe231a"
+    }, {
+      "name" : "test_groups_namespace",
+      "children" : [ {
+        "name" : "test_getGroups_includeDeviceInfo_as_query_param[device_filter0]",
+        "uid" : "a92f2c4b027c6f6c",
+        "parentUid" : "2906a5dd663ce8f18710fb3c8501970b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583116254,
+          "stop" : 1683583117460,
+          "duration" : 1206
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "frozenset(['S9', 'S3', 'S17', 'S1', 'S43', 'S6', 'S5', 'S30', 'S33', 'S50', 'ZP90', 'S19', 'S18', 'S39', 'S38', 'ZP100', 'S13', 'S12', 'S11', 'S36', 'ZP120', 'S16', 'S15', 'S14', 'S22', 'S23', 'S20', 'S21', 'S40', 'S27', 'S24', 'S25', 'S28', 'S29', 'S48', 'S44', 'S45', 'ZP80', 'S35', 'S34', 'S31', 'S41'])" ]
+      }, {
+        "name" : "test_creating_groups_with_invalid_playerIds_failure[device_filter0]",
+        "uid" : "5a0a0e4f535567b3",
+        "parentUid" : "2906a5dd663ce8f18710fb3c8501970b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583120625,
+          "stop" : 1683583122667,
+          "duration" : 2042
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "frozenset(['S9', 'S3', 'S17', 'S1', 'S43', 'S6', 'S5', 'S30', 'S33', 'S50', 'ZP90', 'S19', 'S18', 'S39', 'S38', 'ZP100', 'S13', 'S12', 'S11', 'S36', 'ZP120', 'S16', 'S15', 'S14', 'S22', 'S23', 'S20', 'S21', 'S40', 'S27', 'S24', 'S25', 'S28', 'S29', 'S48', 'S44', 'S45', 'ZP80', 'S35', 'S34', 'S31', 'S41'])" ]
+      }, {
+        "name" : "test_creating_groups_with_invalid_playerIds_failure_v2[device_filter0]",
+        "uid" : "c31a33dfa30b4bcc",
+        "parentUid" : "2906a5dd663ce8f18710fb3c8501970b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583125821,
+          "stop" : 1683583127885,
+          "duration" : 2064
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "frozenset(['S9', 'S3', 'S17', 'S1', 'S43', 'S6', 'S5', 'S30', 'S33', 'S50', 'ZP90', 'S19', 'S18', 'S39', 'S38', 'ZP100', 'S13', 'S12', 'S11', 'S36', 'ZP120', 'S16', 'S15', 'S14', 'S22', 'S23', 'S20', 'S21', 'S40', 'S27', 'S24', 'S25', 'S28', 'S29', 'S48', 'S44', 'S45', 'ZP80', 'S35', 'S34', 'S31', 'S41'])" ]
+      }, {
+        "name" : "test_capability_from_response_on_supported_devices[device_filter0-unsupported_devices0-VOICE]",
+        "uid" : "9218fe338a6f8bb3",
+        "parentUid" : "2906a5dd663ce8f18710fb3c8501970b",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1683583130981,
+          "stop" : 1683583131051,
+          "duration" : 70
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'VOICE'", "frozenset(['S19', 'S18', 'S39', 'S13', 'S31', 'S17', 'S14', 'S44', 'S45', 'S27', 'S25', 'S48', 'S41'])", "['S9', 'S3', 'S1', 'S6', 'S5', 'S16', 'S33', 'S50', 'ZP90', 'S38', 'ZP100', 'S35', 'S12', 'S11', 'S36', 'ZP120', 'S30', 'S15', 'S22', 'S23', 'S20', 'S21', 'S40', 'S24', 'S43', 'S28', 'S29', 'ZP80', 'S34']" ]
+      }, {
+        "name" : "test_capability_from_response_on_supported_devices[device_filter1-unsupported_devices1-AIRPLAY]",
+        "uid" : "349fb060c92547b8",
+        "parentUid" : "2906a5dd663ce8f18710fb3c8501970b",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1683583133863,
+          "stop" : 1683583133935,
+          "duration" : 72
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'AIRPLAY'", "['S6', 'S11', 'S13', 'S14', 'S16', 'S17', 'S18', 'S19', 'S20', 'S21', 'S22', 'S23', 'S24', 'S27', 'S28', 'S29', 'S30', 'S31', 'S32', 'S33', 'S34', 'S35', 'S36', 'S38', 'S39', 'S40', 'S41', 'S43', 'S44', 'S45', 'S48', 'S50']", "['S9', 'ZP100', 'S3', 'S12', 'S1', 'ZP120', 'S5', 'ZP80', 'S15', 'S25', 'ZP90']" ]
+      }, {
+        "name" : "test_capability_from_response_on_supported_devices[device_filter2-unsupported_devices2-FIXED_VOLUME]",
+        "uid" : "506af7c086d67568",
+        "parentUid" : "2906a5dd663ce8f18710fb3c8501970b",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1683583134735,
+          "stop" : 1683583134735,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'FIXED_VOLUME'", "['ZP80', 'ZP90', 'ZP100', 'S15', 'S23']", "['S9', 'S3', 'ZP120', 'S1', 'S25', 'S6', 'S5', 'S16', 'S50', 'S19', 'S18', 'S39', 'S38', 'S13', 'S12', 'S11', 'S36', 'S17', 'S30', 'S33', 'S14', 'S22', 'S45', 'S20', 'S21', 'S40', 'S27', 'S24', 'S43', 'S28', 'S29', 'S48', 'S44', 'S35', 'S34', 'S31', 'S41']" ]
+      }, {
+        "name" : "test_capability_from_response_on_unsupported_devices[device_filter0-supported_devices0-VOICE]",
+        "uid" : "e417bbb1a3ffbefd",
+        "parentUid" : "2906a5dd663ce8f18710fb3c8501970b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583138126,
+          "stop" : 1683583139715,
+          "duration" : 1589
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'VOICE'", "['S9', 'S3', 'S1', 'S6', 'S5', 'S16', 'S33', 'S50', 'ZP90', 'S38', 'ZP100', 'S35', 'S12', 'S11', 'S36', 'ZP120', 'S30', 'S15', 'S22', 'S23', 'S20', 'S21', 'S40', 'S24', 'S43', 'S28', 'S29', 'ZP80', 'S34']", "frozenset(['S19', 'S18', 'S39', 'S13', 'S31', 'S17', 'S14', 'S44', 'S45', 'S27', 'S25', 'S48', 'S41'])" ]
+      }, {
+        "name" : "test_capability_from_response_on_unsupported_devices[device_filter1-supported_devices1-AIRPLAY]",
+        "uid" : "287af66755e6241c",
+        "parentUid" : "2906a5dd663ce8f18710fb3c8501970b",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1683583141507,
+          "stop" : 1683583141507,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'AIRPLAY'", "['S9', 'ZP100', 'S3', 'S12', 'S1', 'ZP120', 'S5', 'ZP80', 'S15', 'S25', 'ZP90']", "['S6', 'S11', 'S13', 'S14', 'S16', 'S17', 'S18', 'S19', 'S20', 'S21', 'S22', 'S23', 'S24', 'S27', 'S28', 'S29', 'S30', 'S31', 'S32', 'S33', 'S34', 'S35', 'S36', 'S38', 'S39', 'S40', 'S41', 'S43', 'S44', 'S45', 'S48', 'S50']" ]
+      }, {
+        "name" : "test_capability_from_response_on_unsupported_devices[device_filter2-supported_devices2-FIXED_VOLUME]",
+        "uid" : "afef363452b0e14b",
+        "parentUid" : "2906a5dd663ce8f18710fb3c8501970b",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1683583145219,
+          "stop" : 1683583145220,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'FIXED_VOLUME'", "['S9', 'S3', 'ZP120', 'S1', 'S25', 'S6', 'S5', 'S16', 'S50', 'S19', 'S18', 'S39', 'S38', 'S13', 'S12', 'S11', 'S36', 'S17', 'S30', 'S33', 'S14', 'S22', 'S45', 'S20', 'S21', 'S40', 'S27', 'S24', 'S43', 'S28', 'S29', 'S48', 'S44', 'S35', 'S34', 'S31', 'S41']", "['ZP80', 'ZP90', 'ZP100', 'S15', 'S23']" ]
+      }, {
+        "name" : "test_secondary_devices_not_enabled_by_default[device_filter0]",
+        "uid" : "e438f7f6dd2ebccf",
+        "parentUid" : "2906a5dd663ce8f18710fb3c8501970b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583148426,
+          "stop" : 1683583149430,
+          "duration" : 1004
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "frozenset(['S9', 'S3', 'S17', 'S1', 'S43', 'S6', 'S5', 'S30', 'S33', 'S50', 'ZP90', 'S19', 'S18', 'S39', 'S38', 'ZP100', 'S13', 'S12', 'S11', 'S36', 'ZP120', 'S16', 'S15', 'S14', 'S22', 'S23', 'S20', 'S21', 'S40', 'S27', 'S24', 'S25', 'S28', 'S29', 'S48', 'S44', 'S45', 'ZP80', 'S35', 'S34', 'S31', 'S41'])" ]
+      }, {
+        "name" : "test_playback_state_using_modifyGroup_and_remove_GM[device_filter0-False]",
+        "uid" : "a59cf94508513c09",
+        "parentUid" : "2906a5dd663ce8f18710fb3c8501970b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583159825,
+          "stop" : 1683583169771,
+          "duration" : 9946
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "frozenset(['S9', 'S3', 'S17', 'S1', 'S43', 'S6', 'S5', 'S30', 'S33', 'S50', 'ZP90', 'S19', 'S18', 'S39', 'S38', 'ZP100', 'S13', 'S12', 'S11', 'S36', 'ZP120', 'S16', 'S15', 'S14', 'S22', 'S23', 'S20', 'S21', 'S40', 'S27', 'S24', 'S25', 'S28', 'S29', 'S48', 'S44', 'S45', 'ZP80', 'S35', 'S34', 'S31', 'S41'])", "False" ]
+      }, {
+        "name" : "test_playback_state_using_createGroup_and_remove_GM[device_filter0-False]",
+        "uid" : "b5d018278a18005e",
+        "parentUid" : "2906a5dd663ce8f18710fb3c8501970b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583181303,
+          "stop" : 1683583190428,
+          "duration" : 9125
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "frozenset(['S9', 'S3', 'S17', 'S1', 'S43', 'S6', 'S5', 'S30', 'S33', 'S50', 'ZP90', 'S19', 'S18', 'S39', 'S38', 'ZP100', 'S13', 'S12', 'S11', 'S36', 'ZP120', 'S16', 'S15', 'S14', 'S22', 'S23', 'S20', 'S21', 'S40', 'S27', 'S24', 'S25', 'S28', 'S29', 'S48', 'S44', 'S45', 'ZP80', 'S35', 'S34', 'S31', 'S41'])", "False" ]
+      }, {
+        "name" : "test_playback_state_using_setGroup_and_remove_GM[device_filter0-False]",
+        "uid" : "fd299c9ec146f062",
+        "parentUid" : "2906a5dd663ce8f18710fb3c8501970b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583203527,
+          "stop" : 1683583214782,
+          "duration" : 11255
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "frozenset(['S9', 'S3', 'S17', 'S1', 'S43', 'S6', 'S5', 'S30', 'S33', 'S50', 'ZP90', 'S19', 'S18', 'S39', 'S38', 'ZP100', 'S13', 'S12', 'S11', 'S36', 'ZP120', 'S16', 'S15', 'S14', 'S22', 'S23', 'S20', 'S21', 'S40', 'S27', 'S24', 'S25', 'S28', 'S29', 'S48', 'S44', 'S45', 'ZP80', 'S35', 'S34', 'S31', 'S41'])", "False" ]
+      }, {
+        "name" : "test_playback_state_using_join_group_and_remove_GM[device_filter0-False]",
+        "uid" : "deec19a12e0f27c6",
+        "parentUid" : "2906a5dd663ce8f18710fb3c8501970b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583227309,
+          "stop" : 1683583235355,
+          "duration" : 8046
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "frozenset(['S9', 'S3', 'S17', 'S1', 'S43', 'S6', 'S5', 'S30', 'S33', 'S50', 'ZP90', 'S19', 'S18', 'S39', 'S38', 'ZP100', 'S13', 'S12', 'S11', 'S36', 'ZP120', 'S16', 'S15', 'S14', 'S22', 'S23', 'S20', 'S21', 'S40', 'S27', 'S24', 'S25', 'S28', 'S29', 'S48', 'S44', 'S45', 'ZP80', 'S35', 'S34', 'S31', 'S41'])", "False" ]
+      }, {
+        "name" : "test_playback_state_using_modifyGroup_and_remove_GC[device_filter0-False]",
+        "uid" : "68ab8bf5e9678da3",
+        "parentUid" : "2906a5dd663ce8f18710fb3c8501970b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583253783,
+          "stop" : 1683583266889,
+          "duration" : 13106
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "frozenset(['S9', 'S3', 'S17', 'S1', 'S43', 'S6', 'S5', 'S30', 'S33', 'S50', 'ZP90', 'S19', 'S18', 'S39', 'S38', 'ZP100', 'S13', 'S12', 'S11', 'S36', 'ZP120', 'S16', 'S15', 'S14', 'S22', 'S23', 'S20', 'S21', 'S40', 'S27', 'S24', 'S25', 'S28', 'S29', 'S48', 'S44', 'S45', 'ZP80', 'S35', 'S34', 'S31', 'S41'])", "False" ]
+      }, {
+        "name" : "test_playback_state_using_createGroup_and_remove_GC[device_filter0-False]",
+        "uid" : "2abe3dd2c344bd94",
+        "parentUid" : "2906a5dd663ce8f18710fb3c8501970b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583287816,
+          "stop" : 1683583296110,
+          "duration" : 8294
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "frozenset(['S9', 'S3', 'S17', 'S1', 'S43', 'S6', 'S5', 'S30', 'S33', 'S50', 'ZP90', 'S19', 'S18', 'S39', 'S38', 'ZP100', 'S13', 'S12', 'S11', 'S36', 'ZP120', 'S16', 'S15', 'S14', 'S22', 'S23', 'S20', 'S21', 'S40', 'S27', 'S24', 'S25', 'S28', 'S29', 'S48', 'S44', 'S45', 'ZP80', 'S35', 'S34', 'S31', 'S41'])", "False" ]
+      }, {
+        "name" : "test_playback_state_using_setGroup_and_remove_GC[device_filter0-False]",
+        "uid" : "b325223539a3663a",
+        "parentUid" : "2906a5dd663ce8f18710fb3c8501970b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583315883,
+          "stop" : 1683583324170,
+          "duration" : 8287
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "frozenset(['S9', 'S3', 'S17', 'S1', 'S43', 'S6', 'S5', 'S30', 'S33', 'S50', 'ZP90', 'S19', 'S18', 'S39', 'S38', 'ZP100', 'S13', 'S12', 'S11', 'S36', 'ZP120', 'S16', 'S15', 'S14', 'S22', 'S23', 'S20', 'S21', 'S40', 'S27', 'S24', 'S25', 'S28', 'S29', 'S48', 'S44', 'S45', 'ZP80', 'S35', 'S34', 'S31', 'S41'])", "False" ]
+      }, {
+        "name" : "test_playback_state_using_join_group_and_remove_GC[device_filter0-False]",
+        "uid" : "d213bbe2f54fcd47",
+        "parentUid" : "2906a5dd663ce8f18710fb3c8501970b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583340200,
+          "stop" : 1683583347903,
+          "duration" : 7703
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "frozenset(['S9', 'S3', 'S17', 'S1', 'S43', 'S6', 'S5', 'S30', 'S33', 'S50', 'ZP90', 'S19', 'S18', 'S39', 'S38', 'ZP100', 'S13', 'S12', 'S11', 'S36', 'ZP120', 'S16', 'S15', 'S14', 'S22', 'S23', 'S20', 'S21', 'S40', 'S27', 'S24', 'S25', 'S28', 'S29', 'S48', 'S44', 'S45', 'ZP80', 'S35', 'S34', 'S31', 'S41'])", "False" ]
+      }, {
+        "name" : "test_grouping_correlation_id[PLAYBACK_DEVICES]",
+        "uid" : "bed07777de26b1e5",
+        "parentUid" : "2906a5dd663ce8f18710fb3c8501970b",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1683583384076,
+          "stop" : 1683583385297,
+          "duration" : 1221
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "frozenset(['S9', 'S3', 'S17', 'S1', 'S43', 'S6', 'S5', 'S30', 'S33', 'S50', 'ZP90', 'S19', 'S18', 'S39', 'S38', 'ZP100', 'S13', 'S12', 'S11', 'S36', 'ZP120', 'S16', 'S15', 'S14', 'S22', 'S23', 'S20', 'S21', 'S40', 'S27', 'S24', 'S25', 'S28', 'S29', 'S48', 'S44', 'S45', 'ZP80', 'S35', 'S34', 'S31', 'S41'])" ]
+      }, {
+        "name" : "test_getGroups_failure_pre_grouping[device_filter0]",
+        "uid" : "c3a3e02ecce01f51",
+        "parentUid" : "2906a5dd663ce8f18710fb3c8501970b",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1683583429554,
+          "stop" : 1683583429554,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "frozenset(['S9', 'S3', 'S17', 'S1', 'S43', 'S6', 'S5', 'S30', 'S33', 'S50', 'ZP90', 'S19', 'S18', 'S39', 'S38', 'ZP100', 'S13', 'S12', 'S11', 'S36', 'ZP120', 'S16', 'S15', 'S14', 'S22', 'S23', 'S20', 'S21', 'S40', 'S27', 'S24', 'S25', 'S28', 'S29', 'S48', 'S44', 'S45', 'ZP80', 'S35', 'S34', 'S31', 'S41'])" ]
+      }, {
+        "name" : "test_getGroups_failure_post_grouping[device_filter0-gc]",
+        "uid" : "57239a6d8c71d205",
+        "parentUid" : "2906a5dd663ce8f18710fb3c8501970b",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1683583429557,
+          "stop" : 1683583429557,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "frozenset(['S9', 'S3', 'S17', 'S1', 'S43', 'S6', 'S5', 'S30', 'S33', 'S50', 'ZP90', 'S19', 'S18', 'S39', 'S38', 'ZP100', 'S13', 'S12', 'S11', 'S36', 'ZP120', 'S16', 'S15', 'S14', 'S22', 'S23', 'S20', 'S21', 'S40', 'S27', 'S24', 'S25', 'S28', 'S29', 'S48', 'S44', 'S45', 'ZP80', 'S35', 'S34', 'S31', 'S41'])", "'gc'" ]
+      }, {
+        "name" : "test_getGroups_failure_post_grouping[device_filter1-gm]",
+        "uid" : "e39955d78a241844",
+        "parentUid" : "2906a5dd663ce8f18710fb3c8501970b",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1683583429561,
+          "stop" : 1683583429561,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "frozenset(['S9', 'S3', 'S17', 'S1', 'S43', 'S6', 'S5', 'S30', 'S33', 'S50', 'ZP90', 'S19', 'S18', 'S39', 'S38', 'ZP100', 'S13', 'S12', 'S11', 'S36', 'ZP120', 'S16', 'S15', 'S14', 'S22', 'S23', 'S20', 'S21', 'S40', 'S27', 'S24', 'S25', 'S28', 'S29', 'S48', 'S44', 'S45', 'ZP80', 'S35', 'S34', 'S31', 'S41'])", "'gm'" ]
+      }, {
+        "name" : "test_createGroup_duplicated_playerId[device_filter0]",
+        "uid" : "705202a9f7ef23d6",
+        "parentUid" : "2906a5dd663ce8f18710fb3c8501970b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583431072,
+          "stop" : 1683583431597,
+          "duration" : 525
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "frozenset(['S9', 'S3', 'S17', 'S1', 'S43', 'S6', 'S5', 'S30', 'S33', 'S50', 'ZP90', 'S19', 'S18', 'S39', 'S38', 'ZP100', 'S13', 'S12', 'S11', 'S36', 'ZP120', 'S16', 'S15', 'S14', 'S22', 'S23', 'S20', 'S21', 'S40', 'S27', 'S24', 'S25', 'S28', 'S29', 'S48', 'S44', 'S45', 'ZP80', 'S35', 'S34', 'S31', 'S41'])" ]
+      } ],
+      "uid" : "2906a5dd663ce8f18710fb3c8501970b"
+    }, {
+      "name" : "test_hdmi_namespace",
+      "children" : [ {
+        "name" : "test_hdmi_on_hdmi_devices[device_filter0]",
+        "uid" : "95a57ec9d8c794b9",
+        "parentUid" : "bb44ef048a2b281ca71cdd5d94b0667f",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1683583116318,
+          "stop" : 1683583116318,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['S19', 'S34', 'S31', 'S16', 'S32', 'S45', 'S14']" ]
+      }, {
+        "name" : "test_hdmi_on_non_hdmi_devices[device_filter0]",
+        "uid" : "27ec45083501a1e2",
+        "parentUid" : "bb44ef048a2b281ca71cdd5d94b0667f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583122027,
+          "stop" : 1683583124413,
+          "duration" : 2386
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['S9', 'S3', 'ZP120', 'S1', 'S25', 'S6', 'S5', 'S15', 'S50', 'ZP90', 'S18', 'S39', 'S38', 'ZP100', 'S13', 'S12', 'S11', 'S36', 'S17', 'S30', 'S33', 'S22', 'S23', 'S20', 'S21', 'S40', 'S27', 'S24', 'S43', 'S28', 'S29', 'S48', 'S44', 'ZP80', 'S35', 'S41']" ]
+      } ],
+      "uid" : "bb44ef048a2b281ca71cdd5d94b0667f"
+    }, {
+      "name" : "test_homeTheater_namespace",
+      "children" : [ {
+        "name" : "test_loadHomeTheaterPlayback_on_ht_master_devices_while_idle",
+        "uid" : "689e07cbcae3944e",
+        "parentUid" : "76a09624c8ac4170a503caf8c1e990a7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583128050,
+          "stop" : 1683583140252,
+          "duration" : 12202
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_loadHomeTheaterPlayback_on_ht_master_TVautoplay_already_on",
+        "uid" : "a40b26f1506a5890",
+        "parentUid" : "76a09624c8ac4170a503caf8c1e990a7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583144970,
+          "stop" : 1683583147223,
+          "duration" : 2253
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_loadHomeTheaterPlayback_on_ht_master_devices_while_playing_cq",
+        "uid" : "e42d09ad16528ae3",
+        "parentUid" : "76a09624c8ac4170a503caf8c1e990a7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583155795,
+          "stop" : 1683583162881,
+          "duration" : 7086
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_loadHomeTheaterPlayback_on_linein_devices[device_filter0]",
+        "uid" : "a2ea5c9a54c20b17",
+        "parentUid" : "76a09624c8ac4170a503caf8c1e990a7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583167503,
+          "stop" : 1683583168506,
+          "duration" : 1003
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "frozenset(['S39', 'ZP100', 'ZP120', 'S6', 'S5', 'S44', 'S23', 'ZP80', 'S40', 'S15', 'S24', 'S50', 'S48', 'ZP90', 'S41'])" ]
+      }, {
+        "name" : "test_homeTheater_namespace_options[nightMode]",
+        "uid" : "8eabdff7d02a383b",
+        "parentUid" : "76a09624c8ac4170a503caf8c1e990a7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583173194,
+          "stop" : 1683583178240,
+          "duration" : 5046
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'nightMode'" ]
+      }, {
+        "name" : "test_homeTheater_namespace_options[enhanceDialog]",
+        "uid" : "31f19e0c7830a03f",
+        "parentUid" : "76a09624c8ac4170a503caf8c1e990a7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583182791,
+          "stop" : 1683583187839,
+          "duration" : 5048
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'enhanceDialog'" ]
+      } ],
+      "uid" : "76a09624c8ac4170a503caf8c1e990a7"
+    }, {
+      "name" : "test_ircontrol_namespace",
+      "children" : [ {
+        "name" : "test_ircontrol_on_ht_master_devices[device_filter0]",
+        "uid" : "a617b6619c41f8c3",
+        "parentUid" : "b3676400ebdb0ba6bfbc3ef6dd4ac297",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583190942,
+          "stop" : 1683583195332,
+          "duration" : 4390
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "frozenset(['S19', 'S34', 'S11', 'S36', 'S31', 'S9', 'S16', 'S45', 'S32', 'S14'])" ]
+      }, {
+        "name" : "test_ircontrol_on_non_ht_master_devices[device_filter0]",
+        "uid" : "4e0367b6e0c17d7e",
+        "parentUid" : "b3676400ebdb0ba6bfbc3ef6dd4ac297",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583197471,
+          "stop" : 1683583197563,
+          "duration" : 92
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['S3', 'ZP120', 'S1', 'S25', 'S6', 'S5', 'S33', 'S50', 'ZP90', 'S18', 'S39', 'S38', 'ZP100', 'S13', 'S12', 'S17', 'S30', 'S15', 'S22', 'S23', 'S20', 'S21', 'S40', 'S27', 'S24', 'S43', 'S28', 'S29', 'S48', 'S44', 'ZP80', 'S35', 'S41']" ]
+      } ],
+      "uid" : "b3676400ebdb0ba6bfbc3ef6dd4ac297"
+    }, {
+      "name" : "test_basic_formatting",
+      "children" : [ {
+        "name" : "test_bad_body[No Closing Brace]",
+        "uid" : "32da29285c77c8e9",
+        "parentUid" : "2df2b2572b2d2655b56d415660e36975",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583239281,
+          "stop" : 1683583241428,
+          "duration" : 2147
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{'volume': 10'" ]
+      }, {
+        "name" : "test_bad_body[No Opening Brace]",
+        "uid" : "e86a2620d3e7ebc0",
+        "parentUid" : "2df2b2572b2d2655b56d415660e36975",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583245018,
+          "stop" : 1683583246055,
+          "duration" : 1037
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "''volume': 10}'" ]
+      }, {
+        "name" : "test_bad_body[Empty]",
+        "uid" : "92fa49ff35c55c6d",
+        "parentUid" : "2df2b2572b2d2655b56d415660e36975",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583248979,
+          "stop" : 1683583250016,
+          "duration" : 1037
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{}'" ]
+      }, {
+        "name" : "test_no_body",
+        "uid" : "9af9f36e0473fb05",
+        "parentUid" : "2df2b2572b2d2655b56d415660e36975",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583252956,
+          "stop" : 1683583253993,
+          "duration" : 1037
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_no_header",
+        "uid" : "c1ffc77f515e366a",
+        "parentUid" : "2df2b2572b2d2655b56d415660e36975",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583256699,
+          "stop" : 1683583257736,
+          "duration" : 1037
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_unsupported_cmd",
+        "uid" : "2ee92307fbb40890",
+        "parentUid" : "2df2b2572b2d2655b56d415660e36975",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583260617,
+          "stop" : 1683583261620,
+          "duration" : 1003
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_unsupported_namespace",
+        "uid" : "e4457308a51bad18",
+        "parentUid" : "2df2b2572b2d2655b56d415660e36975",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583264443,
+          "stop" : 1683583265478,
+          "duration" : 1035
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_cmd_id_cast_to_string",
+        "uid" : "ee2fda2559bff394",
+        "parentUid" : "2df2b2572b2d2655b56d415660e36975",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583268257,
+          "stop" : 1683583269262,
+          "duration" : 1005
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_bad_gid",
+        "uid" : "25438ae3871d166e",
+        "parentUid" : "2df2b2572b2d2655b56d415660e36975",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583271133,
+          "stop" : 1683583271171,
+          "duration" : 38
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2df2b2572b2d2655b56d415660e36975"
+    }, {
+      "name" : "test_playbackExtended_namespace",
+      "children" : [ {
+        "name" : "test_playbackExtended_subscribe_unsubscribe_get",
+        "uid" : "30f66210ebe92e1a",
+        "parentUid" : "8e2d45fea27ac02cb60ba74f277aad4d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583257320,
+          "stop" : 1683583267285,
+          "duration" : 9965
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8e2d45fea27ac02cb60ba74f277aad4d"
+    }, {
+      "name" : "test_muse_playReport",
+      "children" : [ {
+        "name" : "test_playReport_avt_queue",
+        "uid" : "d234974f08eb73e8",
+        "parentUid" : "8f2205bc2ea7c3631875e21d250f821e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583257930,
+          "stop" : 1683583284890,
+          "duration" : 26960
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_playReport_private_queue",
+        "uid" : "8d5e6e6c83d34d2c",
+        "parentUid" : "8f2205bc2ea7c3631875e21d250f821e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583333196,
+          "stop" : 1683583355867,
+          "duration" : 22671
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_playReport_avt_queue_smapi_v1[Normal length tracks]",
+        "uid" : "ff9c00bc8b154e9a",
+        "parentUid" : "8f2205bc2ea7c3631875e21d250f821e",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1683583404124,
+          "stop" : 1683583404199,
+          "duration" : 75
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'normal_length'" ]
+      }, {
+        "name" : "test_playReport_avt_queue_delegation",
+        "uid" : "7b4540e6b5e3e955",
+        "parentUid" : "8f2205bc2ea7c3631875e21d250f821e",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1683583452719,
+          "stop" : 1683583452792,
+          "duration" : 73
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_playReport_shared_queue",
+        "uid" : "115cfe7dee7639ec",
+        "parentUid" : "8f2205bc2ea7c3631875e21d250f821e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583494084,
+          "stop" : 1683583517151,
+          "duration" : 23067
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_playReport_shared_queue_restore",
+        "uid" : "daa4da3e432ce2c4",
+        "parentUid" : "8f2205bc2ea7c3631875e21d250f821e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583558104,
+          "stop" : 1683583648885,
+          "duration" : 90781
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_playReport_shared_queue_delegation",
+        "uid" : "e644df1f8c910a02",
+        "parentUid" : "8f2205bc2ea7c3631875e21d250f821e",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1683583690076,
+          "stop" : 1683583690158,
+          "duration" : 82
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_playReport_shared_queue_memory",
+        "uid" : "15277bd4c10626d4",
+        "parentUid" : "8f2205bc2ea7c3631875e21d250f821e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583734196,
+          "stop" : 1683583757108,
+          "duration" : 22912
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_playReport_system_sounds",
+        "uid" : "af11b2de5302fc1c",
+        "parentUid" : "8f2205bc2ea7c3631875e21d250f821e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583804642,
+          "stop" : 1683583828097,
+          "duration" : 23455
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_playReport_stream_error",
+        "uid" : "4c897b961c880b5",
+        "parentUid" : "8f2205bc2ea7c3631875e21d250f821e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583874792,
+          "stop" : 1683583923041,
+          "duration" : 48249
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8f2205bc2ea7c3631875e21d250f821e"
+    }, {
+      "name" : "test_favorites_namespace",
+      "children" : [ {
+        "name" : "test_load_favorite_stream",
+        "uid" : "aa2ba64209e17db0",
+        "parentUid" : "34b68312336d17b806ed67f0bd4e1d41",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583274320,
+          "stop" : 1683583279921,
+          "duration" : 5601
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_load_favorite_track[Normal length tracks]",
+        "uid" : "ad537f468b2af3b2",
+        "parentUid" : "34b68312336d17b806ed67f0bd4e1d41",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583291162,
+          "stop" : 1683583296596,
+          "duration" : 5434
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'normal_length'" ]
+      } ],
+      "uid" : "34b68312336d17b806ed67f0bd4e1d41"
+    }, {
+      "name" : "test_playbackMetadata_namespace",
+      "children" : [ {
+        "name" : "test_metadata_shows_ratings_object_on_pre_rate_track",
+        "uid" : "d7ec46e3bf4d791f",
+        "parentUid" : "f9669af5be3fa001f0f5f8a547898642",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583275609,
+          "stop" : 1683583278237,
+          "duration" : 2628
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_player_respects_playhead_position_in_itemWindow_returned_from_rate_track",
+        "uid" : "1c512c525cae64f2",
+        "parentUid" : "f9669af5be3fa001f0f5f8a547898642",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583285704,
+          "stop" : 1683583287950,
+          "duration" : 2246
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_rate_item_200_negative_rating_late_track_in_queue",
+        "uid" : "8a508434d2cf9d08",
+        "parentUid" : "f9669af5be3fa001f0f5f8a547898642",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583294899,
+          "stop" : 1683583297135,
+          "duration" : 2236
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_rateItem_204_304_rating_response[204]",
+        "uid" : "20f9316b8410340d",
+        "parentUid" : "f9669af5be3fa001f0f5f8a547898642",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583305142,
+          "stop" : 1683583310376,
+          "duration" : 5234
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "204" ]
+      }, {
+        "name" : "test_rateItem_204_304_rating_response[304]",
+        "uid" : "16d12f2714cc4f1c",
+        "parentUid" : "f9669af5be3fa001f0f5f8a547898642",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583318684,
+          "stop" : 1683583323907,
+          "duration" : 5223
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "304" ]
+      }, {
+        "name" : "test_rateItem_404_rating_response",
+        "uid" : "3fe4aa25fae6d716",
+        "parentUid" : "f9669af5be3fa001f0f5f8a547898642",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583332065,
+          "stop" : 1683583338291,
+          "duration" : 6226
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_rate_item_invalid_itemId_values[Rating Empty]",
+        "uid" : "8b48601b0d3918f1",
+        "parentUid" : "f9669af5be3fa001f0f5f8a547898642",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583346890,
+          "stop" : 1683583348057,
+          "duration" : 1167
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{}" ]
+      }, {
+        "name" : "test_rate_item_invalid_itemId_values[Bad Param]",
+        "uid" : "f1ea37df9c0da519",
+        "parentUid" : "f9669af5be3fa001f0f5f8a547898642",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583356756,
+          "stop" : 1683583357930,
+          "duration" : 1174
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'BAD': 'PARAM'}" ]
+      }, {
+        "name" : "test_rate_item_invalid_itemId_values[No Type]",
+        "uid" : "6a8bb6e946daa484",
+        "parentUid" : "f9669af5be3fa001f0f5f8a547898642",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583364996,
+          "stop" : 1683583366168,
+          "duration" : 1172
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'connotation': 'POSITIVE'}" ]
+      }, {
+        "name" : "test_rate_item_invalid_itemId_values[Bad Type]",
+        "uid" : "69fb9042cb11610",
+        "parentUid" : "f9669af5be3fa001f0f5f8a547898642",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583374380,
+          "stop" : 1683583375560,
+          "duration" : 1180
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'connotation': 'NEGATIVE', 'type': 'THISSUCKS'}" ]
+      } ],
+      "uid" : "f9669af5be3fa001f0f5f8a547898642"
+    }, {
+      "name" : "test_muse_metric_logging",
+      "children" : [ {
+        "name" : "test_event_reporting[Default Mock Config]",
+        "uid" : "765104a37ebb5fb7",
+        "parentUid" : "f1b8022412c56b774411f1420416764b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583301385,
+          "stop" : 1683583398100,
+          "duration" : 96715
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "None" ]
+      }, {
+        "name" : "test_config_download_failure[Default Mock Config]",
+        "uid" : "2e73e268a84eec8e",
+        "parentUid" : "f1b8022412c56b774411f1420416764b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583444814,
+          "stop" : 1683583461975,
+          "duration" : 17161
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "None" ]
+      }, {
+        "name" : "test_config_download_metrics_service_success[Metrics Config URL]",
+        "uid" : "b5828970c3f721",
+        "parentUid" : "f1b8022412c56b774411f1420416764b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583489837,
+          "stop" : 1683583490475,
+          "duration" : 638
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'metricsConfigURL': 'https://msmetrics-test.ws.sonos.com/zpMetricsConfig/prod'}" ]
+      }, {
+        "name" : "test_muse_client_metrics_events",
+        "uid" : "1a2bfaee64abceb5",
+        "parentUid" : "f1b8022412c56b774411f1420416764b",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1683583491218,
+          "stop" : 1683583491218,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_muse_upnp_tunneled",
+        "uid" : "e393fd3ba4c160ef",
+        "parentUid" : "f1b8022412c56b774411f1420416764b",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1683583491222,
+          "stop" : 1683583491222,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_upnp_notifications[countEventsFailure]",
+        "uid" : "3f5bfc260fdef3c",
+        "parentUid" : "f1b8022412c56b774411f1420416764b",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1683583491226,
+          "stop" : 1683583491226,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'countEventsFailure'" ]
+      }, {
+        "name" : "test_upnp_notifications[countEventsSuccess]",
+        "uid" : "ad4061b5013d5fd6",
+        "parentUid" : "f1b8022412c56b774411f1420416764b",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1683583491229,
+          "stop" : 1683583491229,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'countEventsSuccess'" ]
+      }, {
+        "name" : "test_insecure_oauth_fail_telemetry[http responseStatus 401-Default Mock Config]",
+        "uid" : "50eb5305aeecd797",
+        "parentUid" : "f1b8022412c56b774411f1420416764b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583520276,
+          "stop" : 1683583536448,
+          "duration" : 16172
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "401", "None" ]
+      }, {
+        "name" : "test_insecure_oauth_fail_telemetry[http responseStatus 200-Default Mock Config]",
+        "uid" : "c54ad402a75e7a94",
+        "parentUid" : "f1b8022412c56b774411f1420416764b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583577151,
+          "stop" : 1683583593354,
+          "duration" : 16203
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "200", "None" ]
+      }, {
+        "name" : "test_upnpeventhealth_no_flooding",
+        "uid" : "95f6a809c8e37918",
+        "parentUid" : "f1b8022412c56b774411f1420416764b",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1683583605181,
+          "stop" : 1683583605181,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_location_id_reported[Default Mock Config]",
+        "uid" : "ed5d455ebeb8b7a",
+        "parentUid" : "f1b8022412c56b774411f1420416764b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583634277,
+          "stop" : 1683583671131,
+          "duration" : 36854
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "None" ]
+      } ],
+      "uid" : "f1b8022412c56b774411f1420416764b"
+    }, {
+      "name" : "test_global_namespace",
+      "children" : [ {
+        "name" : "test_GroupCoordinatorChangedEvent_websocketUrl_v1",
+        "uid" : "836098e02b511a09",
+        "parentUid" : "266064df7d6ec2539ffaae59d23ccf16",
+        "status" : "failed",
+        "time" : {
+          "start" : 1683583304607,
+          "stop" : 1683583304609,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_GroupCoordinatorChangedEvent_websocketUrl_v2",
+        "uid" : "d2dc6dbef1fd1b84",
+        "parentUid" : "266064df7d6ec2539ffaae59d23ccf16",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583310596,
+          "stop" : 1683583318740,
+          "duration" : 8144
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "266064df7d6ec2539ffaae59d23ccf16"
+    }, {
+      "name" : "test_audioClip_namespace_pause_and_resume",
+      "children" : [ {
+        "name" : "test_audio_clip_standalone_shared_queue_PLAYING[clipBehavior = [None]]",
+        "uid" : "159533a2b7e297e6",
+        "parentUid" : "9e30f981ec7c17a3c50d477d97a6c5bc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583309665,
+          "stop" : 1683583314766,
+          "duration" : 5101
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['']", "True", "0" ]
+      }, {
+        "name" : "test_audio_clip_standalone_shared_queue_PAUSED[clipBehavior = [None]]",
+        "uid" : "c73e2b7a66205e05",
+        "parentUid" : "9e30f981ec7c17a3c50d477d97a6c5bc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583327074,
+          "stop" : 1683583333226,
+          "duration" : 6152
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['']", "True", "0" ]
+      }, {
+        "name" : "test_audio_clip_standalone_no_playback[clipBehavior = [None]]",
+        "uid" : "94f01b914304cae6",
+        "parentUid" : "9e30f981ec7c17a3c50d477d97a6c5bc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583339015,
+          "stop" : 1683583345116,
+          "duration" : 6101
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['']", "True", "0" ]
+      }, {
+        "name" : "test_audio_clip_standalone_avt_queue_PLAYING[clipBehavior = [None]]",
+        "uid" : "a4d5764f9b0260ee",
+        "parentUid" : "9e30f981ec7c17a3c50d477d97a6c5bc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583349894,
+          "stop" : 1683583363184,
+          "duration" : 13290
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['']", "True", "0" ]
+      }, {
+        "name" : "test_audio_clip_standalone_private_queue_PLAYING[clipBehavior = [None]]",
+        "uid" : "23f4e9ea806e0e27",
+        "parentUid" : "9e30f981ec7c17a3c50d477d97a6c5bc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583373243,
+          "stop" : 1683583378355,
+          "duration" : 5112
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['']" ]
+      }, {
+        "name" : "test_audio_clip_standalone_bonded_to_sub_plays_audioclips_over_avt_with_PLAY_TO_BONDED[clipBehavior = [PLAY_TO_BONDED]]",
+        "uid" : "fab7087633f3c607",
+        "parentUid" : "9e30f981ec7c17a3c50d477d97a6c5bc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583385017,
+          "stop" : 1683583391870,
+          "duration" : 6853
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['PLAY_TO_BONDED']", "['S9', 'S3', 'S17', 'S1', 'S43', 'S6', 'S30', 'S33', 'S50', 'S19', 'S18', 'S39', 'S38', 'S13', 'S12', 'S11', 'S36', 'S16', 'S15', 'S14', 'S22', 'S23', 'S20', 'S21', 'S40', 'S27', 'S24', 'S25', 'S28', 'S29', 'S48', 'S44', 'S45', 'S35', 'S34', 'S31', 'S41']" ]
+      }, {
+        "name" : "test_audio_clip_grouped_shared_queue_PLAYING_with_pauseContent_True_GC_targeted[True-0-True]",
+        "uid" : "45245c178bbd1ac5",
+        "parentUid" : "9e30f981ec7c17a3c50d477d97a6c5bc",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1683583401079,
+          "stop" : 1683583401079,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'True'", "True", "0" ]
+      }, {
+        "name" : "test_audio_clip_grouped_shared_queue_PLAYING_with_pauseContent_True_GC_targeted[False-0-True]",
+        "uid" : "ade5e3e74c07bc0c",
+        "parentUid" : "9e30f981ec7c17a3c50d477d97a6c5bc",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1683583401082,
+          "stop" : 1683583401082,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'False'", "True", "0" ]
+      }, {
+        "name" : "test_audio_clip_grouped_shared_queue_PLAYING_with_pauseContent_True_GM_targeted[True-0-True]",
+        "uid" : "187301591a6a764b",
+        "parentUid" : "9e30f981ec7c17a3c50d477d97a6c5bc",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1683583401084,
+          "stop" : 1683583401084,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'True'", "True", "0" ]
+      }, {
+        "name" : "test_audio_clip_grouped_shared_queue_PLAYING_with_pauseContent_True_GM_targeted[False-0-True]",
+        "uid" : "a7941dc53047b26e",
+        "parentUid" : "9e30f981ec7c17a3c50d477d97a6c5bc",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1683583401087,
+          "stop" : 1683583401087,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'False'", "True", "0" ]
+      }, {
+        "name" : "test_audio_clip_grouped_shared_queue_PLAYING_with_pauseContent_False_GC_targeted[True-0-True]",
+        "uid" : "8af016cae70a767f",
+        "parentUid" : "9e30f981ec7c17a3c50d477d97a6c5bc",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1683583401089,
+          "stop" : 1683583401089,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'True'", "True", "0" ]
+      }, {
+        "name" : "test_audio_clip_grouped_shared_queue_PLAYING_with_pauseContent_False_GC_targeted[False-0-True]",
+        "uid" : "e8598d2bf275d8e0",
+        "parentUid" : "9e30f981ec7c17a3c50d477d97a6c5bc",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1683583401091,
+          "stop" : 1683583401091,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'False'", "True", "0" ]
+      }, {
+        "name" : "test_audio_clip_grouped_shared_queue_PLAYING_with_pauseContent_False_GM_targeted[True-0-True]",
+        "uid" : "ee6eb9849516efc8",
+        "parentUid" : "9e30f981ec7c17a3c50d477d97a6c5bc",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1683583401094,
+          "stop" : 1683583401094,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'True'", "True", "0" ]
+      }, {
+        "name" : "test_audio_clip_grouped_shared_queue_PLAYING_with_pauseContent_False_GM_targeted[False-0-True]",
+        "uid" : "233eda14ab3a952c",
+        "parentUid" : "9e30f981ec7c17a3c50d477d97a6c5bc",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1683583401096,
+          "stop" : 1683583401096,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'False'", "True", "0" ]
+      }, {
+        "name" : "test_audio_clip_grouped_shared_queue_PAUSED[True-True-0-True]",
+        "uid" : "81c73836754117b3",
+        "parentUid" : "9e30f981ec7c17a3c50d477d97a6c5bc",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1683583401098,
+          "stop" : 1683583401098,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'True'", "True", "'True'", "0" ]
+      }, {
+        "name" : "test_audio_clip_grouped_shared_queue_PAUSED[True-False-0-True]",
+        "uid" : "88a133c81a41cfa6",
+        "parentUid" : "9e30f981ec7c17a3c50d477d97a6c5bc",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1683583401101,
+          "stop" : 1683583401101,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'False'", "True", "'True'", "0" ]
+      }, {
+        "name" : "test_audio_clip_grouped_shared_queue_PAUSED[False-True-0-True]",
+        "uid" : "825851a2f66613d1",
+        "parentUid" : "9e30f981ec7c17a3c50d477d97a6c5bc",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1683583401103,
+          "stop" : 1683583401103,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'True'", "True", "'False'", "0" ]
+      }, {
+        "name" : "test_audio_clip_grouped_shared_queue_PAUSED[False-False-0-True]",
+        "uid" : "81338edd56b858a8",
+        "parentUid" : "9e30f981ec7c17a3c50d477d97a6c5bc",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1683583401105,
+          "stop" : 1683583401105,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'False'", "True", "'False'", "0" ]
+      } ],
+      "uid" : "9e30f981ec7c17a3c50d477d97a6c5bc"
+    }, {
+      "name" : "test_platformInternal_namespace",
+      "children" : [ {
+        "name" : "test_sync_successful_response[None]",
+        "uid" : "ec71971c1a7f425",
+        "parentUid" : "1132f5f80e151c1498d539450ae49160",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583322312,
+          "stop" : 1683583323315,
+          "duration" : 1003
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "None" ]
+      }, {
+        "name" : "test_sync_successful_response[True]",
+        "uid" : "e03e92a8ad20ed63",
+        "parentUid" : "1132f5f80e151c1498d539450ae49160",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583326604,
+          "stop" : 1683583327607,
+          "duration" : 1003
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "True" ]
+      }, {
+        "name" : "test_sync_successful_response[False]",
+        "uid" : "8c390996774079ea",
+        "parentUid" : "1132f5f80e151c1498d539450ae49160",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583330753,
+          "stop" : 1683583331755,
+          "duration" : 1002
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "False" ]
+      }, {
+        "name" : "test_reboot_successful_response",
+        "uid" : "6304055840045e50",
+        "parentUid" : "1132f5f80e151c1498d539450ae49160",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1683583332468,
+          "stop" : 1683583332468,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_invalidateCache_populates_replicated_file",
+        "uid" : "ed78a8606b7396d4",
+        "parentUid" : "1132f5f80e151c1498d539450ae49160",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583334553,
+          "stop" : 1683583339866,
+          "duration" : 5313
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_invalidateCache_bad_cache_name",
+        "uid" : "6fdb08e6c26b15d9",
+        "parentUid" : "1132f5f80e151c1498d539450ae49160",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583343417,
+          "stop" : 1683583343756,
+          "duration" : 339
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_invalidateCache_cacheNamespace[Without cacheData-Default Mock Config]",
+        "uid" : "2f9e494f488e5bfd",
+        "parentUid" : "1132f5f80e151c1498d539450ae49160",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1683583344478,
+          "stop" : 1683583344478,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "None", "'authorization'", "None" ]
+      }, {
+        "name" : "test_invalidateCache_cacheNamespace[With cacheData-Default Mock Config]",
+        "uid" : "f64df47fcf20924d",
+        "parentUid" : "1132f5f80e151c1498d539450ae49160",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1683583344482,
+          "stop" : 1683583344482,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'authzTokenStatus'", "'authorization'", "None" ]
+      }, {
+        "name" : "test_invalidateCache_bad_cacheNamespace[Bad cacheNamespace]",
+        "uid" : "68599f4360620cf",
+        "parentUid" : "1132f5f80e151c1498d539450ae49160",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583347057,
+          "stop" : 1683583347094,
+          "duration" : 37
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'authzTokenStatus'", "'Bad Namespace'" ]
+      }, {
+        "name" : "test_invalidateCache_bad_cacheNamespace[Bad cacheData]",
+        "uid" : "bec26719e0cb2daf",
+        "parentUid" : "1132f5f80e151c1498d539450ae49160",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583350486,
+          "stop" : 1683583350522,
+          "duration" : 36
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Bad Cache Data'", "'authorization'" ]
+      } ],
+      "uid" : "1132f5f80e151c1498d539450ae49160"
+    }, {
+      "name" : "test_shared_muse_logic",
+      "children" : [ {
+        "name" : "test_bad_header_params[no groupId]",
+        "uid" : "7c0675a253e906b2",
+        "parentUid" : "fea5e3c9a152d202175135e4c329653a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583354045,
+          "stop" : 1683583355089,
+          "duration" : 1044
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'ERROR_MISSING_PARAMETERS'", "'groupId'", "None" ]
+      }, {
+        "name" : "test_bad_header_params[no playerId]",
+        "uid" : "830010335c5168ca",
+        "parentUid" : "fea5e3c9a152d202175135e4c329653a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583357912,
+          "stop" : 1683583358915,
+          "duration" : 1003
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'ERROR_MISSING_PARAMETERS'", "'playerId'", "None" ]
+      }, {
+        "name" : "test_bad_header_params[no sessionId]",
+        "uid" : "f68dc94c1e97e605",
+        "parentUid" : "fea5e3c9a152d202175135e4c329653a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583361856,
+          "stop" : 1683583362859,
+          "duration" : 1003
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'ERROR_MISSING_PARAMETERS'", "'sessionId'", "None" ]
+      }, {
+        "name" : "test_bad_header_params[no namespace]",
+        "uid" : "d285e167589ba611",
+        "parentUid" : "fea5e3c9a152d202175135e4c329653a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583365745,
+          "stop" : 1683583366748,
+          "duration" : 1003
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'ERROR_MISSING_PARAMETERS'", "'namespace'", "None" ]
+      }, {
+        "name" : "test_bad_header_params[no command]",
+        "uid" : "35a7030c90e0297a",
+        "parentUid" : "fea5e3c9a152d202175135e4c329653a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583369734,
+          "stop" : 1683583370736,
+          "duration" : 1002
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'ERROR_MISSING_PARAMETERS'", "'command'", "None" ]
+      }, {
+        "name" : "test_bad_header_params[bad playerId]",
+        "uid" : "141d451f17dde7a8",
+        "parentUid" : "fea5e3c9a152d202175135e4c329653a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583373602,
+          "stop" : 1683583374604,
+          "duration" : 1002
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'ERROR_INVALID_OBJECT_ID'", "'playerId'", "'BAD_PID'" ]
+      }, {
+        "name" : "test_bad_header_params[bad sessionId]",
+        "uid" : "1af7beb80a64c0dd",
+        "parentUid" : "fea5e3c9a152d202175135e4c329653a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583377829,
+          "stop" : 1683583378831,
+          "duration" : 1002
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'ERROR_INVALID_OBJECT_ID'", "'sessionId'", "'BAD_SID'" ]
+      }, {
+        "name" : "test_bad_header_params[bad namespace]",
+        "uid" : "4b0b25034e4105d4",
+        "parentUid" : "fea5e3c9a152d202175135e4c329653a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583382159,
+          "stop" : 1683583383162,
+          "duration" : 1003
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'ERROR_UNSUPPORTED_NAMESPACE'", "'namespace'", "'BAD_NS'" ]
+      }, {
+        "name" : "test_bad_header_params[bad command]",
+        "uid" : "a7180e64e8c87b12",
+        "parentUid" : "fea5e3c9a152d202175135e4c329653a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583386173,
+          "stop" : 1683583387175,
+          "duration" : 1002
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'ERROR_UNSUPPORTED_COMMAND'", "'command'", "'BAD_CMD'" ]
+      }, {
+        "name" : "test_bad_header_params_v2[no authorization]",
+        "uid" : "7e546e3474b04304",
+        "parentUid" : "fea5e3c9a152d202175135e4c329653a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583390094,
+          "stop" : 1683583391096,
+          "duration" : 1002
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'ERROR_NOT_AUTHORIZED'", "'authorization'" ]
+      }, {
+        "name" : "test_bad_header_params_v2[no householdId]",
+        "uid" : "ebe014aca9e64543",
+        "parentUid" : "fea5e3c9a152d202175135e4c329653a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583394087,
+          "stop" : 1683583395090,
+          "duration" : 1003
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'ERROR_MISSING_PARAMETERS'", "'householdId'" ]
+      }, {
+        "name" : "test_group_status",
+        "uid" : "9ecb461cb6fe9ccf",
+        "parentUid" : "fea5e3c9a152d202175135e4c329653a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583398259,
+          "stop" : 1683583407741,
+          "duration" : 9482
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_subscribe_unsubscribe",
+        "uid" : "2be5416b7d283eed",
+        "parentUid" : "fea5e3c9a152d202175135e4c329653a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583411228,
+          "stop" : 1683583418353,
+          "duration" : 7125
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_invalid_oauth_token[garbage]",
+        "uid" : "c6e84ee0acd283e",
+        "parentUid" : "fea5e3c9a152d202175135e4c329653a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583421944,
+          "stop" : 1683583422946,
+          "duration" : 1002
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'garbage'" ]
+      }, {
+        "name" : "test_invalid_oauth_token[lower scope]",
+        "uid" : "3af3e648ae156e6a",
+        "parentUid" : "fea5e3c9a152d202175135e4c329653a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583425864,
+          "stop" : 1683583426866,
+          "duration" : 1002
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'dxkEe7HAggxtzccAEv5DYiZ5WQeW'" ]
+      }, {
+        "name" : "test_set_volume[150-False]",
+        "uid" : "b15121167d3b7953",
+        "parentUid" : "fea5e3c9a152d202175135e4c329653a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583430789,
+          "stop" : 1683583431835,
+          "duration" : 1046
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "False", "150" ]
+      }, {
+        "name" : "test_set_volume[19-True]",
+        "uid" : "39dd59ecf96618c6",
+        "parentUid" : "fea5e3c9a152d202175135e4c329653a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583438157,
+          "stop" : 1683583439202,
+          "duration" : 1045
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "True", "19" ]
+      }, {
+        "name" : "test_set_volume[-1-False]",
+        "uid" : "dec3a945c9a8b3b4",
+        "parentUid" : "fea5e3c9a152d202175135e4c329653a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583443539,
+          "stop" : 1683583444584,
+          "duration" : 1045
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "False", "-1" ]
+      }, {
+        "name" : "test_set_volume[92-None]",
+        "uid" : "458353a2e5c583db",
+        "parentUid" : "fea5e3c9a152d202175135e4c329653a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583448946,
+          "stop" : 1683583449994,
+          "duration" : 1048
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "None", "92" ]
+      }, {
+        "name" : "test_set_volume[None-True]",
+        "uid" : "609622a0c4fde99d",
+        "parentUid" : "fea5e3c9a152d202175135e4c329653a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583454406,
+          "stop" : 1683583455450,
+          "duration" : 1044
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "True", "None" ]
+      }, {
+        "name" : "test_websocket_V1_empty_apiKey_rejected",
+        "uid" : "704d8b89fe1a5e67",
+        "parentUid" : "fea5e3c9a152d202175135e4c329653a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583457426,
+          "stop" : 1683583468463,
+          "duration" : 11037
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_rest_V1_empty_apiKey_rejected",
+        "uid" : "a92a34f68f2416ed",
+        "parentUid" : "fea5e3c9a152d202175135e4c329653a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583470367,
+          "stop" : 1683583470406,
+          "duration" : 39
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_muse_maxlength_enforced",
+        "uid" : "c6df70f106675ca0",
+        "parentUid" : "fea5e3c9a152d202175135e4c329653a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583474400,
+          "stop" : 1683583475402,
+          "duration" : 1002
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fea5e3c9a152d202175135e4c329653a"
+    }, {
+      "name" : "test_playbackSession_namespace",
+      "children" : [ {
+        "name" : "test_parse_unicode_request_json[España]",
+        "uid" : "1444aaa8f584314b",
+        "parentUid" : "5e07599d20e5aa4d9404cad7a1097454",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583379612,
+          "stop" : 1683583380653,
+          "duration" : 1041
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Espa\\u00f1a'" ]
+      }, {
+        "name" : "test_parse_unicode_request_json[¥2300.00]",
+        "uid" : "4f0891efa33f128d",
+        "parentUid" : "5e07599d20e5aa4d9404cad7a1097454",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583384813,
+          "stop" : 1683583385855,
+          "duration" : 1042
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'\\u00a52300.00'" ]
+      }, {
+        "name" : "test_parse_unicode_request_json[Macédoine, l'ex-République Yougoslave de]",
+        "uid" : "fd095033d10dc799",
+        "parentUid" : "5e07599d20e5aa4d9404cad7a1097454",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583388806,
+          "stop" : 1683583389847,
+          "duration" : 1041
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Mac\\u00e9doine, l'ex-R\\u00e9publique Yougoslave de'" ]
+      }, {
+        "name" : "test_parse_unicode_request_json[Polynésie Française]",
+        "uid" : "97ca1653bd3a244",
+        "parentUid" : "5e07599d20e5aa4d9404cad7a1097454",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583393034,
+          "stop" : 1683583394075,
+          "duration" : 1041
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Polyn\\u00e9sie Fran\\u00e7aise'" ]
+      }, {
+        "name" : "test_load_play_verify_metadata",
+        "uid" : "e25d04bd1f9bedd8",
+        "parentUid" : "5e07599d20e5aa4d9404cad7a1097454",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583399208,
+          "stop" : 1683583401452,
+          "duration" : 2244
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5e07599d20e5aa4d9404cad7a1097454"
+    }, {
+      "name" : "test_playback_namespace",
+      "children" : [ {
+        "name" : "test_loadLineIn_on_linein_and_non_linein_zps[True-device_filter0]",
+        "uid" : "9fb35177f862c06f",
+        "parentUid" : "d91beaf750eec9de112e37bbcdaab8c0",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1683583406070,
+          "stop" : 1683583406143,
+          "duration" : 73
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['S39', 'S40', 'S41', 'S44', 'S48', 'S50', 'ZP80', 'ZP90', 'ZP100', 'ZP120', 'S5', 'S6', 'S15', 'S16', 'S23', 'S24']", "True" ]
+      }, {
+        "name" : "test_loadLineIn_on_linein_and_non_linein_zps[True-device_filter1]",
+        "uid" : "ac8ed5df850ccf94",
+        "parentUid" : "d91beaf750eec9de112e37bbcdaab8c0",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1683583409002,
+          "stop" : 1683583409076,
+          "duration" : 74
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['S9', 'S3', 'S31', 'S1', 'S43', 'S19', 'S18', 'S38', 'S13', 'S12', 'S11', 'S36', 'S17', 'S30', 'S33', 'S14', 'S22', 'S45', 'S20', 'S21', 'S27', 'S25', 'S28', 'S29', 'S35', 'S34']", "True" ]
+      }, {
+        "name" : "test_loadLineIn_on_linein_and_non_linein_zps[False-device_filter0]",
+        "uid" : "bebf28723ba8ed86",
+        "parentUid" : "d91beaf750eec9de112e37bbcdaab8c0",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1683583412850,
+          "stop" : 1683583412850,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['S39', 'S40', 'S41', 'S44', 'S48', 'S50', 'ZP80', 'ZP90', 'ZP100', 'ZP120', 'S5', 'S6', 'S15', 'S16', 'S23', 'S24']", "False" ]
+      }, {
+        "name" : "test_loadLineIn_on_linein_and_non_linein_zps[False-device_filter1]",
+        "uid" : "95fd6d7375411100",
+        "parentUid" : "d91beaf750eec9de112e37bbcdaab8c0",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1683583416186,
+          "stop" : 1683583416187,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['S9', 'S3', 'S31', 'S1', 'S43', 'S19', 'S18', 'S38', 'S13', 'S12', 'S11', 'S36', 'S17', 'S30', 'S33', 'S14', 'S22', 'S45', 'S20', 'S21', 'S27', 'S25', 'S28', 'S29', 'S35', 'S34']", "False" ]
+      }, {
+        "name" : "test_loadLineIn_source_from_outside_and_inside_of_group[device_filter0]",
+        "uid" : "38204470acc1e89d",
+        "parentUid" : "d91beaf750eec9de112e37bbcdaab8c0",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1683583419996,
+          "stop" : 1683583419996,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['S9', 'S3', 'S31', 'S1', 'S43', 'S19', 'S18', 'S38', 'S13', 'S12', 'S11', 'S36', 'S17', 'S30', 'S33', 'S14', 'S22', 'S45', 'S20', 'S21', 'S27', 'S25', 'S28', 'S29', 'S35', 'S34']" ]
+      }, {
+        "name" : "test_loadLineIn_playOnCompletion_off[device_filter0]",
+        "uid" : "c21d8b0b7e21eac6",
+        "parentUid" : "d91beaf750eec9de112e37bbcdaab8c0",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1683583423104,
+          "stop" : 1683583423177,
+          "duration" : 73
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['S39', 'S40', 'S41', 'S44', 'S48', 'S50', 'ZP80', 'ZP90', 'ZP100', 'ZP120', 'S5', 'S6', 'S15', 'S16', 'S23', 'S24']" ]
+      }, {
+        "name" : "test_avtransport_playback_state_transition_on_togglePlayPause_while_idle_playing_paused_and_empty_avt",
+        "uid" : "28b2727b2a85310e",
+        "parentUid" : "d91beaf750eec9de112e37bbcdaab8c0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583431104,
+          "stop" : 1683583437557,
+          "duration" : 6453
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_avtransport_playback_state_transition_on_togglePlayPause_from_buffering_to_paused",
+        "uid" : "eb58fb793fe9b1aa",
+        "parentUid" : "d91beaf750eec9de112e37bbcdaab8c0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583444567,
+          "stop" : 1683583451520,
+          "duration" : 6953
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_loadContainer_local_share[Play entire samba share]",
+        "uid" : "ad287ac6ede33c57",
+        "parentUid" : "d91beaf750eec9de112e37bbcdaab8c0",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1683583453377,
+          "stop" : 1683583453377,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'container.local'" ]
+      }, {
+        "name" : "test_loadContainer_local_share[Play specific artist from local library]",
+        "uid" : "53589329fb6bfac8",
+        "parentUid" : "d91beaf750eec9de112e37bbcdaab8c0",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1683583453383,
+          "stop" : 1683583453383,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'artist.local'" ]
+      }, {
+        "name" : "test_loadContainer_local_share[Play specific m3u playlist]",
+        "uid" : "9308005042b634cb",
+        "parentUid" : "d91beaf750eec9de112e37bbcdaab8c0",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1683583453387,
+          "stop" : 1683583453387,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'playlist.local'" ]
+      }, {
+        "name" : "test_play_feedback_on_empty_queue[True-device_filter0]",
+        "uid" : "9bdbf0d299f6680b",
+        "parentUid" : "d91beaf750eec9de112e37bbcdaab8c0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583455253,
+          "stop" : 1683583456310,
+          "duration" : 1057
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['S6', 'S11', 'S13', 'S14', 'S16', 'S17', 'S18', 'S19', 'S22', 'S24', 'S27', 'S31', 'S34', 'S35', 'S36', 'S38', 'S39', 'S40', 'S41', 'S43', 'S44', 'S45', 'S48', 'S50']", "True" ]
+      }, {
+        "name" : "test_play_feedback_on_empty_queue[False-device_filter0]",
+        "uid" : "a0891358ec26fe3d",
+        "parentUid" : "d91beaf750eec9de112e37bbcdaab8c0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583459080,
+          "stop" : 1683583644208,
+          "duration" : 185128
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['S6', 'S11', 'S13', 'S14', 'S16', 'S17', 'S18', 'S19', 'S22', 'S24', 'S27', 'S31', 'S34', 'S35', 'S36', 'S38', 'S39', 'S40', 'S41', 'S43', 'S44', 'S45', 'S48', 'S50']", "False" ]
+      }, {
+        "name" : "test_loadContent_with_loadContainer_no_resolver_service[Normal length tracks]",
+        "uid" : "612c4b3d91e316c4",
+        "parentUid" : "d91beaf750eec9de112e37bbcdaab8c0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583651703,
+          "stop" : 1683583656114,
+          "duration" : 4411
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'normal_length'" ]
+      }, {
+        "name" : "test_loadContent_with_loadTrackList_no_resolver_service",
+        "uid" : "3982031bba615adf",
+        "parentUid" : "d91beaf750eec9de112e37bbcdaab8c0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583662991,
+          "stop" : 1683583668286,
+          "duration" : 5295
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_loadContent_with_loadStream_no_resolver_service",
+        "uid" : "6c29f52af3611e98",
+        "parentUid" : "d91beaf750eec9de112e37bbcdaab8c0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583673298,
+          "stop" : 1683583681683,
+          "duration" : 8385
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_loadContent_with_loadPlaylist_no_resolver_service[Normal length tracks]",
+        "uid" : "63c22af5096d63c2",
+        "parentUid" : "d91beaf750eec9de112e37bbcdaab8c0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583693743,
+          "stop" : 1683583698062,
+          "duration" : 4319
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'normal_length'" ]
+      }, {
+        "name" : "test_loadContent_with_queueConfig[Normal length tracks]",
+        "uid" : "a763570deb2eae36",
+        "parentUid" : "d91beaf750eec9de112e37bbcdaab8c0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583708775,
+          "stop" : 1683583714400,
+          "duration" : 5625
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'normal_length'" ]
+      }, {
+        "name" : "test_loadContent_with_groupId_validation[Normal length tracks]",
+        "uid" : "a4e60d08c9d0b8a0",
+        "parentUid" : "d91beaf750eec9de112e37bbcdaab8c0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583723302,
+          "stop" : 1683583731771,
+          "duration" : 8469
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'normal_length'" ]
+      }, {
+        "name" : "test_loadContent_with_loadFavorite_no_resolver_service",
+        "uid" : "7d2059fc1b8fbdbd",
+        "parentUid" : "d91beaf750eec9de112e37bbcdaab8c0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583739108,
+          "stop" : 1683583750561,
+          "duration" : 11453
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d91beaf750eec9de112e37bbcdaab8c0"
+    }, {
+      "name" : "test_saved_groups",
+      "children" : [ {
+        "name" : "test_saved_groups_max_areas_delegation",
+        "uid" : "b210edbcc1df7aec",
+        "parentUid" : "fcacd7b903a22815273ca562b8a95cbb",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1683583437742,
+          "stop" : 1683583437743,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_saved_groups_using_createGroup",
+        "uid" : "bd9658fe9b78015d",
+        "parentUid" : "fcacd7b903a22815273ca562b8a95cbb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583451515,
+          "stop" : 1683583475444,
+          "duration" : 23929
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_saved_groups_using_setGroup_and_modifyGroup",
+        "uid" : "169ffb7aebaa281f",
+        "parentUid" : "fcacd7b903a22815273ca562b8a95cbb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583497967,
+          "stop" : 1683583519502,
+          "duration" : 21535
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_source_areas_ids_version_changed_when_remote_zps_source_area_ids_is_changed",
+        "uid" : "566ab8320f5aa3cd",
+        "parentUid" : "fcacd7b903a22815273ca562b8a95cbb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583531530,
+          "stop" : 1683583545240,
+          "duration" : 13710
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_saved_groups_setGroupMembers_with_empty_playerIds_and_areaIds",
+        "uid" : "5a98deeb2bf617c7",
+        "parentUid" : "fcacd7b903a22815273ca562b8a95cbb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583560815,
+          "stop" : 1683583573014,
+          "duration" : 12199
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_saved_groups_union_of_areaIds_group_member_addition",
+        "uid" : "d74ff54be29b08f9",
+        "parentUid" : "fcacd7b903a22815273ca562b8a95cbb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583592755,
+          "stop" : 1683583602975,
+          "duration" : 10220
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_saved_groups_union_of_areaIds_group_coordinator_delegation",
+        "uid" : "f8d804476626f325",
+        "parentUid" : "fcacd7b903a22815273ca562b8a95cbb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583626598,
+          "stop" : 1683583639789,
+          "duration" : 13191
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_saved_groups_union_of_playerIds_and_areaIds_group_member_modification",
+        "uid" : "bb31d8058ddcc83",
+        "parentUid" : "fcacd7b903a22815273ca562b8a95cbb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583661684,
+          "stop" : 1683583678078,
+          "duration" : 16394
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_saved_groups_union_of_playerIds_and_areaIds_group_coordinator_delegation",
+        "uid" : "9863f853654316c2",
+        "parentUid" : "fcacd7b903a22815273ca562b8a95cbb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583702857,
+          "stop" : 1683583713549,
+          "duration" : 10692
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_saved_groups_inactive_players",
+        "uid" : "c3c93db687ba322b",
+        "parentUid" : "fcacd7b903a22815273ca562b8a95cbb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583735195,
+          "stop" : 1683583754693,
+          "duration" : 19498
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_saved_groups_using_zp_which_is_gc_of_group_with_different_playerId",
+        "uid" : "3f5ae600e013fe2b",
+        "parentUid" : "fcacd7b903a22815273ca562b8a95cbb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583775278,
+          "stop" : 1683583791609,
+          "duration" : 16331
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_saved_groups_updateArea_updates_areaIds",
+        "uid" : "1855325fb63bd5e1",
+        "parentUid" : "fcacd7b903a22815273ca562b8a95cbb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683583809815,
+          "stop" : 1683583817892,
+          "duration" : 8077
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fcacd7b903a22815273ca562b8a95cbb"
+    } ],
+    "uid" : "player.muse"
+  } ],
+  "name" : "packages"
+}
